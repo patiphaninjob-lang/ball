@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Powerpump Training Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">P45</span>
+        <div>
+          <h1>Powerpump Planner</h1>
+          <p>แผนฝึกจากคลิป @powerpump45</p>
+        </div>
+      </div>
+      <div class="summary" aria-label="summary">
+        <div><strong id="totalDrills">0</strong><span>drills</span></div>
+        <div><strong id="doneCount">0</strong><span>done</span></div>
+        <div><strong id="weekMinutes">0</strong><span>min/week</span></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="control-band" aria-label="planner controls">
+        <div class="tabs" role="tablist" aria-label="views">
+          <button class="tab active" type="button" data-view="today"><i data-lucide="calendar-days"></i><span>วันนี้</span></button>
+          <button class="tab" type="button" data-view="library"><i data-lucide="dumbbell"></i><span>คลังท่า</span></button>
+          <button class="tab" type="button" data-view="journal"><i data-lucide="notebook-pen"></i><span>บันทึก</span></button>
+        </div>
+        <label class="search">
+          <i data-lucide="search"></i>
+          <input id="searchInput" type="search" placeholder="ค้นหาท่า หมวด หรือ hashtag">
+        </label>
+      </section>
+
+      <section id="todayView" class="view active" aria-label="today plan">
+        <div class="section-head">
+          <div>
+            <h2>ตารางฝึกวันนี้</h2>
+            <p id="todayLabel">เลือกวันจากแผนรายสัปดาห์</p>
+          </div>
+          <button id="resetToday" class="icon-button" type="button" title="ล้าง checklist"><i data-lucide="rotate-ccw"></i></button>
+        </div>
+        <div id="weekStrip" class="week-strip"></div>
+        <div id="todayPlan" class="drill-grid compact"></div>
+        <div class="check-panel">
+          <h3>Checklist</h3>
+          <div id="checklist"></div>
+        </div>
+      </section>
+
+      <section id="libraryView" class="view" aria-label="drill library">
+        <div class="section-head">
+          <div>
+            <h2>คลังแบบฝึก</h2>
+            <p>คัดจาก caption, hashtag และ metadata ที่เก็บได้</p>
+          </div>
+          <select id="categoryFilter" aria-label="category filter">
+            <option value="All">All categories</option>
+          </select>
+        </div>
+        <div id="categoryStats" class="category-stats"></div>
+        <div id="drillGrid" class="drill-grid"></div>
+      </section>
+
+      <section id="journalView" class="view" aria-label="journal">
+        <div class="section-head">
+          <div>
+            <h2>Training Journal</h2>
+            <p>บันทึกนี้เก็บใน browser เครื่องที่เปิดอยู่</p>
+          </div>
+          <button id="saveJournal" class="primary-button" type="button"><i data-lucide="save"></i><span>Save</span></button>
+        </div>
+        <form class="journal-form">
+          <label>
+            วันที่
+            <input id="journalDate" type="date">
+          </label>
+          <label>
+            ความพร้อม
+            <select id="readiness">
+              <option value="good">พร้อม</option>
+              <option value="medium">กลาง</option>
+              <option value="low">ล้า</option>
+            </select>
+          </label>
+          <label>
+            สิ่งที่ฝึก
+            <input id="journalFocus" type="text" placeholder="Power, Agility, Mobility">
+          </label>
+          <label class="wide">
+            Note
+            <textarea id="journalNote" rows="7" placeholder="คุณภาพท่า ความเร็ว อาการล้า จุดที่ต้องแก้"></textarea>
+          </label>
+        </form>
+        <div id="journalEntries" class="journal-list"></div>
+      </section>
+    </main>
+
+    <template id="drillCardTemplate">
+      <article class="drill-card">
+        <div class="media">
+          <img alt="" loading="lazy">
+          <div class="media-fallback"></div>
+          <span class="badge"></span>
+        </div>
+        <div class="drill-body">
+          <div class="drill-title-row">
+            <h3></h3>
+            <button class="check-button" type="button" title="ทำเสร็จแล้ว"><i data-lucide="check"></i></button>
+          </div>
+          <p class="goal"></p>
+          <div class="meta"></div>
+          <div class="focus"></div>
+          <div class="actions">
+            <a class="watch-link" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i><span>เปิด TikTok</span></a>
+            <span class="gif-state"></span>
+          </div>
+        </div>
+      </article>
+    </template>
+  </body>
+</html>
