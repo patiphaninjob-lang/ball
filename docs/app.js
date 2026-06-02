@@ -21,6 +21,7 @@ const checklistItems = [
 ];
 
 const dayIndexMap = [6, 0, 1, 2, 3, 4, 5];
+let lazyEmbedObserver = null;
 
 main();
 
@@ -189,7 +190,7 @@ function renderToday() {
   const program = selectedSundayProgram();
   document.getElementById('todayLabel').textContent = `${program.name}: ${program.whenToChoose}`;
   const drills = program.drillIds.map(findDrill).filter(Boolean);
-  renderCardGrid(document.getElementById('todayPlan'), drills, { inlineEmbed: true, inlineLimit: 4 });
+  renderCardGrid(document.getElementById('todayPlan'), drills, { inlineEmbed: true, lazyEmbed: true });
 }
 
 function renderDrills() {
@@ -207,9 +208,10 @@ function renderDrills() {
 
 function renderCardGrid(root, drills, options = {}) {
   const template = document.getElementById('drillCardTemplate');
+  if (options.inlineEmbed) resetLazyEmbedObserver();
   root.innerHTML = '';
 
-  drills.forEach((drill, index) => {
+  drills.forEach((drill) => {
     const card = template.content.firstElementChild.cloneNode(true);
     const img = card.querySelector('img');
     const fallback = card.querySelector('.media-fallback');
@@ -224,7 +226,7 @@ function renderCardGrid(root, drills, options = {}) {
     const checkButton = card.querySelector('.check-button');
     const gifState = card.querySelector('.gif-state');
 
-    const shouldInlineEmbed = options.inlineEmbed && index < (options.inlineLimit || drills.length);
+    const shouldInlineEmbed = options.inlineEmbed;
 
     if (shouldInlineEmbed) {
       card.classList.add('has-inline-embed');
@@ -240,7 +242,11 @@ function renderCardGrid(root, drills, options = {}) {
     img.addEventListener('error', () => img.classList.add('is-broken'));
 
     if (shouldInlineEmbed) {
-      renderInlineEmbed(card.querySelector('.media'), drill);
+      if (options.lazyEmbed) {
+        queueLazyEmbed(card.querySelector('.media'), drill);
+      } else {
+        renderInlineEmbed(card.querySelector('.media'), drill);
+      }
       previewButton.hidden = true;
     }
 
@@ -269,11 +275,47 @@ function renderCardGrid(root, drills, options = {}) {
     root.append(card);
   });
 
-  if (options.inlineEmbed && drills.length > 0) {
+  if (options.inlineEmbed && !options.lazyEmbed && drills.length > 0) {
     loadTikTokEmbedScript();
   }
 
   lucideReady();
+}
+
+function queueLazyEmbed(media, drill) {
+  const load = () => {
+    if (media.dataset.tiktokLoaded === 'true') return;
+    media.dataset.tiktokLoaded = 'true';
+    renderInlineEmbed(media, drill);
+    loadTikTokEmbedScript();
+  };
+
+  if (!('IntersectionObserver' in window)) {
+    load();
+    return;
+  }
+
+  if (!lazyEmbedObserver) {
+    lazyEmbedObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          lazyEmbedObserver?.unobserve(entry.target);
+          entry.target.loadTikTokEmbed?.();
+        });
+      },
+      { rootMargin: '900px 0px' },
+    );
+  }
+
+  media.loadTikTokEmbed = load;
+  lazyEmbedObserver.observe(media);
+}
+
+function resetLazyEmbedObserver() {
+  if (!lazyEmbedObserver) return;
+  lazyEmbedObserver.disconnect();
+  lazyEmbedObserver = null;
 }
 
 function renderInlineEmbed(media, drill) {
