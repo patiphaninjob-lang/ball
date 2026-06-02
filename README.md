@@ -61,6 +61,8 @@ The planner groups drills into Level 1-5:
 
 The weekly plan prefers solo drills first. The library also has a `Solo only` filter so partner-assisted drills stay separate.
 
+The Today view embeds the selected TikTok videos inline. The full library keeps previews on click so the mobile page does not load all 164 embeds at once.
+
 ## Make GIF previews from local videos
 
 Put video files you are allowed to use in `videos/`, then run:

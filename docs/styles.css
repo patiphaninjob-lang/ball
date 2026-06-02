@@ -323,6 +323,34 @@ main {
   overflow: hidden;
 }
 
+.has-inline-embed .media {
+  aspect-ratio: auto;
+  min-height: 620px;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  overflow: visible;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.has-inline-embed .tiktok-embed {
+  width: min(100%, 605px) !important;
+}
+
+.inline-fallback-link {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+  background: #ffffff;
+  margin-top: 10px;
+}
+
 .media img,
 .media-fallback {
   position: absolute;
@@ -684,6 +712,10 @@ main {
   .drill-grid,
   .drill-grid.compact {
     grid-template-columns: 1fr;
+  }
+
+  .has-inline-embed .media {
+    min-height: 690px;
   }
 
   .journal-form {

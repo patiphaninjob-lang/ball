@@ -189,7 +189,7 @@ function renderToday() {
   const day = state.data.weeklyPlan[state.selectedDay];
   document.getElementById('todayLabel').textContent = `${day.day}: ${day.title}`;
   const drills = day.drillIds.map(findDrill).filter(Boolean);
-  renderCardGrid(document.getElementById('todayPlan'), drills);
+  renderCardGrid(document.getElementById('todayPlan'), drills, { inlineEmbed: true });
 }
 
 function renderDrills() {
@@ -202,10 +202,10 @@ function renderDrills() {
     return matchesParticipant && matchesLevel && matchesCategory && matchesSearch;
   });
 
-  renderCardGrid(document.getElementById('drillGrid'), drills);
+  renderCardGrid(document.getElementById('drillGrid'), drills, { inlineEmbed: false });
 }
 
-function renderCardGrid(root, drills) {
+function renderCardGrid(root, drills, options = {}) {
   const template = document.getElementById('drillCardTemplate');
   root.innerHTML = '';
 
@@ -224,6 +224,10 @@ function renderCardGrid(root, drills) {
     const checkButton = card.querySelector('.check-button');
     const gifState = card.querySelector('.gif-state');
 
+    if (options.inlineEmbed) {
+      card.classList.add('has-inline-embed');
+    }
+
     title.textContent = drill.name;
     badge.textContent = drill.category;
     levelBadge.textContent = `L${drill.level}`;
@@ -232,6 +236,11 @@ function renderCardGrid(root, drills) {
     img.src = drill.gif || drill.thumbnailUrl || '';
     img.alt = drill.name;
     img.addEventListener('error', () => img.classList.add('is-broken'));
+
+    if (options.inlineEmbed) {
+      renderInlineEmbed(card.querySelector('.media'), drill);
+      previewButton.hidden = true;
+    }
 
     meta.innerHTML = [
       drill.participant,
@@ -258,7 +267,28 @@ function renderCardGrid(root, drills) {
     root.append(card);
   });
 
+  if (options.inlineEmbed && drills.length > 0) {
+    loadTikTokEmbedScript();
+  }
+
   lucideReady();
+}
+
+function renderInlineEmbed(media, drill) {
+  media.innerHTML = `
+    <blockquote
+      class="tiktok-embed"
+      cite="${escapeHtml(drill.tiktokUrl)}"
+      data-video-id="${escapeHtml(drill.id)}"
+      data-embed-from="oembed"
+      style="max-width: 605px; min-width: 280px;"
+    >
+      <section>
+        <a target="_blank" rel="noreferrer" href="${escapeHtml(drill.tiktokUrl)}">View on TikTok</a>
+      </section>
+    </blockquote>
+    <a class="inline-fallback-link" target="_blank" rel="noreferrer" href="${escapeHtml(drill.tiktokUrl)}">เปิดใน TikTok</a>
+  `;
 }
 
 function openPreview(drill) {
