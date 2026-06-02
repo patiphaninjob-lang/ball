@@ -63,6 +63,8 @@ The weekly plan prefers solo drills first. The library also has a `Solo only` fi
 
 The Today view embeds the selected TikTok videos inline. The full library keeps previews on click so the mobile page does not load all 164 embeds at once.
 
+The Today view is now a Sunday-only planner for a 2-3 hour solo session. It offers four choices: base/recovery, speed/agility, power/field transfer, and complete 3-hour training.
+
 ## Make GIF previews from local videos
 
 Put video files you are allowed to use in `videos/`, then run:

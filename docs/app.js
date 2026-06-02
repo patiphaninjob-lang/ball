@@ -5,6 +5,7 @@ const state = {
   level: 'All',
   category: 'All',
   search: '',
+  selectedProgramId: loadJson('p45.selectedProgram', 'base'),
   selectedDay: new Date().getDay(),
   done: loadJson('p45.done', {}),
   checklist: loadJson('p45.checklist', {}),
@@ -96,9 +97,7 @@ function render() {
 
 function renderSummary() {
   const doneCount = Object.values(state.done).filter(Boolean).length;
-  const weekMinutes = state.data.weeklyPlan.reduce((sum, day) => {
-    return sum + day.drillIds.reduce((daySum, id) => daySum + (findDrill(id)?.minutes || 0), 0);
-  }, 0);
+  const weekMinutes = selectedSundayProgram()?.minutes || 0;
 
   document.getElementById('totalDrills').textContent = state.data.drills.length;
   document.getElementById('doneCount').textContent = doneCount;
@@ -169,14 +168,15 @@ function renderWeek() {
   const root = document.getElementById('weekStrip');
   root.innerHTML = '';
 
-  state.data.weeklyPlan.forEach((day, index) => {
-    const minutes = day.drillIds.reduce((sum, id) => sum + (findDrill(id)?.minutes || 0), 0);
+  state.data.sundayPrograms.forEach((program) => {
     const button = document.createElement('button');
-    button.className = `day-button ${index === state.selectedDay ? 'active' : ''}`;
+    button.className = `day-button ${program.id === state.selectedProgramId ? 'active' : ''}`;
     button.type = 'button';
-    button.innerHTML = `<strong>${day.day}</strong><span>${day.title} · ${minutes} min</span>`;
+    button.innerHTML = `<strong>${escapeHtml(program.name)}</strong><span>${program.minutes} min · ${escapeHtml(program.summary)}</span>`;
     button.addEventListener('click', () => {
-      state.selectedDay = index;
+      state.selectedProgramId = program.id;
+      saveJson('p45.selectedProgram', state.selectedProgramId);
+      renderSummary();
       renderToday();
       renderChecklist();
       renderWeek();
@@ -186,10 +186,10 @@ function renderWeek() {
 }
 
 function renderToday() {
-  const day = state.data.weeklyPlan[state.selectedDay];
-  document.getElementById('todayLabel').textContent = `${day.day}: ${day.title}`;
-  const drills = day.drillIds.map(findDrill).filter(Boolean);
-  renderCardGrid(document.getElementById('todayPlan'), drills, { inlineEmbed: true });
+  const program = selectedSundayProgram();
+  document.getElementById('todayLabel').textContent = `${program.name}: ${program.whenToChoose}`;
+  const drills = program.drillIds.map(findDrill).filter(Boolean);
+  renderCardGrid(document.getElementById('todayPlan'), drills, { inlineEmbed: true, inlineLimit: 4 });
 }
 
 function renderDrills() {
@@ -209,7 +209,7 @@ function renderCardGrid(root, drills, options = {}) {
   const template = document.getElementById('drillCardTemplate');
   root.innerHTML = '';
 
-  drills.forEach((drill) => {
+  drills.forEach((drill, index) => {
     const card = template.content.firstElementChild.cloneNode(true);
     const img = card.querySelector('img');
     const fallback = card.querySelector('.media-fallback');
@@ -224,7 +224,9 @@ function renderCardGrid(root, drills, options = {}) {
     const checkButton = card.querySelector('.check-button');
     const gifState = card.querySelector('.gif-state');
 
-    if (options.inlineEmbed) {
+    const shouldInlineEmbed = options.inlineEmbed && index < (options.inlineLimit || drills.length);
+
+    if (shouldInlineEmbed) {
       card.classList.add('has-inline-embed');
     }
 
@@ -237,7 +239,7 @@ function renderCardGrid(root, drills, options = {}) {
     img.alt = drill.name;
     img.addEventListener('error', () => img.classList.add('is-broken'));
 
-    if (options.inlineEmbed) {
+    if (shouldInlineEmbed) {
       renderInlineEmbed(card.querySelector('.media'), drill);
       previewButton.hidden = true;
     }
@@ -396,8 +398,12 @@ function findDrill(id) {
   return state.data.drills.find((drill) => drill.id === id);
 }
 
+function selectedSundayProgram() {
+  return state.data.sundayPrograms.find((program) => program.id === state.selectedProgramId) || state.data.sundayPrograms[0];
+}
+
 function todayKey() {
-  return `${new Date().toISOString().slice(0, 10)}:${state.selectedDay}`;
+  return `${new Date().toISOString().slice(0, 10)}:${state.selectedProgramId}`;
 }
 
 function loadJson(key, fallback) {

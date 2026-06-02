@@ -248,7 +248,7 @@ main {
 .category-stats,
 .level-stats {
   display: grid;
-  grid-template-columns: repeat(7, minmax(110px, 1fr));
+  grid-template-columns: repeat(4, minmax(190px, 1fr));
   gap: 8px;
   overflow-x: auto;
   padding-bottom: 4px;
@@ -257,6 +257,10 @@ main {
 .level-stats {
   grid-template-columns: repeat(5, minmax(150px, 1fr));
   margin-bottom: 8px;
+}
+
+.category-stats {
+  grid-template-columns: repeat(7, minmax(110px, 1fr));
 }
 
 .day-button,
@@ -703,6 +707,10 @@ main {
   .week-strip,
   .category-stats {
     grid-template-columns: repeat(7, 132px);
+  }
+
+  .week-strip {
+    grid-template-columns: repeat(4, 230px);
   }
 
   .level-stats {

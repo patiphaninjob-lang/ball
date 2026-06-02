@@ -47,6 +47,7 @@ const categories = summarizeCategories(drills);
 const levels = summarizeLevels(drills);
 const participants = summarizeParticipants(drills);
 const weeklyPlan = makeWeeklyPlan(drills);
+const sundayPrograms = makeSundayPrograms(drills);
 
 await writeFile(
   path.join(docsDataDir, 'training-drills.json'),
@@ -59,6 +60,7 @@ await writeFile(
       categories,
       participants,
       weeklyPlan,
+      sundayPrograms,
       drills,
     },
     null,
@@ -79,6 +81,7 @@ console.log(`Built docs data from ${sourceVideos.length} videos.`);
 console.log(`Levels: ${levels.map((level) => `${level.name}=${level.count}`).join(', ')}`);
 console.log(`Categories: ${categories.map((category) => `${category.name}=${category.count}`).join(', ')}`);
 console.log(`Participants: ${participants.map((participant) => `${participant.name}=${participant.count}`).join(', ')}`);
+console.log(`Sunday programs: ${sundayPrograms.map((program) => `${program.id}=${program.minutes}m/${program.drillIds.length}`).join(', ')}`);
 
 function toDrill(video, index, gifManifest) {
   const title = cleanText(video.title || video.visibleText || `Training video ${index + 1}`);
@@ -345,6 +348,149 @@ function makeWeeklyPlan(drills) {
 function planDay(day, title, levelIds, byLevel) {
   const drillIds = levelIds.flatMap((level) => byLevel.get(level)?.slice(0, 3) || []).slice(0, 4);
   return { day, title, levelIds, drillIds };
+}
+
+function makeSundayPrograms(drills) {
+  const solo = drills.filter((drill) => drill.participant === 'Solo');
+  const specs = [
+    {
+      id: 'base',
+      name: 'พื้นฐาน + ฟื้นฟู',
+      summary: 'เหมาะกับอาทิตย์ที่ร่างกายล้า หรืออยากกลับมาเริ่มแบบไม่เสี่ยง',
+      whenToChoose: 'เลือกแผนนี้เมื่อรู้สึกล้า เจ็บง่าย หรืออยากเน้นคุณภาพท่าก่อน',
+      targetMinutes: 125,
+      filters: [
+        { levels: [1], categories: ['Mobility', 'Rehab'] },
+        { levels: [2], categories: ['Core'] },
+        { levels: [3], categories: ['Strength'] },
+        { levels: [1, 2], categories: ['General'] },
+      ],
+    },
+    {
+      id: 'speed',
+      name: 'สปีด + เปลี่ยนทิศ',
+      summary: 'เหมาะกับอาทิตย์ที่อยากซ้อมความไว การเบรก และการเปลี่ยนทิศ',
+      whenToChoose: 'เลือกแผนนี้เมื่อร่างกายสด และอยากพัฒนา footwork/ความคล่องตัว',
+      targetMinutes: 140,
+      filters: [
+        { levels: [1, 2], categories: ['Mobility', 'Core'] },
+        { levels: [4], categories: ['Agility', 'Deceleration'] },
+        { levels: [4, 5], categories: ['Power'] },
+        { levels: [3], categories: ['Football Skill', 'Strength'] },
+      ],
+    },
+    {
+      id: 'power',
+      name: 'พลัง + ยิง/ปะทะ',
+      summary: 'เหมาะกับอาทิตย์ที่อยากเน้นแรงระเบิด แกนกลาง และการถ่ายแรงสู่สนาม',
+      whenToChoose: 'เลือกแผนนี้เมื่อพร้อมฝึกหนัก และไม่มีอาการล้าขา/หลัง',
+      targetMinutes: 145,
+      filters: [
+        { levels: [2], categories: ['Core'] },
+        { levels: [3], categories: ['Strength'] },
+        { levels: [4, 5], categories: ['Power'] },
+        { levels: [3, 5], categories: ['Football Skill'] },
+      ],
+    },
+    {
+      id: 'complete',
+      name: 'ครบ 3 ชม.',
+      summary: 'เหมาะกับอาทิตย์ที่มีเวลาครบ อยากแตะทุกระบบตั้งแต่ฟื้นฟูถึงเกมจริง',
+      whenToChoose: 'เลือกแผนนี้เมื่อมีเวลา 2.5-3 ชม. และอยากฝึกยาวแบบครบวงจร',
+      targetMinutes: 170,
+      filters: [
+        { levels: [1], categories: ['Mobility', 'Rehab'] },
+        { levels: [2], categories: ['Core'] },
+        { levels: [3], categories: ['Strength', 'Football Skill'] },
+        { levels: [4], categories: ['Agility', 'Deceleration'] },
+        { levels: [5], categories: ['Power', 'Football Skill'] },
+      ],
+    },
+  ];
+
+  return specs.map((spec) => buildSundayProgram(spec, solo));
+}
+
+function buildSundayProgram(spec, drills) {
+  const selected = [];
+  for (const filter of spec.filters) {
+    addMatchingDrills(selected, drills, filter, 3);
+  }
+
+  while (totalMinutes(selected) < spec.targetMinutes) {
+    const added = addMatchingDrills(selected, drills, {}, 1);
+    if (!added) break;
+  }
+
+  while (totalMinutes(selected) > 180 && selected.length > 8) {
+    selected.pop();
+  }
+
+  const phases = makeProgramPhases(selected);
+
+  return {
+    id: spec.id,
+    name: spec.name,
+    summary: spec.summary,
+    whenToChoose: spec.whenToChoose,
+    minutes: totalMinutes(selected),
+    drillIds: selected.map((drill) => drill.id),
+    phases,
+  };
+}
+
+function addMatchingDrills(selected, drills, filter, limit) {
+  const ids = new Set(selected.map((drill) => drill.id));
+  const matches = drills.filter((drill) => {
+    const matchesLevel = !filter.levels || filter.levels.includes(drill.level);
+    const matchesCategory = !filter.categories || filter.categories.includes(drill.category);
+    return matchesLevel && matchesCategory && !ids.has(drill.id);
+  });
+
+  const picked = matches.slice(0, limit);
+  selected.push(...picked);
+  return picked.length > 0;
+}
+
+function makeProgramPhases(drills) {
+  const remaining = [...drills];
+  const phases = [
+    phase('Warm-up / Reset', remaining, ['Mobility', 'Rehab'], [1], 3),
+    phase('Control / Strength', remaining, ['Core', 'Strength', 'General'], [2, 3], 4),
+    phase('Main Work', remaining, ['Agility', 'Deceleration', 'Power', 'Football Skill'], [4, 5], 8),
+    phase('Review / Cool-down', remaining, ['Mobility', 'Rehab', 'General'], [1, 2], 3),
+  ].filter((item) => item.drillIds.length > 0);
+
+  if (remaining.length > 0) {
+    phases.push({
+      name: 'Extra Options',
+      minutes: totalMinutes(remaining),
+      drillIds: remaining.map((drill) => drill.id),
+    });
+  }
+
+  return phases;
+}
+
+function phase(name, remaining, categories, levels, limit) {
+  const phaseDrills = remaining
+    .filter((drill) => categories.includes(drill.category) || levels.includes(drill.level))
+    .slice(0, limit);
+
+  const ids = new Set(phaseDrills.map((drill) => drill.id));
+  for (let index = remaining.length - 1; index >= 0; index -= 1) {
+    if (ids.has(remaining[index].id)) remaining.splice(index, 1);
+  }
+
+  return {
+    name,
+    minutes: totalMinutes(phaseDrills),
+    drillIds: phaseDrills.map((drill) => drill.id),
+  };
+}
+
+function totalMinutes(drills) {
+  return drills.reduce((sum, drill) => sum + drill.minutes, 0);
 }
 
 async function loadGifManifest() {
