@@ -65,6 +65,10 @@ The Today view embeds the selected TikTok videos inline. The full library keeps 
 
 The Today view is now a Sunday-only planner for a 2-3 hour solo session. It offers four choices: base/recovery, speed/agility, power/field transfer, and complete 3-hour training.
 
+## Install on a phone
+
+The site is configured as a PWA. On Android/Chrome, open the GitHub Pages URL and use the browser install prompt or `Add to Home screen`. On iPhone/Safari, use `Share` -> `Add to Home Screen`.
+
 ## Make GIF previews from local videos
 
 Put video files you are allowed to use in `videos/`, then run:

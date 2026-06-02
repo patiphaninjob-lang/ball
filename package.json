@@ -7,8 +7,9 @@
     "build": "node scripts/build-site-data.mjs",
     "collect:tiktok": "node scripts/collect-tiktok.mjs",
     "make:gifs": "node scripts/make-gifs.mjs",
+    "make:pwa-icons": "node scripts/make-pwa-icons.mjs",
     "serve": "node scripts/serve-docs.mjs",
-    "check": "node --check scripts/collect-tiktok.mjs && node --check scripts/make-gifs.mjs && node --check scripts/build-site-data.mjs && node --check scripts/serve-docs.mjs"
+    "check": "node --check scripts/collect-tiktok.mjs && node --check scripts/make-gifs.mjs && node --check scripts/build-site-data.mjs && node --check scripts/make-pwa-icons.mjs && node --check scripts/serve-docs.mjs && node --check docs/sw.js"
   },
   "dependencies": {
     "ffmpeg-static": "^5.3.0",

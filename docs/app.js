@@ -22,6 +22,7 @@ const checklistItems = [
 
 const dayIndexMap = [6, 0, 1, 2, 3, 4, 5];
 let lazyEmbedObserver = null;
+let installPromptEvent = null;
 
 main();
 
@@ -74,6 +75,8 @@ function hydrateControls() {
     element.addEventListener('click', closePreview);
   });
 
+  hydrateInstallButton();
+  registerServiceWorker();
   lucideReady();
 }
 
@@ -458,6 +461,48 @@ function loadJson(key, fallback) {
 
 function saveJson(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
+}
+
+function hydrateInstallButton() {
+  const button = document.getElementById('installApp');
+  if (!button) return;
+
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+  if (isStandalone) return;
+
+  window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    installPromptEvent = event;
+    button.hidden = false;
+    lucideReady();
+  });
+
+  button.addEventListener('click', async () => {
+    if (!installPromptEvent) return;
+    installPromptEvent.prompt();
+    await installPromptEvent.userChoice;
+    installPromptEvent = null;
+    button.hidden = true;
+  });
+
+  window.addEventListener('appinstalled', () => {
+    installPromptEvent = null;
+    button.hidden = true;
+  });
+}
+
+function registerServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+
+  const register = () => {
+    navigator.serviceWorker.register('sw.js', { scope: './' }).catch(() => {});
+  };
+
+  if (document.readyState === 'complete') {
+    register();
+  } else {
+    window.addEventListener('load', register, { once: true });
+  }
 }
 
 function escapeHtml(value) {
