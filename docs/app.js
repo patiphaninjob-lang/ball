@@ -1,6 +1,7 @@
 const state = {
   data: null,
   view: 'today',
+  participant: 'Solo',
   level: 'All',
   category: 'All',
   search: '',
@@ -39,6 +40,11 @@ function hydrateControls() {
 
   document.getElementById('searchInput').addEventListener('input', (event) => {
     state.search = event.target.value.trim().toLowerCase();
+    renderDrills();
+  });
+
+  document.getElementById('participantFilter').addEventListener('change', (event) => {
+    state.participant = event.target.value;
     renderDrills();
   });
 
@@ -188,11 +194,12 @@ function renderToday() {
 
 function renderDrills() {
   const drills = state.data.drills.filter((drill) => {
+    const matchesParticipant = state.participant === 'All' || drill.participant === state.participant;
     const matchesLevel = state.level === 'All' || String(drill.level) === state.level;
     const matchesCategory = state.category === 'All' || drill.category === state.category;
-    const haystack = `${drill.name} ${drill.levelName} ${drill.levelTitle} ${drill.category} ${drill.goal} ${drill.caption} ${drill.hashtags.join(' ')}`.toLowerCase();
+    const haystack = `${drill.name} ${drill.participant} ${drill.levelName} ${drill.levelTitle} ${drill.category} ${drill.goal} ${drill.caption} ${drill.hashtags.join(' ')}`.toLowerCase();
     const matchesSearch = !state.search || haystack.includes(state.search);
-    return matchesLevel && matchesCategory && matchesSearch;
+    return matchesParticipant && matchesLevel && matchesCategory && matchesSearch;
   });
 
   renderCardGrid(document.getElementById('drillGrid'), drills);
@@ -227,6 +234,7 @@ function renderCardGrid(root, drills) {
     img.addEventListener('error', () => img.classList.add('is-broken'));
 
     meta.innerHTML = [
+      drill.participant,
       `${drill.levelName}: ${drill.levelTitle}`,
       `${drill.minutes} min`,
       drill.intensity,

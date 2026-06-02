@@ -59,6 +59,8 @@ The planner groups drills into Level 1-5:
 - Level 4: speed, braking, agility
 - Level 5: power transfer and complex field actions
 
+The weekly plan prefers solo drills first. The library also has a `Solo only` filter so partner-assisted drills stay separate.
+
 ## Make GIF previews from local videos
 
 Put video files you are allowed to use in `videos/`, then run:

@@ -45,6 +45,7 @@ const gifManifest = await loadGifManifest();
 const drills = sourceVideos.map((video, index) => toDrill(video, index, gifManifest)).sort(compareDrills);
 const categories = summarizeCategories(drills);
 const levels = summarizeLevels(drills);
+const participants = summarizeParticipants(drills);
 const weeklyPlan = makeWeeklyPlan(drills);
 
 await writeFile(
@@ -56,6 +57,7 @@ await writeFile(
       sourceCount: sourceVideos.length,
       levels,
       categories,
+      participants,
       weeklyPlan,
       drills,
     },
@@ -76,6 +78,7 @@ await copyGifs();
 console.log(`Built docs data from ${sourceVideos.length} videos.`);
 console.log(`Levels: ${levels.map((level) => `${level.name}=${level.count}`).join(', ')}`);
 console.log(`Categories: ${categories.map((category) => `${category.name}=${category.count}`).join(', ')}`);
+console.log(`Participants: ${participants.map((participant) => `${participant.name}=${participant.count}`).join(', ')}`);
 
 function toDrill(video, index, gifManifest) {
   const title = cleanText(video.title || video.visibleText || `Training video ${index + 1}`);
@@ -86,6 +89,7 @@ function toDrill(video, index, gifManifest) {
   const goal = categoryGoal(category);
   const intensity = categoryIntensity(category);
   const level = assignLevel(title, category, exercises);
+  const participant = assignParticipant(title, category);
   const gif = gifManifest.get(video.id) || gifManifest.get(slug(video.url)) || '';
 
   return {
@@ -97,6 +101,8 @@ function toDrill(video, index, gifManifest) {
     levelName: level.name,
     levelTitle: level.title,
     levelDescription: level.description,
+    participant,
+    partnerNeeded: participant === 'Partner',
     goal,
     intensity,
     minutes,
@@ -111,6 +117,29 @@ function toDrill(video, index, gifManifest) {
     hasGif: Boolean(gif),
     source: video.source || 'visible-page',
   };
+}
+
+function assignParticipant(text, category) {
+  const normalized = text.toLowerCase();
+  const partnerKeywords = [
+    '2 คน',
+    'สองคน',
+    'ชวนเพื่อน',
+    'แบบคู่',
+    'คนช่วย',
+    'partner',
+    'passivestretching',
+  ];
+
+  if (partnerKeywords.some((keyword) => normalized.includes(keyword))) {
+    return 'Partner';
+  }
+
+  if (category === 'Mobility' && normalized.includes('passive')) {
+    return 'Partner';
+  }
+
+  return 'Solo';
 }
 
 function assignLevel(text, category, exercises) {
@@ -282,9 +311,22 @@ function summarizeLevels(drills) {
   }));
 }
 
+function summarizeParticipants(drills) {
+  return ['Solo', 'Partner'].map((name) => ({
+    name,
+    count: drills.filter((drill) => drill.participant === name).length,
+  }));
+}
+
 function makeWeeklyPlan(drills) {
   const byLevel = new Map();
-  for (const drill of drills) {
+  const soloFirst = [...drills].sort((left, right) => {
+    const participantRank = participantSortRank(left) - participantSortRank(right);
+    if (participantRank !== 0) return participantRank;
+    return compareDrills(left, right);
+  });
+
+  for (const drill of soloFirst) {
     if (!byLevel.has(drill.level)) byLevel.set(drill.level, []);
     byLevel.get(drill.level).push(drill.id);
   }
@@ -344,9 +386,13 @@ function slug(value) {
 }
 
 function compareDrills(left, right) {
-  return left.level - right.level || left.category.localeCompare(right.category) || left.order - right.order;
+  return left.level - right.level || participantSortRank(left) - participantSortRank(right) || left.category.localeCompare(right.category) || left.order - right.order;
 }
 
 function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
+}
+
+function participantSortRank(drill) {
+  return drill.participant === 'Partner' ? 1 : 0;
 }

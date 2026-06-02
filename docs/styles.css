@@ -507,6 +507,7 @@ main {
 
 #categoryFilter,
 #levelFilter,
+#participantFilter,
 .journal-form input,
 .journal-form select,
 .journal-form textarea {
@@ -517,7 +518,8 @@ main {
 }
 
 #categoryFilter,
-#levelFilter {
+#levelFilter,
+#participantFilter {
   min-height: 40px;
   padding: 0 10px;
 }
