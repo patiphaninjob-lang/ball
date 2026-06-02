@@ -62,6 +62,9 @@ function hydrateControls() {
 
   document.getElementById('saveJournal').addEventListener('click', saveJournal);
   document.getElementById('journalDate').valueAsDate = new Date();
+  document.querySelectorAll('[data-close-preview]').forEach((element) => {
+    element.addEventListener('click', closePreview);
+  });
 
   lucideReady();
 }
@@ -210,6 +213,7 @@ function renderCardGrid(root, drills) {
     const meta = card.querySelector('.meta');
     const focus = card.querySelector('.focus');
     const watchLink = card.querySelector('.watch-link');
+    const previewButton = card.querySelector('.preview-button');
     const checkButton = card.querySelector('.check-button');
     const gifState = card.querySelector('.gif-state');
 
@@ -231,6 +235,7 @@ function renderCardGrid(root, drills) {
 
     focus.innerHTML = drill.focus.slice(0, 3).map((item) => `<span>${escapeHtml(item)}</span>`).join('');
     watchLink.href = drill.tiktokUrl;
+    previewButton.addEventListener('click', () => openPreview(drill));
     gifState.textContent = drill.hasGif ? 'GIF ready' : 'GIF pending';
     gifState.className = `gif-state ${drill.hasGif ? 'ready' : 'pending'}`;
 
@@ -246,6 +251,55 @@ function renderCardGrid(root, drills) {
   });
 
   lucideReady();
+}
+
+function openPreview(drill) {
+  const modal = document.getElementById('previewModal');
+  const title = document.getElementById('previewTitle');
+  const meta = document.getElementById('previewMeta');
+  const embed = document.getElementById('previewEmbed');
+
+  title.textContent = drill.name;
+  meta.textContent = `${drill.levelName}: ${drill.levelTitle} · ${drill.category}`;
+  embed.innerHTML = `
+    <blockquote
+      class="tiktok-embed"
+      cite="${escapeHtml(drill.tiktokUrl)}"
+      data-video-id="${escapeHtml(drill.id)}"
+      data-embed-from="oembed"
+      style="max-width: 605px; min-width: 325px;"
+    >
+      <section>
+        <a target="_blank" rel="noreferrer" href="${escapeHtml(drill.tiktokUrl)}">View on TikTok</a>
+      </section>
+    </blockquote>
+    <a class="fallback-link" target="_blank" rel="noreferrer" href="${escapeHtml(drill.tiktokUrl)}">เปิดใน TikTok</a>
+  `;
+
+  modal.hidden = false;
+  document.body.style.overflow = 'hidden';
+  loadTikTokEmbedScript();
+}
+
+function closePreview() {
+  const modal = document.getElementById('previewModal');
+  const embed = document.getElementById('previewEmbed');
+  modal.hidden = true;
+  embed.innerHTML = '';
+  document.body.style.overflow = '';
+}
+
+function loadTikTokEmbedScript() {
+  const existingScript = document.querySelector('script[data-tiktok-embed]');
+  if (existingScript) {
+    existingScript.remove();
+  }
+
+  const script = document.createElement('script');
+  script.src = 'https://www.tiktok.com/embed.js';
+  script.async = true;
+  script.dataset.tiktokEmbed = 'true';
+  document.body.append(script);
 }
 
 function renderChecklist() {

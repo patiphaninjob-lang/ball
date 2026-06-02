@@ -124,11 +124,26 @@
           <div class="meta"></div>
           <div class="focus"></div>
           <div class="actions">
+            <button class="preview-button" type="button"><i data-lucide="play"></i><span>ดูตัวอย่าง</span></button>
             <a class="watch-link" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i><span>เปิด TikTok</span></a>
             <span class="gif-state"></span>
           </div>
         </div>
       </article>
     </template>
+
+    <div id="previewModal" class="preview-modal" hidden>
+      <div class="preview-backdrop" data-close-preview></div>
+      <section class="preview-panel" role="dialog" aria-modal="true" aria-labelledby="previewTitle">
+        <div class="preview-head">
+          <div>
+            <h2 id="previewTitle">TikTok Preview</h2>
+            <p id="previewMeta"></p>
+          </div>
+          <button class="icon-button" type="button" title="ปิด preview" data-close-preview><i data-lucide="x"></i></button>
+        </div>
+        <div id="previewEmbed" class="preview-embed"></div>
+      </section>
+    </div>
   </body>
 </html>

@@ -147,7 +147,8 @@ main {
 .tab,
 .icon-button,
 .primary-button,
-.check-button {
+.check-button,
+.preview-button {
   border: 1px solid transparent;
   cursor: pointer;
   align-items: center;
@@ -175,7 +176,8 @@ main {
 .icon-button svg,
 .primary-button svg,
 .watch-link svg,
-.check-button svg {
+.check-button svg,
+.preview-button svg {
   width: 17px;
   height: 17px;
   flex: 0 0 auto;
@@ -432,7 +434,8 @@ main {
   color: #634413;
 }
 
-.watch-link {
+.watch-link,
+.preview-button {
   min-height: 34px;
   display: inline-flex;
   align-items: center;
@@ -443,6 +446,12 @@ main {
   color: var(--ink);
   text-decoration: none;
   background: #ffffff;
+}
+
+.preview-button {
+  color: #ffffff;
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 .gif-state.ready {
@@ -564,6 +573,76 @@ main {
   white-space: pre-wrap;
 }
 
+.preview-modal[hidden] {
+  display: none;
+}
+
+.preview-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+
+.preview-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(23, 32, 27, 0.58);
+}
+
+.preview-panel {
+  position: relative;
+  z-index: 1;
+  width: min(560px, 100%);
+  max-height: min(86vh, 900px);
+  overflow: auto;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 18px 60px rgba(23, 32, 27, 0.28);
+}
+
+.preview-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.preview-head h2 {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.preview-head p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.35;
+  margin-top: 4px;
+}
+
+.preview-embed {
+  min-height: 520px;
+  padding: 12px;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+}
+
+.preview-embed .fallback-link {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+}
+
 @media (max-width: 760px) {
   .topbar {
     position: static;
@@ -607,5 +686,20 @@ main {
 
   .journal-form {
     grid-template-columns: 1fr;
+  }
+
+  .preview-modal {
+    padding: 0;
+    align-items: end;
+  }
+
+  .preview-panel {
+    width: 100%;
+    max-height: 92vh;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .preview-embed {
+    min-height: 620px;
   }
 }
