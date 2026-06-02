@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#0f766e">
+    <meta name="theme-color" content="#151713">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="P45 Planner">
@@ -55,6 +55,13 @@
             <p id="todayLabel">เลือกแบบที่ตรงกับสภาพร่างกายของอาทิตย์นี้</p>
           </div>
           <button id="resetToday" class="icon-button" type="button" title="ล้าง checklist"><i data-lucide="rotate-ccw"></i></button>
+        </div>
+        <div class="plan-meter" aria-label="selected plan progress">
+          <div>
+            <span>Progress</span>
+            <strong id="planProgressText">0 / 0</strong>
+          </div>
+          <div class="meter-track"><span id="planProgressBar"></span></div>
         </div>
         <div id="weekStrip" class="week-strip"></div>
         <div id="todayPlan" class="drill-grid compact"></div>

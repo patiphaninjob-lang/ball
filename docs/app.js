@@ -192,8 +192,18 @@ function renderWeek() {
 function renderToday() {
   const program = selectedSundayProgram();
   document.getElementById('todayLabel').textContent = `${program.name}: ${program.whenToChoose}`;
+  renderPlanProgress(program);
   const drills = program.drillIds.map(findDrill).filter(Boolean);
   renderCardGrid(document.getElementById('todayPlan'), drills, { inlineEmbed: true, lazyEmbed: true });
+}
+
+function renderPlanProgress(program = selectedSundayProgram()) {
+  const total = program.drillIds.length;
+  const completed = program.drillIds.filter((id) => state.done[id]).length;
+  const percent = total > 0 ? Math.round((completed / total) * 100) : 0;
+
+  document.getElementById('planProgressText').textContent = `${completed} / ${total}`;
+  document.getElementById('planProgressBar').style.width = `${percent}%`;
 }
 
 function renderDrills() {
@@ -272,6 +282,7 @@ function renderCardGrid(root, drills, options = {}) {
       state.done[drill.id] = !state.done[drill.id];
       saveJson('p45.done', state.done);
       renderSummary();
+      renderPlanProgress();
       checkButton.classList.toggle('done', Boolean(state.done[drill.id]));
     });
 
