@@ -5,13 +5,46 @@ const sourcePath = 'data/powerpump45-videos.json';
 const docsDataDir = 'docs/data';
 const docsGifDir = 'docs/assets/gifs';
 const sourceVideos = JSON.parse(await readFile(sourcePath, 'utf8'));
+const LEVELS = [
+  {
+    id: 1,
+    name: 'Level 1',
+    title: 'Reset & Mobility',
+    description: 'easy recovery, mobility, rehab control',
+  },
+  {
+    id: 2,
+    name: 'Level 2',
+    title: 'Body Control',
+    description: 'core control, balance, clean positions',
+  },
+  {
+    id: 3,
+    name: 'Level 3',
+    title: 'Strength Base',
+    description: 'repeatable strength and football basics',
+  },
+  {
+    id: 4,
+    name: 'Level 4',
+    title: 'Speed & Braking',
+    description: 'agility, deceleration, faster direction changes',
+  },
+  {
+    id: 5,
+    name: 'Level 5',
+    title: 'Game Transfer',
+    description: 'power transfer, sprint links, complex field actions',
+  },
+];
 
 await mkdir(docsDataDir, { recursive: true });
 await mkdir(docsGifDir, { recursive: true });
 
 const gifManifest = await loadGifManifest();
-const drills = sourceVideos.map((video, index) => toDrill(video, index, gifManifest));
+const drills = sourceVideos.map((video, index) => toDrill(video, index, gifManifest)).sort(compareDrills);
 const categories = summarizeCategories(drills);
+const levels = summarizeLevels(drills);
 const weeklyPlan = makeWeeklyPlan(drills);
 
 await writeFile(
@@ -21,6 +54,7 @@ await writeFile(
       generatedAt: new Date().toISOString(),
       creator: 'powerpump45',
       sourceCount: sourceVideos.length,
+      levels,
       categories,
       weeklyPlan,
       drills,
@@ -40,6 +74,7 @@ await writeFile(
 await copyGifs();
 
 console.log(`Built docs data from ${sourceVideos.length} videos.`);
+console.log(`Levels: ${levels.map((level) => `${level.name}=${level.count}`).join(', ')}`);
 console.log(`Categories: ${categories.map((category) => `${category.name}=${category.count}`).join(', ')}`);
 
 function toDrill(video, index, gifManifest) {
@@ -50,6 +85,7 @@ function toDrill(video, index, gifManifest) {
   const minutes = estimateMinutes(category, exercises);
   const goal = categoryGoal(category);
   const intensity = categoryIntensity(category);
+  const level = assignLevel(title, category, exercises);
   const gif = gifManifest.get(video.id) || gifManifest.get(slug(video.url)) || '';
 
   return {
@@ -57,6 +93,10 @@ function toDrill(video, index, gifManifest) {
     order: index + 1,
     name: makeName(title, category, index),
     category,
+    level: level.id,
+    levelName: level.name,
+    levelTitle: level.title,
+    levelDescription: level.description,
     goal,
     intensity,
     minutes,
@@ -71,6 +111,43 @@ function toDrill(video, index, gifManifest) {
     hasGif: Boolean(gif),
     source: video.source || 'visible-page',
   };
+}
+
+function assignLevel(text, category, exercises) {
+  const normalized = text.toLowerCase();
+  const baseScore = {
+    Mobility: 1,
+    Rehab: 1,
+    Core: 2,
+    General: 2,
+    Strength: 3,
+    'Football Skill': 3,
+    Deceleration: 4,
+    Agility: 4,
+    Power: 4,
+  };
+
+  let score = baseScore[category] || 2;
+  const advancedKeywords = [
+    'positive transfer',
+    'maximal velocity',
+    'sprint',
+    'hurdle hop',
+    'skater jump',
+    'rotation mb throw',
+    'rotation md throw',
+    'plyo',
+    'vbt',
+    'shooting',
+  ];
+  const beginnerKeywords = ['stretch', 'passivestretching', 'acl', 'recovery', 'rehab'];
+
+  if (exercises.length >= 3) score += 1;
+  if (advancedKeywords.some((keyword) => normalized.includes(keyword))) score += 1;
+  if (beginnerKeywords.some((keyword) => normalized.includes(keyword))) score -= 1;
+
+  const id = clamp(score, 1, 5);
+  return LEVELS.find((level) => level.id === id) || LEVELS[1];
 }
 
 function categorize(text) {
@@ -198,27 +275,34 @@ function summarizeCategories(drills) {
     .sort((left, right) => right.count - left.count || left.name.localeCompare(right.name));
 }
 
+function summarizeLevels(drills) {
+  return LEVELS.map((level) => ({
+    ...level,
+    count: drills.filter((drill) => drill.level === level.id).length,
+  }));
+}
+
 function makeWeeklyPlan(drills) {
-  const byCategory = new Map();
+  const byLevel = new Map();
   for (const drill of drills) {
-    if (!byCategory.has(drill.category)) byCategory.set(drill.category, []);
-    byCategory.get(drill.category).push(drill.id);
+    if (!byLevel.has(drill.level)) byLevel.set(drill.level, []);
+    byLevel.get(drill.level).push(drill.id);
   }
 
   return [
-    planDay('Monday', 'Power + Core', ['Power', 'Core'], byCategory),
-    planDay('Tuesday', 'Mobility + Recovery', ['Mobility', 'Rehab'], byCategory),
-    planDay('Wednesday', 'Agility + Deceleration', ['Agility', 'Deceleration'], byCategory),
-    planDay('Thursday', 'Strength + Football Skill', ['Strength', 'Football Skill'], byCategory),
-    planDay('Friday', 'Power Transfer', ['Power', 'Football Skill'], byCategory),
-    planDay('Saturday', 'Review + Mobility', ['General', 'Mobility'], byCategory),
-    planDay('Sunday', 'Rest / Journal', ['Mobility'], byCategory),
+    planDay('Monday', 'Level 1 - Reset', [1], byLevel),
+    planDay('Tuesday', 'Level 2 - Control', [2], byLevel),
+    planDay('Wednesday', 'Level 3 - Strength', [3], byLevel),
+    planDay('Thursday', 'Level 4 - Speed', [4], byLevel),
+    planDay('Friday', 'Level 5 - Transfer', [5], byLevel),
+    planDay('Saturday', 'Mixed Review', [1, 2, 3], byLevel),
+    planDay('Sunday', 'Rest / Mobility', [1], byLevel),
   ];
 }
 
-function planDay(day, title, categoryNames, byCategory) {
-  const drillIds = categoryNames.flatMap((category) => byCategory.get(category)?.slice(0, 2) || []).slice(0, 4);
-  return { day, title, categoryNames, drillIds };
+function planDay(day, title, levelIds, byLevel) {
+  const drillIds = levelIds.flatMap((level) => byLevel.get(level)?.slice(0, 3) || []).slice(0, 4);
+  return { day, title, levelIds, drillIds };
 }
 
 async function loadGifManifest() {
@@ -257,4 +341,12 @@ function cleanText(value) {
 
 function slug(value) {
   return String(value || '').toLowerCase().replace(/[^\w]+/g, '-').replace(/^-|-$/g, '');
+}
+
+function compareDrills(left, right) {
+  return left.level - right.level || left.category.localeCompare(right.category) || left.order - right.order;
+}
+
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
 }

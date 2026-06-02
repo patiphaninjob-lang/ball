@@ -243,12 +243,18 @@ main {
 }
 
 .week-strip,
-.category-stats {
+.category-stats,
+.level-stats {
   display: grid;
   grid-template-columns: repeat(7, minmax(110px, 1fr));
   gap: 8px;
   overflow-x: auto;
   padding-bottom: 4px;
+}
+
+.level-stats {
+  grid-template-columns: repeat(5, minmax(150px, 1fr));
+  margin-bottom: 8px;
 }
 
 .day-button,
@@ -260,6 +266,11 @@ main {
   cursor: pointer;
   text-align: left;
   min-height: 66px;
+}
+
+.level-pill.active {
+  border-color: var(--accent);
+  background: #e9f5f2;
 }
 
 .day-button.active {
@@ -349,6 +360,19 @@ main {
   line-height: 1;
   padding: 7px 9px;
   border-radius: 999px;
+}
+
+.level-badge {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--ink);
+  font-size: 12px;
+  line-height: 1;
+  padding: 7px 9px;
+  border-radius: 999px;
+  border: 1px solid rgba(23, 32, 27, 0.12);
 }
 
 .drill-body {
@@ -465,7 +489,15 @@ main {
   accent-color: var(--accent);
 }
 
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
 #categoryFilter,
+#levelFilter,
 .journal-form input,
 .journal-form select,
 .journal-form textarea {
@@ -475,7 +507,8 @@ main {
   color: var(--ink);
 }
 
-#categoryFilter {
+#categoryFilter,
+#levelFilter {
   min-height: 40px;
   padding: 0 10px;
 }
@@ -561,6 +594,10 @@ main {
   .week-strip,
   .category-stats {
     grid-template-columns: repeat(7, 132px);
+  }
+
+  .level-stats {
+    grid-template-columns: repeat(5, 156px);
   }
 
   .drill-grid,

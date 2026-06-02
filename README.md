@@ -51,6 +51,14 @@ http://localhost:4173
 
 The static site lives in `docs/` and is ready for GitHub Pages.
 
+The planner groups drills into Level 1-5:
+
+- Level 1: reset, mobility, rehab control
+- Level 2: body control and core basics
+- Level 3: strength base and football basics
+- Level 4: speed, braking, agility
+- Level 5: power transfer and complex field actions
+
 ## Make GIF previews from local videos
 
 Put video files you are allowed to use in `videos/`, then run:

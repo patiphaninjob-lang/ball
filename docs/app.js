@@ -1,6 +1,7 @@
 const state = {
   data: null,
   view: 'today',
+  level: 'All',
   category: 'All',
   search: '',
   selectedDay: new Date().getDay(),
@@ -41,6 +42,12 @@ function hydrateControls() {
     renderDrills();
   });
 
+  document.getElementById('levelFilter').addEventListener('change', (event) => {
+    state.level = event.target.value;
+    renderLevels();
+    renderDrills();
+  });
+
   document.getElementById('categoryFilter').addEventListener('change', (event) => {
     state.category = event.target.value;
     renderDrills();
@@ -69,6 +76,7 @@ function render() {
 
   renderSummary();
   renderCategories();
+  renderLevels();
   renderWeek();
   renderToday();
   renderChecklist();
@@ -86,6 +94,36 @@ function renderSummary() {
   document.getElementById('totalDrills').textContent = state.data.drills.length;
   document.getElementById('doneCount').textContent = doneCount;
   document.getElementById('weekMinutes').textContent = weekMinutes;
+}
+
+function renderLevels() {
+  const select = document.getElementById('levelFilter');
+  if (select.options.length === 1) {
+    state.data.levels.forEach((level) => {
+      const option = document.createElement('option');
+      option.value = String(level.id);
+      option.textContent = `${level.name}: ${level.title} (${level.count})`;
+      select.append(option);
+    });
+  }
+
+  const root = document.getElementById('levelStats');
+  root.innerHTML = '';
+  state.data.levels.forEach((level) => {
+    const button = document.createElement('button');
+    button.className = `category-pill level-pill ${state.level === String(level.id) ? 'active' : ''}`;
+    button.type = 'button';
+    button.innerHTML = `<strong>${level.name}: ${escapeHtml(level.title)}</strong><span>${level.count} drills · ${escapeHtml(level.description)}</span>`;
+    button.addEventListener('click', () => {
+      state.level = String(level.id);
+      state.category = 'All';
+      select.value = state.level;
+      document.getElementById('categoryFilter').value = 'All';
+      state.view = 'library';
+      render();
+    });
+    root.append(button);
+  });
 }
 
 function renderCategories() {
@@ -108,7 +146,9 @@ function renderCategories() {
     button.innerHTML = `<strong>${category.name}</strong><span>${category.count} videos</span>`;
     button.addEventListener('click', () => {
       state.category = category.name;
+      state.level = 'All';
       select.value = category.name;
+      document.getElementById('levelFilter').value = 'All';
       state.view = 'library';
       render();
     });
@@ -145,10 +185,11 @@ function renderToday() {
 
 function renderDrills() {
   const drills = state.data.drills.filter((drill) => {
+    const matchesLevel = state.level === 'All' || String(drill.level) === state.level;
     const matchesCategory = state.category === 'All' || drill.category === state.category;
-    const haystack = `${drill.name} ${drill.category} ${drill.goal} ${drill.caption} ${drill.hashtags.join(' ')}`.toLowerCase();
+    const haystack = `${drill.name} ${drill.levelName} ${drill.levelTitle} ${drill.category} ${drill.goal} ${drill.caption} ${drill.hashtags.join(' ')}`.toLowerCase();
     const matchesSearch = !state.search || haystack.includes(state.search);
-    return matchesCategory && matchesSearch;
+    return matchesLevel && matchesCategory && matchesSearch;
   });
 
   renderCardGrid(document.getElementById('drillGrid'), drills);
@@ -164,6 +205,7 @@ function renderCardGrid(root, drills) {
     const fallback = card.querySelector('.media-fallback');
     const title = card.querySelector('h3');
     const badge = card.querySelector('.badge');
+    const levelBadge = card.querySelector('.level-badge');
     const goal = card.querySelector('.goal');
     const meta = card.querySelector('.meta');
     const focus = card.querySelector('.focus');
@@ -173,6 +215,7 @@ function renderCardGrid(root, drills) {
 
     title.textContent = drill.name;
     badge.textContent = drill.category;
+    levelBadge.textContent = `L${drill.level}`;
     goal.textContent = drill.goal;
     fallback.textContent = drill.category;
     img.src = drill.gif || drill.thumbnailUrl || '';
@@ -180,6 +223,7 @@ function renderCardGrid(root, drills) {
     img.addEventListener('error', () => img.classList.add('is-broken'));
 
     meta.innerHTML = [
+      `${drill.levelName}: ${drill.levelTitle}`,
       `${drill.minutes} min`,
       drill.intensity,
       drill.sets,

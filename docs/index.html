@@ -59,10 +59,16 @@
             <h2>คลังแบบฝึก</h2>
             <p>คัดจาก caption, hashtag และ metadata ที่เก็บได้</p>
           </div>
-          <select id="categoryFilter" aria-label="category filter">
-            <option value="All">All categories</option>
-          </select>
+          <div class="filter-row">
+            <select id="levelFilter" aria-label="level filter">
+              <option value="All">All levels</option>
+            </select>
+            <select id="categoryFilter" aria-label="category filter">
+              <option value="All">All categories</option>
+            </select>
+          </div>
         </div>
+        <div id="levelStats" class="level-stats"></div>
         <div id="categoryStats" class="category-stats"></div>
         <div id="drillGrid" class="drill-grid"></div>
       </section>
@@ -107,6 +113,7 @@
           <img alt="" loading="lazy">
           <div class="media-fallback"></div>
           <span class="badge"></span>
+          <span class="level-badge"></span>
         </div>
         <div class="drill-body">
           <div class="drill-title-row">
