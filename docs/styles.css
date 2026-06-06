@@ -839,6 +839,123 @@ main {
   text-decoration: none;
 }
 
+.program-phases {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.phase-card {
+  background: linear-gradient(135deg, #173f33, #0f766e);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 18px;
+  color: #ffffff;
+  position: relative;
+  transition: all 200ms ease;
+}
+
+.phase-card.active {
+  border-color: #f3c34f;
+  box-shadow: 0 0 20px rgba(243, 195, 79, 0.3);
+  transform: scale(1.02);
+}
+
+.phase-card.complete {
+  opacity: 0.7;
+  border-color: rgba(79, 195, 130, 0.5);
+}
+
+.phase-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.phase-header h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.phase-weeks {
+  font-size: 12px;
+  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.phase-goal {
+  margin: 8px 0 6px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.phase-focus {
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.badge-active {
+  display: inline-block;
+  background: #f3c34f;
+  color: #151713;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.badge-complete {
+  display: inline-block;
+  background: rgba(79, 195, 130, 0.8);
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.program-progress {
+  background: #f8f9f8;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  margin-top: 24px;
+}
+
+.exit-criteria {
+  background: #ffffff;
+  padding: 12px;
+  border-left: 4px solid var(--accent);
+  border-radius: 4px;
+  margin-top: 12px;
+}
+
+.exit-criteria h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.exit-criteria ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.exit-criteria li {
+  margin-bottom: 6px;
+}
+
 @media (max-width: 760px) {
   .topbar {
     position: static;

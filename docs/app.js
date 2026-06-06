@@ -23,13 +23,38 @@ const checklistItems = [
 const dayIndexMap = [6, 0, 1, 2, 3, 4, 5];
 let installPromptEvent = null;
 
-main();
+// Call main() when DOM is ready (use both event and fallback)
+if (document.readyState === 'loading') {
+  console.log('[app.js] DOM loading, waiting for DOMContentLoaded');
+  document.addEventListener('DOMContentLoaded', () => {
+    console.log('[app.js] DOMContentLoaded fired, calling main()');
+    main();
+  });
+} else {
+  console.log('[app.js] DOM already ready, calling main()');
+  main();
+}
 
 async function main() {
-  state.data = await fetch('data/training-drills.json').then((response) => response.json());
-  state.selectedDay = dayIndexMap[new Date().getDay()] ?? 0;
-  hydrateControls();
-  render();
+  try {
+    console.log('[main] loading training-drills.json');
+    state.data = await fetch('data/training-drills.json').then((response) => response.json());
+    console.log('[main] loaded drills:', state.data?.drills?.length);
+
+    console.log('[main] loading acl-recovery-program.json');
+    state.program = await fetch('data/acl-recovery-program.json').then((response) => response.json()).catch((e) => {
+      console.error('[main] program fetch failed:', e);
+      return null;
+    });
+    console.log('[main] loaded program:', !!state.program);
+
+    state.selectedDay = dayIndexMap[new Date().getDay()] ?? 0;
+    hydrateControls();
+    render();
+    console.log('[main] render complete');
+  } catch (error) {
+    console.error('[main] error:', error);
+  }
 }
 
 function hydrateControls() {
@@ -91,6 +116,7 @@ function render() {
   renderToday();
   renderChecklist();
   renderDrills();
+  renderProgram();
   renderJournal();
   lucideReady();
 }
@@ -323,6 +349,108 @@ function saveJournal() {
   saveJson('p45.journal', state.journal);
   document.getElementById('journalNote').value = '';
   renderJournal();
+}
+
+function renderProgram() {
+  if (!state.program) {
+    document.getElementById('programStatus').textContent = 'Program not available';
+    return;
+  }
+
+  const program = state.program;
+  const currentPhaseNum = program.currentPhase || state.data?.personalizedProgram?.currentPhase || 1;
+  const currentWeekNum = program.currentWeek || state.data?.personalizedProgram?.currentWeek || 1;
+  const currentPhase = program.phases[currentPhaseNum - 1];
+  const currentWeek = currentWeekNum;
+
+  // Render program header
+  document.getElementById('programStatus').innerHTML = `
+    <strong>${program.name}</strong><br>
+    <span>Current: ${currentPhase.name}</span><br>
+    <span>Week ${currentWeek} of ${program.totalWeeks}</span>
+  `;
+
+  // Render phase cards
+  const phasesRoot = document.getElementById('programPhases');
+  phasesRoot.innerHTML = '';
+  program.phases.forEach((phase, index) => {
+    const isActive = index + 1 === program.currentPhase;
+    const isComplete = index + 1 < program.currentPhase;
+    const phaseCard = document.createElement('div');
+    phaseCard.className = `phase-card ${isActive ? 'active' : ''} ${isComplete ? 'complete' : ''}`;
+    phaseCard.innerHTML = `
+      <div class="phase-header">
+        <h4>${phase.name}</h4>
+        <span class="phase-weeks">Week ${phase.weeks[0]}-${phase.weeks[phase.weeks.length - 1]}</span>
+      </div>
+      <p class="phase-goal">${phase.goal}</p>
+      <p class="phase-focus"><strong>Focus:</strong> ${phase.focusArea}</p>
+      ${isActive ? '<span class="badge-active">Current Phase</span>' : ''}
+      ${isComplete ? '<span class="badge-complete">✓ Complete</span>' : ''}
+    `;
+    phasesRoot.append(phaseCard);
+  });
+
+  // Render this week's drills
+  const drillsRoot = document.getElementById('weekDrillsGrid');
+  drillsRoot.innerHTML = '';
+  currentPhase.drills.forEach((drillId) => {
+    const drill = findDrill(drillId.id);
+    if (drill) {
+      const card = createDrillCard(drill);
+      drillsRoot.append(card);
+    }
+  });
+
+  // Render exit criteria
+  const exitRoot = document.getElementById('exitCriteria');
+  exitRoot.innerHTML = `
+    <h4>To Progress to Next Phase:</h4>
+    <ul>
+      ${currentPhase.exitCriteria.map(c => `<li>${c}</li>`).join('')}
+    </ul>
+  `;
+}
+
+function createDrillCard(drill) {
+  const template = document.getElementById('drillCardTemplate');
+  const card = template.content.cloneNode(true);
+  const article = card.querySelector('article');
+
+  const img = card.querySelector('img');
+  const fallback = card.querySelector('.media-fallback');
+  const title = card.querySelector('h3');
+  const badge = card.querySelector('.badge');
+  const goal = card.querySelector('.goal');
+  const meta = card.querySelector('.meta');
+
+  title.textContent = drill.name;
+  badge.textContent = drill.category;
+  goal.textContent = drill.goal;
+  fallback.textContent = drill.category;
+
+  const imagePath = drill.gif || '';
+  if (imagePath) {
+    img.src = imagePath;
+    img.alt = drill.name;
+    img.addEventListener('load', () => {
+      fallback.style.display = 'none';
+      img.style.display = 'block';
+    });
+    img.addEventListener('error', () => {
+      img.style.display = 'none';
+      fallback.style.display = 'grid';
+    });
+  } else {
+    img.style.display = 'none';
+    fallback.style.display = 'grid';
+  }
+
+  meta.innerHTML = [drill.participant, `Level ${drill.level}`, `${drill.minutes} min`]
+    .map(item => `<span>${escapeHtml(item)}</span>`)
+    .join('');
+
+  return card;
 }
 
 function renderJournal() {

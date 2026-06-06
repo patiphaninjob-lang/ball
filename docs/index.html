@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
-    <script src="app.js" defer></script>
+    <script src="app.js"></script>
   </head>
   <body>
     <header class="topbar">
@@ -39,6 +39,7 @@
       <section class="control-band" aria-label="planner controls">
         <div class="tabs" role="tablist" aria-label="views">
           <button class="tab active" type="button" data-view="today"><i data-lucide="calendar-days"></i><span>วันนี้</span></button>
+          <button class="tab" type="button" data-view="program"><i data-lucide="target"></i><span>โปรแกรม</span></button>
           <button class="tab" type="button" data-view="library"><i data-lucide="dumbbell"></i><span>คลังท่า</span></button>
           <button class="tab" type="button" data-view="journal"><i data-lucide="notebook-pen"></i><span>บันทึก</span></button>
         </div>
@@ -94,6 +95,28 @@
         <div id="levelStats" class="level-stats"></div>
         <div id="categoryStats" class="category-stats"></div>
         <div id="drillGrid" class="drill-grid"></div>
+      </section>
+
+      <section id="programView" class="view" aria-label="acl recovery program">
+        <div class="section-head">
+          <div>
+            <h2>ACL Recovery Program</h2>
+            <p id="programStatus">Loading your personalized 12-week program...</p>
+          </div>
+        </div>
+
+        <div id="programPhases" class="program-phases"></div>
+
+        <div id="currentWeekDrills" class="section">
+          <h3>This Week's Drills</h3>
+          <div id="weekDrillsGrid" class="drill-grid"></div>
+        </div>
+
+        <div id="progressTracking" class="program-progress">
+          <h3>Progress Tracking</h3>
+          <div id="phaseProgress"></div>
+          <div id="exitCriteria" class="exit-criteria"></div>
+        </div>
       </section>
 
       <section id="journalView" class="view" aria-label="journal">
