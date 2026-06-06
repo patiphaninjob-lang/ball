@@ -1,0 +1,21 @@
+{
+  "filename": "สมัครสมาชิก_119.mp4",
+  "folder": "video-analysis\\สมัครสมาชิก_119",
+  "frames": [
+    "frame-001.png",
+    "frame-002.png",
+    "frame-003.png",
+    "frame-004.png",
+    "frame-005.png",
+    "frame-006.png"
+  ],
+  "drills": [
+    {
+      "name": "",
+      "description": "",
+      "focus": "",
+      "difficulty": 1,
+      "duration_sec": "3s"
+    }
+  ]
+}
