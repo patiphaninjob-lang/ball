@@ -11,11 +11,14 @@
   ],
   "drills": [
     {
-      "name": "",
-      "description": "",
-      "focus": "",
+      "name": "การประสานสายตา-มือ-เท้า คือ หัวใจของCo-ordination แต่จะพุ่งให้ถึง ต้อ...",
+      "description": "add a focused drill to the training library",
+      "focus": "Flexibility, Recovery",
       "difficulty": 1,
-      "duration_sec": "3s"
+      "duration_sec": "10s",
+      "technique_notes": "Hold at mild tension, no bouncing, breathe steadily",
+      "category": "General",
+      "participant": "Solo"
     }
   ]
 }

@@ -11,11 +11,36 @@
   ],
   "drills": [
     {
-      "name": "",
-      "description": "",
-      "focus": "",
+      "name": "Quadriceps Stretch (Standing)",
+      "description": "Standing quad stretch to improve hip flexor mobility and quad flexibility after training",
+      "focus": "Quadriceps, Hip Flexors, Iliopsoas",
       "difficulty": 1,
-      "duration_sec": "3s"
+      "duration_sec": "10s",
+      "technique_notes": "Stand on one leg, pull opposite foot toward glutes, keep knee pointing down, lean forward slightly for deeper stretch, no bouncing"
+    },
+    {
+      "name": "Hamstring Stretch (Standing Forward Bend)",
+      "description": "Standing hamstring stretch with forward bend to lengthen posterior chain",
+      "focus": "Hamstring, Gastrocnemius, Lower Back",
+      "difficulty": 1,
+      "duration_sec": "10s",
+      "technique_notes": "Feet hip-width apart, hinge at hips, let arms hang, slight knee bend if needed, reach toward toes"
+    },
+    {
+      "name": "Hip Flexor Stretch (Low Lunge)",
+      "description": "Low lunge position to stretch hip flexors and improve anterior hip mobility",
+      "focus": "Hip Flexors, Iliopsoas, Quadriceps",
+      "difficulty": 1,
+      "duration_sec": "10s",
+      "technique_notes": "Step one foot forward into lunge, drop back knee down, press hips forward, hands on front knee"
+    },
+    {
+      "name": "Glute/Piriformis Stretch (Pigeon Pose)",
+      "description": "Deep glute and external rotator stretch to reduce sciatic nerve tension",
+      "focus": "Gluteus Maximus, Piriformis, Hip External Rotators",
+      "difficulty": 1,
+      "duration_sec": "10s",
+      "technique_notes": "Sit with one leg bent in front, opposite leg extended behind, lean forward from hips, keep chest tall"
     }
   ]
 }

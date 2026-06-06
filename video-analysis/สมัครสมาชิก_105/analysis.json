@@ -11,11 +11,14 @@
   ],
   "drills": [
     {
-      "name": "",
-      "description": "",
-      "focus": "",
+      "name": "Injury Recovery ⚽️🏀🎾",
+      "description": "return to training with controlled progression",
+      "focus": "Flexibility, Recovery",
       "difficulty": 1,
-      "duration_sec": "3s"
+      "duration_sec": "10s",
+      "technique_notes": "Hold at mild tension, no bouncing, breathe steadily",
+      "category": "Rehab",
+      "participant": "Solo"
     }
   ]
 }

@@ -11,11 +11,14 @@
   ],
   "drills": [
     {
-      "name": "",
-      "description": "",
-      "focus": "",
-      "difficulty": 1,
-      "duration_sec": "3s"
+      "name": "Agility Drill 159",
+      "description": "change direction faster with control",
+      "focus": "Agility, Change of Direction",
+      "difficulty": 3,
+      "duration_sec": "30s",
+      "technique_notes": "Quick feet, sharp direction changes, maintain form",
+      "category": "Agility",
+      "participant": "Solo"
     }
   ]
 }

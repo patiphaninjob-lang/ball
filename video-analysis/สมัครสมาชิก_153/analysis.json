@@ -11,11 +11,14 @@
   ],
   "drills": [
     {
-      "name": "",
-      "description": "",
-      "focus": "",
+      "name": "การลงสู่พื้น ให้ดีนั้น นอกจาก การผ่อนแรง แล้ว จังหวะตอนลงสู่พื้นทุกข้...",
+      "description": "connect strength to fast field movement",
+      "focus": "Flexibility, Recovery",
       "difficulty": 1,
-      "duration_sec": "3s"
+      "duration_sec": "10s",
+      "technique_notes": "Hold at mild tension, no bouncing, breathe steadily",
+      "category": "Power",
+      "participant": "Solo"
     }
   ]
 }
