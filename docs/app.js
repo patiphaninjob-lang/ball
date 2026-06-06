@@ -527,11 +527,19 @@ function escapeHtml(value) {
 }
 
 function renderExercises() {
-  if (!state.exercises || !state.exercises.exercises) return;
+  console.log('[renderExercises] state.exercises:', state.exercises?.totalExercises);
+  if (!state.exercises || !state.exercises.exercises) {
+    console.log('[renderExercises] STOP: no exercises data');
+    return;
+  }
 
   const root = document.getElementById('exercisesGrid');
-  if (!root) return;
+  if (!root) {
+    console.log('[renderExercises] STOP: no exercisesGrid element');
+    return;
+  }
 
+  console.log('[renderExercises] rendering', state.exercises.exercises.length, 'exercises');
   root.innerHTML = '';
 
   // Filter exercises
@@ -554,7 +562,8 @@ function renderExercises() {
   }
 
   // Render cards with GIFs
-  filtered.forEach(exercise => {
+  console.log('[renderExercises] filtered:', filtered.length, 'after category/level/search filters');
+  filtered.forEach((exercise, idx) => {
     const card = document.createElement('div');
     card.className = 'exercise-card';
     card.title = exercise.drillName + ' - ' + exercise.category;
@@ -565,6 +574,7 @@ function renderExercises() {
     const gif = document.createElement('img');
     gif.src = exercise.file;
     gif.alt = exercise.drillName;
+    if (idx === 0) console.log('[renderExercises] first GIF src:', gif.src);
     gif.style.width = '100%';
     gif.style.height = '100%';
     gif.style.objectFit = 'cover';
