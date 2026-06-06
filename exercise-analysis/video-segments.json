@@ -1,0 +1,4590 @@
+[
+  {
+    "video": "powerpump45 (@powerpump45).mp4",
+    "duration": 19.9,
+    "fileSize": "2.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.99,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.99,
+        "end": 17.91,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 17.91,
+        "end": 19.9,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:02.396Z"
+  },
+  {
+    "video": "powerpump45 (@powerpump45)_2.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:02.478Z"
+  },
+  {
+    "video": "powerpump45 (@powerpump45)_3.mp4",
+    "duration": 33.67,
+    "fileSize": "2.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.69336056,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.69,
+        "end": 12.12,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.43
+      },
+      {
+        "start": 12.12,
+        "end": 21.55,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.43
+      },
+      {
+        "start": 21.55,
+        "end": 30.97,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.43
+      },
+      {
+        "start": 30.97364644,
+        "end": 33.667007,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:02.558Z"
+  },
+  {
+    "video": "สมัครสมาชิก.mp4",
+    "duration": 60.87,
+    "fileSize": "7.6MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 13.97,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 10.97
+      },
+      {
+        "start": 13.97,
+        "end": 24.95,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 10.97
+      },
+      {
+        "start": 24.95,
+        "end": 35.92,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 10.97
+      },
+      {
+        "start": 35.92,
+        "end": 46.89,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 10.97
+      },
+      {
+        "start": 46.89,
+        "end": 57.87,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 10.97
+      },
+      {
+        "start": 57.866667,
+        "end": 60.866667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:02.658Z"
+  },
+  {
+    "video": "สมัครสมาชิก_10.mp4",
+    "duration": 22.27,
+    "fileSize": "0.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 20.266667,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 20.266667,
+        "end": 22.266667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:02.739Z"
+  },
+  {
+    "video": "สมัครสมาชิก_100.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:02.814Z"
+  },
+  {
+    "video": "สมัครสมาชิก_101.mp4",
+    "duration": 19.37,
+    "fileSize": "1.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.9366667,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.9366667,
+        "end": 17.4300003,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 17.4300003,
+        "end": 19.366667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:02.894Z"
+  },
+  {
+    "video": "สมัครสมาชิก_102.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:02.970Z"
+  },
+  {
+    "video": "สมัครสมาชิก_103.mp4",
+    "duration": 23.27,
+    "fileSize": "1.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 21.266667,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 21.266667,
+        "end": 23.266667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:03.052Z"
+  },
+  {
+    "video": "สมัครสมาชิก_104.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:03.126Z"
+  },
+  {
+    "video": "สมัครสมาชิก_105.mp4",
+    "duration": 23.87,
+    "fileSize": "1.5MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 21.866667,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 21.866667,
+        "end": 23.866667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:03.207Z"
+  },
+  {
+    "video": "สมัครสมาชิก_106.mp4",
+    "duration": 23.4,
+    "fileSize": "1.2MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 21.4,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 21.4,
+        "end": 23.4,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:03.287Z"
+  },
+  {
+    "video": "สมัครสมาชิก_107.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:03.360Z"
+  },
+  {
+    "video": "สมัครสมาชิก_108.mp4",
+    "duration": 11.67,
+    "fileSize": "0.9MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.1666667000000002,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.1666667000000002,
+        "end": 10.5000003,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 10.5000003,
+        "end": 11.666667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:03.440Z"
+  },
+  {
+    "video": "สมัครสมาชิก_109.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:03.516Z"
+  },
+  {
+    "video": "สมัครสมาชิก_11.mp4",
+    "duration": 45.03,
+    "fileSize": "4.9MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 12.76,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.76
+      },
+      {
+        "start": 12.76,
+        "end": 22.52,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.76
+      },
+      {
+        "start": 22.52,
+        "end": 32.27,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.76
+      },
+      {
+        "start": 32.27,
+        "end": 42.03,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 9.76
+      },
+      {
+        "start": 42.033333,
+        "end": 45.033333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:03.610Z"
+  },
+  {
+    "video": "สมัครสมาชิก_110.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:03.685Z"
+  },
+  {
+    "video": "สมัครสมาชิก_111.mp4",
+    "duration": 55.57,
+    "fileSize": "4.6MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 12.91,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.91
+      },
+      {
+        "start": 12.91,
+        "end": 22.83,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.91
+      },
+      {
+        "start": 22.83,
+        "end": 32.74,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.91
+      },
+      {
+        "start": 32.74,
+        "end": 42.65,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 9.91
+      },
+      {
+        "start": 42.65,
+        "end": 52.57,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 9.91
+      },
+      {
+        "start": 52.566667,
+        "end": 55.566667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:03.761Z"
+  },
+  {
+    "video": "สมัครสมาชิก_112.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:03.838Z"
+  },
+  {
+    "video": "สมัครสมาชิก_113.mp4",
+    "duration": 31.73,
+    "fileSize": "1.6MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.5386666399999998,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.54,
+        "end": 11.42,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 8.89
+      },
+      {
+        "start": 11.42,
+        "end": 20.31,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 8.89
+      },
+      {
+        "start": 20.31,
+        "end": 29.19,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 8.89
+      },
+      {
+        "start": 29.19466636,
+        "end": 31.733333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:03.917Z"
+  },
+  {
+    "video": "สมัครสมาชิก_114.mp4",
+    "duration": 20.63,
+    "fileSize": "3.8MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 18.633333,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 18.633333,
+        "end": 20.633333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:04.008Z"
+  },
+  {
+    "video": "สมัครสมาชิก_115.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:04.084Z"
+  },
+  {
+    "video": "สมัครสมาชิก_116.mp4",
+    "duration": 25.22,
+    "fileSize": "1.8MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 23.215011,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 23.215011,
+        "end": 25.215011,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:04.160Z"
+  },
+  {
+    "video": "สมัครสมาชิก_117.mp4",
+    "duration": 15.43,
+    "fileSize": "0.6MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.5433333,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.5433333,
+        "end": 13.889999699999999,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 13.889999699999999,
+        "end": 15.433333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:04.238Z"
+  },
+  {
+    "video": "สมัครสมาชิก_118.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:04.312Z"
+  },
+  {
+    "video": "สมัครสมาชิก_119.mp4",
+    "duration": 33.1,
+    "fileSize": "1.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.648,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.65,
+        "end": 11.92,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.27
+      },
+      {
+        "start": 11.92,
+        "end": 21.18,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.27
+      },
+      {
+        "start": 21.18,
+        "end": 30.45,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.27
+      },
+      {
+        "start": 30.452,
+        "end": 33.1,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:04.388Z"
+  },
+  {
+    "video": "สมัครสมาชิก_12.mp4",
+    "duration": 52.27,
+    "fileSize": "0.8MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.57,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.57
+      },
+      {
+        "start": 14.57,
+        "end": 26.13,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.57
+      },
+      {
+        "start": 26.13,
+        "end": 37.7,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.57
+      },
+      {
+        "start": 37.7,
+        "end": 49.27,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 11.57
+      },
+      {
+        "start": 49.266009,
+        "end": 52.266009,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:04.469Z"
+  },
+  {
+    "video": "สมัครสมาชิก_120.mp4",
+    "duration": 29.27,
+    "fileSize": "2.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 27.266667,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 27.266667,
+        "end": 29.266667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:04.559Z"
+  },
+  {
+    "video": "สมัครสมาชิก_121.mp4",
+    "duration": 21.97,
+    "fileSize": "5.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 19.966667,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 19.966667,
+        "end": 21.966667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:04.654Z"
+  },
+  {
+    "video": "สมัครสมาชิก_122.mp4",
+    "duration": 17,
+    "fileSize": "0.5MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.7000000000000002,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.7000000000000002,
+        "end": 15.3,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 15.3,
+        "end": 17,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:04.735Z"
+  },
+  {
+    "video": "สมัครสมาชิก_123.mp4",
+    "duration": 61.3,
+    "fileSize": "1.6MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.06,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 14.06,
+        "end": 25.12,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 25.12,
+        "end": 36.18,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 36.18,
+        "end": 47.24,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 47.24,
+        "end": 58.3,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 58.3,
+        "end": 61.3,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:04.822Z"
+  },
+  {
+    "video": "สมัครสมาชิก_124.mp4",
+    "duration": 61.3,
+    "fileSize": "1.6MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.06,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 14.06,
+        "end": 25.12,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 25.12,
+        "end": 36.18,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 36.18,
+        "end": 47.24,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 47.24,
+        "end": 58.3,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 58.3,
+        "end": 61.3,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:04.900Z"
+  },
+  {
+    "video": "สมัครสมาชิก_125.mp4",
+    "duration": 11.13,
+    "fileSize": "1.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.1133333,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.1133333,
+        "end": 10.0199997,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 10.0199997,
+        "end": 11.133333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:04.992Z"
+  },
+  {
+    "video": "สมัครสมาชิก_126.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:05.073Z"
+  },
+  {
+    "video": "สมัครสมาชิก_127.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:05.152Z"
+  },
+  {
+    "video": "สมัครสมาชิก_128.mp4",
+    "duration": 17.8,
+    "fileSize": "2.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.7800000000000002,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.7800000000000002,
+        "end": 16.02,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 16.02,
+        "end": 17.8,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:05.246Z"
+  },
+  {
+    "video": "สมัครสมาชิก_129.mp4",
+    "duration": 17.8,
+    "fileSize": "2.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.7800000000000002,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.7800000000000002,
+        "end": 16.02,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 16.02,
+        "end": 17.8,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:05.344Z"
+  },
+  {
+    "video": "สมัครสมาชิก_13.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:05.419Z"
+  },
+  {
+    "video": "สมัครสมาชิก_130.mp4",
+    "duration": 16.9,
+    "fileSize": "0.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.69,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.69,
+        "end": 15.209999999999999,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 15.209999999999999,
+        "end": 16.9,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:05.507Z"
+  },
+  {
+    "video": "สมัครสมาชิก_131.mp4",
+    "duration": 24.87,
+    "fileSize": "4.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 22.866667,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 22.866667,
+        "end": 24.866667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:05.602Z"
+  },
+  {
+    "video": "สมัครสมาชิก_132.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:05.677Z"
+  },
+  {
+    "video": "สมัครสมาชิก_133.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:05.754Z"
+  },
+  {
+    "video": "สมัครสมาชิก_134.mp4",
+    "duration": 16.9,
+    "fileSize": "2.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.6901995,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.6901995,
+        "end": 15.2117955,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 15.2117955,
+        "end": 16.901995,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:05.837Z"
+  },
+  {
+    "video": "สมัครสมาชิก_135.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:05.911Z"
+  },
+  {
+    "video": "สมัครสมาชิก_136.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:05.986Z"
+  },
+  {
+    "video": "สมัครสมาชิก_137.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:06.062Z"
+  },
+  {
+    "video": "สมัครสมาชิก_138.mp4",
+    "duration": 11.82,
+    "fileSize": "5.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.1817007000000002,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.1817007000000002,
+        "end": 10.6353063,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 10.6353063,
+        "end": 11.817007,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:06.141Z"
+  },
+  {
+    "video": "สมัครสมาชิก_139.mp4",
+    "duration": 17.13,
+    "fileSize": "3.2MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.7133333000000002,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.7133333000000002,
+        "end": 15.4199997,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 15.4199997,
+        "end": 17.133333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:06.232Z"
+  },
+  {
+    "video": "สมัครสมาชิก_14.mp4",
+    "duration": 21.93,
+    "fileSize": "2.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 19.933333,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 19.933333,
+        "end": 21.933333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:06.314Z"
+  },
+  {
+    "video": "สมัครสมาชิก_140.mp4",
+    "duration": 15.13,
+    "fileSize": "0.5MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.5133333000000002,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.5133333000000002,
+        "end": 13.619999700000001,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 13.619999700000001,
+        "end": 15.133333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:06.391Z"
+  },
+  {
+    "video": "สมัครสมาชิก_141.mp4",
+    "duration": 39.77,
+    "fileSize": "1.5MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.26,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.26
+      },
+      {
+        "start": 14.26,
+        "end": 25.51,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.26
+      },
+      {
+        "start": 25.51,
+        "end": 36.77,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.26
+      },
+      {
+        "start": 36.766667,
+        "end": 39.766667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:06.471Z"
+  },
+  {
+    "video": "สมัครสมาชิก_142.mp4",
+    "duration": 28.47,
+    "fileSize": "1.9MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 26.466667,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 26.466667,
+        "end": 28.466667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:06.561Z"
+  },
+  {
+    "video": "สมัครสมาชิก_143.mp4",
+    "duration": 39.77,
+    "fileSize": "1.5MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.26,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.26
+      },
+      {
+        "start": 14.26,
+        "end": 25.51,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.26
+      },
+      {
+        "start": 25.51,
+        "end": 36.77,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.26
+      },
+      {
+        "start": 36.766667,
+        "end": 39.766667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:06.640Z"
+  },
+  {
+    "video": "สมัครสมาชิก_144.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:06.717Z"
+  },
+  {
+    "video": "สมัครสมาชิก_145.mp4",
+    "duration": 13.33,
+    "fileSize": "1.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.3333333,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.3333333,
+        "end": 11.9999997,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 11.9999997,
+        "end": 13.333333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:06.809Z"
+  },
+  {
+    "video": "สมัครสมาชิก_146.mp4",
+    "duration": 66.97,
+    "fileSize": "6.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 13.16,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 13.16,
+        "end": 23.32,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 23.32,
+        "end": 33.48,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 33.48,
+        "end": 43.64,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 43.64,
+        "end": 53.81,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 53.81,
+        "end": 63.97,
+        "type": "exercise_6",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 63.966667,
+        "end": 66.966667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:06.895Z"
+  },
+  {
+    "video": "สมัครสมาชิก_147.mp4",
+    "duration": 66.97,
+    "fileSize": "6.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 13.16,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 13.16,
+        "end": 23.32,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 23.32,
+        "end": 33.48,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 33.48,
+        "end": 43.64,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 43.64,
+        "end": 53.81,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 53.81,
+        "end": 63.97,
+        "type": "exercise_6",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 63.966667,
+        "end": 66.966667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:06.986Z"
+  },
+  {
+    "video": "สมัครสมาชิก_148.mp4",
+    "duration": 66.97,
+    "fileSize": "6.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 13.16,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 13.16,
+        "end": 23.32,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 23.32,
+        "end": 33.48,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 33.48,
+        "end": 43.64,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 43.64,
+        "end": 53.81,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 53.81,
+        "end": 63.97,
+        "type": "exercise_6",
+        "confidence": 0.6,
+        "duration": 10.16
+      },
+      {
+        "start": 63.966667,
+        "end": 66.966667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:07.076Z"
+  },
+  {
+    "video": "สมัครสมาชิก_149.mp4",
+    "duration": 16.13,
+    "fileSize": "2.2MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.6133333,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.6133333,
+        "end": 14.5199997,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 14.5199997,
+        "end": 16.133333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:07.166Z"
+  },
+  {
+    "video": "สมัครสมาชิก_15.mp4",
+    "duration": 32.8,
+    "fileSize": "2.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.6239999999999997,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.62,
+        "end": 11.81,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.18
+      },
+      {
+        "start": 11.81,
+        "end": 20.99,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.18
+      },
+      {
+        "start": 20.99,
+        "end": 30.18,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.18
+      },
+      {
+        "start": 30.176,
+        "end": 32.8,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:07.243Z"
+  },
+  {
+    "video": "สมัครสมาชิก_150.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:07.319Z"
+  },
+  {
+    "video": "สมัครสมาชิก_151.mp4",
+    "duration": 40.53,
+    "fileSize": "2.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.51,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.51
+      },
+      {
+        "start": 14.51,
+        "end": 26.02,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.51
+      },
+      {
+        "start": 26.02,
+        "end": 37.53,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.51
+      },
+      {
+        "start": 37.533333,
+        "end": 40.533333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:07.397Z"
+  },
+  {
+    "video": "สมัครสมาชิก_152.mp4",
+    "duration": 15.27,
+    "fileSize": "1.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.5266667,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.5266667,
+        "end": 13.7400003,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 13.7400003,
+        "end": 15.266667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:07.478Z"
+  },
+  {
+    "video": "สมัครสมาชิก_153.mp4",
+    "duration": 15.43,
+    "fileSize": "2.6MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.5433333,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.5433333,
+        "end": 13.889999699999999,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 13.889999699999999,
+        "end": 15.433333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:07.576Z"
+  },
+  {
+    "video": "สมัครสมาชิก_154.mp4",
+    "duration": 12.47,
+    "fileSize": "0.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.2466667,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.2466667,
+        "end": 11.220000299999999,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 11.220000299999999,
+        "end": 12.466667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:07.661Z"
+  },
+  {
+    "video": "สมัครสมาชิก_155.mp4",
+    "duration": 22.64,
+    "fileSize": "6.8MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 20.638005,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 20.638005,
+        "end": 22.638005,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:07.782Z"
+  },
+  {
+    "video": "สมัครสมาชิก_156.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:07.857Z"
+  },
+  {
+    "video": "สมัครสมาชิก_157.mp4",
+    "duration": 14.43,
+    "fileSize": "1.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.4433333,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.4433333,
+        "end": 12.989999699999998,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 12.989999699999998,
+        "end": 14.433333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:07.948Z"
+  },
+  {
+    "video": "สมัครสมาชิก_158.mp4",
+    "duration": 31.23,
+    "fileSize": "1.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.4986666399999997,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.5,
+        "end": 11.24,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 8.75
+      },
+      {
+        "start": 11.24,
+        "end": 19.99,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 8.75
+      },
+      {
+        "start": 19.99,
+        "end": 28.73,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 8.75
+      },
+      {
+        "start": 28.73466636,
+        "end": 31.233333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:08.037Z"
+  },
+  {
+    "video": "สมัครสมาชิก_159.mp4",
+    "duration": 7.85,
+    "fileSize": "0.6MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 0.7846893,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 0.7846893,
+        "end": 7.0622036999999995,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 7.0622036999999995,
+        "end": 7.846893,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:08.127Z"
+  },
+  {
+    "video": "สมัครสมาชิก_16.mp4",
+    "duration": 44.72,
+    "fileSize": "3.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 12.68,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.68
+      },
+      {
+        "start": 12.68,
+        "end": 22.36,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.68
+      },
+      {
+        "start": 22.36,
+        "end": 32.04,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.68
+      },
+      {
+        "start": 32.04,
+        "end": 41.72,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 9.68
+      },
+      {
+        "start": 41.72,
+        "end": 44.72,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:08.206Z"
+  },
+  {
+    "video": "สมัครสมาชิก_160.mp4",
+    "duration": 39.17,
+    "fileSize": "4.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.06,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 14.06,
+        "end": 25.11,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 25.11,
+        "end": 36.17,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.06
+      },
+      {
+        "start": 36.166667,
+        "end": 39.166667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:08.298Z"
+  },
+  {
+    "video": "สมัครสมาชิก_161.mp4",
+    "duration": 14.43,
+    "fileSize": "1.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.4433333,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.4433333,
+        "end": 12.989999699999998,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 12.989999699999998,
+        "end": 14.433333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:08.394Z"
+  },
+  {
+    "video": "สมัครสมาชิก_17.mp4",
+    "duration": 70.38,
+    "fileSize": "8.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 13.73,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 10.73
+      },
+      {
+        "start": 13.73,
+        "end": 24.46,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 10.73
+      },
+      {
+        "start": 24.46,
+        "end": 35.19,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 10.73
+      },
+      {
+        "start": 35.19,
+        "end": 45.92,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 10.73
+      },
+      {
+        "start": 45.92,
+        "end": 56.65,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 10.73
+      },
+      {
+        "start": 56.65,
+        "end": 67.38,
+        "type": "exercise_6",
+        "confidence": 0.6,
+        "duration": 10.73
+      },
+      {
+        "start": 67.378005,
+        "end": 70.378005,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:08.486Z"
+  },
+  {
+    "video": "สมัครสมาชิก_18.mp4",
+    "duration": 24.17,
+    "fileSize": "0.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 22.166667,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 22.166667,
+        "end": 24.166667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:08.567Z"
+  },
+  {
+    "video": "สมัครสมาชิก_19.mp4",
+    "duration": 19.02,
+    "fileSize": "1.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.9015011000000002,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.9015011000000002,
+        "end": 17.1135099,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 17.1135099,
+        "end": 19.015011,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:08.643Z"
+  },
+  {
+    "video": "สมัครสมาชิก_2.mp4",
+    "duration": 30.57,
+    "fileSize": "2.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.44533336,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.45,
+        "end": 11,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 8.56
+      },
+      {
+        "start": 11,
+        "end": 19.56,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 8.56
+      },
+      {
+        "start": 19.56,
+        "end": 28.12,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 8.56
+      },
+      {
+        "start": 28.12133364,
+        "end": 30.566667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:08.724Z"
+  },
+  {
+    "video": "สมัครสมาชิก_20.mp4",
+    "duration": 45.87,
+    "fileSize": "1.9MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 12.97,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.97
+      },
+      {
+        "start": 12.97,
+        "end": 22.93,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.97
+      },
+      {
+        "start": 22.93,
+        "end": 32.9,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.97
+      },
+      {
+        "start": 32.9,
+        "end": 42.87,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 9.97
+      },
+      {
+        "start": 42.866667,
+        "end": 45.866667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:08.804Z"
+  },
+  {
+    "video": "สมัครสมาชิก_21.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:08.878Z"
+  },
+  {
+    "video": "สมัครสมาชิก_22.mp4",
+    "duration": 41.37,
+    "fileSize": "1.6MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.79,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.79
+      },
+      {
+        "start": 14.79,
+        "end": 26.58,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.79
+      },
+      {
+        "start": 26.58,
+        "end": 38.37,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.79
+      },
+      {
+        "start": 38.366667,
+        "end": 41.366667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:08.957Z"
+  },
+  {
+    "video": "สมัครสมาชิก_23.mp4",
+    "duration": 31.67,
+    "fileSize": "2.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.53333336,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.53,
+        "end": 11.4,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 8.87
+      },
+      {
+        "start": 11.4,
+        "end": 20.27,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 8.87
+      },
+      {
+        "start": 20.27,
+        "end": 29.13,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 8.87
+      },
+      {
+        "start": 29.13333364,
+        "end": 31.666667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:09.036Z"
+  },
+  {
+    "video": "สมัครสมาชิก_24.mp4",
+    "duration": 50.8,
+    "fileSize": "4.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.2,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.2
+      },
+      {
+        "start": 14.2,
+        "end": 25.4,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.2
+      },
+      {
+        "start": 25.4,
+        "end": 36.6,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.2
+      },
+      {
+        "start": 36.6,
+        "end": 47.8,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 11.2
+      },
+      {
+        "start": 47.8,
+        "end": 50.8,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:09.117Z"
+  },
+  {
+    "video": "สมัครสมาชิก_25.mp4",
+    "duration": 24.83,
+    "fileSize": "2.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 22.833333,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 22.833333,
+        "end": 24.833333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:09.197Z"
+  },
+  {
+    "video": "สมัครสมาชิก_26.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:09.272Z"
+  },
+  {
+    "video": "สมัครสมาชิก_27.mp4",
+    "duration": 20.9,
+    "fileSize": "1.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 18.9,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 18.9,
+        "end": 20.9,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:09.356Z"
+  },
+  {
+    "video": "สมัครสมาชิก_28.mp4",
+    "duration": 34.74,
+    "fileSize": "1.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.77880088,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.78,
+        "end": 12.5,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.73
+      },
+      {
+        "start": 12.5,
+        "end": 22.23,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.73
+      },
+      {
+        "start": 22.23,
+        "end": 31.96,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.73
+      },
+      {
+        "start": 31.95621012,
+        "end": 34.735011,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:09.434Z"
+  },
+  {
+    "video": "สมัครสมาชิก_29.mp4",
+    "duration": 45.83,
+    "fileSize": "3.6MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 12.96,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.96
+      },
+      {
+        "start": 12.96,
+        "end": 22.92,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.96
+      },
+      {
+        "start": 22.92,
+        "end": 32.87,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.96
+      },
+      {
+        "start": 32.87,
+        "end": 42.83,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 9.96
+      },
+      {
+        "start": 42.833333,
+        "end": 45.833333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:09.512Z"
+  },
+  {
+    "video": "สมัครสมาชิก_3.mp4",
+    "duration": 24,
+    "fileSize": "3.9MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 22,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 22,
+        "end": 24,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:09.607Z"
+  },
+  {
+    "video": "สมัครสมาชิก_30.mp4",
+    "duration": 66.13,
+    "fileSize": "3.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 13.02,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 10.02
+      },
+      {
+        "start": 13.02,
+        "end": 23.04,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 10.02
+      },
+      {
+        "start": 23.04,
+        "end": 33.07,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 10.02
+      },
+      {
+        "start": 33.07,
+        "end": 43.09,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 10.02
+      },
+      {
+        "start": 43.09,
+        "end": 53.11,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 10.02
+      },
+      {
+        "start": 53.11,
+        "end": 63.13,
+        "type": "exercise_6",
+        "confidence": 0.6,
+        "duration": 10.02
+      },
+      {
+        "start": 63.13333299999999,
+        "end": 66.133333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:09.692Z"
+  },
+  {
+    "video": "สมัครสมาชิก_31.mp4",
+    "duration": 34.3,
+    "fileSize": "2.6MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.7439999999999998,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.74,
+        "end": 12.35,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.6
+      },
+      {
+        "start": 12.35,
+        "end": 21.95,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.6
+      },
+      {
+        "start": 21.95,
+        "end": 31.56,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.6
+      },
+      {
+        "start": 31.555999999999997,
+        "end": 34.3,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:09.772Z"
+  },
+  {
+    "video": "สมัครสมาชิก_32.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:09.850Z"
+  },
+  {
+    "video": "สมัครสมาชิก_33.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:09.922Z"
+  },
+  {
+    "video": "สมัครสมาชิก_34.mp4",
+    "duration": 39.33,
+    "fileSize": "2.2MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.11,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.11
+      },
+      {
+        "start": 14.11,
+        "end": 25.22,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.11
+      },
+      {
+        "start": 25.22,
+        "end": 36.33,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.11
+      },
+      {
+        "start": 36.333333,
+        "end": 39.333333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:10.003Z"
+  },
+  {
+    "video": "สมัครสมาชิก_35.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:10.079Z"
+  },
+  {
+    "video": "สมัครสมาชิก_36.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:10.155Z"
+  },
+  {
+    "video": "สมัครสมาชิก_37.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:10.230Z"
+  },
+  {
+    "video": "สมัครสมาชิก_38.mp4",
+    "duration": 16,
+    "fileSize": "0.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.6,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.6,
+        "end": 14.4,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 14.4,
+        "end": 16,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:10.308Z"
+  },
+  {
+    "video": "สมัครสมาชิก_39.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:10.385Z"
+  },
+  {
+    "video": "สมัครสมาชิก_4.mp4",
+    "duration": 33.03,
+    "fileSize": "2.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.64266664,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.64,
+        "end": 11.89,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.25
+      },
+      {
+        "start": 11.89,
+        "end": 21.14,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.25
+      },
+      {
+        "start": 21.14,
+        "end": 30.39,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.25
+      },
+      {
+        "start": 30.390666359999997,
+        "end": 33.033333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:10.464Z"
+  },
+  {
+    "video": "สมัครสมาชิก_40.mp4",
+    "duration": 59.53,
+    "fileSize": "2.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 13.71,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 10.71
+      },
+      {
+        "start": 13.71,
+        "end": 24.41,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 10.71
+      },
+      {
+        "start": 24.41,
+        "end": 35.12,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 10.71
+      },
+      {
+        "start": 35.12,
+        "end": 45.83,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 10.71
+      },
+      {
+        "start": 45.83,
+        "end": 56.53,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 10.71
+      },
+      {
+        "start": 56.533991,
+        "end": 59.533991,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:10.541Z"
+  },
+  {
+    "video": "สมัครสมาชิก_41.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:10.618Z"
+  },
+  {
+    "video": "สมัครสมาชิก_42.mp4",
+    "duration": 31.97,
+    "fileSize": "2.8MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.5577596000000002,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.56,
+        "end": 11.51,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 8.95
+      },
+      {
+        "start": 11.51,
+        "end": 20.46,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 8.95
+      },
+      {
+        "start": 20.46,
+        "end": 29.41,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 8.95
+      },
+      {
+        "start": 29.4142354,
+        "end": 31.971995,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:10.709Z"
+  },
+  {
+    "video": "สมัครสมาชิก_43.mp4",
+    "duration": 87.3,
+    "fileSize": "3.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.61,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.61
+      },
+      {
+        "start": 14.61,
+        "end": 26.23,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.61
+      },
+      {
+        "start": 26.23,
+        "end": 37.84,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.61
+      },
+      {
+        "start": 37.84,
+        "end": 49.46,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 11.61
+      },
+      {
+        "start": 49.46,
+        "end": 61.07,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 11.61
+      },
+      {
+        "start": 61.07,
+        "end": 72.69,
+        "type": "exercise_6",
+        "confidence": 0.6,
+        "duration": 11.61
+      },
+      {
+        "start": 72.69,
+        "end": 84.3,
+        "type": "exercise_7",
+        "confidence": 0.6,
+        "duration": 11.61
+      },
+      {
+        "start": 84.3,
+        "end": 87.3,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:10.788Z"
+  },
+  {
+    "video": "สมัครสมาชิก_44.mp4",
+    "duration": 45.23,
+    "fileSize": "1.5MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 12.81,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.81
+      },
+      {
+        "start": 12.81,
+        "end": 22.62,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.81
+      },
+      {
+        "start": 22.62,
+        "end": 32.42,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.81
+      },
+      {
+        "start": 32.42,
+        "end": 42.23,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 9.81
+      },
+      {
+        "start": 42.233333,
+        "end": 45.233333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:10.869Z"
+  },
+  {
+    "video": "สมัครสมาชิก_45.mp4",
+    "duration": 22.5,
+    "fileSize": "1.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 20.5,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 20.5,
+        "end": 22.5,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:10.949Z"
+  },
+  {
+    "video": "สมัครสมาชิก_46.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:11.023Z"
+  },
+  {
+    "video": "สมัครสมาชิก_47.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:11.099Z"
+  },
+  {
+    "video": "สมัครสมาชิก_48.mp4",
+    "duration": 17.9,
+    "fileSize": "1.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.7900998000000001,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.7900998000000001,
+        "end": 16.1108982,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 16.1108982,
+        "end": 17.900998,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:11.179Z"
+  },
+  {
+    "video": "สมัครสมาชิก_49.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:11.254Z"
+  },
+  {
+    "video": "สมัครสมาชิก_5.mp4",
+    "duration": 19.71,
+    "fileSize": "0.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.9711995000000002,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.9711995000000002,
+        "end": 17.7407955,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 17.7407955,
+        "end": 19.711995,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:11.332Z"
+  },
+  {
+    "video": "สมัครสมาชิก_50.mp4",
+    "duration": 25.23,
+    "fileSize": "1.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 23.233333,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 23.233333,
+        "end": 25.233333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:11.410Z"
+  },
+  {
+    "video": "สมัครสมาชิก_51.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:11.485Z"
+  },
+  {
+    "video": "สมัครสมาชิก_52.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:11.557Z"
+  },
+  {
+    "video": "สมัครสมาชิก_53.mp4",
+    "duration": 35.2,
+    "fileSize": "2.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.8160000000000003,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.82,
+        "end": 12.67,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.86
+      },
+      {
+        "start": 12.67,
+        "end": 22.53,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.86
+      },
+      {
+        "start": 22.53,
+        "end": 32.38,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.86
+      },
+      {
+        "start": 32.384,
+        "end": 35.2,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:11.638Z"
+  },
+  {
+    "video": "สมัครสมาชิก_54.mp4",
+    "duration": 8.23,
+    "fileSize": "0.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 0.8233333,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 0.8233333,
+        "end": 7.4099997,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 7.4099997,
+        "end": 8.233333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:11.716Z"
+  },
+  {
+    "video": "สมัครสมาชิก_55.mp4",
+    "duration": 17.67,
+    "fileSize": "0.9MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.7666667,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.7666667,
+        "end": 15.9000003,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 15.9000003,
+        "end": 17.666667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:11.795Z"
+  },
+  {
+    "video": "สมัครสมาชิก_56.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:11.868Z"
+  },
+  {
+    "video": "สมัครสมาชิก_57.mp4",
+    "duration": 29.47,
+    "fileSize": "1.2MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 27.466667,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 27.466667,
+        "end": 29.466667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:11.946Z"
+  },
+  {
+    "video": "สมัครสมาชิก_58.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:12.018Z"
+  },
+  {
+    "video": "สมัครสมาชิก_59.mp4",
+    "duration": 35.43,
+    "fileSize": "1.2MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.83466664,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.83,
+        "end": 12.76,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.92
+      },
+      {
+        "start": 12.76,
+        "end": 22.68,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.92
+      },
+      {
+        "start": 22.68,
+        "end": 32.6,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.92
+      },
+      {
+        "start": 32.598666359999996,
+        "end": 35.433333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:12.097Z"
+  },
+  {
+    "video": "สมัครสมาชิก_6.mp4",
+    "duration": 31.4,
+    "fileSize": "2.5MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.512,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.51,
+        "end": 11.3,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 8.79
+      },
+      {
+        "start": 11.3,
+        "end": 20.1,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 8.79
+      },
+      {
+        "start": 20.1,
+        "end": 28.89,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 8.79
+      },
+      {
+        "start": 28.887999999999998,
+        "end": 31.4,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:12.176Z"
+  },
+  {
+    "video": "สมัครสมาชิก_60.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:12.250Z"
+  },
+  {
+    "video": "สมัครสมาชิก_61.mp4",
+    "duration": 69.63,
+    "fileSize": "3.5MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 13.61,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 10.61
+      },
+      {
+        "start": 13.61,
+        "end": 24.21,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 10.61
+      },
+      {
+        "start": 24.21,
+        "end": 34.82,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 10.61
+      },
+      {
+        "start": 34.82,
+        "end": 45.42,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 10.61
+      },
+      {
+        "start": 45.42,
+        "end": 56.03,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 10.61
+      },
+      {
+        "start": 56.03,
+        "end": 66.63,
+        "type": "exercise_6",
+        "confidence": 0.6,
+        "duration": 10.61
+      },
+      {
+        "start": 66.633333,
+        "end": 69.633333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:12.331Z"
+  },
+  {
+    "video": "สมัครสมาชิก_62.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:12.406Z"
+  },
+  {
+    "video": "สมัครสมาชิก_63.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:12.482Z"
+  },
+  {
+    "video": "สมัครสมาชิก_64.mp4",
+    "duration": 61.83,
+    "fileSize": "4.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.17,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.17
+      },
+      {
+        "start": 14.17,
+        "end": 25.33,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.17
+      },
+      {
+        "start": 25.33,
+        "end": 36.5,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.17
+      },
+      {
+        "start": 36.5,
+        "end": 47.67,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 11.17
+      },
+      {
+        "start": 47.67,
+        "end": 58.83,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 11.17
+      },
+      {
+        "start": 58.833333,
+        "end": 61.833333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:12.561Z"
+  },
+  {
+    "video": "สมัครสมาชิก_65.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:12.635Z"
+  },
+  {
+    "video": "สมัครสมาชิก_66.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:12.708Z"
+  },
+  {
+    "video": "สมัครสมาชิก_67.mp4",
+    "duration": 48.37,
+    "fileSize": "1.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 13.59,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 10.59
+      },
+      {
+        "start": 13.59,
+        "end": 24.18,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 10.59
+      },
+      {
+        "start": 24.18,
+        "end": 34.78,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 10.59
+      },
+      {
+        "start": 34.78,
+        "end": 45.37,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 10.59
+      },
+      {
+        "start": 45.366667,
+        "end": 48.366667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:12.786Z"
+  },
+  {
+    "video": "สมัครสมาชิก_68.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:12.861Z"
+  },
+  {
+    "video": "สมัครสมาชิก_69.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:12.933Z"
+  },
+  {
+    "video": "สมัครสมาชิก_7.mp4",
+    "duration": 35.1,
+    "fileSize": "1.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.8080000000000003,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.81,
+        "end": 12.64,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.83
+      },
+      {
+        "start": 12.64,
+        "end": 22.46,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.83
+      },
+      {
+        "start": 22.46,
+        "end": 32.29,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.83
+      },
+      {
+        "start": 32.292,
+        "end": 35.1,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:13.012Z"
+  },
+  {
+    "video": "สมัครสมาชิก_70.mp4",
+    "duration": 51.52,
+    "fileSize": "1.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.38,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.38
+      },
+      {
+        "start": 14.38,
+        "end": 25.76,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.38
+      },
+      {
+        "start": 25.76,
+        "end": 37.14,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.38
+      },
+      {
+        "start": 37.14,
+        "end": 48.52,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 11.38
+      },
+      {
+        "start": 48.522993,
+        "end": 51.522993,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:13.090Z"
+  },
+  {
+    "video": "สมัครสมาชิก_71.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:13.162Z"
+  },
+  {
+    "video": "สมัครสมาชิก_72.mp4",
+    "duration": 72.77,
+    "fileSize": "3.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.13,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.13
+      },
+      {
+        "start": 14.13,
+        "end": 25.26,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.13
+      },
+      {
+        "start": 25.26,
+        "end": 36.38,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.13
+      },
+      {
+        "start": 36.38,
+        "end": 47.51,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 11.13
+      },
+      {
+        "start": 47.51,
+        "end": 58.64,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 11.13
+      },
+      {
+        "start": 58.64,
+        "end": 69.77,
+        "type": "exercise_6",
+        "confidence": 0.6,
+        "duration": 11.13
+      },
+      {
+        "start": 69.766667,
+        "end": 72.766667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:13.245Z"
+  },
+  {
+    "video": "สมัครสมาชิก_73.mp4",
+    "duration": 39.73,
+    "fileSize": "1.5MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.24,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.24
+      },
+      {
+        "start": 14.24,
+        "end": 25.49,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.24
+      },
+      {
+        "start": 25.49,
+        "end": 36.73,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.24
+      },
+      {
+        "start": 36.733333,
+        "end": 39.733333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:13.324Z"
+  },
+  {
+    "video": "สมัครสมาชิก_74.mp4",
+    "duration": 18.03,
+    "fileSize": "1.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.8033333,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.8033333,
+        "end": 16.2299997,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 16.2299997,
+        "end": 18.033333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:13.407Z"
+  },
+  {
+    "video": "สมัครสมาชิก_75.mp4",
+    "duration": 30.77,
+    "fileSize": "1.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.4613333600000002,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.46,
+        "end": 11.08,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 8.61
+      },
+      {
+        "start": 11.08,
+        "end": 19.69,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 8.61
+      },
+      {
+        "start": 19.69,
+        "end": 28.31,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 8.61
+      },
+      {
+        "start": 28.30533364,
+        "end": 30.766667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:13.488Z"
+  },
+  {
+    "video": "สมัครสมาชิก_76.mp4",
+    "duration": 24.01,
+    "fileSize": "1.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 22.007982,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 22.007982,
+        "end": 24.007982,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:13.570Z"
+  },
+  {
+    "video": "สมัครสมาชิก_77.mp4",
+    "duration": 41.53,
+    "fileSize": "1.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.84,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.84
+      },
+      {
+        "start": 14.84,
+        "end": 26.69,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.84
+      },
+      {
+        "start": 26.69,
+        "end": 38.53,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.84
+      },
+      {
+        "start": 38.533333,
+        "end": 41.533333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:13.650Z"
+  },
+  {
+    "video": "สมัครสมาชิก_78.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:13.727Z"
+  },
+  {
+    "video": "สมัครสมาชิก_79.mp4",
+    "duration": 30.1,
+    "fileSize": "1.2MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.4080000000000004,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.41,
+        "end": 10.84,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 8.43
+      },
+      {
+        "start": 10.84,
+        "end": 19.26,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 8.43
+      },
+      {
+        "start": 19.26,
+        "end": 27.69,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 8.43
+      },
+      {
+        "start": 27.692,
+        "end": 30.1,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:13.806Z"
+  },
+  {
+    "video": "สมัครสมาชิก_8.mp4",
+    "duration": 54.43,
+    "fileSize": "1.5MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 12.69,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.69
+      },
+      {
+        "start": 12.69,
+        "end": 22.37,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.69
+      },
+      {
+        "start": 22.37,
+        "end": 32.06,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.69
+      },
+      {
+        "start": 32.06,
+        "end": 41.75,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 9.69
+      },
+      {
+        "start": 41.75,
+        "end": 51.43,
+        "type": "exercise_5",
+        "confidence": 0.6,
+        "duration": 9.69
+      },
+      {
+        "start": 51.433333,
+        "end": 54.433333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:13.888Z"
+  },
+  {
+    "video": "สมัครสมาชิก_80.mp4",
+    "duration": 51.73,
+    "fileSize": "2.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.43,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.43
+      },
+      {
+        "start": 14.43,
+        "end": 25.87,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.43
+      },
+      {
+        "start": 25.87,
+        "end": 37.3,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.43
+      },
+      {
+        "start": 37.3,
+        "end": 48.73,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 11.43
+      },
+      {
+        "start": 48.733333,
+        "end": 51.733333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:13.965Z"
+  },
+  {
+    "video": "สมัครสมาชิก_81.mp4",
+    "duration": 43.37,
+    "fileSize": "1.8MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 12.34,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 9.34
+      },
+      {
+        "start": 12.34,
+        "end": 21.68,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 9.34
+      },
+      {
+        "start": 21.68,
+        "end": 31.03,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 9.34
+      },
+      {
+        "start": 31.03,
+        "end": 40.37,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 9.34
+      },
+      {
+        "start": 40.366667,
+        "end": 43.366667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:14.051Z"
+  },
+  {
+    "video": "สมัครสมาชิก_82.mp4",
+    "duration": 15.97,
+    "fileSize": "0.7MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.5966667,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.5966667,
+        "end": 14.3700003,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 14.3700003,
+        "end": 15.966667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:14.128Z"
+  },
+  {
+    "video": "สมัครสมาชิก_83.mp4",
+    "duration": 29.51,
+    "fileSize": "2.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 27.510998,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 27.510998,
+        "end": 29.510998,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:14.203Z"
+  },
+  {
+    "video": "สมัครสมาชิก_84.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:14.278Z"
+  },
+  {
+    "video": "สมัครสมาชิก_85.mp4",
+    "duration": 51.03,
+    "fileSize": "2.2MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 3,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 3,
+        "end": 14.26,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 11.26
+      },
+      {
+        "start": 14.26,
+        "end": 25.52,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 11.26
+      },
+      {
+        "start": 25.52,
+        "end": 36.77,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 11.26
+      },
+      {
+        "start": 36.77,
+        "end": 48.03,
+        "type": "exercise_4",
+        "confidence": 0.6,
+        "duration": 11.26
+      },
+      {
+        "start": 48.033333,
+        "end": 51.033333,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:14.359Z"
+  },
+  {
+    "video": "สมัครสมาชิก_86.mp4",
+    "duration": 31.3,
+    "fileSize": "0.9MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.504,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.5,
+        "end": 11.27,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 8.76
+      },
+      {
+        "start": 11.27,
+        "end": 20.03,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 8.76
+      },
+      {
+        "start": 20.03,
+        "end": 28.8,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 8.76
+      },
+      {
+        "start": 28.796,
+        "end": 31.3,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:14.438Z"
+  },
+  {
+    "video": "สมัครสมาชิก_87.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:14.518Z"
+  },
+  {
+    "video": "สมัครสมาชิก_88.mp4",
+    "duration": 31.47,
+    "fileSize": "1.4MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2.5173333600000003,
+        "type": "intro",
+        "confidence": 0.5
+      },
+      {
+        "start": 2.52,
+        "end": 11.33,
+        "type": "exercise_1",
+        "confidence": 0.6,
+        "duration": 8.81
+      },
+      {
+        "start": 11.33,
+        "end": 20.14,
+        "type": "exercise_2",
+        "confidence": 0.6,
+        "duration": 8.81
+      },
+      {
+        "start": 20.14,
+        "end": 28.95,
+        "type": "exercise_3",
+        "confidence": 0.6,
+        "duration": 8.81
+      },
+      {
+        "start": 28.94933364,
+        "end": 31.466667,
+        "type": "outro",
+        "confidence": 0.5
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:14.599Z"
+  },
+  {
+    "video": "สมัครสมาชิก_89.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:14.672Z"
+  },
+  {
+    "video": "สมัครสมาชิก_9.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:14.748Z"
+  },
+  {
+    "video": "สมัครสมาชิก_90.mp4",
+    "duration": 29.03,
+    "fileSize": "1.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 27.033333,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 27.033333,
+        "end": 29.033333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:14.828Z"
+  },
+  {
+    "video": "สมัครสมาชิก_91.mp4",
+    "duration": 29.6,
+    "fileSize": "3.2MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 27.603991,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 27.603991,
+        "end": 29.603991,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:14.905Z"
+  },
+  {
+    "video": "สมัครสมาชิก_92.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:14.980Z"
+  },
+  {
+    "video": "สมัครสมาชิก_93.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:15.052Z"
+  },
+  {
+    "video": "สมัครสมาชิก_94.mp4",
+    "duration": 26.97,
+    "fileSize": "1.3MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 24.966667,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 24.966667,
+        "end": 26.966667,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:15.132Z"
+  },
+  {
+    "video": "สมัครสมาชิก_95.mp4",
+    "duration": 24.43,
+    "fileSize": "1.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 22.433333,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 22.433333,
+        "end": 24.433333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:15.210Z"
+  },
+  {
+    "video": "สมัครสมาชิก_96.mp4",
+    "duration": 24.43,
+    "fileSize": "1.1MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 22.433333,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 22.433333,
+        "end": 24.433333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:15.289Z"
+  },
+  {
+    "video": "สมัครสมาชิก_97.mp4",
+    "duration": null,
+    "fileSize": "0.0MB",
+    "detectedScenes": 0,
+    "possibleSegments": [],
+    "analyzed": "2026-06-06T13:11:15.364Z"
+  },
+  {
+    "video": "สมัครสมาชิก_98.mp4",
+    "duration": 22.7,
+    "fileSize": "1.2MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 2,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 2,
+        "end": 20.7,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 20.7,
+        "end": 22.7,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:15.443Z"
+  },
+  {
+    "video": "สมัครสมาชิก_99.mp4",
+    "duration": 16.53,
+    "fileSize": "0.9MB",
+    "detectedScenes": 0,
+    "possibleSegments": [
+      {
+        "start": 0,
+        "end": 1.6533333,
+        "type": "intro",
+        "confidence": 0.6
+      },
+      {
+        "start": 1.6533333,
+        "end": 14.879999699999999,
+        "type": "exercise",
+        "confidence": 0.8
+      },
+      {
+        "start": 14.879999699999999,
+        "end": 16.533333,
+        "type": "outro",
+        "confidence": 0.6
+      }
+    ],
+    "analyzed": "2026-06-06T13:11:15.522Z"
+  }
+]

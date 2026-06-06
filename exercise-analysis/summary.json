@@ -1,0 +1,59 @@
+{
+  "totalExercises": 270,
+  "categorized": 270,
+  "categories": {
+    "Mobility": 4,
+    "Rehab": 29,
+    "Core": 20,
+    "General": 72,
+    "Football Skill": 19,
+    "Strength": 18,
+    "Agility": 36,
+    "Deceleration": 2,
+    "Power": 70
+  },
+  "levels": {
+    "Level 1": 33,
+    "Level 2": 92,
+    "Level 3": 29,
+    "Level 4": 89,
+    "Level 5": 27
+  },
+  "sampleExercises": [
+    {
+      "id": "1-1",
+      "drillName": "4 ท่ายืดช่วยแก้อาการรองช้ำ",
+      "category": "Mobility",
+      "duration": 15.92,
+      "level": "Level 1"
+    },
+    {
+      "id": "3-1",
+      "drillName": "ฟื้นฟู ACL Phase Return to Play = ฝึกควบคุม ลงมั่นคง เปลี่ยนทิศจริง เ...",
+      "category": "Rehab",
+      "duration": 9.43,
+      "level": "Level 1"
+    },
+    {
+      "id": "3-2",
+      "drillName": "ฟื้นฟู ACL Phase Return to Play = ฝึกควบคุม ลงมั่นคง เปลี่ยนทิศจริง เ...",
+      "category": "Rehab",
+      "duration": 9.43,
+      "level": "Level 1"
+    },
+    {
+      "id": "3-3",
+      "drillName": "ฟื้นฟู ACL Phase Return to Play = ฝึกควบคุม ลงมั่นคง เปลี่ยนทิศจริง เ...",
+      "category": "Rehab",
+      "duration": 9.42,
+      "level": "Level 1"
+    },
+    {
+      "id": "4-1",
+      "drillName": "\"4 ท่าบริหารง่ายๆ แก้เท้าแบน\"",
+      "category": "Rehab",
+      "duration": 10.97,
+      "level": "Level 1"
+    }
+  ]
+}

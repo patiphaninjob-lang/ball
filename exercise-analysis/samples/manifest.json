@@ -1,0 +1,132 @@
+{
+  "generatedAt": "2026-06-06T13:11:46.340Z",
+  "totalSamples": 10,
+  "samplesDir": "exercise-analysis/samples",
+  "clips": [
+    {
+      "video": "powerpump45 (@powerpump45).mp4",
+      "clipName": "1-1",
+      "videoIndex": 1,
+      "exerciseIndex": 1,
+      "outputFile": "1-1.mp4",
+      "startTime": 1.99,
+      "endTime": 17.91,
+      "duration": 15.92,
+      "confidence": 0.8,
+      "status": "pending_review"
+    },
+    {
+      "video": "powerpump45 (@powerpump45)_3.mp4",
+      "clipName": "2-1",
+      "videoIndex": 2,
+      "exerciseIndex": 1,
+      "outputFile": "2-1.mp4",
+      "startTime": 2.69,
+      "endTime": 12.12,
+      "duration": 9.43,
+      "confidence": 0.6,
+      "status": "pending_review"
+    },
+    {
+      "video": "powerpump45 (@powerpump45)_3.mp4",
+      "clipName": "2-2",
+      "videoIndex": 2,
+      "exerciseIndex": 2,
+      "outputFile": "2-2.mp4",
+      "startTime": 12.12,
+      "endTime": 21.55,
+      "duration": 9.43,
+      "confidence": 0.6,
+      "status": "pending_review"
+    },
+    {
+      "video": "powerpump45 (@powerpump45)_3.mp4",
+      "clipName": "2-3",
+      "videoIndex": 2,
+      "exerciseIndex": 3,
+      "outputFile": "2-3.mp4",
+      "startTime": 21.55,
+      "endTime": 30.97,
+      "duration": 9.42,
+      "confidence": 0.6,
+      "status": "pending_review"
+    },
+    {
+      "video": "สมัครสมาชิก.mp4",
+      "clipName": "3-1",
+      "videoIndex": 3,
+      "exerciseIndex": 1,
+      "outputFile": "3-1.mp4",
+      "startTime": 3,
+      "endTime": 13.97,
+      "duration": 10.97,
+      "confidence": 0.6,
+      "status": "pending_review"
+    },
+    {
+      "video": "สมัครสมาชิก.mp4",
+      "clipName": "3-2",
+      "videoIndex": 3,
+      "exerciseIndex": 2,
+      "outputFile": "3-2.mp4",
+      "startTime": 13.97,
+      "endTime": 24.95,
+      "duration": 10.98,
+      "confidence": 0.6,
+      "status": "pending_review"
+    },
+    {
+      "video": "สมัครสมาชิก.mp4",
+      "clipName": "3-3",
+      "videoIndex": 3,
+      "exerciseIndex": 3,
+      "outputFile": "3-3.mp4",
+      "startTime": 24.95,
+      "endTime": 35.92,
+      "duration": 10.97,
+      "confidence": 0.6,
+      "status": "pending_review"
+    },
+    {
+      "video": "สมัครสมาชิก.mp4",
+      "clipName": "3-4",
+      "videoIndex": 3,
+      "exerciseIndex": 4,
+      "outputFile": "3-4.mp4",
+      "startTime": 35.92,
+      "endTime": 46.89,
+      "duration": 10.97,
+      "confidence": 0.6,
+      "status": "pending_review"
+    },
+    {
+      "video": "สมัครสมาชิก.mp4",
+      "clipName": "3-5",
+      "videoIndex": 3,
+      "exerciseIndex": 5,
+      "outputFile": "3-5.mp4",
+      "startTime": 46.89,
+      "endTime": 57.87,
+      "duration": 10.98,
+      "confidence": 0.6,
+      "status": "pending_review"
+    },
+    {
+      "video": "สมัครสมาชิก_10.mp4",
+      "clipName": "4-1",
+      "videoIndex": 4,
+      "exerciseIndex": 1,
+      "outputFile": "4-1.mp4",
+      "startTime": 2,
+      "endTime": 20.266667,
+      "duration": 18.27,
+      "confidence": 0.8,
+      "status": "pending_review"
+    }
+  ],
+  "instructions": {
+    "review": "Watch each clip and verify it shows only the exercise (no talking/intro)",
+    "categorize": "Classify each as: Mobility | Power | Strength | Balance | Agility | Flexibility | Rehab",
+    "feedback": "Mark as ✅ correct, ❌ bad, or 🔄 needs_retrim"
+  }
+}
