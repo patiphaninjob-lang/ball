@@ -112,26 +112,6 @@ function hydrateControls() {
     });
   }
 
-  const videoModal = document.getElementById('videoModal');
-  const videoPlayer = document.getElementById('videoPlayer');
-  const modalClose = document.querySelector('.modal-close');
-
-  if (modalClose) {
-    modalClose.addEventListener('click', () => {
-      videoPlayer.pause();
-      videoModal.style.display = 'none';
-    });
-  }
-
-  if (videoModal) {
-    videoModal.addEventListener('click', (e) => {
-      if (e.target === videoModal) {
-        videoPlayer.pause();
-        videoModal.style.display = 'none';
-      }
-    });
-  }
-
   document.getElementById('resetToday').addEventListener('click', () => {
     const key = todayKey();
     state.checklist[key] = {};
@@ -617,20 +597,23 @@ function renderExercises() {
     );
   }
 
-  // Render cards
+  // Render cards with GIFs
   filtered.forEach(exercise => {
     const card = document.createElement('div');
     card.className = 'exercise-card';
+    card.title = exercise.drillName + ' - ' + exercise.category;
 
     const thumbnail = document.createElement('div');
     thumbnail.className = 'exercise-thumbnail';
 
-    const playButton = document.createElement('button');
-    playButton.className = 'exercise-play-button';
-    playButton.innerHTML = '<i data-lucide="play"></i>';
-    playButton.addEventListener('click', () => playVideo(exercise));
+    const gif = document.createElement('img');
+    gif.src = exercise.file;
+    gif.alt = exercise.drillName;
+    gif.style.width = '100%';
+    gif.style.height = '100%';
+    gif.style.objectFit = 'cover';
 
-    thumbnail.appendChild(playButton);
+    thumbnail.appendChild(gif);
 
     const info = document.createElement('div');
     info.className = 'exercise-info';
@@ -663,23 +646,6 @@ function renderExercises() {
   lucideReady();
 }
 
-function playVideo(exercise) {
-  const modal = document.getElementById('videoModal');
-  const player = document.getElementById('videoPlayer');
-  const info = document.getElementById('videoInfo');
-
-  player.src = exercise.file;
-  info.innerHTML = `
-    <h3>${exercise.drillName}</h3>
-    <p><strong>Category:</strong> ${exercise.category} | <strong>Level:</strong> ${exercise.level}</p>
-    <p><strong>Duration:</strong> ${exercise.duration.toFixed(1)}s</p>
-    <p><strong>Goal:</strong> ${exercise.drillGoal || 'N/A'}</p>
-    ${exercise.focus && exercise.focus.length > 0 ? `<p><strong>Focus:</strong> ${exercise.focus.join(', ')}</p>` : ''}
-  `;
-
-  modal.style.display = 'flex';
-  player.play();
-}
 
 function lucideReady() {
   if (window.lucide) window.lucide.createIcons();

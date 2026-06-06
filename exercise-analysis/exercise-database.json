@@ -6,7 +6,7 @@
     {
       "id": "1-1",
       "sourceVideo": "powerpump45 (@powerpump45).mp4",
-      "clipFile": "1-1.mp4",
+      "clipFile": "1-1.gif",
       "videoIndex": 1,
       "exerciseIndex": 1,
       "startTime": 1.99,
@@ -35,7 +35,7 @@
     {
       "id": "3-1",
       "sourceVideo": "powerpump45 (@powerpump45)_3.mp4",
-      "clipFile": "3-1.mp4",
+      "clipFile": "3-1.gif",
       "videoIndex": 3,
       "exerciseIndex": 1,
       "startTime": 2.69,
@@ -66,7 +66,7 @@
     {
       "id": "3-2",
       "sourceVideo": "powerpump45 (@powerpump45)_3.mp4",
-      "clipFile": "3-2.mp4",
+      "clipFile": "3-2.gif",
       "videoIndex": 3,
       "exerciseIndex": 2,
       "startTime": 12.12,
@@ -97,7 +97,7 @@
     {
       "id": "3-3",
       "sourceVideo": "powerpump45 (@powerpump45)_3.mp4",
-      "clipFile": "3-3.mp4",
+      "clipFile": "3-3.gif",
       "videoIndex": 3,
       "exerciseIndex": 3,
       "startTime": 21.55,
@@ -128,7 +128,7 @@
     {
       "id": "4-1",
       "sourceVideo": "สมัครสมาชิก.mp4",
-      "clipFile": "4-1.mp4",
+      "clipFile": "4-1.gif",
       "videoIndex": 4,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -159,7 +159,7 @@
     {
       "id": "4-2",
       "sourceVideo": "สมัครสมาชิก.mp4",
-      "clipFile": "4-2.mp4",
+      "clipFile": "4-2.gif",
       "videoIndex": 4,
       "exerciseIndex": 2,
       "startTime": 13.97,
@@ -190,7 +190,7 @@
     {
       "id": "4-3",
       "sourceVideo": "สมัครสมาชิก.mp4",
-      "clipFile": "4-3.mp4",
+      "clipFile": "4-3.gif",
       "videoIndex": 4,
       "exerciseIndex": 3,
       "startTime": 24.95,
@@ -221,7 +221,7 @@
     {
       "id": "4-4",
       "sourceVideo": "สมัครสมาชิก.mp4",
-      "clipFile": "4-4.mp4",
+      "clipFile": "4-4.gif",
       "videoIndex": 4,
       "exerciseIndex": 4,
       "startTime": 35.92,
@@ -252,7 +252,7 @@
     {
       "id": "4-5",
       "sourceVideo": "สมัครสมาชิก.mp4",
-      "clipFile": "4-5.mp4",
+      "clipFile": "4-5.gif",
       "videoIndex": 4,
       "exerciseIndex": 5,
       "startTime": 46.89,
@@ -283,7 +283,7 @@
     {
       "id": "5-1",
       "sourceVideo": "สมัครสมาชิก_10.mp4",
-      "clipFile": "5-1.mp4",
+      "clipFile": "5-1.gif",
       "videoIndex": 5,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -314,7 +314,7 @@
     {
       "id": "7-1",
       "sourceVideo": "สมัครสมาชิก_101.mp4",
-      "clipFile": "7-1.mp4",
+      "clipFile": "7-1.gif",
       "videoIndex": 7,
       "exerciseIndex": 1,
       "startTime": 1.9366667,
@@ -346,7 +346,7 @@
     {
       "id": "9-1",
       "sourceVideo": "สมัครสมาชิก_103.mp4",
-      "clipFile": "9-1.mp4",
+      "clipFile": "9-1.gif",
       "videoIndex": 9,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -380,7 +380,7 @@
     {
       "id": "11-1",
       "sourceVideo": "สมัครสมาชิก_105.mp4",
-      "clipFile": "11-1.mp4",
+      "clipFile": "11-1.gif",
       "videoIndex": 11,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -413,7 +413,7 @@
     {
       "id": "12-1",
       "sourceVideo": "สมัครสมาชิก_106.mp4",
-      "clipFile": "12-1.mp4",
+      "clipFile": "12-1.gif",
       "videoIndex": 12,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -447,7 +447,7 @@
     {
       "id": "14-1",
       "sourceVideo": "สมัครสมาชิก_108.mp4",
-      "clipFile": "14-1.mp4",
+      "clipFile": "14-1.gif",
       "videoIndex": 14,
       "exerciseIndex": 1,
       "startTime": 1.1666667000000002,
@@ -481,7 +481,7 @@
     {
       "id": "16-1",
       "sourceVideo": "สมัครสมาชิก_11.mp4",
-      "clipFile": "16-1.mp4",
+      "clipFile": "16-1.gif",
       "videoIndex": 16,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -513,7 +513,7 @@
     {
       "id": "16-2",
       "sourceVideo": "สมัครสมาชิก_11.mp4",
-      "clipFile": "16-2.mp4",
+      "clipFile": "16-2.gif",
       "videoIndex": 16,
       "exerciseIndex": 2,
       "startTime": 12.76,
@@ -545,7 +545,7 @@
     {
       "id": "16-3",
       "sourceVideo": "สมัครสมาชิก_11.mp4",
-      "clipFile": "16-3.mp4",
+      "clipFile": "16-3.gif",
       "videoIndex": 16,
       "exerciseIndex": 3,
       "startTime": 22.52,
@@ -577,7 +577,7 @@
     {
       "id": "16-4",
       "sourceVideo": "สมัครสมาชิก_11.mp4",
-      "clipFile": "16-4.mp4",
+      "clipFile": "16-4.gif",
       "videoIndex": 16,
       "exerciseIndex": 4,
       "startTime": 32.27,
@@ -609,7 +609,7 @@
     {
       "id": "18-1",
       "sourceVideo": "สมัครสมาชิก_111.mp4",
-      "clipFile": "18-1.mp4",
+      "clipFile": "18-1.gif",
       "videoIndex": 18,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -639,7 +639,7 @@
     {
       "id": "18-2",
       "sourceVideo": "สมัครสมาชิก_111.mp4",
-      "clipFile": "18-2.mp4",
+      "clipFile": "18-2.gif",
       "videoIndex": 18,
       "exerciseIndex": 2,
       "startTime": 12.91,
@@ -669,7 +669,7 @@
     {
       "id": "18-3",
       "sourceVideo": "สมัครสมาชิก_111.mp4",
-      "clipFile": "18-3.mp4",
+      "clipFile": "18-3.gif",
       "videoIndex": 18,
       "exerciseIndex": 3,
       "startTime": 22.83,
@@ -699,7 +699,7 @@
     {
       "id": "18-4",
       "sourceVideo": "สมัครสมาชิก_111.mp4",
-      "clipFile": "18-4.mp4",
+      "clipFile": "18-4.gif",
       "videoIndex": 18,
       "exerciseIndex": 4,
       "startTime": 32.74,
@@ -729,7 +729,7 @@
     {
       "id": "18-5",
       "sourceVideo": "สมัครสมาชิก_111.mp4",
-      "clipFile": "18-5.mp4",
+      "clipFile": "18-5.gif",
       "videoIndex": 18,
       "exerciseIndex": 5,
       "startTime": 42.65,
@@ -759,7 +759,7 @@
     {
       "id": "20-1",
       "sourceVideo": "สมัครสมาชิก_113.mp4",
-      "clipFile": "20-1.mp4",
+      "clipFile": "20-1.gif",
       "videoIndex": 20,
       "exerciseIndex": 1,
       "startTime": 2.54,
@@ -793,7 +793,7 @@
     {
       "id": "20-2",
       "sourceVideo": "สมัครสมาชิก_113.mp4",
-      "clipFile": "20-2.mp4",
+      "clipFile": "20-2.gif",
       "videoIndex": 20,
       "exerciseIndex": 2,
       "startTime": 11.42,
@@ -827,7 +827,7 @@
     {
       "id": "20-3",
       "sourceVideo": "สมัครสมาชิก_113.mp4",
-      "clipFile": "20-3.mp4",
+      "clipFile": "20-3.gif",
       "videoIndex": 20,
       "exerciseIndex": 3,
       "startTime": 20.31,
@@ -861,7 +861,7 @@
     {
       "id": "21-1",
       "sourceVideo": "สมัครสมาชิก_114.mp4",
-      "clipFile": "21-1.mp4",
+      "clipFile": "21-1.gif",
       "videoIndex": 21,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -895,7 +895,7 @@
     {
       "id": "23-1",
       "sourceVideo": "สมัครสมาชิก_116.mp4",
-      "clipFile": "23-1.mp4",
+      "clipFile": "23-1.gif",
       "videoIndex": 23,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -928,7 +928,7 @@
     {
       "id": "24-1",
       "sourceVideo": "สมัครสมาชิก_117.mp4",
-      "clipFile": "24-1.mp4",
+      "clipFile": "24-1.gif",
       "videoIndex": 24,
       "exerciseIndex": 1,
       "startTime": 1.5433333,
@@ -962,7 +962,7 @@
     {
       "id": "26-1",
       "sourceVideo": "สมัครสมาชิก_119.mp4",
-      "clipFile": "26-1.mp4",
+      "clipFile": "26-1.gif",
       "videoIndex": 26,
       "exerciseIndex": 1,
       "startTime": 2.65,
@@ -995,7 +995,7 @@
     {
       "id": "26-2",
       "sourceVideo": "สมัครสมาชิก_119.mp4",
-      "clipFile": "26-2.mp4",
+      "clipFile": "26-2.gif",
       "videoIndex": 26,
       "exerciseIndex": 2,
       "startTime": 11.92,
@@ -1028,7 +1028,7 @@
     {
       "id": "26-3",
       "sourceVideo": "สมัครสมาชิก_119.mp4",
-      "clipFile": "26-3.mp4",
+      "clipFile": "26-3.gif",
       "videoIndex": 26,
       "exerciseIndex": 3,
       "startTime": 21.18,
@@ -1061,7 +1061,7 @@
     {
       "id": "27-1",
       "sourceVideo": "สมัครสมาชิก_12.mp4",
-      "clipFile": "27-1.mp4",
+      "clipFile": "27-1.gif",
       "videoIndex": 27,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -1094,7 +1094,7 @@
     {
       "id": "27-2",
       "sourceVideo": "สมัครสมาชิก_12.mp4",
-      "clipFile": "27-2.mp4",
+      "clipFile": "27-2.gif",
       "videoIndex": 27,
       "exerciseIndex": 2,
       "startTime": 14.57,
@@ -1127,7 +1127,7 @@
     {
       "id": "27-3",
       "sourceVideo": "สมัครสมาชิก_12.mp4",
-      "clipFile": "27-3.mp4",
+      "clipFile": "27-3.gif",
       "videoIndex": 27,
       "exerciseIndex": 3,
       "startTime": 26.13,
@@ -1160,7 +1160,7 @@
     {
       "id": "27-4",
       "sourceVideo": "สมัครสมาชิก_12.mp4",
-      "clipFile": "27-4.mp4",
+      "clipFile": "27-4.gif",
       "videoIndex": 27,
       "exerciseIndex": 4,
       "startTime": 37.7,
@@ -1193,7 +1193,7 @@
     {
       "id": "28-1",
       "sourceVideo": "สมัครสมาชิก_120.mp4",
-      "clipFile": "28-1.mp4",
+      "clipFile": "28-1.gif",
       "videoIndex": 28,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -1224,7 +1224,7 @@
     {
       "id": "29-1",
       "sourceVideo": "สมัครสมาชิก_121.mp4",
-      "clipFile": "29-1.mp4",
+      "clipFile": "29-1.gif",
       "videoIndex": 29,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -1258,7 +1258,7 @@
     {
       "id": "30-1",
       "sourceVideo": "สมัครสมาชิก_122.mp4",
-      "clipFile": "30-1.mp4",
+      "clipFile": "30-1.gif",
       "videoIndex": 30,
       "exerciseIndex": 1,
       "startTime": 1.7000000000000002,
@@ -1289,7 +1289,7 @@
     {
       "id": "31-1",
       "sourceVideo": "สมัครสมาชิก_123.mp4",
-      "clipFile": "31-1.mp4",
+      "clipFile": "31-1.gif",
       "videoIndex": 31,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -1321,7 +1321,7 @@
     {
       "id": "31-2",
       "sourceVideo": "สมัครสมาชิก_123.mp4",
-      "clipFile": "31-2.mp4",
+      "clipFile": "31-2.gif",
       "videoIndex": 31,
       "exerciseIndex": 2,
       "startTime": 14.06,
@@ -1353,7 +1353,7 @@
     {
       "id": "31-3",
       "sourceVideo": "สมัครสมาชิก_123.mp4",
-      "clipFile": "31-3.mp4",
+      "clipFile": "31-3.gif",
       "videoIndex": 31,
       "exerciseIndex": 3,
       "startTime": 25.12,
@@ -1385,7 +1385,7 @@
     {
       "id": "31-4",
       "sourceVideo": "สมัครสมาชิก_123.mp4",
-      "clipFile": "31-4.mp4",
+      "clipFile": "31-4.gif",
       "videoIndex": 31,
       "exerciseIndex": 4,
       "startTime": 36.18,
@@ -1417,7 +1417,7 @@
     {
       "id": "31-5",
       "sourceVideo": "สมัครสมาชิก_123.mp4",
-      "clipFile": "31-5.mp4",
+      "clipFile": "31-5.gif",
       "videoIndex": 31,
       "exerciseIndex": 5,
       "startTime": 47.24,
@@ -1449,7 +1449,7 @@
     {
       "id": "32-1",
       "sourceVideo": "สมัครสมาชิก_124.mp4",
-      "clipFile": "32-1.mp4",
+      "clipFile": "32-1.gif",
       "videoIndex": 32,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -1480,7 +1480,7 @@
     {
       "id": "32-2",
       "sourceVideo": "สมัครสมาชิก_124.mp4",
-      "clipFile": "32-2.mp4",
+      "clipFile": "32-2.gif",
       "videoIndex": 32,
       "exerciseIndex": 2,
       "startTime": 14.06,
@@ -1511,7 +1511,7 @@
     {
       "id": "32-3",
       "sourceVideo": "สมัครสมาชิก_124.mp4",
-      "clipFile": "32-3.mp4",
+      "clipFile": "32-3.gif",
       "videoIndex": 32,
       "exerciseIndex": 3,
       "startTime": 25.12,
@@ -1542,7 +1542,7 @@
     {
       "id": "32-4",
       "sourceVideo": "สมัครสมาชิก_124.mp4",
-      "clipFile": "32-4.mp4",
+      "clipFile": "32-4.gif",
       "videoIndex": 32,
       "exerciseIndex": 4,
       "startTime": 36.18,
@@ -1573,7 +1573,7 @@
     {
       "id": "32-5",
       "sourceVideo": "สมัครสมาชิก_124.mp4",
-      "clipFile": "32-5.mp4",
+      "clipFile": "32-5.gif",
       "videoIndex": 32,
       "exerciseIndex": 5,
       "startTime": 47.24,
@@ -1604,7 +1604,7 @@
     {
       "id": "33-1",
       "sourceVideo": "สมัครสมาชิก_125.mp4",
-      "clipFile": "33-1.mp4",
+      "clipFile": "33-1.gif",
       "videoIndex": 33,
       "exerciseIndex": 1,
       "startTime": 1.1133333,
@@ -1634,7 +1634,7 @@
     {
       "id": "36-1",
       "sourceVideo": "สมัครสมาชิก_128.mp4",
-      "clipFile": "36-1.mp4",
+      "clipFile": "36-1.gif",
       "videoIndex": 36,
       "exerciseIndex": 1,
       "startTime": 1.7800000000000002,
@@ -1668,7 +1668,7 @@
     {
       "id": "37-1",
       "sourceVideo": "สมัครสมาชิก_129.mp4",
-      "clipFile": "37-1.mp4",
+      "clipFile": "37-1.gif",
       "videoIndex": 37,
       "exerciseIndex": 1,
       "startTime": 1.7800000000000002,
@@ -1702,7 +1702,7 @@
     {
       "id": "39-1",
       "sourceVideo": "สมัครสมาชิก_130.mp4",
-      "clipFile": "39-1.mp4",
+      "clipFile": "39-1.gif",
       "videoIndex": 39,
       "exerciseIndex": 1,
       "startTime": 1.69,
@@ -1732,7 +1732,7 @@
     {
       "id": "40-1",
       "sourceVideo": "สมัครสมาชิก_131.mp4",
-      "clipFile": "40-1.mp4",
+      "clipFile": "40-1.gif",
       "videoIndex": 40,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -1762,7 +1762,7 @@
     {
       "id": "43-1",
       "sourceVideo": "สมัครสมาชิก_134.mp4",
-      "clipFile": "43-1.mp4",
+      "clipFile": "43-1.gif",
       "videoIndex": 43,
       "exerciseIndex": 1,
       "startTime": 1.6901995,
@@ -1792,7 +1792,7 @@
     {
       "id": "47-1",
       "sourceVideo": "สมัครสมาชิก_138.mp4",
-      "clipFile": "47-1.mp4",
+      "clipFile": "47-1.gif",
       "videoIndex": 47,
       "exerciseIndex": 1,
       "startTime": 1.1817007000000002,
@@ -1817,7 +1817,7 @@
     {
       "id": "48-1",
       "sourceVideo": "สมัครสมาชิก_139.mp4",
-      "clipFile": "48-1.mp4",
+      "clipFile": "48-1.gif",
       "videoIndex": 48,
       "exerciseIndex": 1,
       "startTime": 1.7133333000000002,
@@ -1850,7 +1850,7 @@
     {
       "id": "49-1",
       "sourceVideo": "สมัครสมาชิก_14.mp4",
-      "clipFile": "49-1.mp4",
+      "clipFile": "49-1.gif",
       "videoIndex": 49,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -1883,7 +1883,7 @@
     {
       "id": "50-1",
       "sourceVideo": "สมัครสมาชิก_140.mp4",
-      "clipFile": "50-1.mp4",
+      "clipFile": "50-1.gif",
       "videoIndex": 50,
       "exerciseIndex": 1,
       "startTime": 1.5133333000000002,
@@ -1915,7 +1915,7 @@
     {
       "id": "51-1",
       "sourceVideo": "สมัครสมาชิก_141.mp4",
-      "clipFile": "51-1.mp4",
+      "clipFile": "51-1.gif",
       "videoIndex": 51,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -1946,7 +1946,7 @@
     {
       "id": "51-2",
       "sourceVideo": "สมัครสมาชิก_141.mp4",
-      "clipFile": "51-2.mp4",
+      "clipFile": "51-2.gif",
       "videoIndex": 51,
       "exerciseIndex": 2,
       "startTime": 14.26,
@@ -1977,7 +1977,7 @@
     {
       "id": "51-3",
       "sourceVideo": "สมัครสมาชิก_141.mp4",
-      "clipFile": "51-3.mp4",
+      "clipFile": "51-3.gif",
       "videoIndex": 51,
       "exerciseIndex": 3,
       "startTime": 25.51,
@@ -2008,7 +2008,7 @@
     {
       "id": "52-1",
       "sourceVideo": "สมัครสมาชิก_142.mp4",
-      "clipFile": "52-1.mp4",
+      "clipFile": "52-1.gif",
       "videoIndex": 52,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -2039,7 +2039,7 @@
     {
       "id": "53-1",
       "sourceVideo": "สมัครสมาชิก_143.mp4",
-      "clipFile": "53-1.mp4",
+      "clipFile": "53-1.gif",
       "videoIndex": 53,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -2073,7 +2073,7 @@
     {
       "id": "53-2",
       "sourceVideo": "สมัครสมาชิก_143.mp4",
-      "clipFile": "53-2.mp4",
+      "clipFile": "53-2.gif",
       "videoIndex": 53,
       "exerciseIndex": 2,
       "startTime": 14.26,
@@ -2107,7 +2107,7 @@
     {
       "id": "53-3",
       "sourceVideo": "สมัครสมาชิก_143.mp4",
-      "clipFile": "53-3.mp4",
+      "clipFile": "53-3.gif",
       "videoIndex": 53,
       "exerciseIndex": 3,
       "startTime": 25.51,
@@ -2141,7 +2141,7 @@
     {
       "id": "55-1",
       "sourceVideo": "สมัครสมาชิก_145.mp4",
-      "clipFile": "55-1.mp4",
+      "clipFile": "55-1.gif",
       "videoIndex": 55,
       "exerciseIndex": 1,
       "startTime": 1.3333333,
@@ -2175,7 +2175,7 @@
     {
       "id": "56-1",
       "sourceVideo": "สมัครสมาชิก_146.mp4",
-      "clipFile": "56-1.mp4",
+      "clipFile": "56-1.gif",
       "videoIndex": 56,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -2206,7 +2206,7 @@
     {
       "id": "56-2",
       "sourceVideo": "สมัครสมาชิก_146.mp4",
-      "clipFile": "56-2.mp4",
+      "clipFile": "56-2.gif",
       "videoIndex": 56,
       "exerciseIndex": 2,
       "startTime": 13.16,
@@ -2237,7 +2237,7 @@
     {
       "id": "56-3",
       "sourceVideo": "สมัครสมาชิก_146.mp4",
-      "clipFile": "56-3.mp4",
+      "clipFile": "56-3.gif",
       "videoIndex": 56,
       "exerciseIndex": 3,
       "startTime": 23.32,
@@ -2268,7 +2268,7 @@
     {
       "id": "56-4",
       "sourceVideo": "สมัครสมาชิก_146.mp4",
-      "clipFile": "56-4.mp4",
+      "clipFile": "56-4.gif",
       "videoIndex": 56,
       "exerciseIndex": 4,
       "startTime": 33.48,
@@ -2299,7 +2299,7 @@
     {
       "id": "56-5",
       "sourceVideo": "สมัครสมาชิก_146.mp4",
-      "clipFile": "56-5.mp4",
+      "clipFile": "56-5.gif",
       "videoIndex": 56,
       "exerciseIndex": 5,
       "startTime": 43.64,
@@ -2330,7 +2330,7 @@
     {
       "id": "56-6",
       "sourceVideo": "สมัครสมาชิก_146.mp4",
-      "clipFile": "56-6.mp4",
+      "clipFile": "56-6.gif",
       "videoIndex": 56,
       "exerciseIndex": 6,
       "startTime": 53.81,
@@ -2361,7 +2361,7 @@
     {
       "id": "57-1",
       "sourceVideo": "สมัครสมาชิก_147.mp4",
-      "clipFile": "57-1.mp4",
+      "clipFile": "57-1.gif",
       "videoIndex": 57,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -2394,7 +2394,7 @@
     {
       "id": "57-2",
       "sourceVideo": "สมัครสมาชิก_147.mp4",
-      "clipFile": "57-2.mp4",
+      "clipFile": "57-2.gif",
       "videoIndex": 57,
       "exerciseIndex": 2,
       "startTime": 13.16,
@@ -2427,7 +2427,7 @@
     {
       "id": "57-3",
       "sourceVideo": "สมัครสมาชิก_147.mp4",
-      "clipFile": "57-3.mp4",
+      "clipFile": "57-3.gif",
       "videoIndex": 57,
       "exerciseIndex": 3,
       "startTime": 23.32,
@@ -2460,7 +2460,7 @@
     {
       "id": "57-4",
       "sourceVideo": "สมัครสมาชิก_147.mp4",
-      "clipFile": "57-4.mp4",
+      "clipFile": "57-4.gif",
       "videoIndex": 57,
       "exerciseIndex": 4,
       "startTime": 33.48,
@@ -2493,7 +2493,7 @@
     {
       "id": "57-5",
       "sourceVideo": "สมัครสมาชิก_147.mp4",
-      "clipFile": "57-5.mp4",
+      "clipFile": "57-5.gif",
       "videoIndex": 57,
       "exerciseIndex": 5,
       "startTime": 43.64,
@@ -2526,7 +2526,7 @@
     {
       "id": "57-6",
       "sourceVideo": "สมัครสมาชิก_147.mp4",
-      "clipFile": "57-6.mp4",
+      "clipFile": "57-6.gif",
       "videoIndex": 57,
       "exerciseIndex": 6,
       "startTime": 53.81,
@@ -2559,7 +2559,7 @@
     {
       "id": "58-1",
       "sourceVideo": "สมัครสมาชิก_148.mp4",
-      "clipFile": "58-1.mp4",
+      "clipFile": "58-1.gif",
       "videoIndex": 58,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -2590,7 +2590,7 @@
     {
       "id": "58-2",
       "sourceVideo": "สมัครสมาชิก_148.mp4",
-      "clipFile": "58-2.mp4",
+      "clipFile": "58-2.gif",
       "videoIndex": 58,
       "exerciseIndex": 2,
       "startTime": 13.16,
@@ -2621,7 +2621,7 @@
     {
       "id": "58-3",
       "sourceVideo": "สมัครสมาชิก_148.mp4",
-      "clipFile": "58-3.mp4",
+      "clipFile": "58-3.gif",
       "videoIndex": 58,
       "exerciseIndex": 3,
       "startTime": 23.32,
@@ -2652,7 +2652,7 @@
     {
       "id": "58-4",
       "sourceVideo": "สมัครสมาชิก_148.mp4",
-      "clipFile": "58-4.mp4",
+      "clipFile": "58-4.gif",
       "videoIndex": 58,
       "exerciseIndex": 4,
       "startTime": 33.48,
@@ -2683,7 +2683,7 @@
     {
       "id": "58-5",
       "sourceVideo": "สมัครสมาชิก_148.mp4",
-      "clipFile": "58-5.mp4",
+      "clipFile": "58-5.gif",
       "videoIndex": 58,
       "exerciseIndex": 5,
       "startTime": 43.64,
@@ -2714,7 +2714,7 @@
     {
       "id": "58-6",
       "sourceVideo": "สมัครสมาชิก_148.mp4",
-      "clipFile": "58-6.mp4",
+      "clipFile": "58-6.gif",
       "videoIndex": 58,
       "exerciseIndex": 6,
       "startTime": 53.81,
@@ -2745,7 +2745,7 @@
     {
       "id": "59-1",
       "sourceVideo": "สมัครสมาชิก_149.mp4",
-      "clipFile": "59-1.mp4",
+      "clipFile": "59-1.gif",
       "videoIndex": 59,
       "exerciseIndex": 1,
       "startTime": 1.6133333,
@@ -2777,7 +2777,7 @@
     {
       "id": "60-1",
       "sourceVideo": "สมัครสมาชิก_15.mp4",
-      "clipFile": "60-1.mp4",
+      "clipFile": "60-1.gif",
       "videoIndex": 60,
       "exerciseIndex": 1,
       "startTime": 2.62,
@@ -2809,7 +2809,7 @@
     {
       "id": "60-2",
       "sourceVideo": "สมัครสมาชิก_15.mp4",
-      "clipFile": "60-2.mp4",
+      "clipFile": "60-2.gif",
       "videoIndex": 60,
       "exerciseIndex": 2,
       "startTime": 11.81,
@@ -2841,7 +2841,7 @@
     {
       "id": "60-3",
       "sourceVideo": "สมัครสมาชิก_15.mp4",
-      "clipFile": "60-3.mp4",
+      "clipFile": "60-3.gif",
       "videoIndex": 60,
       "exerciseIndex": 3,
       "startTime": 20.99,
@@ -2873,7 +2873,7 @@
     {
       "id": "62-1",
       "sourceVideo": "สมัครสมาชิก_151.mp4",
-      "clipFile": "62-1.mp4",
+      "clipFile": "62-1.gif",
       "videoIndex": 62,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -2906,7 +2906,7 @@
     {
       "id": "62-2",
       "sourceVideo": "สมัครสมาชิก_151.mp4",
-      "clipFile": "62-2.mp4",
+      "clipFile": "62-2.gif",
       "videoIndex": 62,
       "exerciseIndex": 2,
       "startTime": 14.51,
@@ -2939,7 +2939,7 @@
     {
       "id": "62-3",
       "sourceVideo": "สมัครสมาชิก_151.mp4",
-      "clipFile": "62-3.mp4",
+      "clipFile": "62-3.gif",
       "videoIndex": 62,
       "exerciseIndex": 3,
       "startTime": 26.02,
@@ -2972,7 +2972,7 @@
     {
       "id": "63-1",
       "sourceVideo": "สมัครสมาชิก_152.mp4",
-      "clipFile": "63-1.mp4",
+      "clipFile": "63-1.gif",
       "videoIndex": 63,
       "exerciseIndex": 1,
       "startTime": 1.5266667,
@@ -3005,7 +3005,7 @@
     {
       "id": "64-1",
       "sourceVideo": "สมัครสมาชิก_153.mp4",
-      "clipFile": "64-1.mp4",
+      "clipFile": "64-1.gif",
       "videoIndex": 64,
       "exerciseIndex": 1,
       "startTime": 1.5433333,
@@ -3038,7 +3038,7 @@
     {
       "id": "65-1",
       "sourceVideo": "สมัครสมาชิก_154.mp4",
-      "clipFile": "65-1.mp4",
+      "clipFile": "65-1.gif",
       "videoIndex": 65,
       "exerciseIndex": 1,
       "startTime": 1.2466667,
@@ -3070,7 +3070,7 @@
     {
       "id": "66-1",
       "sourceVideo": "สมัครสมาชิก_155.mp4",
-      "clipFile": "66-1.mp4",
+      "clipFile": "66-1.gif",
       "videoIndex": 66,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -3102,7 +3102,7 @@
     {
       "id": "68-1",
       "sourceVideo": "สมัครสมาชิก_157.mp4",
-      "clipFile": "68-1.mp4",
+      "clipFile": "68-1.gif",
       "videoIndex": 68,
       "exerciseIndex": 1,
       "startTime": 1.4433333,
@@ -3135,7 +3135,7 @@
     {
       "id": "69-1",
       "sourceVideo": "สมัครสมาชิก_158.mp4",
-      "clipFile": "69-1.mp4",
+      "clipFile": "69-1.gif",
       "videoIndex": 69,
       "exerciseIndex": 1,
       "startTime": 2.5,
@@ -3167,7 +3167,7 @@
     {
       "id": "69-2",
       "sourceVideo": "สมัครสมาชิก_158.mp4",
-      "clipFile": "69-2.mp4",
+      "clipFile": "69-2.gif",
       "videoIndex": 69,
       "exerciseIndex": 2,
       "startTime": 11.24,
@@ -3199,7 +3199,7 @@
     {
       "id": "69-3",
       "sourceVideo": "สมัครสมาชิก_158.mp4",
-      "clipFile": "69-3.mp4",
+      "clipFile": "69-3.gif",
       "videoIndex": 69,
       "exerciseIndex": 3,
       "startTime": 19.99,
@@ -3231,7 +3231,7 @@
     {
       "id": "70-1",
       "sourceVideo": "สมัครสมาชิก_159.mp4",
-      "clipFile": "70-1.mp4",
+      "clipFile": "70-1.gif",
       "videoIndex": 70,
       "exerciseIndex": 1,
       "startTime": 0.7846893,
@@ -3263,7 +3263,7 @@
     {
       "id": "71-1",
       "sourceVideo": "สมัครสมาชิก_16.mp4",
-      "clipFile": "71-1.mp4",
+      "clipFile": "71-1.gif",
       "videoIndex": 71,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -3295,7 +3295,7 @@
     {
       "id": "71-2",
       "sourceVideo": "สมัครสมาชิก_16.mp4",
-      "clipFile": "71-2.mp4",
+      "clipFile": "71-2.gif",
       "videoIndex": 71,
       "exerciseIndex": 2,
       "startTime": 12.68,
@@ -3327,7 +3327,7 @@
     {
       "id": "71-3",
       "sourceVideo": "สมัครสมาชิก_16.mp4",
-      "clipFile": "71-3.mp4",
+      "clipFile": "71-3.gif",
       "videoIndex": 71,
       "exerciseIndex": 3,
       "startTime": 22.36,
@@ -3359,7 +3359,7 @@
     {
       "id": "71-4",
       "sourceVideo": "สมัครสมาชิก_16.mp4",
-      "clipFile": "71-4.mp4",
+      "clipFile": "71-4.gif",
       "videoIndex": 71,
       "exerciseIndex": 4,
       "startTime": 32.04,
@@ -3391,7 +3391,7 @@
     {
       "id": "72-1",
       "sourceVideo": "สมัครสมาชิก_160.mp4",
-      "clipFile": "72-1.mp4",
+      "clipFile": "72-1.gif",
       "videoIndex": 72,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -3425,7 +3425,7 @@
     {
       "id": "72-2",
       "sourceVideo": "สมัครสมาชิก_160.mp4",
-      "clipFile": "72-2.mp4",
+      "clipFile": "72-2.gif",
       "videoIndex": 72,
       "exerciseIndex": 2,
       "startTime": 14.06,
@@ -3459,7 +3459,7 @@
     {
       "id": "72-3",
       "sourceVideo": "สมัครสมาชิก_160.mp4",
-      "clipFile": "72-3.mp4",
+      "clipFile": "72-3.gif",
       "videoIndex": 72,
       "exerciseIndex": 3,
       "startTime": 25.11,
@@ -3493,7 +3493,7 @@
     {
       "id": "73-1",
       "sourceVideo": "สมัครสมาชิก_161.mp4",
-      "clipFile": "73-1.mp4",
+      "clipFile": "73-1.gif",
       "videoIndex": 73,
       "exerciseIndex": 1,
       "startTime": 1.4433333,
@@ -3524,7 +3524,7 @@
     {
       "id": "74-1",
       "sourceVideo": "สมัครสมาชิก_17.mp4",
-      "clipFile": "74-1.mp4",
+      "clipFile": "74-1.gif",
       "videoIndex": 74,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -3555,7 +3555,7 @@
     {
       "id": "74-2",
       "sourceVideo": "สมัครสมาชิก_17.mp4",
-      "clipFile": "74-2.mp4",
+      "clipFile": "74-2.gif",
       "videoIndex": 74,
       "exerciseIndex": 2,
       "startTime": 13.73,
@@ -3586,7 +3586,7 @@
     {
       "id": "74-3",
       "sourceVideo": "สมัครสมาชิก_17.mp4",
-      "clipFile": "74-3.mp4",
+      "clipFile": "74-3.gif",
       "videoIndex": 74,
       "exerciseIndex": 3,
       "startTime": 24.46,
@@ -3617,7 +3617,7 @@
     {
       "id": "74-4",
       "sourceVideo": "สมัครสมาชิก_17.mp4",
-      "clipFile": "74-4.mp4",
+      "clipFile": "74-4.gif",
       "videoIndex": 74,
       "exerciseIndex": 4,
       "startTime": 35.19,
@@ -3648,7 +3648,7 @@
     {
       "id": "74-5",
       "sourceVideo": "สมัครสมาชิก_17.mp4",
-      "clipFile": "74-5.mp4",
+      "clipFile": "74-5.gif",
       "videoIndex": 74,
       "exerciseIndex": 5,
       "startTime": 45.92,
@@ -3679,7 +3679,7 @@
     {
       "id": "74-6",
       "sourceVideo": "สมัครสมาชิก_17.mp4",
-      "clipFile": "74-6.mp4",
+      "clipFile": "74-6.gif",
       "videoIndex": 74,
       "exerciseIndex": 6,
       "startTime": 56.65,
@@ -3710,7 +3710,7 @@
     {
       "id": "75-1",
       "sourceVideo": "สมัครสมาชิก_18.mp4",
-      "clipFile": "75-1.mp4",
+      "clipFile": "75-1.gif",
       "videoIndex": 75,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -3744,7 +3744,7 @@
     {
       "id": "76-1",
       "sourceVideo": "สมัครสมาชิก_19.mp4",
-      "clipFile": "76-1.mp4",
+      "clipFile": "76-1.gif",
       "videoIndex": 76,
       "exerciseIndex": 1,
       "startTime": 1.9015011000000002,
@@ -3778,7 +3778,7 @@
     {
       "id": "77-1",
       "sourceVideo": "สมัครสมาชิก_2.mp4",
-      "clipFile": "77-1.mp4",
+      "clipFile": "77-1.gif",
       "videoIndex": 77,
       "exerciseIndex": 1,
       "startTime": 2.45,
@@ -3812,7 +3812,7 @@
     {
       "id": "77-2",
       "sourceVideo": "สมัครสมาชิก_2.mp4",
-      "clipFile": "77-2.mp4",
+      "clipFile": "77-2.gif",
       "videoIndex": 77,
       "exerciseIndex": 2,
       "startTime": 11,
@@ -3846,7 +3846,7 @@
     {
       "id": "77-3",
       "sourceVideo": "สมัครสมาชิก_2.mp4",
-      "clipFile": "77-3.mp4",
+      "clipFile": "77-3.gif",
       "videoIndex": 77,
       "exerciseIndex": 3,
       "startTime": 19.56,
@@ -3880,7 +3880,7 @@
     {
       "id": "78-1",
       "sourceVideo": "สมัครสมาชิก_20.mp4",
-      "clipFile": "78-1.mp4",
+      "clipFile": "78-1.gif",
       "videoIndex": 78,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -3914,7 +3914,7 @@
     {
       "id": "78-2",
       "sourceVideo": "สมัครสมาชิก_20.mp4",
-      "clipFile": "78-2.mp4",
+      "clipFile": "78-2.gif",
       "videoIndex": 78,
       "exerciseIndex": 2,
       "startTime": 12.97,
@@ -3948,7 +3948,7 @@
     {
       "id": "78-3",
       "sourceVideo": "สมัครสมาชิก_20.mp4",
-      "clipFile": "78-3.mp4",
+      "clipFile": "78-3.gif",
       "videoIndex": 78,
       "exerciseIndex": 3,
       "startTime": 22.93,
@@ -3982,7 +3982,7 @@
     {
       "id": "78-4",
       "sourceVideo": "สมัครสมาชิก_20.mp4",
-      "clipFile": "78-4.mp4",
+      "clipFile": "78-4.gif",
       "videoIndex": 78,
       "exerciseIndex": 4,
       "startTime": 32.9,
@@ -4016,7 +4016,7 @@
     {
       "id": "80-1",
       "sourceVideo": "สมัครสมาชิก_22.mp4",
-      "clipFile": "80-1.mp4",
+      "clipFile": "80-1.gif",
       "videoIndex": 80,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -4046,7 +4046,7 @@
     {
       "id": "80-2",
       "sourceVideo": "สมัครสมาชิก_22.mp4",
-      "clipFile": "80-2.mp4",
+      "clipFile": "80-2.gif",
       "videoIndex": 80,
       "exerciseIndex": 2,
       "startTime": 14.79,
@@ -4076,7 +4076,7 @@
     {
       "id": "80-3",
       "sourceVideo": "สมัครสมาชิก_22.mp4",
-      "clipFile": "80-3.mp4",
+      "clipFile": "80-3.gif",
       "videoIndex": 80,
       "exerciseIndex": 3,
       "startTime": 26.58,
@@ -4106,7 +4106,7 @@
     {
       "id": "81-1",
       "sourceVideo": "สมัครสมาชิก_23.mp4",
-      "clipFile": "81-1.mp4",
+      "clipFile": "81-1.gif",
       "videoIndex": 81,
       "exerciseIndex": 1,
       "startTime": 2.53,
@@ -4136,7 +4136,7 @@
     {
       "id": "81-2",
       "sourceVideo": "สมัครสมาชิก_23.mp4",
-      "clipFile": "81-2.mp4",
+      "clipFile": "81-2.gif",
       "videoIndex": 81,
       "exerciseIndex": 2,
       "startTime": 11.4,
@@ -4166,7 +4166,7 @@
     {
       "id": "81-3",
       "sourceVideo": "สมัครสมาชิก_23.mp4",
-      "clipFile": "81-3.mp4",
+      "clipFile": "81-3.gif",
       "videoIndex": 81,
       "exerciseIndex": 3,
       "startTime": 20.27,
@@ -4196,7 +4196,7 @@
     {
       "id": "82-1",
       "sourceVideo": "สมัครสมาชิก_24.mp4",
-      "clipFile": "82-1.mp4",
+      "clipFile": "82-1.gif",
       "videoIndex": 82,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -4227,7 +4227,7 @@
     {
       "id": "82-2",
       "sourceVideo": "สมัครสมาชิก_24.mp4",
-      "clipFile": "82-2.mp4",
+      "clipFile": "82-2.gif",
       "videoIndex": 82,
       "exerciseIndex": 2,
       "startTime": 14.2,
@@ -4258,7 +4258,7 @@
     {
       "id": "82-3",
       "sourceVideo": "สมัครสมาชิก_24.mp4",
-      "clipFile": "82-3.mp4",
+      "clipFile": "82-3.gif",
       "videoIndex": 82,
       "exerciseIndex": 3,
       "startTime": 25.4,
@@ -4289,7 +4289,7 @@
     {
       "id": "82-4",
       "sourceVideo": "สมัครสมาชิก_24.mp4",
-      "clipFile": "82-4.mp4",
+      "clipFile": "82-4.gif",
       "videoIndex": 82,
       "exerciseIndex": 4,
       "startTime": 36.6,
@@ -4320,7 +4320,7 @@
     {
       "id": "83-1",
       "sourceVideo": "สมัครสมาชิก_25.mp4",
-      "clipFile": "83-1.mp4",
+      "clipFile": "83-1.gif",
       "videoIndex": 83,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -4350,7 +4350,7 @@
     {
       "id": "85-1",
       "sourceVideo": "สมัครสมาชิก_27.mp4",
-      "clipFile": "85-1.mp4",
+      "clipFile": "85-1.gif",
       "videoIndex": 85,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -4384,7 +4384,7 @@
     {
       "id": "86-1",
       "sourceVideo": "สมัครสมาชิก_28.mp4",
-      "clipFile": "86-1.mp4",
+      "clipFile": "86-1.gif",
       "videoIndex": 86,
       "exerciseIndex": 1,
       "startTime": 2.78,
@@ -4418,7 +4418,7 @@
     {
       "id": "86-2",
       "sourceVideo": "สมัครสมาชิก_28.mp4",
-      "clipFile": "86-2.mp4",
+      "clipFile": "86-2.gif",
       "videoIndex": 86,
       "exerciseIndex": 2,
       "startTime": 12.5,
@@ -4452,7 +4452,7 @@
     {
       "id": "86-3",
       "sourceVideo": "สมัครสมาชิก_28.mp4",
-      "clipFile": "86-3.mp4",
+      "clipFile": "86-3.gif",
       "videoIndex": 86,
       "exerciseIndex": 3,
       "startTime": 22.23,
@@ -4486,7 +4486,7 @@
     {
       "id": "87-1",
       "sourceVideo": "สมัครสมาชิก_29.mp4",
-      "clipFile": "87-1.mp4",
+      "clipFile": "87-1.gif",
       "videoIndex": 87,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -4520,7 +4520,7 @@
     {
       "id": "87-2",
       "sourceVideo": "สมัครสมาชิก_29.mp4",
-      "clipFile": "87-2.mp4",
+      "clipFile": "87-2.gif",
       "videoIndex": 87,
       "exerciseIndex": 2,
       "startTime": 12.96,
@@ -4554,7 +4554,7 @@
     {
       "id": "87-3",
       "sourceVideo": "สมัครสมาชิก_29.mp4",
-      "clipFile": "87-3.mp4",
+      "clipFile": "87-3.gif",
       "videoIndex": 87,
       "exerciseIndex": 3,
       "startTime": 22.92,
@@ -4588,7 +4588,7 @@
     {
       "id": "87-4",
       "sourceVideo": "สมัครสมาชิก_29.mp4",
-      "clipFile": "87-4.mp4",
+      "clipFile": "87-4.gif",
       "videoIndex": 87,
       "exerciseIndex": 4,
       "startTime": 32.87,
@@ -4622,7 +4622,7 @@
     {
       "id": "88-1",
       "sourceVideo": "สมัครสมาชิก_3.mp4",
-      "clipFile": "88-1.mp4",
+      "clipFile": "88-1.gif",
       "videoIndex": 88,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -4654,7 +4654,7 @@
     {
       "id": "89-1",
       "sourceVideo": "สมัครสมาชิก_30.mp4",
-      "clipFile": "89-1.mp4",
+      "clipFile": "89-1.gif",
       "videoIndex": 89,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -4686,7 +4686,7 @@
     {
       "id": "89-2",
       "sourceVideo": "สมัครสมาชิก_30.mp4",
-      "clipFile": "89-2.mp4",
+      "clipFile": "89-2.gif",
       "videoIndex": 89,
       "exerciseIndex": 2,
       "startTime": 13.02,
@@ -4718,7 +4718,7 @@
     {
       "id": "89-3",
       "sourceVideo": "สมัครสมาชิก_30.mp4",
-      "clipFile": "89-3.mp4",
+      "clipFile": "89-3.gif",
       "videoIndex": 89,
       "exerciseIndex": 3,
       "startTime": 23.04,
@@ -4750,7 +4750,7 @@
     {
       "id": "89-4",
       "sourceVideo": "สมัครสมาชิก_30.mp4",
-      "clipFile": "89-4.mp4",
+      "clipFile": "89-4.gif",
       "videoIndex": 89,
       "exerciseIndex": 4,
       "startTime": 33.07,
@@ -4782,7 +4782,7 @@
     {
       "id": "89-5",
       "sourceVideo": "สมัครสมาชิก_30.mp4",
-      "clipFile": "89-5.mp4",
+      "clipFile": "89-5.gif",
       "videoIndex": 89,
       "exerciseIndex": 5,
       "startTime": 43.09,
@@ -4814,7 +4814,7 @@
     {
       "id": "89-6",
       "sourceVideo": "สมัครสมาชิก_30.mp4",
-      "clipFile": "89-6.mp4",
+      "clipFile": "89-6.gif",
       "videoIndex": 89,
       "exerciseIndex": 6,
       "startTime": 53.11,
@@ -4846,7 +4846,7 @@
     {
       "id": "90-1",
       "sourceVideo": "สมัครสมาชิก_31.mp4",
-      "clipFile": "90-1.mp4",
+      "clipFile": "90-1.gif",
       "videoIndex": 90,
       "exerciseIndex": 1,
       "startTime": 2.74,
@@ -4878,7 +4878,7 @@
     {
       "id": "90-2",
       "sourceVideo": "สมัครสมาชิก_31.mp4",
-      "clipFile": "90-2.mp4",
+      "clipFile": "90-2.gif",
       "videoIndex": 90,
       "exerciseIndex": 2,
       "startTime": 12.35,
@@ -4910,7 +4910,7 @@
     {
       "id": "90-3",
       "sourceVideo": "สมัครสมาชิก_31.mp4",
-      "clipFile": "90-3.mp4",
+      "clipFile": "90-3.gif",
       "videoIndex": 90,
       "exerciseIndex": 3,
       "startTime": 21.95,
@@ -4942,7 +4942,7 @@
     {
       "id": "93-1",
       "sourceVideo": "สมัครสมาชิก_34.mp4",
-      "clipFile": "93-1.mp4",
+      "clipFile": "93-1.gif",
       "videoIndex": 93,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -4976,7 +4976,7 @@
     {
       "id": "93-2",
       "sourceVideo": "สมัครสมาชิก_34.mp4",
-      "clipFile": "93-2.mp4",
+      "clipFile": "93-2.gif",
       "videoIndex": 93,
       "exerciseIndex": 2,
       "startTime": 14.11,
@@ -5010,7 +5010,7 @@
     {
       "id": "93-3",
       "sourceVideo": "สมัครสมาชิก_34.mp4",
-      "clipFile": "93-3.mp4",
+      "clipFile": "93-3.gif",
       "videoIndex": 93,
       "exerciseIndex": 3,
       "startTime": 25.22,
@@ -5044,7 +5044,7 @@
     {
       "id": "97-1",
       "sourceVideo": "สมัครสมาชิก_38.mp4",
-      "clipFile": "97-1.mp4",
+      "clipFile": "97-1.gif",
       "videoIndex": 97,
       "exerciseIndex": 1,
       "startTime": 1.6,
@@ -5078,7 +5078,7 @@
     {
       "id": "99-1",
       "sourceVideo": "สมัครสมาชิก_4.mp4",
-      "clipFile": "99-1.mp4",
+      "clipFile": "99-1.gif",
       "videoIndex": 99,
       "exerciseIndex": 1,
       "startTime": 2.64,
@@ -5112,7 +5112,7 @@
     {
       "id": "99-2",
       "sourceVideo": "สมัครสมาชิก_4.mp4",
-      "clipFile": "99-2.mp4",
+      "clipFile": "99-2.gif",
       "videoIndex": 99,
       "exerciseIndex": 2,
       "startTime": 11.89,
@@ -5146,7 +5146,7 @@
     {
       "id": "99-3",
       "sourceVideo": "สมัครสมาชิก_4.mp4",
-      "clipFile": "99-3.mp4",
+      "clipFile": "99-3.gif",
       "videoIndex": 99,
       "exerciseIndex": 3,
       "startTime": 21.14,
@@ -5180,7 +5180,7 @@
     {
       "id": "100-1",
       "sourceVideo": "สมัครสมาชิก_40.mp4",
-      "clipFile": "100-1.mp4",
+      "clipFile": "100-1.gif",
       "videoIndex": 100,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -5214,7 +5214,7 @@
     {
       "id": "100-2",
       "sourceVideo": "สมัครสมาชิก_40.mp4",
-      "clipFile": "100-2.mp4",
+      "clipFile": "100-2.gif",
       "videoIndex": 100,
       "exerciseIndex": 2,
       "startTime": 13.71,
@@ -5248,7 +5248,7 @@
     {
       "id": "100-3",
       "sourceVideo": "สมัครสมาชิก_40.mp4",
-      "clipFile": "100-3.mp4",
+      "clipFile": "100-3.gif",
       "videoIndex": 100,
       "exerciseIndex": 3,
       "startTime": 24.41,
@@ -5282,7 +5282,7 @@
     {
       "id": "100-4",
       "sourceVideo": "สมัครสมาชิก_40.mp4",
-      "clipFile": "100-4.mp4",
+      "clipFile": "100-4.gif",
       "videoIndex": 100,
       "exerciseIndex": 4,
       "startTime": 35.12,
@@ -5316,7 +5316,7 @@
     {
       "id": "100-5",
       "sourceVideo": "สมัครสมาชิก_40.mp4",
-      "clipFile": "100-5.mp4",
+      "clipFile": "100-5.gif",
       "videoIndex": 100,
       "exerciseIndex": 5,
       "startTime": 45.83,
@@ -5350,7 +5350,7 @@
     {
       "id": "102-1",
       "sourceVideo": "สมัครสมาชิก_42.mp4",
-      "clipFile": "102-1.mp4",
+      "clipFile": "102-1.gif",
       "videoIndex": 102,
       "exerciseIndex": 1,
       "startTime": 2.56,
@@ -5384,7 +5384,7 @@
     {
       "id": "102-2",
       "sourceVideo": "สมัครสมาชิก_42.mp4",
-      "clipFile": "102-2.mp4",
+      "clipFile": "102-2.gif",
       "videoIndex": 102,
       "exerciseIndex": 2,
       "startTime": 11.51,
@@ -5418,7 +5418,7 @@
     {
       "id": "102-3",
       "sourceVideo": "สมัครสมาชิก_42.mp4",
-      "clipFile": "102-3.mp4",
+      "clipFile": "102-3.gif",
       "videoIndex": 102,
       "exerciseIndex": 3,
       "startTime": 20.46,
@@ -5452,7 +5452,7 @@
     {
       "id": "103-1",
       "sourceVideo": "สมัครสมาชิก_43.mp4",
-      "clipFile": "103-1.mp4",
+      "clipFile": "103-1.gif",
       "videoIndex": 103,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -5486,7 +5486,7 @@
     {
       "id": "103-2",
       "sourceVideo": "สมัครสมาชิก_43.mp4",
-      "clipFile": "103-2.mp4",
+      "clipFile": "103-2.gif",
       "videoIndex": 103,
       "exerciseIndex": 2,
       "startTime": 14.61,
@@ -5520,7 +5520,7 @@
     {
       "id": "103-3",
       "sourceVideo": "สมัครสมาชิก_43.mp4",
-      "clipFile": "103-3.mp4",
+      "clipFile": "103-3.gif",
       "videoIndex": 103,
       "exerciseIndex": 3,
       "startTime": 26.23,
@@ -5554,7 +5554,7 @@
     {
       "id": "103-4",
       "sourceVideo": "สมัครสมาชิก_43.mp4",
-      "clipFile": "103-4.mp4",
+      "clipFile": "103-4.gif",
       "videoIndex": 103,
       "exerciseIndex": 4,
       "startTime": 37.84,
@@ -5588,7 +5588,7 @@
     {
       "id": "103-5",
       "sourceVideo": "สมัครสมาชิก_43.mp4",
-      "clipFile": "103-5.mp4",
+      "clipFile": "103-5.gif",
       "videoIndex": 103,
       "exerciseIndex": 5,
       "startTime": 49.46,
@@ -5622,7 +5622,7 @@
     {
       "id": "103-6",
       "sourceVideo": "สมัครสมาชิก_43.mp4",
-      "clipFile": "103-6.mp4",
+      "clipFile": "103-6.gif",
       "videoIndex": 103,
       "exerciseIndex": 6,
       "startTime": 61.07,
@@ -5656,7 +5656,7 @@
     {
       "id": "103-7",
       "sourceVideo": "สมัครสมาชิก_43.mp4",
-      "clipFile": "103-7.mp4",
+      "clipFile": "103-7.gif",
       "videoIndex": 103,
       "exerciseIndex": 7,
       "startTime": 72.69,
@@ -5690,7 +5690,7 @@
     {
       "id": "104-1",
       "sourceVideo": "สมัครสมาชิก_44.mp4",
-      "clipFile": "104-1.mp4",
+      "clipFile": "104-1.gif",
       "videoIndex": 104,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -5724,7 +5724,7 @@
     {
       "id": "104-2",
       "sourceVideo": "สมัครสมาชิก_44.mp4",
-      "clipFile": "104-2.mp4",
+      "clipFile": "104-2.gif",
       "videoIndex": 104,
       "exerciseIndex": 2,
       "startTime": 12.81,
@@ -5758,7 +5758,7 @@
     {
       "id": "104-3",
       "sourceVideo": "สมัครสมาชิก_44.mp4",
-      "clipFile": "104-3.mp4",
+      "clipFile": "104-3.gif",
       "videoIndex": 104,
       "exerciseIndex": 3,
       "startTime": 22.62,
@@ -5792,7 +5792,7 @@
     {
       "id": "104-4",
       "sourceVideo": "สมัครสมาชิก_44.mp4",
-      "clipFile": "104-4.mp4",
+      "clipFile": "104-4.gif",
       "videoIndex": 104,
       "exerciseIndex": 4,
       "startTime": 32.42,
@@ -5826,7 +5826,7 @@
     {
       "id": "105-1",
       "sourceVideo": "สมัครสมาชิก_45.mp4",
-      "clipFile": "105-1.mp4",
+      "clipFile": "105-1.gif",
       "videoIndex": 105,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -5860,7 +5860,7 @@
     {
       "id": "108-1",
       "sourceVideo": "สมัครสมาชิก_48.mp4",
-      "clipFile": "108-1.mp4",
+      "clipFile": "108-1.gif",
       "videoIndex": 108,
       "exerciseIndex": 1,
       "startTime": 1.7900998000000001,
@@ -5894,7 +5894,7 @@
     {
       "id": "110-1",
       "sourceVideo": "สมัครสมาชิก_5.mp4",
-      "clipFile": "110-1.mp4",
+      "clipFile": "110-1.gif",
       "videoIndex": 110,
       "exerciseIndex": 1,
       "startTime": 1.9711995000000002,
@@ -5926,7 +5926,7 @@
     {
       "id": "111-1",
       "sourceVideo": "สมัครสมาชิก_50.mp4",
-      "clipFile": "111-1.mp4",
+      "clipFile": "111-1.gif",
       "videoIndex": 111,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -5958,7 +5958,7 @@
     {
       "id": "114-1",
       "sourceVideo": "สมัครสมาชิก_53.mp4",
-      "clipFile": "114-1.mp4",
+      "clipFile": "114-1.gif",
       "videoIndex": 114,
       "exerciseIndex": 1,
       "startTime": 2.82,
@@ -5992,7 +5992,7 @@
     {
       "id": "114-2",
       "sourceVideo": "สมัครสมาชิก_53.mp4",
-      "clipFile": "114-2.mp4",
+      "clipFile": "114-2.gif",
       "videoIndex": 114,
       "exerciseIndex": 2,
       "startTime": 12.67,
@@ -6026,7 +6026,7 @@
     {
       "id": "114-3",
       "sourceVideo": "สมัครสมาชิก_53.mp4",
-      "clipFile": "114-3.mp4",
+      "clipFile": "114-3.gif",
       "videoIndex": 114,
       "exerciseIndex": 3,
       "startTime": 22.53,
@@ -6060,7 +6060,7 @@
     {
       "id": "115-1",
       "sourceVideo": "สมัครสมาชิก_54.mp4",
-      "clipFile": "115-1.mp4",
+      "clipFile": "115-1.gif",
       "videoIndex": 115,
       "exerciseIndex": 1,
       "startTime": 0.8233333,
@@ -6094,7 +6094,7 @@
     {
       "id": "116-1",
       "sourceVideo": "สมัครสมาชิก_55.mp4",
-      "clipFile": "116-1.mp4",
+      "clipFile": "116-1.gif",
       "videoIndex": 116,
       "exerciseIndex": 1,
       "startTime": 1.7666667,
@@ -6128,7 +6128,7 @@
     {
       "id": "118-1",
       "sourceVideo": "สมัครสมาชิก_57.mp4",
-      "clipFile": "118-1.mp4",
+      "clipFile": "118-1.gif",
       "videoIndex": 118,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -6162,7 +6162,7 @@
     {
       "id": "120-1",
       "sourceVideo": "สมัครสมาชิก_59.mp4",
-      "clipFile": "120-1.mp4",
+      "clipFile": "120-1.gif",
       "videoIndex": 120,
       "exerciseIndex": 1,
       "startTime": 2.83,
@@ -6196,7 +6196,7 @@
     {
       "id": "120-2",
       "sourceVideo": "สมัครสมาชิก_59.mp4",
-      "clipFile": "120-2.mp4",
+      "clipFile": "120-2.gif",
       "videoIndex": 120,
       "exerciseIndex": 2,
       "startTime": 12.76,
@@ -6230,7 +6230,7 @@
     {
       "id": "120-3",
       "sourceVideo": "สมัครสมาชิก_59.mp4",
-      "clipFile": "120-3.mp4",
+      "clipFile": "120-3.gif",
       "videoIndex": 120,
       "exerciseIndex": 3,
       "startTime": 22.68,
@@ -6264,7 +6264,7 @@
     {
       "id": "121-1",
       "sourceVideo": "สมัครสมาชิก_6.mp4",
-      "clipFile": "121-1.mp4",
+      "clipFile": "121-1.gif",
       "videoIndex": 121,
       "exerciseIndex": 1,
       "startTime": 2.51,
@@ -6298,7 +6298,7 @@
     {
       "id": "121-2",
       "sourceVideo": "สมัครสมาชิก_6.mp4",
-      "clipFile": "121-2.mp4",
+      "clipFile": "121-2.gif",
       "videoIndex": 121,
       "exerciseIndex": 2,
       "startTime": 11.3,
@@ -6332,7 +6332,7 @@
     {
       "id": "121-3",
       "sourceVideo": "สมัครสมาชิก_6.mp4",
-      "clipFile": "121-3.mp4",
+      "clipFile": "121-3.gif",
       "videoIndex": 121,
       "exerciseIndex": 3,
       "startTime": 20.1,
@@ -6366,7 +6366,7 @@
     {
       "id": "123-1",
       "sourceVideo": "สมัครสมาชิก_61.mp4",
-      "clipFile": "123-1.mp4",
+      "clipFile": "123-1.gif",
       "videoIndex": 123,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -6400,7 +6400,7 @@
     {
       "id": "123-2",
       "sourceVideo": "สมัครสมาชิก_61.mp4",
-      "clipFile": "123-2.mp4",
+      "clipFile": "123-2.gif",
       "videoIndex": 123,
       "exerciseIndex": 2,
       "startTime": 13.61,
@@ -6434,7 +6434,7 @@
     {
       "id": "123-3",
       "sourceVideo": "สมัครสมาชิก_61.mp4",
-      "clipFile": "123-3.mp4",
+      "clipFile": "123-3.gif",
       "videoIndex": 123,
       "exerciseIndex": 3,
       "startTime": 24.21,
@@ -6468,7 +6468,7 @@
     {
       "id": "123-4",
       "sourceVideo": "สมัครสมาชิก_61.mp4",
-      "clipFile": "123-4.mp4",
+      "clipFile": "123-4.gif",
       "videoIndex": 123,
       "exerciseIndex": 4,
       "startTime": 34.82,
@@ -6502,7 +6502,7 @@
     {
       "id": "123-5",
       "sourceVideo": "สมัครสมาชิก_61.mp4",
-      "clipFile": "123-5.mp4",
+      "clipFile": "123-5.gif",
       "videoIndex": 123,
       "exerciseIndex": 5,
       "startTime": 45.42,
@@ -6536,7 +6536,7 @@
     {
       "id": "123-6",
       "sourceVideo": "สมัครสมาชิก_61.mp4",
-      "clipFile": "123-6.mp4",
+      "clipFile": "123-6.gif",
       "videoIndex": 123,
       "exerciseIndex": 6,
       "startTime": 56.03,
@@ -6570,7 +6570,7 @@
     {
       "id": "126-1",
       "sourceVideo": "สมัครสมาชิก_64.mp4",
-      "clipFile": "126-1.mp4",
+      "clipFile": "126-1.gif",
       "videoIndex": 126,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -6604,7 +6604,7 @@
     {
       "id": "126-2",
       "sourceVideo": "สมัครสมาชิก_64.mp4",
-      "clipFile": "126-2.mp4",
+      "clipFile": "126-2.gif",
       "videoIndex": 126,
       "exerciseIndex": 2,
       "startTime": 14.17,
@@ -6638,7 +6638,7 @@
     {
       "id": "126-3",
       "sourceVideo": "สมัครสมาชิก_64.mp4",
-      "clipFile": "126-3.mp4",
+      "clipFile": "126-3.gif",
       "videoIndex": 126,
       "exerciseIndex": 3,
       "startTime": 25.33,
@@ -6672,7 +6672,7 @@
     {
       "id": "126-4",
       "sourceVideo": "สมัครสมาชิก_64.mp4",
-      "clipFile": "126-4.mp4",
+      "clipFile": "126-4.gif",
       "videoIndex": 126,
       "exerciseIndex": 4,
       "startTime": 36.5,
@@ -6706,7 +6706,7 @@
     {
       "id": "126-5",
       "sourceVideo": "สมัครสมาชิก_64.mp4",
-      "clipFile": "126-5.mp4",
+      "clipFile": "126-5.gif",
       "videoIndex": 126,
       "exerciseIndex": 5,
       "startTime": 47.67,
@@ -6740,7 +6740,7 @@
     {
       "id": "129-1",
       "sourceVideo": "สมัครสมาชิก_67.mp4",
-      "clipFile": "129-1.mp4",
+      "clipFile": "129-1.gif",
       "videoIndex": 129,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -6774,7 +6774,7 @@
     {
       "id": "129-2",
       "sourceVideo": "สมัครสมาชิก_67.mp4",
-      "clipFile": "129-2.mp4",
+      "clipFile": "129-2.gif",
       "videoIndex": 129,
       "exerciseIndex": 2,
       "startTime": 13.59,
@@ -6808,7 +6808,7 @@
     {
       "id": "129-3",
       "sourceVideo": "สมัครสมาชิก_67.mp4",
-      "clipFile": "129-3.mp4",
+      "clipFile": "129-3.gif",
       "videoIndex": 129,
       "exerciseIndex": 3,
       "startTime": 24.18,
@@ -6842,7 +6842,7 @@
     {
       "id": "129-4",
       "sourceVideo": "สมัครสมาชิก_67.mp4",
-      "clipFile": "129-4.mp4",
+      "clipFile": "129-4.gif",
       "videoIndex": 129,
       "exerciseIndex": 4,
       "startTime": 34.78,
@@ -6876,7 +6876,7 @@
     {
       "id": "132-1",
       "sourceVideo": "สมัครสมาชิก_7.mp4",
-      "clipFile": "132-1.mp4",
+      "clipFile": "132-1.gif",
       "videoIndex": 132,
       "exerciseIndex": 1,
       "startTime": 2.81,
@@ -6910,7 +6910,7 @@
     {
       "id": "132-2",
       "sourceVideo": "สมัครสมาชิก_7.mp4",
-      "clipFile": "132-2.mp4",
+      "clipFile": "132-2.gif",
       "videoIndex": 132,
       "exerciseIndex": 2,
       "startTime": 12.64,
@@ -6944,7 +6944,7 @@
     {
       "id": "132-3",
       "sourceVideo": "สมัครสมาชิก_7.mp4",
-      "clipFile": "132-3.mp4",
+      "clipFile": "132-3.gif",
       "videoIndex": 132,
       "exerciseIndex": 3,
       "startTime": 22.46,
@@ -6978,7 +6978,7 @@
     {
       "id": "133-1",
       "sourceVideo": "สมัครสมาชิก_70.mp4",
-      "clipFile": "133-1.mp4",
+      "clipFile": "133-1.gif",
       "videoIndex": 133,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -7012,7 +7012,7 @@
     {
       "id": "133-2",
       "sourceVideo": "สมัครสมาชิก_70.mp4",
-      "clipFile": "133-2.mp4",
+      "clipFile": "133-2.gif",
       "videoIndex": 133,
       "exerciseIndex": 2,
       "startTime": 14.38,
@@ -7046,7 +7046,7 @@
     {
       "id": "133-3",
       "sourceVideo": "สมัครสมาชิก_70.mp4",
-      "clipFile": "133-3.mp4",
+      "clipFile": "133-3.gif",
       "videoIndex": 133,
       "exerciseIndex": 3,
       "startTime": 25.76,
@@ -7080,7 +7080,7 @@
     {
       "id": "133-4",
       "sourceVideo": "สมัครสมาชิก_70.mp4",
-      "clipFile": "133-4.mp4",
+      "clipFile": "133-4.gif",
       "videoIndex": 133,
       "exerciseIndex": 4,
       "startTime": 37.14,
@@ -7114,7 +7114,7 @@
     {
       "id": "135-1",
       "sourceVideo": "สมัครสมาชิก_72.mp4",
-      "clipFile": "135-1.mp4",
+      "clipFile": "135-1.gif",
       "videoIndex": 135,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -7148,7 +7148,7 @@
     {
       "id": "135-2",
       "sourceVideo": "สมัครสมาชิก_72.mp4",
-      "clipFile": "135-2.mp4",
+      "clipFile": "135-2.gif",
       "videoIndex": 135,
       "exerciseIndex": 2,
       "startTime": 14.13,
@@ -7182,7 +7182,7 @@
     {
       "id": "135-3",
       "sourceVideo": "สมัครสมาชิก_72.mp4",
-      "clipFile": "135-3.mp4",
+      "clipFile": "135-3.gif",
       "videoIndex": 135,
       "exerciseIndex": 3,
       "startTime": 25.26,
@@ -7216,7 +7216,7 @@
     {
       "id": "135-4",
       "sourceVideo": "สมัครสมาชิก_72.mp4",
-      "clipFile": "135-4.mp4",
+      "clipFile": "135-4.gif",
       "videoIndex": 135,
       "exerciseIndex": 4,
       "startTime": 36.38,
@@ -7250,7 +7250,7 @@
     {
       "id": "135-5",
       "sourceVideo": "สมัครสมาชิก_72.mp4",
-      "clipFile": "135-5.mp4",
+      "clipFile": "135-5.gif",
       "videoIndex": 135,
       "exerciseIndex": 5,
       "startTime": 47.51,
@@ -7284,7 +7284,7 @@
     {
       "id": "135-6",
       "sourceVideo": "สมัครสมาชิก_72.mp4",
-      "clipFile": "135-6.mp4",
+      "clipFile": "135-6.gif",
       "videoIndex": 135,
       "exerciseIndex": 6,
       "startTime": 58.64,
@@ -7318,7 +7318,7 @@
     {
       "id": "136-1",
       "sourceVideo": "สมัครสมาชิก_73.mp4",
-      "clipFile": "136-1.mp4",
+      "clipFile": "136-1.gif",
       "videoIndex": 136,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -7352,7 +7352,7 @@
     {
       "id": "136-2",
       "sourceVideo": "สมัครสมาชิก_73.mp4",
-      "clipFile": "136-2.mp4",
+      "clipFile": "136-2.gif",
       "videoIndex": 136,
       "exerciseIndex": 2,
       "startTime": 14.24,
@@ -7386,7 +7386,7 @@
     {
       "id": "136-3",
       "sourceVideo": "สมัครสมาชิก_73.mp4",
-      "clipFile": "136-3.mp4",
+      "clipFile": "136-3.gif",
       "videoIndex": 136,
       "exerciseIndex": 3,
       "startTime": 25.49,
@@ -7420,7 +7420,7 @@
     {
       "id": "137-1",
       "sourceVideo": "สมัครสมาชิก_74.mp4",
-      "clipFile": "137-1.mp4",
+      "clipFile": "137-1.gif",
       "videoIndex": 137,
       "exerciseIndex": 1,
       "startTime": 1.8033333,
@@ -7454,7 +7454,7 @@
     {
       "id": "138-1",
       "sourceVideo": "สมัครสมาชิก_75.mp4",
-      "clipFile": "138-1.mp4",
+      "clipFile": "138-1.gif",
       "videoIndex": 138,
       "exerciseIndex": 1,
       "startTime": 2.46,
@@ -7487,7 +7487,7 @@
     {
       "id": "138-2",
       "sourceVideo": "สมัครสมาชิก_75.mp4",
-      "clipFile": "138-2.mp4",
+      "clipFile": "138-2.gif",
       "videoIndex": 138,
       "exerciseIndex": 2,
       "startTime": 11.08,
@@ -7520,7 +7520,7 @@
     {
       "id": "138-3",
       "sourceVideo": "สมัครสมาชิก_75.mp4",
-      "clipFile": "138-3.mp4",
+      "clipFile": "138-3.gif",
       "videoIndex": 138,
       "exerciseIndex": 3,
       "startTime": 19.69,
@@ -7553,7 +7553,7 @@
     {
       "id": "139-1",
       "sourceVideo": "สมัครสมาชิก_76.mp4",
-      "clipFile": "139-1.mp4",
+      "clipFile": "139-1.gif",
       "videoIndex": 139,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -7586,7 +7586,7 @@
     {
       "id": "140-1",
       "sourceVideo": "สมัครสมาชิก_77.mp4",
-      "clipFile": "140-1.mp4",
+      "clipFile": "140-1.gif",
       "videoIndex": 140,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -7620,7 +7620,7 @@
     {
       "id": "140-2",
       "sourceVideo": "สมัครสมาชิก_77.mp4",
-      "clipFile": "140-2.mp4",
+      "clipFile": "140-2.gif",
       "videoIndex": 140,
       "exerciseIndex": 2,
       "startTime": 14.84,
@@ -7654,7 +7654,7 @@
     {
       "id": "140-3",
       "sourceVideo": "สมัครสมาชิก_77.mp4",
-      "clipFile": "140-3.mp4",
+      "clipFile": "140-3.gif",
       "videoIndex": 140,
       "exerciseIndex": 3,
       "startTime": 26.69,
@@ -7688,7 +7688,7 @@
     {
       "id": "142-1",
       "sourceVideo": "สมัครสมาชิก_79.mp4",
-      "clipFile": "142-1.mp4",
+      "clipFile": "142-1.gif",
       "videoIndex": 142,
       "exerciseIndex": 1,
       "startTime": 2.41,
@@ -7720,7 +7720,7 @@
     {
       "id": "142-2",
       "sourceVideo": "สมัครสมาชิก_79.mp4",
-      "clipFile": "142-2.mp4",
+      "clipFile": "142-2.gif",
       "videoIndex": 142,
       "exerciseIndex": 2,
       "startTime": 10.84,
@@ -7752,7 +7752,7 @@
     {
       "id": "142-3",
       "sourceVideo": "สมัครสมาชิก_79.mp4",
-      "clipFile": "142-3.mp4",
+      "clipFile": "142-3.gif",
       "videoIndex": 142,
       "exerciseIndex": 3,
       "startTime": 19.26,
@@ -7784,7 +7784,7 @@
     {
       "id": "143-1",
       "sourceVideo": "สมัครสมาชิก_8.mp4",
-      "clipFile": "143-1.mp4",
+      "clipFile": "143-1.gif",
       "videoIndex": 143,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -7817,7 +7817,7 @@
     {
       "id": "143-2",
       "sourceVideo": "สมัครสมาชิก_8.mp4",
-      "clipFile": "143-2.mp4",
+      "clipFile": "143-2.gif",
       "videoIndex": 143,
       "exerciseIndex": 2,
       "startTime": 12.69,
@@ -7850,7 +7850,7 @@
     {
       "id": "143-3",
       "sourceVideo": "สมัครสมาชิก_8.mp4",
-      "clipFile": "143-3.mp4",
+      "clipFile": "143-3.gif",
       "videoIndex": 143,
       "exerciseIndex": 3,
       "startTime": 22.37,
@@ -7883,7 +7883,7 @@
     {
       "id": "143-4",
       "sourceVideo": "สมัครสมาชิก_8.mp4",
-      "clipFile": "143-4.mp4",
+      "clipFile": "143-4.gif",
       "videoIndex": 143,
       "exerciseIndex": 4,
       "startTime": 32.06,
@@ -7916,7 +7916,7 @@
     {
       "id": "143-5",
       "sourceVideo": "สมัครสมาชิก_8.mp4",
-      "clipFile": "143-5.mp4",
+      "clipFile": "143-5.gif",
       "videoIndex": 143,
       "exerciseIndex": 5,
       "startTime": 41.75,
@@ -7949,7 +7949,7 @@
     {
       "id": "144-1",
       "sourceVideo": "สมัครสมาชิก_80.mp4",
-      "clipFile": "144-1.mp4",
+      "clipFile": "144-1.gif",
       "videoIndex": 144,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -7983,7 +7983,7 @@
     {
       "id": "144-2",
       "sourceVideo": "สมัครสมาชิก_80.mp4",
-      "clipFile": "144-2.mp4",
+      "clipFile": "144-2.gif",
       "videoIndex": 144,
       "exerciseIndex": 2,
       "startTime": 14.43,
@@ -8017,7 +8017,7 @@
     {
       "id": "144-3",
       "sourceVideo": "สมัครสมาชิก_80.mp4",
-      "clipFile": "144-3.mp4",
+      "clipFile": "144-3.gif",
       "videoIndex": 144,
       "exerciseIndex": 3,
       "startTime": 25.87,
@@ -8051,7 +8051,7 @@
     {
       "id": "144-4",
       "sourceVideo": "สมัครสมาชิก_80.mp4",
-      "clipFile": "144-4.mp4",
+      "clipFile": "144-4.gif",
       "videoIndex": 144,
       "exerciseIndex": 4,
       "startTime": 37.3,
@@ -8085,7 +8085,7 @@
     {
       "id": "145-1",
       "sourceVideo": "สมัครสมาชิก_81.mp4",
-      "clipFile": "145-1.mp4",
+      "clipFile": "145-1.gif",
       "videoIndex": 145,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -8119,7 +8119,7 @@
     {
       "id": "145-2",
       "sourceVideo": "สมัครสมาชิก_81.mp4",
-      "clipFile": "145-2.mp4",
+      "clipFile": "145-2.gif",
       "videoIndex": 145,
       "exerciseIndex": 2,
       "startTime": 12.34,
@@ -8153,7 +8153,7 @@
     {
       "id": "145-3",
       "sourceVideo": "สมัครสมาชิก_81.mp4",
-      "clipFile": "145-3.mp4",
+      "clipFile": "145-3.gif",
       "videoIndex": 145,
       "exerciseIndex": 3,
       "startTime": 21.68,
@@ -8187,7 +8187,7 @@
     {
       "id": "145-4",
       "sourceVideo": "สมัครสมาชิก_81.mp4",
-      "clipFile": "145-4.mp4",
+      "clipFile": "145-4.gif",
       "videoIndex": 145,
       "exerciseIndex": 4,
       "startTime": 31.03,
@@ -8221,7 +8221,7 @@
     {
       "id": "146-1",
       "sourceVideo": "สมัครสมาชิก_82.mp4",
-      "clipFile": "146-1.mp4",
+      "clipFile": "146-1.gif",
       "videoIndex": 146,
       "exerciseIndex": 1,
       "startTime": 1.5966667,
@@ -8255,7 +8255,7 @@
     {
       "id": "147-1",
       "sourceVideo": "สมัครสมาชิก_83.mp4",
-      "clipFile": "147-1.mp4",
+      "clipFile": "147-1.gif",
       "videoIndex": 147,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -8286,7 +8286,7 @@
     {
       "id": "149-1",
       "sourceVideo": "สมัครสมาชิก_85.mp4",
-      "clipFile": "149-1.mp4",
+      "clipFile": "149-1.gif",
       "videoIndex": 149,
       "exerciseIndex": 1,
       "startTime": 3,
@@ -8318,7 +8318,7 @@
     {
       "id": "149-2",
       "sourceVideo": "สมัครสมาชิก_85.mp4",
-      "clipFile": "149-2.mp4",
+      "clipFile": "149-2.gif",
       "videoIndex": 149,
       "exerciseIndex": 2,
       "startTime": 14.26,
@@ -8350,7 +8350,7 @@
     {
       "id": "149-3",
       "sourceVideo": "สมัครสมาชิก_85.mp4",
-      "clipFile": "149-3.mp4",
+      "clipFile": "149-3.gif",
       "videoIndex": 149,
       "exerciseIndex": 3,
       "startTime": 25.52,
@@ -8382,7 +8382,7 @@
     {
       "id": "149-4",
       "sourceVideo": "สมัครสมาชิก_85.mp4",
-      "clipFile": "149-4.mp4",
+      "clipFile": "149-4.gif",
       "videoIndex": 149,
       "exerciseIndex": 4,
       "startTime": 36.77,
@@ -8414,7 +8414,7 @@
     {
       "id": "150-1",
       "sourceVideo": "สมัครสมาชิก_86.mp4",
-      "clipFile": "150-1.mp4",
+      "clipFile": "150-1.gif",
       "videoIndex": 150,
       "exerciseIndex": 1,
       "startTime": 2.5,
@@ -8448,7 +8448,7 @@
     {
       "id": "150-2",
       "sourceVideo": "สมัครสมาชิก_86.mp4",
-      "clipFile": "150-2.mp4",
+      "clipFile": "150-2.gif",
       "videoIndex": 150,
       "exerciseIndex": 2,
       "startTime": 11.27,
@@ -8482,7 +8482,7 @@
     {
       "id": "150-3",
       "sourceVideo": "สมัครสมาชิก_86.mp4",
-      "clipFile": "150-3.mp4",
+      "clipFile": "150-3.gif",
       "videoIndex": 150,
       "exerciseIndex": 3,
       "startTime": 20.03,
@@ -8516,7 +8516,7 @@
     {
       "id": "152-1",
       "sourceVideo": "สมัครสมาชิก_88.mp4",
-      "clipFile": "152-1.mp4",
+      "clipFile": "152-1.gif",
       "videoIndex": 152,
       "exerciseIndex": 1,
       "startTime": 2.52,
@@ -8550,7 +8550,7 @@
     {
       "id": "152-2",
       "sourceVideo": "สมัครสมาชิก_88.mp4",
-      "clipFile": "152-2.mp4",
+      "clipFile": "152-2.gif",
       "videoIndex": 152,
       "exerciseIndex": 2,
       "startTime": 11.33,
@@ -8584,7 +8584,7 @@
     {
       "id": "152-3",
       "sourceVideo": "สมัครสมาชิก_88.mp4",
-      "clipFile": "152-3.mp4",
+      "clipFile": "152-3.gif",
       "videoIndex": 152,
       "exerciseIndex": 3,
       "startTime": 20.14,
@@ -8618,7 +8618,7 @@
     {
       "id": "155-1",
       "sourceVideo": "สมัครสมาชิก_90.mp4",
-      "clipFile": "155-1.mp4",
+      "clipFile": "155-1.gif",
       "videoIndex": 155,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -8652,7 +8652,7 @@
     {
       "id": "156-1",
       "sourceVideo": "สมัครสมาชิก_91.mp4",
-      "clipFile": "156-1.mp4",
+      "clipFile": "156-1.gif",
       "videoIndex": 156,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -8686,7 +8686,7 @@
     {
       "id": "159-1",
       "sourceVideo": "สมัครสมาชิก_94.mp4",
-      "clipFile": "159-1.mp4",
+      "clipFile": "159-1.gif",
       "videoIndex": 159,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -8720,7 +8720,7 @@
     {
       "id": "160-1",
       "sourceVideo": "สมัครสมาชิก_95.mp4",
-      "clipFile": "160-1.mp4",
+      "clipFile": "160-1.gif",
       "videoIndex": 160,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -8754,7 +8754,7 @@
     {
       "id": "161-1",
       "sourceVideo": "สมัครสมาชิก_96.mp4",
-      "clipFile": "161-1.mp4",
+      "clipFile": "161-1.gif",
       "videoIndex": 161,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -8787,7 +8787,7 @@
     {
       "id": "163-1",
       "sourceVideo": "สมัครสมาชิก_98.mp4",
-      "clipFile": "163-1.mp4",
+      "clipFile": "163-1.gif",
       "videoIndex": 163,
       "exerciseIndex": 1,
       "startTime": 2,
@@ -8821,7 +8821,7 @@
     {
       "id": "164-1",
       "sourceVideo": "สมัครสมาชิก_99.mp4",
-      "clipFile": "164-1.mp4",
+      "clipFile": "164-1.gif",
       "videoIndex": 164,
       "exerciseIndex": 1,
       "startTime": 1.6533333,

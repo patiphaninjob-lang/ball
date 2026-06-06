@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T13:27:05.676Z",
+  "generatedAt": "2026-06-06T13:32:13.868Z",
   "totalExercises": 270,
   "categories": {
     "Mobility": 4,
@@ -15,7 +15,7 @@
   "exercises": [
     {
       "id": "1-1",
-      "file": "exercises/1-1.mp4",
+      "file": "exercises/1-1.gif",
       "duration": 15.92,
       "category": "Mobility",
       "level": "Level 1",
@@ -35,7 +35,7 @@
     },
     {
       "id": "3-1",
-      "file": "exercises/3-1.mp4",
+      "file": "exercises/3-1.gif",
       "duration": 9.43,
       "category": "Rehab",
       "level": "Level 1",
@@ -57,7 +57,7 @@
     },
     {
       "id": "3-2",
-      "file": "exercises/3-2.mp4",
+      "file": "exercises/3-2.gif",
       "duration": 9.43,
       "category": "Rehab",
       "level": "Level 1",
@@ -79,7 +79,7 @@
     },
     {
       "id": "3-3",
-      "file": "exercises/3-3.mp4",
+      "file": "exercises/3-3.gif",
       "duration": 9.42,
       "category": "Rehab",
       "level": "Level 1",
@@ -101,7 +101,7 @@
     },
     {
       "id": "4-1",
-      "file": "exercises/4-1.mp4",
+      "file": "exercises/4-1.gif",
       "duration": 10.97,
       "category": "Rehab",
       "level": "Level 1",
@@ -123,7 +123,7 @@
     },
     {
       "id": "4-2",
-      "file": "exercises/4-2.mp4",
+      "file": "exercises/4-2.gif",
       "duration": 10.98,
       "category": "Rehab",
       "level": "Level 1",
@@ -145,7 +145,7 @@
     },
     {
       "id": "4-3",
-      "file": "exercises/4-3.mp4",
+      "file": "exercises/4-3.gif",
       "duration": 10.97,
       "category": "Rehab",
       "level": "Level 1",
@@ -167,7 +167,7 @@
     },
     {
       "id": "4-4",
-      "file": "exercises/4-4.mp4",
+      "file": "exercises/4-4.gif",
       "duration": 10.97,
       "category": "Rehab",
       "level": "Level 1",
@@ -189,7 +189,7 @@
     },
     {
       "id": "4-5",
-      "file": "exercises/4-5.mp4",
+      "file": "exercises/4-5.gif",
       "duration": 10.98,
       "category": "Rehab",
       "level": "Level 1",
@@ -211,7 +211,7 @@
     },
     {
       "id": "5-1",
-      "file": "exercises/5-1.mp4",
+      "file": "exercises/5-1.gif",
       "duration": 18.27,
       "category": "Rehab",
       "level": "Level 1",
@@ -233,7 +233,7 @@
     },
     {
       "id": "7-1",
-      "file": "exercises/7-1.mp4",
+      "file": "exercises/7-1.gif",
       "duration": 15.49,
       "category": "Rehab",
       "level": "Level 1",
@@ -256,7 +256,7 @@
     },
     {
       "id": "9-1",
-      "file": "exercises/9-1.mp4",
+      "file": "exercises/9-1.gif",
       "duration": 19.27,
       "category": "Rehab",
       "level": "Level 1",
@@ -281,7 +281,7 @@
     },
     {
       "id": "11-1",
-      "file": "exercises/11-1.mp4",
+      "file": "exercises/11-1.gif",
       "duration": 19.87,
       "category": "Rehab",
       "level": "Level 1",
@@ -305,7 +305,7 @@
     },
     {
       "id": "12-1",
-      "file": "exercises/12-1.mp4",
+      "file": "exercises/12-1.gif",
       "duration": 19.4,
       "category": "Rehab",
       "level": "Level 1",
@@ -330,7 +330,7 @@
     },
     {
       "id": "14-1",
-      "file": "exercises/14-1.mp4",
+      "file": "exercises/14-1.gif",
       "duration": 9.33,
       "category": "Rehab",
       "level": "Level 1",
@@ -355,7 +355,7 @@
     },
     {
       "id": "16-1",
-      "file": "exercises/16-1.mp4",
+      "file": "exercises/16-1.gif",
       "duration": 9.76,
       "category": "Rehab",
       "level": "Level 1",
@@ -378,7 +378,7 @@
     },
     {
       "id": "16-2",
-      "file": "exercises/16-2.mp4",
+      "file": "exercises/16-2.gif",
       "duration": 9.76,
       "category": "Rehab",
       "level": "Level 1",
@@ -401,7 +401,7 @@
     },
     {
       "id": "16-3",
-      "file": "exercises/16-3.mp4",
+      "file": "exercises/16-3.gif",
       "duration": 9.75,
       "category": "Rehab",
       "level": "Level 1",
@@ -424,7 +424,7 @@
     },
     {
       "id": "16-4",
-      "file": "exercises/16-4.mp4",
+      "file": "exercises/16-4.gif",
       "duration": 9.76,
       "category": "Rehab",
       "level": "Level 1",
@@ -447,7 +447,7 @@
     },
     {
       "id": "18-1",
-      "file": "exercises/18-1.mp4",
+      "file": "exercises/18-1.gif",
       "duration": 9.91,
       "category": "Rehab",
       "level": "Level 1",
@@ -468,7 +468,7 @@
     },
     {
       "id": "18-2",
-      "file": "exercises/18-2.mp4",
+      "file": "exercises/18-2.gif",
       "duration": 9.92,
       "category": "Rehab",
       "level": "Level 1",
@@ -489,7 +489,7 @@
     },
     {
       "id": "18-3",
-      "file": "exercises/18-3.mp4",
+      "file": "exercises/18-3.gif",
       "duration": 9.91,
       "category": "Rehab",
       "level": "Level 1",
@@ -510,7 +510,7 @@
     },
     {
       "id": "18-4",
-      "file": "exercises/18-4.mp4",
+      "file": "exercises/18-4.gif",
       "duration": 9.91,
       "category": "Rehab",
       "level": "Level 1",
@@ -531,7 +531,7 @@
     },
     {
       "id": "18-5",
-      "file": "exercises/18-5.mp4",
+      "file": "exercises/18-5.gif",
       "duration": 9.92,
       "category": "Rehab",
       "level": "Level 1",
@@ -552,7 +552,7 @@
     },
     {
       "id": "20-1",
-      "file": "exercises/20-1.mp4",
+      "file": "exercises/20-1.gif",
       "duration": 8.88,
       "category": "Rehab",
       "level": "Level 1",
@@ -577,7 +577,7 @@
     },
     {
       "id": "20-2",
-      "file": "exercises/20-2.mp4",
+      "file": "exercises/20-2.gif",
       "duration": 8.89,
       "category": "Rehab",
       "level": "Level 1",
@@ -602,7 +602,7 @@
     },
     {
       "id": "20-3",
-      "file": "exercises/20-3.mp4",
+      "file": "exercises/20-3.gif",
       "duration": 8.88,
       "category": "Rehab",
       "level": "Level 1",
@@ -627,7 +627,7 @@
     },
     {
       "id": "21-1",
-      "file": "exercises/21-1.mp4",
+      "file": "exercises/21-1.gif",
       "duration": 16.63,
       "category": "Rehab",
       "level": "Level 1",
@@ -652,7 +652,7 @@
     },
     {
       "id": "23-1",
-      "file": "exercises/23-1.mp4",
+      "file": "exercises/23-1.gif",
       "duration": 21.22,
       "category": "Rehab",
       "level": "Level 1",
@@ -676,7 +676,7 @@
     },
     {
       "id": "24-1",
-      "file": "exercises/24-1.mp4",
+      "file": "exercises/24-1.gif",
       "duration": 12.35,
       "category": "Rehab",
       "level": "Level 1",
@@ -701,7 +701,7 @@
     },
     {
       "id": "26-1",
-      "file": "exercises/26-1.mp4",
+      "file": "exercises/26-1.gif",
       "duration": 9.27,
       "category": "Mobility",
       "level": "Level 1",
@@ -725,7 +725,7 @@
     },
     {
       "id": "26-2",
-      "file": "exercises/26-2.mp4",
+      "file": "exercises/26-2.gif",
       "duration": 9.26,
       "category": "Mobility",
       "level": "Level 1",
@@ -749,7 +749,7 @@
     },
     {
       "id": "26-3",
-      "file": "exercises/26-3.mp4",
+      "file": "exercises/26-3.gif",
       "duration": 9.27,
       "category": "Mobility",
       "level": "Level 1",
@@ -773,7 +773,7 @@
     },
     {
       "id": "27-1",
-      "file": "exercises/27-1.mp4",
+      "file": "exercises/27-1.gif",
       "duration": 11.57,
       "category": "Core",
       "level": "Level 2",
@@ -797,7 +797,7 @@
     },
     {
       "id": "27-2",
-      "file": "exercises/27-2.mp4",
+      "file": "exercises/27-2.gif",
       "duration": 11.56,
       "category": "Core",
       "level": "Level 2",
@@ -821,7 +821,7 @@
     },
     {
       "id": "27-3",
-      "file": "exercises/27-3.mp4",
+      "file": "exercises/27-3.gif",
       "duration": 11.57,
       "category": "Core",
       "level": "Level 2",
@@ -845,7 +845,7 @@
     },
     {
       "id": "27-4",
-      "file": "exercises/27-4.mp4",
+      "file": "exercises/27-4.gif",
       "duration": 11.57,
       "category": "Core",
       "level": "Level 2",
@@ -869,7 +869,7 @@
     },
     {
       "id": "28-1",
-      "file": "exercises/28-1.mp4",
+      "file": "exercises/28-1.gif",
       "duration": 25.27,
       "category": "Core",
       "level": "Level 2",
@@ -891,7 +891,7 @@
     },
     {
       "id": "29-1",
-      "file": "exercises/29-1.mp4",
+      "file": "exercises/29-1.gif",
       "duration": 17.97,
       "category": "Core",
       "level": "Level 2",
@@ -916,7 +916,7 @@
     },
     {
       "id": "30-1",
-      "file": "exercises/30-1.mp4",
+      "file": "exercises/30-1.gif",
       "duration": 13.6,
       "category": "Core",
       "level": "Level 2",
@@ -938,7 +938,7 @@
     },
     {
       "id": "31-1",
-      "file": "exercises/31-1.mp4",
+      "file": "exercises/31-1.gif",
       "duration": 11.06,
       "category": "Core",
       "level": "Level 2",
@@ -961,7 +961,7 @@
     },
     {
       "id": "31-2",
-      "file": "exercises/31-2.mp4",
+      "file": "exercises/31-2.gif",
       "duration": 11.06,
       "category": "Core",
       "level": "Level 2",
@@ -984,7 +984,7 @@
     },
     {
       "id": "31-3",
-      "file": "exercises/31-3.mp4",
+      "file": "exercises/31-3.gif",
       "duration": 11.06,
       "category": "Core",
       "level": "Level 2",
@@ -1007,7 +1007,7 @@
     },
     {
       "id": "31-4",
-      "file": "exercises/31-4.mp4",
+      "file": "exercises/31-4.gif",
       "duration": 11.06,
       "category": "Core",
       "level": "Level 2",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "31-5",
-      "file": "exercises/31-5.mp4",
+      "file": "exercises/31-5.gif",
       "duration": 11.06,
       "category": "Core",
       "level": "Level 2",
@@ -1053,7 +1053,7 @@
     },
     {
       "id": "32-1",
-      "file": "exercises/32-1.mp4",
+      "file": "exercises/32-1.gif",
       "duration": 11.06,
       "category": "Core",
       "level": "Level 2",
@@ -1075,7 +1075,7 @@
     },
     {
       "id": "32-2",
-      "file": "exercises/32-2.mp4",
+      "file": "exercises/32-2.gif",
       "duration": 11.06,
       "category": "Core",
       "level": "Level 2",
@@ -1097,7 +1097,7 @@
     },
     {
       "id": "32-3",
-      "file": "exercises/32-3.mp4",
+      "file": "exercises/32-3.gif",
       "duration": 11.06,
       "category": "Core",
       "level": "Level 2",
@@ -1119,7 +1119,7 @@
     },
     {
       "id": "32-4",
-      "file": "exercises/32-4.mp4",
+      "file": "exercises/32-4.gif",
       "duration": 11.06,
       "category": "Core",
       "level": "Level 2",
@@ -1141,7 +1141,7 @@
     },
     {
       "id": "32-5",
-      "file": "exercises/32-5.mp4",
+      "file": "exercises/32-5.gif",
       "duration": 11.06,
       "category": "Core",
       "level": "Level 2",
@@ -1163,7 +1163,7 @@
     },
     {
       "id": "33-1",
-      "file": "exercises/33-1.mp4",
+      "file": "exercises/33-1.gif",
       "duration": 8.91,
       "category": "Core",
       "level": "Level 2",
@@ -1184,7 +1184,7 @@
     },
     {
       "id": "36-1",
-      "file": "exercises/36-1.mp4",
+      "file": "exercises/36-1.gif",
       "duration": 14.24,
       "category": "Core",
       "level": "Level 2",
@@ -1209,7 +1209,7 @@
     },
     {
       "id": "37-1",
-      "file": "exercises/37-1.mp4",
+      "file": "exercises/37-1.gif",
       "duration": 14.24,
       "category": "Core",
       "level": "Level 2",
@@ -1234,7 +1234,7 @@
     },
     {
       "id": "39-1",
-      "file": "exercises/39-1.mp4",
+      "file": "exercises/39-1.gif",
       "duration": 13.52,
       "category": "General",
       "level": "Level 2",
@@ -1255,7 +1255,7 @@
     },
     {
       "id": "40-1",
-      "file": "exercises/40-1.mp4",
+      "file": "exercises/40-1.gif",
       "duration": 20.87,
       "category": "General",
       "level": "Level 2",
@@ -1276,7 +1276,7 @@
     },
     {
       "id": "43-1",
-      "file": "exercises/43-1.mp4",
+      "file": "exercises/43-1.gif",
       "duration": 13.52,
       "category": "General",
       "level": "Level 2",
@@ -1297,7 +1297,7 @@
     },
     {
       "id": "47-1",
-      "file": "exercises/47-1.mp4",
+      "file": "exercises/47-1.gif",
       "duration": 9.45,
       "category": "General",
       "level": "Level 2",
@@ -1313,7 +1313,7 @@
     },
     {
       "id": "48-1",
-      "file": "exercises/48-1.mp4",
+      "file": "exercises/48-1.gif",
       "duration": 13.71,
       "category": "General",
       "level": "Level 2",
@@ -1337,7 +1337,7 @@
     },
     {
       "id": "49-1",
-      "file": "exercises/49-1.mp4",
+      "file": "exercises/49-1.gif",
       "duration": 17.93,
       "category": "General",
       "level": "Level 2",
@@ -1361,7 +1361,7 @@
     },
     {
       "id": "50-1",
-      "file": "exercises/50-1.mp4",
+      "file": "exercises/50-1.gif",
       "duration": 12.11,
       "category": "General",
       "level": "Level 2",
@@ -1384,7 +1384,7 @@
     },
     {
       "id": "51-1",
-      "file": "exercises/51-1.mp4",
+      "file": "exercises/51-1.gif",
       "duration": 11.26,
       "category": "General",
       "level": "Level 2",
@@ -1406,7 +1406,7 @@
     },
     {
       "id": "51-2",
-      "file": "exercises/51-2.mp4",
+      "file": "exercises/51-2.gif",
       "duration": 11.25,
       "category": "General",
       "level": "Level 2",
@@ -1428,7 +1428,7 @@
     },
     {
       "id": "51-3",
-      "file": "exercises/51-3.mp4",
+      "file": "exercises/51-3.gif",
       "duration": 11.26,
       "category": "General",
       "level": "Level 2",
@@ -1450,7 +1450,7 @@
     },
     {
       "id": "52-1",
-      "file": "exercises/52-1.mp4",
+      "file": "exercises/52-1.gif",
       "duration": 24.47,
       "category": "General",
       "level": "Level 2",
@@ -1472,7 +1472,7 @@
     },
     {
       "id": "53-1",
-      "file": "exercises/53-1.mp4",
+      "file": "exercises/53-1.gif",
       "duration": 11.26,
       "category": "General",
       "level": "Level 2",
@@ -1497,7 +1497,7 @@
     },
     {
       "id": "53-2",
-      "file": "exercises/53-2.mp4",
+      "file": "exercises/53-2.gif",
       "duration": 11.25,
       "category": "General",
       "level": "Level 2",
@@ -1522,7 +1522,7 @@
     },
     {
       "id": "53-3",
-      "file": "exercises/53-3.mp4",
+      "file": "exercises/53-3.gif",
       "duration": 11.26,
       "category": "General",
       "level": "Level 2",
@@ -1547,7 +1547,7 @@
     },
     {
       "id": "55-1",
-      "file": "exercises/55-1.mp4",
+      "file": "exercises/55-1.gif",
       "duration": 10.67,
       "category": "General",
       "level": "Level 2",
@@ -1572,7 +1572,7 @@
     },
     {
       "id": "56-1",
-      "file": "exercises/56-1.mp4",
+      "file": "exercises/56-1.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1594,7 +1594,7 @@
     },
     {
       "id": "56-2",
-      "file": "exercises/56-2.mp4",
+      "file": "exercises/56-2.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1616,7 +1616,7 @@
     },
     {
       "id": "56-3",
-      "file": "exercises/56-3.mp4",
+      "file": "exercises/56-3.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1638,7 +1638,7 @@
     },
     {
       "id": "56-4",
-      "file": "exercises/56-4.mp4",
+      "file": "exercises/56-4.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1660,7 +1660,7 @@
     },
     {
       "id": "56-5",
-      "file": "exercises/56-5.mp4",
+      "file": "exercises/56-5.gif",
       "duration": 10.17,
       "category": "General",
       "level": "Level 2",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "56-6",
-      "file": "exercises/56-6.mp4",
+      "file": "exercises/56-6.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1704,7 +1704,7 @@
     },
     {
       "id": "57-1",
-      "file": "exercises/57-1.mp4",
+      "file": "exercises/57-1.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1728,7 +1728,7 @@
     },
     {
       "id": "57-2",
-      "file": "exercises/57-2.mp4",
+      "file": "exercises/57-2.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1752,7 +1752,7 @@
     },
     {
       "id": "57-3",
-      "file": "exercises/57-3.mp4",
+      "file": "exercises/57-3.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1776,7 +1776,7 @@
     },
     {
       "id": "57-4",
-      "file": "exercises/57-4.mp4",
+      "file": "exercises/57-4.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1800,7 +1800,7 @@
     },
     {
       "id": "57-5",
-      "file": "exercises/57-5.mp4",
+      "file": "exercises/57-5.gif",
       "duration": 10.17,
       "category": "General",
       "level": "Level 2",
@@ -1824,7 +1824,7 @@
     },
     {
       "id": "57-6",
-      "file": "exercises/57-6.mp4",
+      "file": "exercises/57-6.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1848,7 +1848,7 @@
     },
     {
       "id": "58-1",
-      "file": "exercises/58-1.mp4",
+      "file": "exercises/58-1.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1870,7 +1870,7 @@
     },
     {
       "id": "58-2",
-      "file": "exercises/58-2.mp4",
+      "file": "exercises/58-2.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1892,7 +1892,7 @@
     },
     {
       "id": "58-3",
-      "file": "exercises/58-3.mp4",
+      "file": "exercises/58-3.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1914,7 +1914,7 @@
     },
     {
       "id": "58-4",
-      "file": "exercises/58-4.mp4",
+      "file": "exercises/58-4.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1936,7 +1936,7 @@
     },
     {
       "id": "58-5",
-      "file": "exercises/58-5.mp4",
+      "file": "exercises/58-5.gif",
       "duration": 10.17,
       "category": "General",
       "level": "Level 2",
@@ -1958,7 +1958,7 @@
     },
     {
       "id": "58-6",
-      "file": "exercises/58-6.mp4",
+      "file": "exercises/58-6.gif",
       "duration": 10.16,
       "category": "General",
       "level": "Level 2",
@@ -1980,7 +1980,7 @@
     },
     {
       "id": "59-1",
-      "file": "exercises/59-1.mp4",
+      "file": "exercises/59-1.gif",
       "duration": 12.91,
       "category": "General",
       "level": "Level 2",
@@ -2003,7 +2003,7 @@
     },
     {
       "id": "60-1",
-      "file": "exercises/60-1.mp4",
+      "file": "exercises/60-1.gif",
       "duration": 9.19,
       "category": "General",
       "level": "Level 2",
@@ -2026,7 +2026,7 @@
     },
     {
       "id": "60-2",
-      "file": "exercises/60-2.mp4",
+      "file": "exercises/60-2.gif",
       "duration": 9.18,
       "category": "General",
       "level": "Level 2",
@@ -2049,7 +2049,7 @@
     },
     {
       "id": "60-3",
-      "file": "exercises/60-3.mp4",
+      "file": "exercises/60-3.gif",
       "duration": 9.19,
       "category": "General",
       "level": "Level 2",
@@ -2072,7 +2072,7 @@
     },
     {
       "id": "62-1",
-      "file": "exercises/62-1.mp4",
+      "file": "exercises/62-1.gif",
       "duration": 11.51,
       "category": "General",
       "level": "Level 2",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "62-2",
-      "file": "exercises/62-2.mp4",
+      "file": "exercises/62-2.gif",
       "duration": 11.51,
       "category": "General",
       "level": "Level 2",
@@ -2120,7 +2120,7 @@
     },
     {
       "id": "62-3",
-      "file": "exercises/62-3.mp4",
+      "file": "exercises/62-3.gif",
       "duration": 11.51,
       "category": "General",
       "level": "Level 2",
@@ -2144,7 +2144,7 @@
     },
     {
       "id": "63-1",
-      "file": "exercises/63-1.mp4",
+      "file": "exercises/63-1.gif",
       "duration": 12.21,
       "category": "General",
       "level": "Level 2",
@@ -2168,7 +2168,7 @@
     },
     {
       "id": "64-1",
-      "file": "exercises/64-1.mp4",
+      "file": "exercises/64-1.gif",
       "duration": 12.35,
       "category": "General",
       "level": "Level 2",
@@ -2192,7 +2192,7 @@
     },
     {
       "id": "65-1",
-      "file": "exercises/65-1.mp4",
+      "file": "exercises/65-1.gif",
       "duration": 9.97,
       "category": "General",
       "level": "Level 2",
@@ -2215,7 +2215,7 @@
     },
     {
       "id": "66-1",
-      "file": "exercises/66-1.mp4",
+      "file": "exercises/66-1.gif",
       "duration": 18.64,
       "category": "General",
       "level": "Level 2",
@@ -2238,7 +2238,7 @@
     },
     {
       "id": "68-1",
-      "file": "exercises/68-1.mp4",
+      "file": "exercises/68-1.gif",
       "duration": 11.55,
       "category": "General",
       "level": "Level 2",
@@ -2262,7 +2262,7 @@
     },
     {
       "id": "69-1",
-      "file": "exercises/69-1.mp4",
+      "file": "exercises/69-1.gif",
       "duration": 8.74,
       "category": "General",
       "level": "Level 2",
@@ -2285,7 +2285,7 @@
     },
     {
       "id": "69-2",
-      "file": "exercises/69-2.mp4",
+      "file": "exercises/69-2.gif",
       "duration": 8.75,
       "category": "General",
       "level": "Level 2",
@@ -2308,7 +2308,7 @@
     },
     {
       "id": "69-3",
-      "file": "exercises/69-3.mp4",
+      "file": "exercises/69-3.gif",
       "duration": 8.74,
       "category": "General",
       "level": "Level 2",
@@ -2331,7 +2331,7 @@
     },
     {
       "id": "70-1",
-      "file": "exercises/70-1.mp4",
+      "file": "exercises/70-1.gif",
       "duration": 6.28,
       "category": "General",
       "level": "Level 2",
@@ -2354,7 +2354,7 @@
     },
     {
       "id": "71-1",
-      "file": "exercises/71-1.mp4",
+      "file": "exercises/71-1.gif",
       "duration": 9.68,
       "category": "General",
       "level": "Level 2",
@@ -2377,7 +2377,7 @@
     },
     {
       "id": "71-2",
-      "file": "exercises/71-2.mp4",
+      "file": "exercises/71-2.gif",
       "duration": 9.68,
       "category": "General",
       "level": "Level 2",
@@ -2400,7 +2400,7 @@
     },
     {
       "id": "71-3",
-      "file": "exercises/71-3.mp4",
+      "file": "exercises/71-3.gif",
       "duration": 9.68,
       "category": "General",
       "level": "Level 2",
@@ -2423,7 +2423,7 @@
     },
     {
       "id": "71-4",
-      "file": "exercises/71-4.mp4",
+      "file": "exercises/71-4.gif",
       "duration": 9.68,
       "category": "General",
       "level": "Level 2",
@@ -2446,7 +2446,7 @@
     },
     {
       "id": "72-1",
-      "file": "exercises/72-1.mp4",
+      "file": "exercises/72-1.gif",
       "duration": 11.06,
       "category": "General",
       "level": "Level 2",
@@ -2471,7 +2471,7 @@
     },
     {
       "id": "72-2",
-      "file": "exercises/72-2.mp4",
+      "file": "exercises/72-2.gif",
       "duration": 11.05,
       "category": "General",
       "level": "Level 2",
@@ -2496,7 +2496,7 @@
     },
     {
       "id": "72-3",
-      "file": "exercises/72-3.mp4",
+      "file": "exercises/72-3.gif",
       "duration": 11.06,
       "category": "General",
       "level": "Level 2",
@@ -2521,7 +2521,7 @@
     },
     {
       "id": "73-1",
-      "file": "exercises/73-1.mp4",
+      "file": "exercises/73-1.gif",
       "duration": 11.55,
       "category": "General",
       "level": "Level 2",
@@ -2543,7 +2543,7 @@
     },
     {
       "id": "74-1",
-      "file": "exercises/74-1.mp4",
+      "file": "exercises/74-1.gif",
       "duration": 10.73,
       "category": "General",
       "level": "Level 2",
@@ -2565,7 +2565,7 @@
     },
     {
       "id": "74-2",
-      "file": "exercises/74-2.mp4",
+      "file": "exercises/74-2.gif",
       "duration": 10.73,
       "category": "General",
       "level": "Level 2",
@@ -2587,7 +2587,7 @@
     },
     {
       "id": "74-3",
-      "file": "exercises/74-3.mp4",
+      "file": "exercises/74-3.gif",
       "duration": 10.73,
       "category": "General",
       "level": "Level 2",
@@ -2609,7 +2609,7 @@
     },
     {
       "id": "74-4",
-      "file": "exercises/74-4.mp4",
+      "file": "exercises/74-4.gif",
       "duration": 10.73,
       "category": "General",
       "level": "Level 2",
@@ -2631,7 +2631,7 @@
     },
     {
       "id": "74-5",
-      "file": "exercises/74-5.mp4",
+      "file": "exercises/74-5.gif",
       "duration": 10.73,
       "category": "General",
       "level": "Level 2",
@@ -2653,7 +2653,7 @@
     },
     {
       "id": "74-6",
-      "file": "exercises/74-6.mp4",
+      "file": "exercises/74-6.gif",
       "duration": 10.73,
       "category": "General",
       "level": "Level 2",
@@ -2675,7 +2675,7 @@
     },
     {
       "id": "75-1",
-      "file": "exercises/75-1.mp4",
+      "file": "exercises/75-1.gif",
       "duration": 20.17,
       "category": "General",
       "level": "Level 2",
@@ -2700,7 +2700,7 @@
     },
     {
       "id": "76-1",
-      "file": "exercises/76-1.mp4",
+      "file": "exercises/76-1.gif",
       "duration": 15.21,
       "category": "General",
       "level": "Level 2",
@@ -2725,7 +2725,7 @@
     },
     {
       "id": "77-1",
-      "file": "exercises/77-1.mp4",
+      "file": "exercises/77-1.gif",
       "duration": 8.55,
       "category": "General",
       "level": "Level 2",
@@ -2750,7 +2750,7 @@
     },
     {
       "id": "77-2",
-      "file": "exercises/77-2.mp4",
+      "file": "exercises/77-2.gif",
       "duration": 8.56,
       "category": "General",
       "level": "Level 2",
@@ -2775,7 +2775,7 @@
     },
     {
       "id": "77-3",
-      "file": "exercises/77-3.mp4",
+      "file": "exercises/77-3.gif",
       "duration": 8.56,
       "category": "General",
       "level": "Level 2",
@@ -2800,7 +2800,7 @@
     },
     {
       "id": "78-1",
-      "file": "exercises/78-1.mp4",
+      "file": "exercises/78-1.gif",
       "duration": 9.97,
       "category": "General",
       "level": "Level 2",
@@ -2825,7 +2825,7 @@
     },
     {
       "id": "78-2",
-      "file": "exercises/78-2.mp4",
+      "file": "exercises/78-2.gif",
       "duration": 9.96,
       "category": "General",
       "level": "Level 2",
@@ -2850,7 +2850,7 @@
     },
     {
       "id": "78-3",
-      "file": "exercises/78-3.mp4",
+      "file": "exercises/78-3.gif",
       "duration": 9.97,
       "category": "General",
       "level": "Level 2",
@@ -2875,7 +2875,7 @@
     },
     {
       "id": "78-4",
-      "file": "exercises/78-4.mp4",
+      "file": "exercises/78-4.gif",
       "duration": 9.97,
       "category": "General",
       "level": "Level 2",
@@ -2900,7 +2900,7 @@
     },
     {
       "id": "80-1",
-      "file": "exercises/80-1.mp4",
+      "file": "exercises/80-1.gif",
       "duration": 11.79,
       "category": "Football Skill",
       "level": "Level 3",
@@ -2921,7 +2921,7 @@
     },
     {
       "id": "80-2",
-      "file": "exercises/80-2.mp4",
+      "file": "exercises/80-2.gif",
       "duration": 11.79,
       "category": "Football Skill",
       "level": "Level 3",
@@ -2942,7 +2942,7 @@
     },
     {
       "id": "80-3",
-      "file": "exercises/80-3.mp4",
+      "file": "exercises/80-3.gif",
       "duration": 11.79,
       "category": "Football Skill",
       "level": "Level 3",
@@ -2963,7 +2963,7 @@
     },
     {
       "id": "81-1",
-      "file": "exercises/81-1.mp4",
+      "file": "exercises/81-1.gif",
       "duration": 8.87,
       "category": "Football Skill",
       "level": "Level 3",
@@ -2984,7 +2984,7 @@
     },
     {
       "id": "81-2",
-      "file": "exercises/81-2.mp4",
+      "file": "exercises/81-2.gif",
       "duration": 8.87,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3005,7 +3005,7 @@
     },
     {
       "id": "81-3",
-      "file": "exercises/81-3.mp4",
+      "file": "exercises/81-3.gif",
       "duration": 8.86,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3026,7 +3026,7 @@
     },
     {
       "id": "82-1",
-      "file": "exercises/82-1.mp4",
+      "file": "exercises/82-1.gif",
       "duration": 11.2,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3048,7 +3048,7 @@
     },
     {
       "id": "82-2",
-      "file": "exercises/82-2.mp4",
+      "file": "exercises/82-2.gif",
       "duration": 11.2,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3070,7 +3070,7 @@
     },
     {
       "id": "82-3",
-      "file": "exercises/82-3.mp4",
+      "file": "exercises/82-3.gif",
       "duration": 11.2,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3092,7 +3092,7 @@
     },
     {
       "id": "82-4",
-      "file": "exercises/82-4.mp4",
+      "file": "exercises/82-4.gif",
       "duration": 11.2,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3114,7 +3114,7 @@
     },
     {
       "id": "83-1",
-      "file": "exercises/83-1.mp4",
+      "file": "exercises/83-1.gif",
       "duration": 20.83,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3135,7 +3135,7 @@
     },
     {
       "id": "85-1",
-      "file": "exercises/85-1.mp4",
+      "file": "exercises/85-1.gif",
       "duration": 16.9,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3160,7 +3160,7 @@
     },
     {
       "id": "86-1",
-      "file": "exercises/86-1.mp4",
+      "file": "exercises/86-1.gif",
       "duration": 9.72,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3185,7 +3185,7 @@
     },
     {
       "id": "86-2",
-      "file": "exercises/86-2.mp4",
+      "file": "exercises/86-2.gif",
       "duration": 9.73,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3210,7 +3210,7 @@
     },
     {
       "id": "86-3",
-      "file": "exercises/86-3.mp4",
+      "file": "exercises/86-3.gif",
       "duration": 9.73,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3235,7 +3235,7 @@
     },
     {
       "id": "87-1",
-      "file": "exercises/87-1.mp4",
+      "file": "exercises/87-1.gif",
       "duration": 9.96,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3260,7 +3260,7 @@
     },
     {
       "id": "87-2",
-      "file": "exercises/87-2.mp4",
+      "file": "exercises/87-2.gif",
       "duration": 9.96,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3285,7 +3285,7 @@
     },
     {
       "id": "87-3",
-      "file": "exercises/87-3.mp4",
+      "file": "exercises/87-3.gif",
       "duration": 9.95,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3310,7 +3310,7 @@
     },
     {
       "id": "87-4",
-      "file": "exercises/87-4.mp4",
+      "file": "exercises/87-4.gif",
       "duration": 9.96,
       "category": "Football Skill",
       "level": "Level 3",
@@ -3335,7 +3335,7 @@
     },
     {
       "id": "88-1",
-      "file": "exercises/88-1.mp4",
+      "file": "exercises/88-1.gif",
       "duration": 20,
       "category": "Strength",
       "level": "Level 3",
@@ -3358,7 +3358,7 @@
     },
     {
       "id": "89-1",
-      "file": "exercises/89-1.mp4",
+      "file": "exercises/89-1.gif",
       "duration": 10.02,
       "category": "Strength",
       "level": "Level 3",
@@ -3381,7 +3381,7 @@
     },
     {
       "id": "89-2",
-      "file": "exercises/89-2.mp4",
+      "file": "exercises/89-2.gif",
       "duration": 10.02,
       "category": "Strength",
       "level": "Level 3",
@@ -3404,7 +3404,7 @@
     },
     {
       "id": "89-3",
-      "file": "exercises/89-3.mp4",
+      "file": "exercises/89-3.gif",
       "duration": 10.03,
       "category": "Strength",
       "level": "Level 3",
@@ -3427,7 +3427,7 @@
     },
     {
       "id": "89-4",
-      "file": "exercises/89-4.mp4",
+      "file": "exercises/89-4.gif",
       "duration": 10.02,
       "category": "Strength",
       "level": "Level 3",
@@ -3450,7 +3450,7 @@
     },
     {
       "id": "89-5",
-      "file": "exercises/89-5.mp4",
+      "file": "exercises/89-5.gif",
       "duration": 10.02,
       "category": "Strength",
       "level": "Level 3",
@@ -3473,7 +3473,7 @@
     },
     {
       "id": "89-6",
-      "file": "exercises/89-6.mp4",
+      "file": "exercises/89-6.gif",
       "duration": 10.02,
       "category": "Strength",
       "level": "Level 3",
@@ -3496,7 +3496,7 @@
     },
     {
       "id": "90-1",
-      "file": "exercises/90-1.mp4",
+      "file": "exercises/90-1.gif",
       "duration": 9.61,
       "category": "Strength",
       "level": "Level 3",
@@ -3519,7 +3519,7 @@
     },
     {
       "id": "90-2",
-      "file": "exercises/90-2.mp4",
+      "file": "exercises/90-2.gif",
       "duration": 9.6,
       "category": "Strength",
       "level": "Level 3",
@@ -3542,7 +3542,7 @@
     },
     {
       "id": "90-3",
-      "file": "exercises/90-3.mp4",
+      "file": "exercises/90-3.gif",
       "duration": 9.61,
       "category": "Strength",
       "level": "Level 3",
@@ -3565,7 +3565,7 @@
     },
     {
       "id": "93-1",
-      "file": "exercises/93-1.mp4",
+      "file": "exercises/93-1.gif",
       "duration": 11.11,
       "category": "Agility",
       "level": "Level 4",
@@ -3590,7 +3590,7 @@
     },
     {
       "id": "93-2",
-      "file": "exercises/93-2.mp4",
+      "file": "exercises/93-2.gif",
       "duration": 11.11,
       "category": "Agility",
       "level": "Level 4",
@@ -3615,7 +3615,7 @@
     },
     {
       "id": "93-3",
-      "file": "exercises/93-3.mp4",
+      "file": "exercises/93-3.gif",
       "duration": 11.11,
       "category": "Agility",
       "level": "Level 4",
@@ -3640,7 +3640,7 @@
     },
     {
       "id": "97-1",
-      "file": "exercises/97-1.mp4",
+      "file": "exercises/97-1.gif",
       "duration": 12.8,
       "category": "Agility",
       "level": "Level 4",
@@ -3665,7 +3665,7 @@
     },
     {
       "id": "99-1",
-      "file": "exercises/99-1.mp4",
+      "file": "exercises/99-1.gif",
       "duration": 9.25,
       "category": "Agility",
       "level": "Level 4",
@@ -3690,7 +3690,7 @@
     },
     {
       "id": "99-2",
-      "file": "exercises/99-2.mp4",
+      "file": "exercises/99-2.gif",
       "duration": 9.25,
       "category": "Agility",
       "level": "Level 4",
@@ -3715,7 +3715,7 @@
     },
     {
       "id": "99-3",
-      "file": "exercises/99-3.mp4",
+      "file": "exercises/99-3.gif",
       "duration": 9.25,
       "category": "Agility",
       "level": "Level 4",
@@ -3740,7 +3740,7 @@
     },
     {
       "id": "100-1",
-      "file": "exercises/100-1.mp4",
+      "file": "exercises/100-1.gif",
       "duration": 10.71,
       "category": "Agility",
       "level": "Level 4",
@@ -3765,7 +3765,7 @@
     },
     {
       "id": "100-2",
-      "file": "exercises/100-2.mp4",
+      "file": "exercises/100-2.gif",
       "duration": 10.7,
       "category": "Agility",
       "level": "Level 4",
@@ -3790,7 +3790,7 @@
     },
     {
       "id": "100-3",
-      "file": "exercises/100-3.mp4",
+      "file": "exercises/100-3.gif",
       "duration": 10.71,
       "category": "Agility",
       "level": "Level 4",
@@ -3815,7 +3815,7 @@
     },
     {
       "id": "100-4",
-      "file": "exercises/100-4.mp4",
+      "file": "exercises/100-4.gif",
       "duration": 10.71,
       "category": "Agility",
       "level": "Level 4",
@@ -3840,7 +3840,7 @@
     },
     {
       "id": "100-5",
-      "file": "exercises/100-5.mp4",
+      "file": "exercises/100-5.gif",
       "duration": 10.7,
       "category": "Agility",
       "level": "Level 4",
@@ -3865,7 +3865,7 @@
     },
     {
       "id": "102-1",
-      "file": "exercises/102-1.mp4",
+      "file": "exercises/102-1.gif",
       "duration": 8.95,
       "category": "Agility",
       "level": "Level 4",
@@ -3890,7 +3890,7 @@
     },
     {
       "id": "102-2",
-      "file": "exercises/102-2.mp4",
+      "file": "exercises/102-2.gif",
       "duration": 8.95,
       "category": "Agility",
       "level": "Level 4",
@@ -3915,7 +3915,7 @@
     },
     {
       "id": "102-3",
-      "file": "exercises/102-3.mp4",
+      "file": "exercises/102-3.gif",
       "duration": 8.95,
       "category": "Agility",
       "level": "Level 4",
@@ -3940,7 +3940,7 @@
     },
     {
       "id": "103-1",
-      "file": "exercises/103-1.mp4",
+      "file": "exercises/103-1.gif",
       "duration": 11.61,
       "category": "Agility",
       "level": "Level 4",
@@ -3965,7 +3965,7 @@
     },
     {
       "id": "103-2",
-      "file": "exercises/103-2.mp4",
+      "file": "exercises/103-2.gif",
       "duration": 11.62,
       "category": "Agility",
       "level": "Level 4",
@@ -3990,7 +3990,7 @@
     },
     {
       "id": "103-3",
-      "file": "exercises/103-3.mp4",
+      "file": "exercises/103-3.gif",
       "duration": 11.61,
       "category": "Agility",
       "level": "Level 4",
@@ -4015,7 +4015,7 @@
     },
     {
       "id": "103-4",
-      "file": "exercises/103-4.mp4",
+      "file": "exercises/103-4.gif",
       "duration": 11.62,
       "category": "Agility",
       "level": "Level 4",
@@ -4040,7 +4040,7 @@
     },
     {
       "id": "103-5",
-      "file": "exercises/103-5.mp4",
+      "file": "exercises/103-5.gif",
       "duration": 11.61,
       "category": "Agility",
       "level": "Level 4",
@@ -4065,7 +4065,7 @@
     },
     {
       "id": "103-6",
-      "file": "exercises/103-6.mp4",
+      "file": "exercises/103-6.gif",
       "duration": 11.62,
       "category": "Agility",
       "level": "Level 4",
@@ -4090,7 +4090,7 @@
     },
     {
       "id": "103-7",
-      "file": "exercises/103-7.mp4",
+      "file": "exercises/103-7.gif",
       "duration": 11.61,
       "category": "Agility",
       "level": "Level 4",
@@ -4115,7 +4115,7 @@
     },
     {
       "id": "104-1",
-      "file": "exercises/104-1.mp4",
+      "file": "exercises/104-1.gif",
       "duration": 9.81,
       "category": "Agility",
       "level": "Level 4",
@@ -4140,7 +4140,7 @@
     },
     {
       "id": "104-2",
-      "file": "exercises/104-2.mp4",
+      "file": "exercises/104-2.gif",
       "duration": 9.81,
       "category": "Agility",
       "level": "Level 4",
@@ -4165,7 +4165,7 @@
     },
     {
       "id": "104-3",
-      "file": "exercises/104-3.mp4",
+      "file": "exercises/104-3.gif",
       "duration": 9.8,
       "category": "Agility",
       "level": "Level 4",
@@ -4190,7 +4190,7 @@
     },
     {
       "id": "104-4",
-      "file": "exercises/104-4.mp4",
+      "file": "exercises/104-4.gif",
       "duration": 9.81,
       "category": "Agility",
       "level": "Level 4",
@@ -4215,7 +4215,7 @@
     },
     {
       "id": "105-1",
-      "file": "exercises/105-1.mp4",
+      "file": "exercises/105-1.gif",
       "duration": 18.5,
       "category": "Agility",
       "level": "Level 4",
@@ -4240,7 +4240,7 @@
     },
     {
       "id": "108-1",
-      "file": "exercises/108-1.mp4",
+      "file": "exercises/108-1.gif",
       "duration": 14.32,
       "category": "Deceleration",
       "level": "Level 4",
@@ -4265,7 +4265,7 @@
     },
     {
       "id": "110-1",
-      "file": "exercises/110-1.mp4",
+      "file": "exercises/110-1.gif",
       "duration": 15.77,
       "category": "Power",
       "level": "Level 4",
@@ -4288,7 +4288,7 @@
     },
     {
       "id": "111-1",
-      "file": "exercises/111-1.mp4",
+      "file": "exercises/111-1.gif",
       "duration": 21.23,
       "category": "Power",
       "level": "Level 4",
@@ -4311,7 +4311,7 @@
     },
     {
       "id": "114-1",
-      "file": "exercises/114-1.mp4",
+      "file": "exercises/114-1.gif",
       "duration": 9.85,
       "category": "Power",
       "level": "Level 4",
@@ -4336,7 +4336,7 @@
     },
     {
       "id": "114-2",
-      "file": "exercises/114-2.mp4",
+      "file": "exercises/114-2.gif",
       "duration": 9.86,
       "category": "Power",
       "level": "Level 4",
@@ -4361,7 +4361,7 @@
     },
     {
       "id": "114-3",
-      "file": "exercises/114-3.mp4",
+      "file": "exercises/114-3.gif",
       "duration": 9.85,
       "category": "Power",
       "level": "Level 4",
@@ -4386,7 +4386,7 @@
     },
     {
       "id": "115-1",
-      "file": "exercises/115-1.mp4",
+      "file": "exercises/115-1.gif",
       "duration": 6.59,
       "category": "Power",
       "level": "Level 4",
@@ -4411,7 +4411,7 @@
     },
     {
       "id": "116-1",
-      "file": "exercises/116-1.mp4",
+      "file": "exercises/116-1.gif",
       "duration": 14.13,
       "category": "Power",
       "level": "Level 4",
@@ -4436,7 +4436,7 @@
     },
     {
       "id": "118-1",
-      "file": "exercises/118-1.mp4",
+      "file": "exercises/118-1.gif",
       "duration": 25.47,
       "category": "Power",
       "level": "Level 4",
@@ -4461,7 +4461,7 @@
     },
     {
       "id": "120-1",
-      "file": "exercises/120-1.mp4",
+      "file": "exercises/120-1.gif",
       "duration": 9.93,
       "category": "Power",
       "level": "Level 4",
@@ -4486,7 +4486,7 @@
     },
     {
       "id": "120-2",
-      "file": "exercises/120-2.mp4",
+      "file": "exercises/120-2.gif",
       "duration": 9.92,
       "category": "Power",
       "level": "Level 4",
@@ -4511,7 +4511,7 @@
     },
     {
       "id": "120-3",
-      "file": "exercises/120-3.mp4",
+      "file": "exercises/120-3.gif",
       "duration": 9.92,
       "category": "Power",
       "level": "Level 4",
@@ -4536,7 +4536,7 @@
     },
     {
       "id": "121-1",
-      "file": "exercises/121-1.mp4",
+      "file": "exercises/121-1.gif",
       "duration": 8.79,
       "category": "Power",
       "level": "Level 4",
@@ -4561,7 +4561,7 @@
     },
     {
       "id": "121-2",
-      "file": "exercises/121-2.mp4",
+      "file": "exercises/121-2.gif",
       "duration": 8.8,
       "category": "Power",
       "level": "Level 4",
@@ -4586,7 +4586,7 @@
     },
     {
       "id": "121-3",
-      "file": "exercises/121-3.mp4",
+      "file": "exercises/121-3.gif",
       "duration": 8.79,
       "category": "Power",
       "level": "Level 4",
@@ -4611,7 +4611,7 @@
     },
     {
       "id": "123-1",
-      "file": "exercises/123-1.mp4",
+      "file": "exercises/123-1.gif",
       "duration": 10.61,
       "category": "Power",
       "level": "Level 4",
@@ -4636,7 +4636,7 @@
     },
     {
       "id": "123-2",
-      "file": "exercises/123-2.mp4",
+      "file": "exercises/123-2.gif",
       "duration": 10.6,
       "category": "Power",
       "level": "Level 4",
@@ -4661,7 +4661,7 @@
     },
     {
       "id": "123-3",
-      "file": "exercises/123-3.mp4",
+      "file": "exercises/123-3.gif",
       "duration": 10.61,
       "category": "Power",
       "level": "Level 4",
@@ -4686,7 +4686,7 @@
     },
     {
       "id": "123-4",
-      "file": "exercises/123-4.mp4",
+      "file": "exercises/123-4.gif",
       "duration": 10.6,
       "category": "Power",
       "level": "Level 4",
@@ -4711,7 +4711,7 @@
     },
     {
       "id": "123-5",
-      "file": "exercises/123-5.mp4",
+      "file": "exercises/123-5.gif",
       "duration": 10.61,
       "category": "Power",
       "level": "Level 4",
@@ -4736,7 +4736,7 @@
     },
     {
       "id": "123-6",
-      "file": "exercises/123-6.mp4",
+      "file": "exercises/123-6.gif",
       "duration": 10.6,
       "category": "Power",
       "level": "Level 4",
@@ -4761,7 +4761,7 @@
     },
     {
       "id": "126-1",
-      "file": "exercises/126-1.mp4",
+      "file": "exercises/126-1.gif",
       "duration": 11.17,
       "category": "Power",
       "level": "Level 4",
@@ -4786,7 +4786,7 @@
     },
     {
       "id": "126-2",
-      "file": "exercises/126-2.mp4",
+      "file": "exercises/126-2.gif",
       "duration": 11.16,
       "category": "Power",
       "level": "Level 4",
@@ -4811,7 +4811,7 @@
     },
     {
       "id": "126-3",
-      "file": "exercises/126-3.mp4",
+      "file": "exercises/126-3.gif",
       "duration": 11.17,
       "category": "Power",
       "level": "Level 4",
@@ -4836,7 +4836,7 @@
     },
     {
       "id": "126-4",
-      "file": "exercises/126-4.mp4",
+      "file": "exercises/126-4.gif",
       "duration": 11.17,
       "category": "Power",
       "level": "Level 4",
@@ -4861,7 +4861,7 @@
     },
     {
       "id": "126-5",
-      "file": "exercises/126-5.mp4",
+      "file": "exercises/126-5.gif",
       "duration": 11.16,
       "category": "Power",
       "level": "Level 4",
@@ -4886,7 +4886,7 @@
     },
     {
       "id": "129-1",
-      "file": "exercises/129-1.mp4",
+      "file": "exercises/129-1.gif",
       "duration": 10.59,
       "category": "Power",
       "level": "Level 4",
@@ -4911,7 +4911,7 @@
     },
     {
       "id": "129-2",
-      "file": "exercises/129-2.mp4",
+      "file": "exercises/129-2.gif",
       "duration": 10.59,
       "category": "Power",
       "level": "Level 4",
@@ -4936,7 +4936,7 @@
     },
     {
       "id": "129-3",
-      "file": "exercises/129-3.mp4",
+      "file": "exercises/129-3.gif",
       "duration": 10.6,
       "category": "Power",
       "level": "Level 4",
@@ -4961,7 +4961,7 @@
     },
     {
       "id": "129-4",
-      "file": "exercises/129-4.mp4",
+      "file": "exercises/129-4.gif",
       "duration": 10.59,
       "category": "Power",
       "level": "Level 4",
@@ -4986,7 +4986,7 @@
     },
     {
       "id": "132-1",
-      "file": "exercises/132-1.mp4",
+      "file": "exercises/132-1.gif",
       "duration": 9.83,
       "category": "Power",
       "level": "Level 4",
@@ -5011,7 +5011,7 @@
     },
     {
       "id": "132-2",
-      "file": "exercises/132-2.mp4",
+      "file": "exercises/132-2.gif",
       "duration": 9.82,
       "category": "Power",
       "level": "Level 4",
@@ -5036,7 +5036,7 @@
     },
     {
       "id": "132-3",
-      "file": "exercises/132-3.mp4",
+      "file": "exercises/132-3.gif",
       "duration": 9.83,
       "category": "Power",
       "level": "Level 4",
@@ -5061,7 +5061,7 @@
     },
     {
       "id": "133-1",
-      "file": "exercises/133-1.mp4",
+      "file": "exercises/133-1.gif",
       "duration": 11.38,
       "category": "Power",
       "level": "Level 4",
@@ -5086,7 +5086,7 @@
     },
     {
       "id": "133-2",
-      "file": "exercises/133-2.mp4",
+      "file": "exercises/133-2.gif",
       "duration": 11.38,
       "category": "Power",
       "level": "Level 4",
@@ -5111,7 +5111,7 @@
     },
     {
       "id": "133-3",
-      "file": "exercises/133-3.mp4",
+      "file": "exercises/133-3.gif",
       "duration": 11.38,
       "category": "Power",
       "level": "Level 4",
@@ -5136,7 +5136,7 @@
     },
     {
       "id": "133-4",
-      "file": "exercises/133-4.mp4",
+      "file": "exercises/133-4.gif",
       "duration": 11.38,
       "category": "Power",
       "level": "Level 4",
@@ -5161,7 +5161,7 @@
     },
     {
       "id": "135-1",
-      "file": "exercises/135-1.mp4",
+      "file": "exercises/135-1.gif",
       "duration": 11.13,
       "category": "Power",
       "level": "Level 4",
@@ -5186,7 +5186,7 @@
     },
     {
       "id": "135-2",
-      "file": "exercises/135-2.mp4",
+      "file": "exercises/135-2.gif",
       "duration": 11.13,
       "category": "Power",
       "level": "Level 4",
@@ -5211,7 +5211,7 @@
     },
     {
       "id": "135-3",
-      "file": "exercises/135-3.mp4",
+      "file": "exercises/135-3.gif",
       "duration": 11.12,
       "category": "Power",
       "level": "Level 4",
@@ -5236,7 +5236,7 @@
     },
     {
       "id": "135-4",
-      "file": "exercises/135-4.mp4",
+      "file": "exercises/135-4.gif",
       "duration": 11.13,
       "category": "Power",
       "level": "Level 4",
@@ -5261,7 +5261,7 @@
     },
     {
       "id": "135-5",
-      "file": "exercises/135-5.mp4",
+      "file": "exercises/135-5.gif",
       "duration": 11.13,
       "category": "Power",
       "level": "Level 4",
@@ -5286,7 +5286,7 @@
     },
     {
       "id": "135-6",
-      "file": "exercises/135-6.mp4",
+      "file": "exercises/135-6.gif",
       "duration": 11.13,
       "category": "Power",
       "level": "Level 4",
@@ -5311,7 +5311,7 @@
     },
     {
       "id": "136-1",
-      "file": "exercises/136-1.mp4",
+      "file": "exercises/136-1.gif",
       "duration": 11.24,
       "category": "Power",
       "level": "Level 4",
@@ -5336,7 +5336,7 @@
     },
     {
       "id": "136-2",
-      "file": "exercises/136-2.mp4",
+      "file": "exercises/136-2.gif",
       "duration": 11.25,
       "category": "Power",
       "level": "Level 4",
@@ -5361,7 +5361,7 @@
     },
     {
       "id": "136-3",
-      "file": "exercises/136-3.mp4",
+      "file": "exercises/136-3.gif",
       "duration": 11.24,
       "category": "Power",
       "level": "Level 4",
@@ -5386,7 +5386,7 @@
     },
     {
       "id": "137-1",
-      "file": "exercises/137-1.mp4",
+      "file": "exercises/137-1.gif",
       "duration": 14.43,
       "category": "Power",
       "level": "Level 4",
@@ -5411,7 +5411,7 @@
     },
     {
       "id": "138-1",
-      "file": "exercises/138-1.mp4",
+      "file": "exercises/138-1.gif",
       "duration": 8.62,
       "category": "Power",
       "level": "Level 4",
@@ -5435,7 +5435,7 @@
     },
     {
       "id": "138-2",
-      "file": "exercises/138-2.mp4",
+      "file": "exercises/138-2.gif",
       "duration": 8.61,
       "category": "Power",
       "level": "Level 4",
@@ -5459,7 +5459,7 @@
     },
     {
       "id": "138-3",
-      "file": "exercises/138-3.mp4",
+      "file": "exercises/138-3.gif",
       "duration": 8.62,
       "category": "Power",
       "level": "Level 4",
@@ -5483,7 +5483,7 @@
     },
     {
       "id": "139-1",
-      "file": "exercises/139-1.mp4",
+      "file": "exercises/139-1.gif",
       "duration": 20.01,
       "category": "Power",
       "level": "Level 4",
@@ -5507,7 +5507,7 @@
     },
     {
       "id": "140-1",
-      "file": "exercises/140-1.mp4",
+      "file": "exercises/140-1.gif",
       "duration": 11.84,
       "category": "Power",
       "level": "Level 4",
@@ -5532,7 +5532,7 @@
     },
     {
       "id": "140-2",
-      "file": "exercises/140-2.mp4",
+      "file": "exercises/140-2.gif",
       "duration": 11.85,
       "category": "Power",
       "level": "Level 4",
@@ -5557,7 +5557,7 @@
     },
     {
       "id": "140-3",
-      "file": "exercises/140-3.mp4",
+      "file": "exercises/140-3.gif",
       "duration": 11.84,
       "category": "Power",
       "level": "Level 4",
@@ -5582,7 +5582,7 @@
     },
     {
       "id": "142-1",
-      "file": "exercises/142-1.mp4",
+      "file": "exercises/142-1.gif",
       "duration": 8.43,
       "category": "Strength",
       "level": "Level 4",
@@ -5605,7 +5605,7 @@
     },
     {
       "id": "142-2",
-      "file": "exercises/142-2.mp4",
+      "file": "exercises/142-2.gif",
       "duration": 8.42,
       "category": "Strength",
       "level": "Level 4",
@@ -5628,7 +5628,7 @@
     },
     {
       "id": "142-3",
-      "file": "exercises/142-3.mp4",
+      "file": "exercises/142-3.gif",
       "duration": 8.43,
       "category": "Strength",
       "level": "Level 4",
@@ -5651,7 +5651,7 @@
     },
     {
       "id": "143-1",
-      "file": "exercises/143-1.mp4",
+      "file": "exercises/143-1.gif",
       "duration": 9.69,
       "category": "Strength",
       "level": "Level 4",
@@ -5675,7 +5675,7 @@
     },
     {
       "id": "143-2",
-      "file": "exercises/143-2.mp4",
+      "file": "exercises/143-2.gif",
       "duration": 9.68,
       "category": "Strength",
       "level": "Level 4",
@@ -5699,7 +5699,7 @@
     },
     {
       "id": "143-3",
-      "file": "exercises/143-3.mp4",
+      "file": "exercises/143-3.gif",
       "duration": 9.69,
       "category": "Strength",
       "level": "Level 4",
@@ -5723,7 +5723,7 @@
     },
     {
       "id": "143-4",
-      "file": "exercises/143-4.mp4",
+      "file": "exercises/143-4.gif",
       "duration": 9.69,
       "category": "Strength",
       "level": "Level 4",
@@ -5747,7 +5747,7 @@
     },
     {
       "id": "143-5",
-      "file": "exercises/143-5.mp4",
+      "file": "exercises/143-5.gif",
       "duration": 9.68,
       "category": "Strength",
       "level": "Level 4",
@@ -5771,7 +5771,7 @@
     },
     {
       "id": "144-1",
-      "file": "exercises/144-1.mp4",
+      "file": "exercises/144-1.gif",
       "duration": 11.43,
       "category": "Agility",
       "level": "Level 5",
@@ -5796,7 +5796,7 @@
     },
     {
       "id": "144-2",
-      "file": "exercises/144-2.mp4",
+      "file": "exercises/144-2.gif",
       "duration": 11.44,
       "category": "Agility",
       "level": "Level 5",
@@ -5821,7 +5821,7 @@
     },
     {
       "id": "144-3",
-      "file": "exercises/144-3.mp4",
+      "file": "exercises/144-3.gif",
       "duration": 11.43,
       "category": "Agility",
       "level": "Level 5",
@@ -5846,7 +5846,7 @@
     },
     {
       "id": "144-4",
-      "file": "exercises/144-4.mp4",
+      "file": "exercises/144-4.gif",
       "duration": 11.43,
       "category": "Agility",
       "level": "Level 5",
@@ -5871,7 +5871,7 @@
     },
     {
       "id": "145-1",
-      "file": "exercises/145-1.mp4",
+      "file": "exercises/145-1.gif",
       "duration": 9.34,
       "category": "Agility",
       "level": "Level 5",
@@ -5896,7 +5896,7 @@
     },
     {
       "id": "145-2",
-      "file": "exercises/145-2.mp4",
+      "file": "exercises/145-2.gif",
       "duration": 9.34,
       "category": "Agility",
       "level": "Level 5",
@@ -5921,7 +5921,7 @@
     },
     {
       "id": "145-3",
-      "file": "exercises/145-3.mp4",
+      "file": "exercises/145-3.gif",
       "duration": 9.35,
       "category": "Agility",
       "level": "Level 5",
@@ -5946,7 +5946,7 @@
     },
     {
       "id": "145-4",
-      "file": "exercises/145-4.mp4",
+      "file": "exercises/145-4.gif",
       "duration": 9.34,
       "category": "Agility",
       "level": "Level 5",
@@ -5971,7 +5971,7 @@
     },
     {
       "id": "146-1",
-      "file": "exercises/146-1.mp4",
+      "file": "exercises/146-1.gif",
       "duration": 12.77,
       "category": "Agility",
       "level": "Level 5",
@@ -5996,7 +5996,7 @@
     },
     {
       "id": "147-1",
-      "file": "exercises/147-1.mp4",
+      "file": "exercises/147-1.gif",
       "duration": 25.51,
       "category": "Deceleration",
       "level": "Level 5",
@@ -6018,7 +6018,7 @@
     },
     {
       "id": "149-1",
-      "file": "exercises/149-1.mp4",
+      "file": "exercises/149-1.gif",
       "duration": 11.26,
       "category": "Power",
       "level": "Level 5",
@@ -6041,7 +6041,7 @@
     },
     {
       "id": "149-2",
-      "file": "exercises/149-2.mp4",
+      "file": "exercises/149-2.gif",
       "duration": 11.26,
       "category": "Power",
       "level": "Level 5",
@@ -6064,7 +6064,7 @@
     },
     {
       "id": "149-3",
-      "file": "exercises/149-3.mp4",
+      "file": "exercises/149-3.gif",
       "duration": 11.25,
       "category": "Power",
       "level": "Level 5",
@@ -6087,7 +6087,7 @@
     },
     {
       "id": "149-4",
-      "file": "exercises/149-4.mp4",
+      "file": "exercises/149-4.gif",
       "duration": 11.26,
       "category": "Power",
       "level": "Level 5",
@@ -6110,7 +6110,7 @@
     },
     {
       "id": "150-1",
-      "file": "exercises/150-1.mp4",
+      "file": "exercises/150-1.gif",
       "duration": 8.77,
       "category": "Power",
       "level": "Level 5",
@@ -6135,7 +6135,7 @@
     },
     {
       "id": "150-2",
-      "file": "exercises/150-2.mp4",
+      "file": "exercises/150-2.gif",
       "duration": 8.76,
       "category": "Power",
       "level": "Level 5",
@@ -6160,7 +6160,7 @@
     },
     {
       "id": "150-3",
-      "file": "exercises/150-3.mp4",
+      "file": "exercises/150-3.gif",
       "duration": 8.77,
       "category": "Power",
       "level": "Level 5",
@@ -6185,7 +6185,7 @@
     },
     {
       "id": "152-1",
-      "file": "exercises/152-1.mp4",
+      "file": "exercises/152-1.gif",
       "duration": 8.81,
       "category": "Power",
       "level": "Level 5",
@@ -6210,7 +6210,7 @@
     },
     {
       "id": "152-2",
-      "file": "exercises/152-2.mp4",
+      "file": "exercises/152-2.gif",
       "duration": 8.81,
       "category": "Power",
       "level": "Level 5",
@@ -6235,7 +6235,7 @@
     },
     {
       "id": "152-3",
-      "file": "exercises/152-3.mp4",
+      "file": "exercises/152-3.gif",
       "duration": 8.81,
       "category": "Power",
       "level": "Level 5",
@@ -6260,7 +6260,7 @@
     },
     {
       "id": "155-1",
-      "file": "exercises/155-1.mp4",
+      "file": "exercises/155-1.gif",
       "duration": 25.03,
       "category": "Power",
       "level": "Level 5",
@@ -6285,7 +6285,7 @@
     },
     {
       "id": "156-1",
-      "file": "exercises/156-1.mp4",
+      "file": "exercises/156-1.gif",
       "duration": 25.6,
       "category": "Power",
       "level": "Level 5",
@@ -6310,7 +6310,7 @@
     },
     {
       "id": "159-1",
-      "file": "exercises/159-1.mp4",
+      "file": "exercises/159-1.gif",
       "duration": 22.97,
       "category": "Power",
       "level": "Level 5",
@@ -6335,7 +6335,7 @@
     },
     {
       "id": "160-1",
-      "file": "exercises/160-1.mp4",
+      "file": "exercises/160-1.gif",
       "duration": 20.43,
       "category": "Power",
       "level": "Level 5",
@@ -6360,7 +6360,7 @@
     },
     {
       "id": "161-1",
-      "file": "exercises/161-1.mp4",
+      "file": "exercises/161-1.gif",
       "duration": 20.43,
       "category": "Power",
       "level": "Level 5",
@@ -6384,7 +6384,7 @@
     },
     {
       "id": "163-1",
-      "file": "exercises/163-1.mp4",
+      "file": "exercises/163-1.gif",
       "duration": 18.7,
       "category": "Power",
       "level": "Level 5",
@@ -6409,7 +6409,7 @@
     },
     {
       "id": "164-1",
-      "file": "exercises/164-1.mp4",
+      "file": "exercises/164-1.gif",
       "duration": 13.23,
       "category": "Power",
       "level": "Level 5",

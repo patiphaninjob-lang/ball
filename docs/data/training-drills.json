@@ -434,7 +434,7 @@
       "clips": [
         {
           "id": "1-1",
-          "file": "exercises/1-1.mp4",
+          "file": "exercises/1-1.gif",
           "duration": 15.92,
           "startTime": 1.99,
           "endTime": 17.91,
@@ -521,7 +521,7 @@
       "clips": [
         {
           "id": "3-1",
-          "file": "exercises/3-1.mp4",
+          "file": "exercises/3-1.gif",
           "duration": 9.43,
           "startTime": 2.69,
           "endTime": 12.12,
@@ -534,7 +534,7 @@
         },
         {
           "id": "3-2",
-          "file": "exercises/3-2.mp4",
+          "file": "exercises/3-2.gif",
           "duration": 9.43,
           "startTime": 12.12,
           "endTime": 21.55,
@@ -547,7 +547,7 @@
         },
         {
           "id": "3-3",
-          "file": "exercises/3-3.mp4",
+          "file": "exercises/3-3.gif",
           "duration": 9.42,
           "startTime": 21.55,
           "endTime": 30.97,
@@ -597,7 +597,7 @@
       "clips": [
         {
           "id": "4-1",
-          "file": "exercises/4-1.mp4",
+          "file": "exercises/4-1.gif",
           "duration": 10.97,
           "startTime": 3,
           "endTime": 13.97,
@@ -610,7 +610,7 @@
         },
         {
           "id": "4-2",
-          "file": "exercises/4-2.mp4",
+          "file": "exercises/4-2.gif",
           "duration": 10.98,
           "startTime": 13.97,
           "endTime": 24.95,
@@ -623,7 +623,7 @@
         },
         {
           "id": "4-3",
-          "file": "exercises/4-3.mp4",
+          "file": "exercises/4-3.gif",
           "duration": 10.97,
           "startTime": 24.95,
           "endTime": 35.92,
@@ -636,7 +636,7 @@
         },
         {
           "id": "4-4",
-          "file": "exercises/4-4.mp4",
+          "file": "exercises/4-4.gif",
           "duration": 10.97,
           "startTime": 35.92,
           "endTime": 46.89,
@@ -649,7 +649,7 @@
         },
         {
           "id": "4-5",
-          "file": "exercises/4-5.mp4",
+          "file": "exercises/4-5.gif",
           "duration": 10.98,
           "startTime": 46.89,
           "endTime": 57.87,
@@ -699,7 +699,7 @@
       "clips": [
         {
           "id": "5-1",
-          "file": "exercises/5-1.mp4",
+          "file": "exercises/5-1.gif",
           "duration": 18.27,
           "startTime": 2,
           "endTime": 20.266667,
@@ -788,7 +788,7 @@
       "clips": [
         {
           "id": "7-1",
-          "file": "exercises/7-1.mp4",
+          "file": "exercises/7-1.gif",
           "duration": 15.49,
           "startTime": 1.9366667,
           "endTime": 17.4300003,
@@ -879,7 +879,7 @@
       "clips": [
         {
           "id": "9-1",
-          "file": "exercises/9-1.mp4",
+          "file": "exercises/9-1.gif",
           "duration": 19.27,
           "startTime": 2,
           "endTime": 21.266667,
@@ -971,7 +971,7 @@
       "clips": [
         {
           "id": "11-1",
-          "file": "exercises/11-1.mp4",
+          "file": "exercises/11-1.gif",
           "duration": 19.87,
           "startTime": 2,
           "endTime": 21.866667,
@@ -1024,7 +1024,7 @@
       "clips": [
         {
           "id": "12-1",
-          "file": "exercises/12-1.mp4",
+          "file": "exercises/12-1.gif",
           "duration": 19.4,
           "startTime": 2,
           "endTime": 21.4,
@@ -1115,7 +1115,7 @@
       "clips": [
         {
           "id": "14-1",
-          "file": "exercises/14-1.mp4",
+          "file": "exercises/14-1.gif",
           "duration": 9.33,
           "startTime": 1.1666667000000002,
           "endTime": 10.5000003,
@@ -1205,7 +1205,7 @@
       "clips": [
         {
           "id": "16-1",
-          "file": "exercises/16-1.mp4",
+          "file": "exercises/16-1.gif",
           "duration": 9.76,
           "startTime": 3,
           "endTime": 12.76,
@@ -1218,7 +1218,7 @@
         },
         {
           "id": "16-2",
-          "file": "exercises/16-2.mp4",
+          "file": "exercises/16-2.gif",
           "duration": 9.76,
           "startTime": 12.76,
           "endTime": 22.52,
@@ -1231,7 +1231,7 @@
         },
         {
           "id": "16-3",
-          "file": "exercises/16-3.mp4",
+          "file": "exercises/16-3.gif",
           "duration": 9.75,
           "startTime": 22.52,
           "endTime": 32.27,
@@ -1244,7 +1244,7 @@
         },
         {
           "id": "16-4",
-          "file": "exercises/16-4.mp4",
+          "file": "exercises/16-4.gif",
           "duration": 9.76,
           "startTime": 32.27,
           "endTime": 42.03,
@@ -1328,7 +1328,7 @@
       "clips": [
         {
           "id": "18-1",
-          "file": "exercises/18-1.mp4",
+          "file": "exercises/18-1.gif",
           "duration": 9.91,
           "startTime": 3,
           "endTime": 12.91,
@@ -1341,7 +1341,7 @@
         },
         {
           "id": "18-2",
-          "file": "exercises/18-2.mp4",
+          "file": "exercises/18-2.gif",
           "duration": 9.92,
           "startTime": 12.91,
           "endTime": 22.83,
@@ -1354,7 +1354,7 @@
         },
         {
           "id": "18-3",
-          "file": "exercises/18-3.mp4",
+          "file": "exercises/18-3.gif",
           "duration": 9.91,
           "startTime": 22.83,
           "endTime": 32.74,
@@ -1367,7 +1367,7 @@
         },
         {
           "id": "18-4",
-          "file": "exercises/18-4.mp4",
+          "file": "exercises/18-4.gif",
           "duration": 9.91,
           "startTime": 32.74,
           "endTime": 42.65,
@@ -1380,7 +1380,7 @@
         },
         {
           "id": "18-5",
-          "file": "exercises/18-5.mp4",
+          "file": "exercises/18-5.gif",
           "duration": 9.92,
           "startTime": 42.65,
           "endTime": 52.57,
@@ -1468,7 +1468,7 @@
       "clips": [
         {
           "id": "20-1",
-          "file": "exercises/20-1.mp4",
+          "file": "exercises/20-1.gif",
           "duration": 8.88,
           "startTime": 2.54,
           "endTime": 11.42,
@@ -1481,7 +1481,7 @@
         },
         {
           "id": "20-2",
-          "file": "exercises/20-2.mp4",
+          "file": "exercises/20-2.gif",
           "duration": 8.89,
           "startTime": 11.42,
           "endTime": 20.31,
@@ -1494,7 +1494,7 @@
         },
         {
           "id": "20-3",
-          "file": "exercises/20-3.mp4",
+          "file": "exercises/20-3.gif",
           "duration": 8.88,
           "startTime": 20.31,
           "endTime": 29.19,
@@ -1547,7 +1547,7 @@
       "clips": [
         {
           "id": "21-1",
-          "file": "exercises/21-1.mp4",
+          "file": "exercises/21-1.gif",
           "duration": 16.63,
           "startTime": 2,
           "endTime": 18.633333,
@@ -1638,7 +1638,7 @@
       "clips": [
         {
           "id": "23-1",
-          "file": "exercises/23-1.mp4",
+          "file": "exercises/23-1.gif",
           "duration": 21.22,
           "startTime": 2,
           "endTime": 23.215011,
@@ -1691,7 +1691,7 @@
       "clips": [
         {
           "id": "24-1",
-          "file": "exercises/24-1.mp4",
+          "file": "exercises/24-1.gif",
           "duration": 12.35,
           "startTime": 1.5433333,
           "endTime": 13.889999699999999,
@@ -1779,7 +1779,7 @@
       "clips": [
         {
           "id": "26-1",
-          "file": "exercises/26-1.mp4",
+          "file": "exercises/26-1.gif",
           "duration": 9.27,
           "startTime": 2.65,
           "endTime": 11.92,
@@ -1792,7 +1792,7 @@
         },
         {
           "id": "26-2",
-          "file": "exercises/26-2.mp4",
+          "file": "exercises/26-2.gif",
           "duration": 9.26,
           "startTime": 11.92,
           "endTime": 21.18,
@@ -1805,7 +1805,7 @@
         },
         {
           "id": "26-3",
-          "file": "exercises/26-3.mp4",
+          "file": "exercises/26-3.gif",
           "duration": 9.27,
           "startTime": 21.18,
           "endTime": 30.45,
@@ -1857,7 +1857,7 @@
       "clips": [
         {
           "id": "27-1",
-          "file": "exercises/27-1.mp4",
+          "file": "exercises/27-1.gif",
           "duration": 11.57,
           "startTime": 3,
           "endTime": 14.57,
@@ -1870,7 +1870,7 @@
         },
         {
           "id": "27-2",
-          "file": "exercises/27-2.mp4",
+          "file": "exercises/27-2.gif",
           "duration": 11.56,
           "startTime": 14.57,
           "endTime": 26.13,
@@ -1883,7 +1883,7 @@
         },
         {
           "id": "27-3",
-          "file": "exercises/27-3.mp4",
+          "file": "exercises/27-3.gif",
           "duration": 11.57,
           "startTime": 26.13,
           "endTime": 37.7,
@@ -1896,7 +1896,7 @@
         },
         {
           "id": "27-4",
-          "file": "exercises/27-4.mp4",
+          "file": "exercises/27-4.gif",
           "duration": 11.57,
           "startTime": 37.7,
           "endTime": 49.27,
@@ -1946,7 +1946,7 @@
       "clips": [
         {
           "id": "28-1",
-          "file": "exercises/28-1.mp4",
+          "file": "exercises/28-1.gif",
           "duration": 25.27,
           "startTime": 2,
           "endTime": 27.266667,
@@ -1999,7 +1999,7 @@
       "clips": [
         {
           "id": "29-1",
-          "file": "exercises/29-1.mp4",
+          "file": "exercises/29-1.gif",
           "duration": 17.97,
           "startTime": 2,
           "endTime": 19.966667,
@@ -2049,7 +2049,7 @@
       "clips": [
         {
           "id": "30-1",
-          "file": "exercises/30-1.mp4",
+          "file": "exercises/30-1.gif",
           "duration": 13.6,
           "startTime": 1.7000000000000002,
           "endTime": 15.3,
@@ -2100,7 +2100,7 @@
       "clips": [
         {
           "id": "31-1",
-          "file": "exercises/31-1.mp4",
+          "file": "exercises/31-1.gif",
           "duration": 11.06,
           "startTime": 3,
           "endTime": 14.06,
@@ -2113,7 +2113,7 @@
         },
         {
           "id": "31-2",
-          "file": "exercises/31-2.mp4",
+          "file": "exercises/31-2.gif",
           "duration": 11.06,
           "startTime": 14.06,
           "endTime": 25.12,
@@ -2126,7 +2126,7 @@
         },
         {
           "id": "31-3",
-          "file": "exercises/31-3.mp4",
+          "file": "exercises/31-3.gif",
           "duration": 11.06,
           "startTime": 25.12,
           "endTime": 36.18,
@@ -2139,7 +2139,7 @@
         },
         {
           "id": "31-4",
-          "file": "exercises/31-4.mp4",
+          "file": "exercises/31-4.gif",
           "duration": 11.06,
           "startTime": 36.18,
           "endTime": 47.24,
@@ -2152,7 +2152,7 @@
         },
         {
           "id": "31-5",
-          "file": "exercises/31-5.mp4",
+          "file": "exercises/31-5.gif",
           "duration": 11.06,
           "startTime": 47.24,
           "endTime": 58.3,
@@ -2202,7 +2202,7 @@
       "clips": [
         {
           "id": "32-1",
-          "file": "exercises/32-1.mp4",
+          "file": "exercises/32-1.gif",
           "duration": 11.06,
           "startTime": 3,
           "endTime": 14.06,
@@ -2215,7 +2215,7 @@
         },
         {
           "id": "32-2",
-          "file": "exercises/32-2.mp4",
+          "file": "exercises/32-2.gif",
           "duration": 11.06,
           "startTime": 14.06,
           "endTime": 25.12,
@@ -2228,7 +2228,7 @@
         },
         {
           "id": "32-3",
-          "file": "exercises/32-3.mp4",
+          "file": "exercises/32-3.gif",
           "duration": 11.06,
           "startTime": 25.12,
           "endTime": 36.18,
@@ -2241,7 +2241,7 @@
         },
         {
           "id": "32-4",
-          "file": "exercises/32-4.mp4",
+          "file": "exercises/32-4.gif",
           "duration": 11.06,
           "startTime": 36.18,
           "endTime": 47.24,
@@ -2254,7 +2254,7 @@
         },
         {
           "id": "32-5",
-          "file": "exercises/32-5.mp4",
+          "file": "exercises/32-5.gif",
           "duration": 11.06,
           "startTime": 47.24,
           "endTime": 58.3,
@@ -2303,7 +2303,7 @@
       "clips": [
         {
           "id": "33-1",
-          "file": "exercises/33-1.mp4",
+          "file": "exercises/33-1.gif",
           "duration": 8.91,
           "startTime": 1.1133333,
           "endTime": 10.0199997,
@@ -2428,7 +2428,7 @@
       "clips": [
         {
           "id": "36-1",
-          "file": "exercises/36-1.mp4",
+          "file": "exercises/36-1.gif",
           "duration": 14.24,
           "startTime": 1.7800000000000002,
           "endTime": 16.02,
@@ -2481,7 +2481,7 @@
       "clips": [
         {
           "id": "37-1",
-          "file": "exercises/37-1.mp4",
+          "file": "exercises/37-1.gif",
           "duration": 14.24,
           "startTime": 1.7800000000000002,
           "endTime": 16.02,
@@ -2569,7 +2569,7 @@
       "clips": [
         {
           "id": "39-1",
-          "file": "exercises/39-1.mp4",
+          "file": "exercises/39-1.gif",
           "duration": 13.52,
           "startTime": 1.69,
           "endTime": 15.209999999999999,
@@ -2618,7 +2618,7 @@
       "clips": [
         {
           "id": "40-1",
-          "file": "exercises/40-1.mp4",
+          "file": "exercises/40-1.gif",
           "duration": 20.87,
           "startTime": 2,
           "endTime": 22.866667,
@@ -2739,7 +2739,7 @@
       "clips": [
         {
           "id": "43-1",
-          "file": "exercises/43-1.mp4",
+          "file": "exercises/43-1.gif",
           "duration": 13.52,
           "startTime": 1.6901995,
           "endTime": 15.2117955,
@@ -2889,7 +2889,7 @@
       "clips": [
         {
           "id": "47-1",
-          "file": "exercises/47-1.mp4",
+          "file": "exercises/47-1.gif",
           "duration": 9.45,
           "startTime": 1.1817007000000002,
           "endTime": 10.6353063,
@@ -2941,7 +2941,7 @@
       "clips": [
         {
           "id": "48-1",
-          "file": "exercises/48-1.mp4",
+          "file": "exercises/48-1.gif",
           "duration": 13.71,
           "startTime": 1.7133333000000002,
           "endTime": 15.4199997,
@@ -2993,7 +2993,7 @@
       "clips": [
         {
           "id": "49-1",
-          "file": "exercises/49-1.mp4",
+          "file": "exercises/49-1.gif",
           "duration": 17.93,
           "startTime": 2,
           "endTime": 19.933333,
@@ -3044,7 +3044,7 @@
       "clips": [
         {
           "id": "50-1",
-          "file": "exercises/50-1.mp4",
+          "file": "exercises/50-1.gif",
           "duration": 12.11,
           "startTime": 1.5133333000000002,
           "endTime": 13.619999700000001,
@@ -3094,7 +3094,7 @@
       "clips": [
         {
           "id": "51-1",
-          "file": "exercises/51-1.mp4",
+          "file": "exercises/51-1.gif",
           "duration": 11.26,
           "startTime": 3,
           "endTime": 14.26,
@@ -3107,7 +3107,7 @@
         },
         {
           "id": "51-2",
-          "file": "exercises/51-2.mp4",
+          "file": "exercises/51-2.gif",
           "duration": 11.25,
           "startTime": 14.26,
           "endTime": 25.51,
@@ -3120,7 +3120,7 @@
         },
         {
           "id": "51-3",
-          "file": "exercises/51-3.mp4",
+          "file": "exercises/51-3.gif",
           "duration": 11.26,
           "startTime": 25.51,
           "endTime": 36.77,
@@ -3170,7 +3170,7 @@
       "clips": [
         {
           "id": "52-1",
-          "file": "exercises/52-1.mp4",
+          "file": "exercises/52-1.gif",
           "duration": 24.47,
           "startTime": 2,
           "endTime": 26.466667,
@@ -3223,7 +3223,7 @@
       "clips": [
         {
           "id": "53-1",
-          "file": "exercises/53-1.mp4",
+          "file": "exercises/53-1.gif",
           "duration": 11.26,
           "startTime": 3,
           "endTime": 14.26,
@@ -3236,7 +3236,7 @@
         },
         {
           "id": "53-2",
-          "file": "exercises/53-2.mp4",
+          "file": "exercises/53-2.gif",
           "duration": 11.25,
           "startTime": 14.26,
           "endTime": 25.51,
@@ -3249,7 +3249,7 @@
         },
         {
           "id": "53-3",
-          "file": "exercises/53-3.mp4",
+          "file": "exercises/53-3.gif",
           "duration": 11.26,
           "startTime": 25.51,
           "endTime": 36.77,
@@ -3341,7 +3341,7 @@
       "clips": [
         {
           "id": "55-1",
-          "file": "exercises/55-1.mp4",
+          "file": "exercises/55-1.gif",
           "duration": 10.67,
           "startTime": 1.3333333,
           "endTime": 11.9999997,
@@ -3391,7 +3391,7 @@
       "clips": [
         {
           "id": "56-1",
-          "file": "exercises/56-1.mp4",
+          "file": "exercises/56-1.gif",
           "duration": 10.16,
           "startTime": 3,
           "endTime": 13.16,
@@ -3404,7 +3404,7 @@
         },
         {
           "id": "56-2",
-          "file": "exercises/56-2.mp4",
+          "file": "exercises/56-2.gif",
           "duration": 10.16,
           "startTime": 13.16,
           "endTime": 23.32,
@@ -3417,7 +3417,7 @@
         },
         {
           "id": "56-3",
-          "file": "exercises/56-3.mp4",
+          "file": "exercises/56-3.gif",
           "duration": 10.16,
           "startTime": 23.32,
           "endTime": 33.48,
@@ -3430,7 +3430,7 @@
         },
         {
           "id": "56-4",
-          "file": "exercises/56-4.mp4",
+          "file": "exercises/56-4.gif",
           "duration": 10.16,
           "startTime": 33.48,
           "endTime": 43.64,
@@ -3443,7 +3443,7 @@
         },
         {
           "id": "56-5",
-          "file": "exercises/56-5.mp4",
+          "file": "exercises/56-5.gif",
           "duration": 10.17,
           "startTime": 43.64,
           "endTime": 53.81,
@@ -3456,7 +3456,7 @@
         },
         {
           "id": "56-6",
-          "file": "exercises/56-6.mp4",
+          "file": "exercises/56-6.gif",
           "duration": 10.16,
           "startTime": 53.81,
           "endTime": 63.97,
@@ -3508,7 +3508,7 @@
       "clips": [
         {
           "id": "57-1",
-          "file": "exercises/57-1.mp4",
+          "file": "exercises/57-1.gif",
           "duration": 10.16,
           "startTime": 3,
           "endTime": 13.16,
@@ -3521,7 +3521,7 @@
         },
         {
           "id": "57-2",
-          "file": "exercises/57-2.mp4",
+          "file": "exercises/57-2.gif",
           "duration": 10.16,
           "startTime": 13.16,
           "endTime": 23.32,
@@ -3534,7 +3534,7 @@
         },
         {
           "id": "57-3",
-          "file": "exercises/57-3.mp4",
+          "file": "exercises/57-3.gif",
           "duration": 10.16,
           "startTime": 23.32,
           "endTime": 33.48,
@@ -3547,7 +3547,7 @@
         },
         {
           "id": "57-4",
-          "file": "exercises/57-4.mp4",
+          "file": "exercises/57-4.gif",
           "duration": 10.16,
           "startTime": 33.48,
           "endTime": 43.64,
@@ -3560,7 +3560,7 @@
         },
         {
           "id": "57-5",
-          "file": "exercises/57-5.mp4",
+          "file": "exercises/57-5.gif",
           "duration": 10.17,
           "startTime": 43.64,
           "endTime": 53.81,
@@ -3573,7 +3573,7 @@
         },
         {
           "id": "57-6",
-          "file": "exercises/57-6.mp4",
+          "file": "exercises/57-6.gif",
           "duration": 10.16,
           "startTime": 53.81,
           "endTime": 63.97,
@@ -3623,7 +3623,7 @@
       "clips": [
         {
           "id": "58-1",
-          "file": "exercises/58-1.mp4",
+          "file": "exercises/58-1.gif",
           "duration": 10.16,
           "startTime": 3,
           "endTime": 13.16,
@@ -3636,7 +3636,7 @@
         },
         {
           "id": "58-2",
-          "file": "exercises/58-2.mp4",
+          "file": "exercises/58-2.gif",
           "duration": 10.16,
           "startTime": 13.16,
           "endTime": 23.32,
@@ -3649,7 +3649,7 @@
         },
         {
           "id": "58-3",
-          "file": "exercises/58-3.mp4",
+          "file": "exercises/58-3.gif",
           "duration": 10.16,
           "startTime": 23.32,
           "endTime": 33.48,
@@ -3662,7 +3662,7 @@
         },
         {
           "id": "58-4",
-          "file": "exercises/58-4.mp4",
+          "file": "exercises/58-4.gif",
           "duration": 10.16,
           "startTime": 33.48,
           "endTime": 43.64,
@@ -3675,7 +3675,7 @@
         },
         {
           "id": "58-5",
-          "file": "exercises/58-5.mp4",
+          "file": "exercises/58-5.gif",
           "duration": 10.17,
           "startTime": 43.64,
           "endTime": 53.81,
@@ -3688,7 +3688,7 @@
         },
         {
           "id": "58-6",
-          "file": "exercises/58-6.mp4",
+          "file": "exercises/58-6.gif",
           "duration": 10.16,
           "startTime": 53.81,
           "endTime": 63.97,
@@ -3739,7 +3739,7 @@
       "clips": [
         {
           "id": "59-1",
-          "file": "exercises/59-1.mp4",
+          "file": "exercises/59-1.gif",
           "duration": 12.91,
           "startTime": 1.6133333,
           "endTime": 14.5199997,
@@ -3790,7 +3790,7 @@
       "clips": [
         {
           "id": "60-1",
-          "file": "exercises/60-1.mp4",
+          "file": "exercises/60-1.gif",
           "duration": 9.19,
           "startTime": 2.62,
           "endTime": 11.81,
@@ -3803,7 +3803,7 @@
         },
         {
           "id": "60-2",
-          "file": "exercises/60-2.mp4",
+          "file": "exercises/60-2.gif",
           "duration": 9.18,
           "startTime": 11.81,
           "endTime": 20.99,
@@ -3816,7 +3816,7 @@
         },
         {
           "id": "60-3",
-          "file": "exercises/60-3.mp4",
+          "file": "exercises/60-3.gif",
           "duration": 9.19,
           "startTime": 20.99,
           "endTime": 30.18,
@@ -3903,7 +3903,7 @@
       "clips": [
         {
           "id": "62-1",
-          "file": "exercises/62-1.mp4",
+          "file": "exercises/62-1.gif",
           "duration": 11.51,
           "startTime": 3,
           "endTime": 14.51,
@@ -3916,7 +3916,7 @@
         },
         {
           "id": "62-2",
-          "file": "exercises/62-2.mp4",
+          "file": "exercises/62-2.gif",
           "duration": 11.51,
           "startTime": 14.51,
           "endTime": 26.02,
@@ -3929,7 +3929,7 @@
         },
         {
           "id": "62-3",
-          "file": "exercises/62-3.mp4",
+          "file": "exercises/62-3.gif",
           "duration": 11.51,
           "startTime": 26.02,
           "endTime": 37.53,
@@ -3981,7 +3981,7 @@
       "clips": [
         {
           "id": "63-1",
-          "file": "exercises/63-1.mp4",
+          "file": "exercises/63-1.gif",
           "duration": 12.21,
           "startTime": 1.5266667,
           "endTime": 13.7400003,
@@ -4033,7 +4033,7 @@
       "clips": [
         {
           "id": "64-1",
-          "file": "exercises/64-1.mp4",
+          "file": "exercises/64-1.gif",
           "duration": 12.35,
           "startTime": 1.5433333,
           "endTime": 13.889999699999999,
@@ -4084,7 +4084,7 @@
       "clips": [
         {
           "id": "65-1",
-          "file": "exercises/65-1.mp4",
+          "file": "exercises/65-1.gif",
           "duration": 9.97,
           "startTime": 1.2466667,
           "endTime": 11.220000299999999,
@@ -4135,7 +4135,7 @@
       "clips": [
         {
           "id": "66-1",
-          "file": "exercises/66-1.mp4",
+          "file": "exercises/66-1.gif",
           "duration": 18.64,
           "startTime": 2,
           "endTime": 20.638005,
@@ -4224,7 +4224,7 @@
       "clips": [
         {
           "id": "68-1",
-          "file": "exercises/68-1.mp4",
+          "file": "exercises/68-1.gif",
           "duration": 11.55,
           "startTime": 1.4433333,
           "endTime": 12.989999699999998,
@@ -4275,7 +4275,7 @@
       "clips": [
         {
           "id": "69-1",
-          "file": "exercises/69-1.mp4",
+          "file": "exercises/69-1.gif",
           "duration": 8.74,
           "startTime": 2.5,
           "endTime": 11.24,
@@ -4288,7 +4288,7 @@
         },
         {
           "id": "69-2",
-          "file": "exercises/69-2.mp4",
+          "file": "exercises/69-2.gif",
           "duration": 8.75,
           "startTime": 11.24,
           "endTime": 19.99,
@@ -4301,7 +4301,7 @@
         },
         {
           "id": "69-3",
-          "file": "exercises/69-3.mp4",
+          "file": "exercises/69-3.gif",
           "duration": 8.74,
           "startTime": 19.99,
           "endTime": 28.73,
@@ -4352,7 +4352,7 @@
       "clips": [
         {
           "id": "70-1",
-          "file": "exercises/70-1.mp4",
+          "file": "exercises/70-1.gif",
           "duration": 6.28,
           "startTime": 0.7846893,
           "endTime": 7.0622036999999995,
@@ -4403,7 +4403,7 @@
       "clips": [
         {
           "id": "71-1",
-          "file": "exercises/71-1.mp4",
+          "file": "exercises/71-1.gif",
           "duration": 9.68,
           "startTime": 3,
           "endTime": 12.68,
@@ -4416,7 +4416,7 @@
         },
         {
           "id": "71-2",
-          "file": "exercises/71-2.mp4",
+          "file": "exercises/71-2.gif",
           "duration": 9.68,
           "startTime": 12.68,
           "endTime": 22.36,
@@ -4429,7 +4429,7 @@
         },
         {
           "id": "71-3",
-          "file": "exercises/71-3.mp4",
+          "file": "exercises/71-3.gif",
           "duration": 9.68,
           "startTime": 22.36,
           "endTime": 32.04,
@@ -4442,7 +4442,7 @@
         },
         {
           "id": "71-4",
-          "file": "exercises/71-4.mp4",
+          "file": "exercises/71-4.gif",
           "duration": 9.68,
           "startTime": 32.04,
           "endTime": 41.72,
@@ -4495,7 +4495,7 @@
       "clips": [
         {
           "id": "72-1",
-          "file": "exercises/72-1.mp4",
+          "file": "exercises/72-1.gif",
           "duration": 11.06,
           "startTime": 3,
           "endTime": 14.06,
@@ -4508,7 +4508,7 @@
         },
         {
           "id": "72-2",
-          "file": "exercises/72-2.mp4",
+          "file": "exercises/72-2.gif",
           "duration": 11.05,
           "startTime": 14.06,
           "endTime": 25.11,
@@ -4521,7 +4521,7 @@
         },
         {
           "id": "72-3",
-          "file": "exercises/72-3.mp4",
+          "file": "exercises/72-3.gif",
           "duration": 11.06,
           "startTime": 25.11,
           "endTime": 36.17,
@@ -4571,7 +4571,7 @@
       "clips": [
         {
           "id": "73-1",
-          "file": "exercises/73-1.mp4",
+          "file": "exercises/73-1.gif",
           "duration": 11.55,
           "startTime": 1.4433333,
           "endTime": 12.989999699999998,
@@ -4621,7 +4621,7 @@
       "clips": [
         {
           "id": "74-1",
-          "file": "exercises/74-1.mp4",
+          "file": "exercises/74-1.gif",
           "duration": 10.73,
           "startTime": 3,
           "endTime": 13.73,
@@ -4634,7 +4634,7 @@
         },
         {
           "id": "74-2",
-          "file": "exercises/74-2.mp4",
+          "file": "exercises/74-2.gif",
           "duration": 10.73,
           "startTime": 13.73,
           "endTime": 24.46,
@@ -4647,7 +4647,7 @@
         },
         {
           "id": "74-3",
-          "file": "exercises/74-3.mp4",
+          "file": "exercises/74-3.gif",
           "duration": 10.73,
           "startTime": 24.46,
           "endTime": 35.19,
@@ -4660,7 +4660,7 @@
         },
         {
           "id": "74-4",
-          "file": "exercises/74-4.mp4",
+          "file": "exercises/74-4.gif",
           "duration": 10.73,
           "startTime": 35.19,
           "endTime": 45.92,
@@ -4673,7 +4673,7 @@
         },
         {
           "id": "74-5",
-          "file": "exercises/74-5.mp4",
+          "file": "exercises/74-5.gif",
           "duration": 10.73,
           "startTime": 45.92,
           "endTime": 56.65,
@@ -4686,7 +4686,7 @@
         },
         {
           "id": "74-6",
-          "file": "exercises/74-6.mp4",
+          "file": "exercises/74-6.gif",
           "duration": 10.73,
           "startTime": 56.65,
           "endTime": 67.38,
@@ -4739,7 +4739,7 @@
       "clips": [
         {
           "id": "75-1",
-          "file": "exercises/75-1.mp4",
+          "file": "exercises/75-1.gif",
           "duration": 20.17,
           "startTime": 2,
           "endTime": 22.166667,
@@ -4792,7 +4792,7 @@
       "clips": [
         {
           "id": "76-1",
-          "file": "exercises/76-1.mp4",
+          "file": "exercises/76-1.gif",
           "duration": 15.21,
           "startTime": 1.9015011000000002,
           "endTime": 17.1135099,
@@ -4845,7 +4845,7 @@
       "clips": [
         {
           "id": "77-1",
-          "file": "exercises/77-1.mp4",
+          "file": "exercises/77-1.gif",
           "duration": 8.55,
           "startTime": 2.45,
           "endTime": 11,
@@ -4858,7 +4858,7 @@
         },
         {
           "id": "77-2",
-          "file": "exercises/77-2.mp4",
+          "file": "exercises/77-2.gif",
           "duration": 8.56,
           "startTime": 11,
           "endTime": 19.56,
@@ -4871,7 +4871,7 @@
         },
         {
           "id": "77-3",
-          "file": "exercises/77-3.mp4",
+          "file": "exercises/77-3.gif",
           "duration": 8.56,
           "startTime": 19.56,
           "endTime": 28.12,
@@ -4924,7 +4924,7 @@
       "clips": [
         {
           "id": "78-1",
-          "file": "exercises/78-1.mp4",
+          "file": "exercises/78-1.gif",
           "duration": 9.97,
           "startTime": 3,
           "endTime": 12.97,
@@ -4937,7 +4937,7 @@
         },
         {
           "id": "78-2",
-          "file": "exercises/78-2.mp4",
+          "file": "exercises/78-2.gif",
           "duration": 9.96,
           "startTime": 12.97,
           "endTime": 22.93,
@@ -4950,7 +4950,7 @@
         },
         {
           "id": "78-3",
-          "file": "exercises/78-3.mp4",
+          "file": "exercises/78-3.gif",
           "duration": 9.97,
           "startTime": 22.93,
           "endTime": 32.9,
@@ -4963,7 +4963,7 @@
         },
         {
           "id": "78-4",
-          "file": "exercises/78-4.mp4",
+          "file": "exercises/78-4.gif",
           "duration": 9.97,
           "startTime": 32.9,
           "endTime": 42.87,
@@ -5048,7 +5048,7 @@
       "clips": [
         {
           "id": "80-1",
-          "file": "exercises/80-1.mp4",
+          "file": "exercises/80-1.gif",
           "duration": 11.79,
           "startTime": 3,
           "endTime": 14.79,
@@ -5061,7 +5061,7 @@
         },
         {
           "id": "80-2",
-          "file": "exercises/80-2.mp4",
+          "file": "exercises/80-2.gif",
           "duration": 11.79,
           "startTime": 14.79,
           "endTime": 26.58,
@@ -5074,7 +5074,7 @@
         },
         {
           "id": "80-3",
-          "file": "exercises/80-3.mp4",
+          "file": "exercises/80-3.gif",
           "duration": 11.79,
           "startTime": 26.58,
           "endTime": 38.37,
@@ -5123,7 +5123,7 @@
       "clips": [
         {
           "id": "81-1",
-          "file": "exercises/81-1.mp4",
+          "file": "exercises/81-1.gif",
           "duration": 8.87,
           "startTime": 2.53,
           "endTime": 11.4,
@@ -5136,7 +5136,7 @@
         },
         {
           "id": "81-2",
-          "file": "exercises/81-2.mp4",
+          "file": "exercises/81-2.gif",
           "duration": 8.87,
           "startTime": 11.4,
           "endTime": 20.27,
@@ -5149,7 +5149,7 @@
         },
         {
           "id": "81-3",
-          "file": "exercises/81-3.mp4",
+          "file": "exercises/81-3.gif",
           "duration": 8.86,
           "startTime": 20.27,
           "endTime": 29.13,
@@ -5199,7 +5199,7 @@
       "clips": [
         {
           "id": "82-1",
-          "file": "exercises/82-1.mp4",
+          "file": "exercises/82-1.gif",
           "duration": 11.2,
           "startTime": 3,
           "endTime": 14.2,
@@ -5212,7 +5212,7 @@
         },
         {
           "id": "82-2",
-          "file": "exercises/82-2.mp4",
+          "file": "exercises/82-2.gif",
           "duration": 11.2,
           "startTime": 14.2,
           "endTime": 25.4,
@@ -5225,7 +5225,7 @@
         },
         {
           "id": "82-3",
-          "file": "exercises/82-3.mp4",
+          "file": "exercises/82-3.gif",
           "duration": 11.2,
           "startTime": 25.4,
           "endTime": 36.6,
@@ -5238,7 +5238,7 @@
         },
         {
           "id": "82-4",
-          "file": "exercises/82-4.mp4",
+          "file": "exercises/82-4.gif",
           "duration": 11.2,
           "startTime": 36.6,
           "endTime": 47.8,
@@ -5287,7 +5287,7 @@
       "clips": [
         {
           "id": "83-1",
-          "file": "exercises/83-1.mp4",
+          "file": "exercises/83-1.gif",
           "duration": 20.83,
           "startTime": 2,
           "endTime": 22.833333,
@@ -5379,7 +5379,7 @@
       "clips": [
         {
           "id": "85-1",
-          "file": "exercises/85-1.mp4",
+          "file": "exercises/85-1.gif",
           "duration": 16.9,
           "startTime": 2,
           "endTime": 18.9,
@@ -5432,7 +5432,7 @@
       "clips": [
         {
           "id": "86-1",
-          "file": "exercises/86-1.mp4",
+          "file": "exercises/86-1.gif",
           "duration": 9.72,
           "startTime": 2.78,
           "endTime": 12.5,
@@ -5445,7 +5445,7 @@
         },
         {
           "id": "86-2",
-          "file": "exercises/86-2.mp4",
+          "file": "exercises/86-2.gif",
           "duration": 9.73,
           "startTime": 12.5,
           "endTime": 22.23,
@@ -5458,7 +5458,7 @@
         },
         {
           "id": "86-3",
-          "file": "exercises/86-3.mp4",
+          "file": "exercises/86-3.gif",
           "duration": 9.73,
           "startTime": 22.23,
           "endTime": 31.96,
@@ -5511,7 +5511,7 @@
       "clips": [
         {
           "id": "87-1",
-          "file": "exercises/87-1.mp4",
+          "file": "exercises/87-1.gif",
           "duration": 9.96,
           "startTime": 3,
           "endTime": 12.96,
@@ -5524,7 +5524,7 @@
         },
         {
           "id": "87-2",
-          "file": "exercises/87-2.mp4",
+          "file": "exercises/87-2.gif",
           "duration": 9.96,
           "startTime": 12.96,
           "endTime": 22.92,
@@ -5537,7 +5537,7 @@
         },
         {
           "id": "87-3",
-          "file": "exercises/87-3.mp4",
+          "file": "exercises/87-3.gif",
           "duration": 9.95,
           "startTime": 22.92,
           "endTime": 32.87,
@@ -5550,7 +5550,7 @@
         },
         {
           "id": "87-4",
-          "file": "exercises/87-4.mp4",
+          "file": "exercises/87-4.gif",
           "duration": 9.96,
           "startTime": 32.87,
           "endTime": 42.83,
@@ -5601,7 +5601,7 @@
       "clips": [
         {
           "id": "88-1",
-          "file": "exercises/88-1.mp4",
+          "file": "exercises/88-1.gif",
           "duration": 20,
           "startTime": 2,
           "endTime": 22,
@@ -5652,7 +5652,7 @@
       "clips": [
         {
           "id": "89-1",
-          "file": "exercises/89-1.mp4",
+          "file": "exercises/89-1.gif",
           "duration": 10.02,
           "startTime": 3,
           "endTime": 13.02,
@@ -5665,7 +5665,7 @@
         },
         {
           "id": "89-2",
-          "file": "exercises/89-2.mp4",
+          "file": "exercises/89-2.gif",
           "duration": 10.02,
           "startTime": 13.02,
           "endTime": 23.04,
@@ -5678,7 +5678,7 @@
         },
         {
           "id": "89-3",
-          "file": "exercises/89-3.mp4",
+          "file": "exercises/89-3.gif",
           "duration": 10.03,
           "startTime": 23.04,
           "endTime": 33.07,
@@ -5691,7 +5691,7 @@
         },
         {
           "id": "89-4",
-          "file": "exercises/89-4.mp4",
+          "file": "exercises/89-4.gif",
           "duration": 10.02,
           "startTime": 33.07,
           "endTime": 43.09,
@@ -5704,7 +5704,7 @@
         },
         {
           "id": "89-5",
-          "file": "exercises/89-5.mp4",
+          "file": "exercises/89-5.gif",
           "duration": 10.02,
           "startTime": 43.09,
           "endTime": 53.11,
@@ -5717,7 +5717,7 @@
         },
         {
           "id": "89-6",
-          "file": "exercises/89-6.mp4",
+          "file": "exercises/89-6.gif",
           "duration": 10.02,
           "startTime": 53.11,
           "endTime": 63.13,
@@ -5768,7 +5768,7 @@
       "clips": [
         {
           "id": "90-1",
-          "file": "exercises/90-1.mp4",
+          "file": "exercises/90-1.gif",
           "duration": 9.61,
           "startTime": 2.74,
           "endTime": 12.35,
@@ -5781,7 +5781,7 @@
         },
         {
           "id": "90-2",
-          "file": "exercises/90-2.mp4",
+          "file": "exercises/90-2.gif",
           "duration": 9.6,
           "startTime": 12.35,
           "endTime": 21.95,
@@ -5794,7 +5794,7 @@
         },
         {
           "id": "90-3",
-          "file": "exercises/90-3.mp4",
+          "file": "exercises/90-3.gif",
           "duration": 9.61,
           "startTime": 21.95,
           "endTime": 31.56,
@@ -5922,7 +5922,7 @@
       "clips": [
         {
           "id": "93-1",
-          "file": "exercises/93-1.mp4",
+          "file": "exercises/93-1.gif",
           "duration": 11.11,
           "startTime": 3,
           "endTime": 14.11,
@@ -5935,7 +5935,7 @@
         },
         {
           "id": "93-2",
-          "file": "exercises/93-2.mp4",
+          "file": "exercises/93-2.gif",
           "duration": 11.11,
           "startTime": 14.11,
           "endTime": 25.22,
@@ -5948,7 +5948,7 @@
         },
         {
           "id": "93-3",
-          "file": "exercises/93-3.mp4",
+          "file": "exercises/93-3.gif",
           "duration": 11.11,
           "startTime": 25.22,
           "endTime": 36.33,
@@ -6116,7 +6116,7 @@
       "clips": [
         {
           "id": "97-1",
-          "file": "exercises/97-1.mp4",
+          "file": "exercises/97-1.gif",
           "duration": 12.8,
           "startTime": 1.6,
           "endTime": 14.4,
@@ -6208,7 +6208,7 @@
       "clips": [
         {
           "id": "99-1",
-          "file": "exercises/99-1.mp4",
+          "file": "exercises/99-1.gif",
           "duration": 9.25,
           "startTime": 2.64,
           "endTime": 11.89,
@@ -6221,7 +6221,7 @@
         },
         {
           "id": "99-2",
-          "file": "exercises/99-2.mp4",
+          "file": "exercises/99-2.gif",
           "duration": 9.25,
           "startTime": 11.89,
           "endTime": 21.14,
@@ -6234,7 +6234,7 @@
         },
         {
           "id": "99-3",
-          "file": "exercises/99-3.mp4",
+          "file": "exercises/99-3.gif",
           "duration": 9.25,
           "startTime": 21.14,
           "endTime": 30.39,
@@ -6287,7 +6287,7 @@
       "clips": [
         {
           "id": "100-1",
-          "file": "exercises/100-1.mp4",
+          "file": "exercises/100-1.gif",
           "duration": 10.71,
           "startTime": 3,
           "endTime": 13.71,
@@ -6300,7 +6300,7 @@
         },
         {
           "id": "100-2",
-          "file": "exercises/100-2.mp4",
+          "file": "exercises/100-2.gif",
           "duration": 10.7,
           "startTime": 13.71,
           "endTime": 24.41,
@@ -6313,7 +6313,7 @@
         },
         {
           "id": "100-3",
-          "file": "exercises/100-3.mp4",
+          "file": "exercises/100-3.gif",
           "duration": 10.71,
           "startTime": 24.41,
           "endTime": 35.12,
@@ -6326,7 +6326,7 @@
         },
         {
           "id": "100-4",
-          "file": "exercises/100-4.mp4",
+          "file": "exercises/100-4.gif",
           "duration": 10.71,
           "startTime": 35.12,
           "endTime": 45.83,
@@ -6339,7 +6339,7 @@
         },
         {
           "id": "100-5",
-          "file": "exercises/100-5.mp4",
+          "file": "exercises/100-5.gif",
           "duration": 10.7,
           "startTime": 45.83,
           "endTime": 56.53,
@@ -6431,7 +6431,7 @@
       "clips": [
         {
           "id": "102-1",
-          "file": "exercises/102-1.mp4",
+          "file": "exercises/102-1.gif",
           "duration": 8.95,
           "startTime": 2.56,
           "endTime": 11.51,
@@ -6444,7 +6444,7 @@
         },
         {
           "id": "102-2",
-          "file": "exercises/102-2.mp4",
+          "file": "exercises/102-2.gif",
           "duration": 8.95,
           "startTime": 11.51,
           "endTime": 20.46,
@@ -6457,7 +6457,7 @@
         },
         {
           "id": "102-3",
-          "file": "exercises/102-3.mp4",
+          "file": "exercises/102-3.gif",
           "duration": 8.95,
           "startTime": 20.46,
           "endTime": 29.41,
@@ -6510,7 +6510,7 @@
       "clips": [
         {
           "id": "103-1",
-          "file": "exercises/103-1.mp4",
+          "file": "exercises/103-1.gif",
           "duration": 11.61,
           "startTime": 3,
           "endTime": 14.61,
@@ -6523,7 +6523,7 @@
         },
         {
           "id": "103-2",
-          "file": "exercises/103-2.mp4",
+          "file": "exercises/103-2.gif",
           "duration": 11.62,
           "startTime": 14.61,
           "endTime": 26.23,
@@ -6536,7 +6536,7 @@
         },
         {
           "id": "103-3",
-          "file": "exercises/103-3.mp4",
+          "file": "exercises/103-3.gif",
           "duration": 11.61,
           "startTime": 26.23,
           "endTime": 37.84,
@@ -6549,7 +6549,7 @@
         },
         {
           "id": "103-4",
-          "file": "exercises/103-4.mp4",
+          "file": "exercises/103-4.gif",
           "duration": 11.62,
           "startTime": 37.84,
           "endTime": 49.46,
@@ -6562,7 +6562,7 @@
         },
         {
           "id": "103-5",
-          "file": "exercises/103-5.mp4",
+          "file": "exercises/103-5.gif",
           "duration": 11.61,
           "startTime": 49.46,
           "endTime": 61.07,
@@ -6575,7 +6575,7 @@
         },
         {
           "id": "103-6",
-          "file": "exercises/103-6.mp4",
+          "file": "exercises/103-6.gif",
           "duration": 11.62,
           "startTime": 61.07,
           "endTime": 72.69,
@@ -6588,7 +6588,7 @@
         },
         {
           "id": "103-7",
-          "file": "exercises/103-7.mp4",
+          "file": "exercises/103-7.gif",
           "duration": 11.61,
           "startTime": 72.69,
           "endTime": 84.3,
@@ -6641,7 +6641,7 @@
       "clips": [
         {
           "id": "104-1",
-          "file": "exercises/104-1.mp4",
+          "file": "exercises/104-1.gif",
           "duration": 9.81,
           "startTime": 3,
           "endTime": 12.81,
@@ -6654,7 +6654,7 @@
         },
         {
           "id": "104-2",
-          "file": "exercises/104-2.mp4",
+          "file": "exercises/104-2.gif",
           "duration": 9.81,
           "startTime": 12.81,
           "endTime": 22.62,
@@ -6667,7 +6667,7 @@
         },
         {
           "id": "104-3",
-          "file": "exercises/104-3.mp4",
+          "file": "exercises/104-3.gif",
           "duration": 9.8,
           "startTime": 22.62,
           "endTime": 32.42,
@@ -6680,7 +6680,7 @@
         },
         {
           "id": "104-4",
-          "file": "exercises/104-4.mp4",
+          "file": "exercises/104-4.gif",
           "duration": 9.81,
           "startTime": 32.42,
           "endTime": 42.23,
@@ -6733,7 +6733,7 @@
       "clips": [
         {
           "id": "105-1",
-          "file": "exercises/105-1.mp4",
+          "file": "exercises/105-1.gif",
           "duration": 18.5,
           "startTime": 2,
           "endTime": 20.5,
@@ -6859,7 +6859,7 @@
       "clips": [
         {
           "id": "108-1",
-          "file": "exercises/108-1.mp4",
+          "file": "exercises/108-1.gif",
           "duration": 14.32,
           "startTime": 1.7900998000000001,
           "endTime": 16.1108982,
@@ -6947,7 +6947,7 @@
       "clips": [
         {
           "id": "110-1",
-          "file": "exercises/110-1.mp4",
+          "file": "exercises/110-1.gif",
           "duration": 15.77,
           "startTime": 1.9711995000000002,
           "endTime": 17.7407955,
@@ -6998,7 +6998,7 @@
       "clips": [
         {
           "id": "111-1",
-          "file": "exercises/111-1.mp4",
+          "file": "exercises/111-1.gif",
           "duration": 21.23,
           "startTime": 2,
           "endTime": 23.233333,
@@ -7127,7 +7127,7 @@
       "clips": [
         {
           "id": "114-1",
-          "file": "exercises/114-1.mp4",
+          "file": "exercises/114-1.gif",
           "duration": 9.85,
           "startTime": 2.82,
           "endTime": 12.67,
@@ -7140,7 +7140,7 @@
         },
         {
           "id": "114-2",
-          "file": "exercises/114-2.mp4",
+          "file": "exercises/114-2.gif",
           "duration": 9.86,
           "startTime": 12.67,
           "endTime": 22.53,
@@ -7153,7 +7153,7 @@
         },
         {
           "id": "114-3",
-          "file": "exercises/114-3.mp4",
+          "file": "exercises/114-3.gif",
           "duration": 9.85,
           "startTime": 22.53,
           "endTime": 32.38,
@@ -7206,7 +7206,7 @@
       "clips": [
         {
           "id": "115-1",
-          "file": "exercises/115-1.mp4",
+          "file": "exercises/115-1.gif",
           "duration": 6.59,
           "startTime": 0.8233333,
           "endTime": 7.4099997,
@@ -7259,7 +7259,7 @@
       "clips": [
         {
           "id": "116-1",
-          "file": "exercises/116-1.mp4",
+          "file": "exercises/116-1.gif",
           "duration": 14.13,
           "startTime": 1.7666667,
           "endTime": 15.9000003,
@@ -7351,7 +7351,7 @@
       "clips": [
         {
           "id": "118-1",
-          "file": "exercises/118-1.mp4",
+          "file": "exercises/118-1.gif",
           "duration": 25.47,
           "startTime": 2,
           "endTime": 27.466667,
@@ -7443,7 +7443,7 @@
       "clips": [
         {
           "id": "120-1",
-          "file": "exercises/120-1.mp4",
+          "file": "exercises/120-1.gif",
           "duration": 9.93,
           "startTime": 2.83,
           "endTime": 12.76,
@@ -7456,7 +7456,7 @@
         },
         {
           "id": "120-2",
-          "file": "exercises/120-2.mp4",
+          "file": "exercises/120-2.gif",
           "duration": 9.92,
           "startTime": 12.76,
           "endTime": 22.68,
@@ -7469,7 +7469,7 @@
         },
         {
           "id": "120-3",
-          "file": "exercises/120-3.mp4",
+          "file": "exercises/120-3.gif",
           "duration": 9.92,
           "startTime": 22.68,
           "endTime": 32.6,
@@ -7522,7 +7522,7 @@
       "clips": [
         {
           "id": "121-1",
-          "file": "exercises/121-1.mp4",
+          "file": "exercises/121-1.gif",
           "duration": 8.79,
           "startTime": 2.51,
           "endTime": 11.3,
@@ -7535,7 +7535,7 @@
         },
         {
           "id": "121-2",
-          "file": "exercises/121-2.mp4",
+          "file": "exercises/121-2.gif",
           "duration": 8.8,
           "startTime": 11.3,
           "endTime": 20.1,
@@ -7548,7 +7548,7 @@
         },
         {
           "id": "121-3",
-          "file": "exercises/121-3.mp4",
+          "file": "exercises/121-3.gif",
           "duration": 8.79,
           "startTime": 20.1,
           "endTime": 28.89,
@@ -7640,7 +7640,7 @@
       "clips": [
         {
           "id": "123-1",
-          "file": "exercises/123-1.mp4",
+          "file": "exercises/123-1.gif",
           "duration": 10.61,
           "startTime": 3,
           "endTime": 13.61,
@@ -7653,7 +7653,7 @@
         },
         {
           "id": "123-2",
-          "file": "exercises/123-2.mp4",
+          "file": "exercises/123-2.gif",
           "duration": 10.6,
           "startTime": 13.61,
           "endTime": 24.21,
@@ -7666,7 +7666,7 @@
         },
         {
           "id": "123-3",
-          "file": "exercises/123-3.mp4",
+          "file": "exercises/123-3.gif",
           "duration": 10.61,
           "startTime": 24.21,
           "endTime": 34.82,
@@ -7679,7 +7679,7 @@
         },
         {
           "id": "123-4",
-          "file": "exercises/123-4.mp4",
+          "file": "exercises/123-4.gif",
           "duration": 10.6,
           "startTime": 34.82,
           "endTime": 45.42,
@@ -7692,7 +7692,7 @@
         },
         {
           "id": "123-5",
-          "file": "exercises/123-5.mp4",
+          "file": "exercises/123-5.gif",
           "duration": 10.61,
           "startTime": 45.42,
           "endTime": 56.03,
@@ -7705,7 +7705,7 @@
         },
         {
           "id": "123-6",
-          "file": "exercises/123-6.mp4",
+          "file": "exercises/123-6.gif",
           "duration": 10.6,
           "startTime": 56.03,
           "endTime": 66.63,
@@ -7836,7 +7836,7 @@
       "clips": [
         {
           "id": "126-1",
-          "file": "exercises/126-1.mp4",
+          "file": "exercises/126-1.gif",
           "duration": 11.17,
           "startTime": 3,
           "endTime": 14.17,
@@ -7849,7 +7849,7 @@
         },
         {
           "id": "126-2",
-          "file": "exercises/126-2.mp4",
+          "file": "exercises/126-2.gif",
           "duration": 11.16,
           "startTime": 14.17,
           "endTime": 25.33,
@@ -7862,7 +7862,7 @@
         },
         {
           "id": "126-3",
-          "file": "exercises/126-3.mp4",
+          "file": "exercises/126-3.gif",
           "duration": 11.17,
           "startTime": 25.33,
           "endTime": 36.5,
@@ -7875,7 +7875,7 @@
         },
         {
           "id": "126-4",
-          "file": "exercises/126-4.mp4",
+          "file": "exercises/126-4.gif",
           "duration": 11.17,
           "startTime": 36.5,
           "endTime": 47.67,
@@ -7888,7 +7888,7 @@
         },
         {
           "id": "126-5",
-          "file": "exercises/126-5.mp4",
+          "file": "exercises/126-5.gif",
           "duration": 11.16,
           "startTime": 47.67,
           "endTime": 58.83,
@@ -8019,7 +8019,7 @@
       "clips": [
         {
           "id": "129-1",
-          "file": "exercises/129-1.mp4",
+          "file": "exercises/129-1.gif",
           "duration": 10.59,
           "startTime": 3,
           "endTime": 13.59,
@@ -8032,7 +8032,7 @@
         },
         {
           "id": "129-2",
-          "file": "exercises/129-2.mp4",
+          "file": "exercises/129-2.gif",
           "duration": 10.59,
           "startTime": 13.59,
           "endTime": 24.18,
@@ -8045,7 +8045,7 @@
         },
         {
           "id": "129-3",
-          "file": "exercises/129-3.mp4",
+          "file": "exercises/129-3.gif",
           "duration": 10.6,
           "startTime": 24.18,
           "endTime": 34.78,
@@ -8058,7 +8058,7 @@
         },
         {
           "id": "129-4",
-          "file": "exercises/129-4.mp4",
+          "file": "exercises/129-4.gif",
           "duration": 10.59,
           "startTime": 34.78,
           "endTime": 45.37,
@@ -8189,7 +8189,7 @@
       "clips": [
         {
           "id": "132-1",
-          "file": "exercises/132-1.mp4",
+          "file": "exercises/132-1.gif",
           "duration": 9.83,
           "startTime": 2.81,
           "endTime": 12.64,
@@ -8202,7 +8202,7 @@
         },
         {
           "id": "132-2",
-          "file": "exercises/132-2.mp4",
+          "file": "exercises/132-2.gif",
           "duration": 9.82,
           "startTime": 12.64,
           "endTime": 22.46,
@@ -8215,7 +8215,7 @@
         },
         {
           "id": "132-3",
-          "file": "exercises/132-3.mp4",
+          "file": "exercises/132-3.gif",
           "duration": 9.83,
           "startTime": 22.46,
           "endTime": 32.29,
@@ -8268,7 +8268,7 @@
       "clips": [
         {
           "id": "133-1",
-          "file": "exercises/133-1.mp4",
+          "file": "exercises/133-1.gif",
           "duration": 11.38,
           "startTime": 3,
           "endTime": 14.38,
@@ -8281,7 +8281,7 @@
         },
         {
           "id": "133-2",
-          "file": "exercises/133-2.mp4",
+          "file": "exercises/133-2.gif",
           "duration": 11.38,
           "startTime": 14.38,
           "endTime": 25.76,
@@ -8294,7 +8294,7 @@
         },
         {
           "id": "133-3",
-          "file": "exercises/133-3.mp4",
+          "file": "exercises/133-3.gif",
           "duration": 11.38,
           "startTime": 25.76,
           "endTime": 37.14,
@@ -8307,7 +8307,7 @@
         },
         {
           "id": "133-4",
-          "file": "exercises/133-4.mp4",
+          "file": "exercises/133-4.gif",
           "duration": 11.38,
           "startTime": 37.14,
           "endTime": 48.52,
@@ -8399,7 +8399,7 @@
       "clips": [
         {
           "id": "135-1",
-          "file": "exercises/135-1.mp4",
+          "file": "exercises/135-1.gif",
           "duration": 11.13,
           "startTime": 3,
           "endTime": 14.13,
@@ -8412,7 +8412,7 @@
         },
         {
           "id": "135-2",
-          "file": "exercises/135-2.mp4",
+          "file": "exercises/135-2.gif",
           "duration": 11.13,
           "startTime": 14.13,
           "endTime": 25.26,
@@ -8425,7 +8425,7 @@
         },
         {
           "id": "135-3",
-          "file": "exercises/135-3.mp4",
+          "file": "exercises/135-3.gif",
           "duration": 11.12,
           "startTime": 25.26,
           "endTime": 36.38,
@@ -8438,7 +8438,7 @@
         },
         {
           "id": "135-4",
-          "file": "exercises/135-4.mp4",
+          "file": "exercises/135-4.gif",
           "duration": 11.13,
           "startTime": 36.38,
           "endTime": 47.51,
@@ -8451,7 +8451,7 @@
         },
         {
           "id": "135-5",
-          "file": "exercises/135-5.mp4",
+          "file": "exercises/135-5.gif",
           "duration": 11.13,
           "startTime": 47.51,
           "endTime": 58.64,
@@ -8464,7 +8464,7 @@
         },
         {
           "id": "135-6",
-          "file": "exercises/135-6.mp4",
+          "file": "exercises/135-6.gif",
           "duration": 11.13,
           "startTime": 58.64,
           "endTime": 69.77,
@@ -8517,7 +8517,7 @@
       "clips": [
         {
           "id": "136-1",
-          "file": "exercises/136-1.mp4",
+          "file": "exercises/136-1.gif",
           "duration": 11.24,
           "startTime": 3,
           "endTime": 14.24,
@@ -8530,7 +8530,7 @@
         },
         {
           "id": "136-2",
-          "file": "exercises/136-2.mp4",
+          "file": "exercises/136-2.gif",
           "duration": 11.25,
           "startTime": 14.24,
           "endTime": 25.49,
@@ -8543,7 +8543,7 @@
         },
         {
           "id": "136-3",
-          "file": "exercises/136-3.mp4",
+          "file": "exercises/136-3.gif",
           "duration": 11.24,
           "startTime": 25.49,
           "endTime": 36.73,
@@ -8596,7 +8596,7 @@
       "clips": [
         {
           "id": "137-1",
-          "file": "exercises/137-1.mp4",
+          "file": "exercises/137-1.gif",
           "duration": 14.43,
           "startTime": 1.8033333,
           "endTime": 16.2299997,
@@ -8648,7 +8648,7 @@
       "clips": [
         {
           "id": "138-1",
-          "file": "exercises/138-1.mp4",
+          "file": "exercises/138-1.gif",
           "duration": 8.62,
           "startTime": 2.46,
           "endTime": 11.08,
@@ -8661,7 +8661,7 @@
         },
         {
           "id": "138-2",
-          "file": "exercises/138-2.mp4",
+          "file": "exercises/138-2.gif",
           "duration": 8.61,
           "startTime": 11.08,
           "endTime": 19.69,
@@ -8674,7 +8674,7 @@
         },
         {
           "id": "138-3",
-          "file": "exercises/138-3.mp4",
+          "file": "exercises/138-3.gif",
           "duration": 8.62,
           "startTime": 19.69,
           "endTime": 28.31,
@@ -8726,7 +8726,7 @@
       "clips": [
         {
           "id": "139-1",
-          "file": "exercises/139-1.mp4",
+          "file": "exercises/139-1.gif",
           "duration": 20.01,
           "startTime": 2,
           "endTime": 22.007982,
@@ -8779,7 +8779,7 @@
       "clips": [
         {
           "id": "140-1",
-          "file": "exercises/140-1.mp4",
+          "file": "exercises/140-1.gif",
           "duration": 11.84,
           "startTime": 3,
           "endTime": 14.84,
@@ -8792,7 +8792,7 @@
         },
         {
           "id": "140-2",
-          "file": "exercises/140-2.mp4",
+          "file": "exercises/140-2.gif",
           "duration": 11.85,
           "startTime": 14.84,
           "endTime": 26.69,
@@ -8805,7 +8805,7 @@
         },
         {
           "id": "140-3",
-          "file": "exercises/140-3.mp4",
+          "file": "exercises/140-3.gif",
           "duration": 11.84,
           "startTime": 26.69,
           "endTime": 38.53,
@@ -8891,7 +8891,7 @@
       "clips": [
         {
           "id": "142-1",
-          "file": "exercises/142-1.mp4",
+          "file": "exercises/142-1.gif",
           "duration": 8.43,
           "startTime": 2.41,
           "endTime": 10.84,
@@ -8904,7 +8904,7 @@
         },
         {
           "id": "142-2",
-          "file": "exercises/142-2.mp4",
+          "file": "exercises/142-2.gif",
           "duration": 8.42,
           "startTime": 10.84,
           "endTime": 19.26,
@@ -8917,7 +8917,7 @@
         },
         {
           "id": "142-3",
-          "file": "exercises/142-3.mp4",
+          "file": "exercises/142-3.gif",
           "duration": 8.43,
           "startTime": 19.26,
           "endTime": 27.69,
@@ -8969,7 +8969,7 @@
       "clips": [
         {
           "id": "143-1",
-          "file": "exercises/143-1.mp4",
+          "file": "exercises/143-1.gif",
           "duration": 9.69,
           "startTime": 3,
           "endTime": 12.69,
@@ -8982,7 +8982,7 @@
         },
         {
           "id": "143-2",
-          "file": "exercises/143-2.mp4",
+          "file": "exercises/143-2.gif",
           "duration": 9.68,
           "startTime": 12.69,
           "endTime": 22.37,
@@ -8995,7 +8995,7 @@
         },
         {
           "id": "143-3",
-          "file": "exercises/143-3.mp4",
+          "file": "exercises/143-3.gif",
           "duration": 9.69,
           "startTime": 22.37,
           "endTime": 32.06,
@@ -9008,7 +9008,7 @@
         },
         {
           "id": "143-4",
-          "file": "exercises/143-4.mp4",
+          "file": "exercises/143-4.gif",
           "duration": 9.69,
           "startTime": 32.06,
           "endTime": 41.75,
@@ -9021,7 +9021,7 @@
         },
         {
           "id": "143-5",
-          "file": "exercises/143-5.mp4",
+          "file": "exercises/143-5.gif",
           "duration": 9.68,
           "startTime": 41.75,
           "endTime": 51.43,
@@ -9074,7 +9074,7 @@
       "clips": [
         {
           "id": "144-1",
-          "file": "exercises/144-1.mp4",
+          "file": "exercises/144-1.gif",
           "duration": 11.43,
           "startTime": 3,
           "endTime": 14.43,
@@ -9087,7 +9087,7 @@
         },
         {
           "id": "144-2",
-          "file": "exercises/144-2.mp4",
+          "file": "exercises/144-2.gif",
           "duration": 11.44,
           "startTime": 14.43,
           "endTime": 25.87,
@@ -9100,7 +9100,7 @@
         },
         {
           "id": "144-3",
-          "file": "exercises/144-3.mp4",
+          "file": "exercises/144-3.gif",
           "duration": 11.43,
           "startTime": 25.87,
           "endTime": 37.3,
@@ -9113,7 +9113,7 @@
         },
         {
           "id": "144-4",
-          "file": "exercises/144-4.mp4",
+          "file": "exercises/144-4.gif",
           "duration": 11.43,
           "startTime": 37.3,
           "endTime": 48.73,
@@ -9166,7 +9166,7 @@
       "clips": [
         {
           "id": "145-1",
-          "file": "exercises/145-1.mp4",
+          "file": "exercises/145-1.gif",
           "duration": 9.34,
           "startTime": 3,
           "endTime": 12.34,
@@ -9179,7 +9179,7 @@
         },
         {
           "id": "145-2",
-          "file": "exercises/145-2.mp4",
+          "file": "exercises/145-2.gif",
           "duration": 9.34,
           "startTime": 12.34,
           "endTime": 21.68,
@@ -9192,7 +9192,7 @@
         },
         {
           "id": "145-3",
-          "file": "exercises/145-3.mp4",
+          "file": "exercises/145-3.gif",
           "duration": 9.35,
           "startTime": 21.68,
           "endTime": 31.03,
@@ -9205,7 +9205,7 @@
         },
         {
           "id": "145-4",
-          "file": "exercises/145-4.mp4",
+          "file": "exercises/145-4.gif",
           "duration": 9.34,
           "startTime": 31.03,
           "endTime": 40.37,
@@ -9258,7 +9258,7 @@
       "clips": [
         {
           "id": "146-1",
-          "file": "exercises/146-1.mp4",
+          "file": "exercises/146-1.gif",
           "duration": 12.77,
           "startTime": 1.5966667,
           "endTime": 14.3700003,
@@ -9316,7 +9316,7 @@
       "clips": [
         {
           "id": "147-1",
-          "file": "exercises/147-1.mp4",
+          "file": "exercises/147-1.gif",
           "duration": 25.51,
           "startTime": 2,
           "endTime": 27.510998,
@@ -9406,7 +9406,7 @@
       "clips": [
         {
           "id": "149-1",
-          "file": "exercises/149-1.mp4",
+          "file": "exercises/149-1.gif",
           "duration": 11.26,
           "startTime": 3,
           "endTime": 14.26,
@@ -9419,7 +9419,7 @@
         },
         {
           "id": "149-2",
-          "file": "exercises/149-2.mp4",
+          "file": "exercises/149-2.gif",
           "duration": 11.26,
           "startTime": 14.26,
           "endTime": 25.52,
@@ -9432,7 +9432,7 @@
         },
         {
           "id": "149-3",
-          "file": "exercises/149-3.mp4",
+          "file": "exercises/149-3.gif",
           "duration": 11.25,
           "startTime": 25.52,
           "endTime": 36.77,
@@ -9445,7 +9445,7 @@
         },
         {
           "id": "149-4",
-          "file": "exercises/149-4.mp4",
+          "file": "exercises/149-4.gif",
           "duration": 11.26,
           "startTime": 36.77,
           "endTime": 48.03,
@@ -9498,7 +9498,7 @@
       "clips": [
         {
           "id": "150-1",
-          "file": "exercises/150-1.mp4",
+          "file": "exercises/150-1.gif",
           "duration": 8.77,
           "startTime": 2.5,
           "endTime": 11.27,
@@ -9511,7 +9511,7 @@
         },
         {
           "id": "150-2",
-          "file": "exercises/150-2.mp4",
+          "file": "exercises/150-2.gif",
           "duration": 8.76,
           "startTime": 11.27,
           "endTime": 20.03,
@@ -9524,7 +9524,7 @@
         },
         {
           "id": "150-3",
-          "file": "exercises/150-3.mp4",
+          "file": "exercises/150-3.gif",
           "duration": 8.77,
           "startTime": 20.03,
           "endTime": 28.8,
@@ -9616,7 +9616,7 @@
       "clips": [
         {
           "id": "152-1",
-          "file": "exercises/152-1.mp4",
+          "file": "exercises/152-1.gif",
           "duration": 8.81,
           "startTime": 2.52,
           "endTime": 11.33,
@@ -9629,7 +9629,7 @@
         },
         {
           "id": "152-2",
-          "file": "exercises/152-2.mp4",
+          "file": "exercises/152-2.gif",
           "duration": 8.81,
           "startTime": 11.33,
           "endTime": 20.14,
@@ -9642,7 +9642,7 @@
         },
         {
           "id": "152-3",
-          "file": "exercises/152-3.mp4",
+          "file": "exercises/152-3.gif",
           "duration": 8.81,
           "startTime": 20.14,
           "endTime": 28.95,
@@ -9773,7 +9773,7 @@
       "clips": [
         {
           "id": "155-1",
-          "file": "exercises/155-1.mp4",
+          "file": "exercises/155-1.gif",
           "duration": 25.03,
           "startTime": 2,
           "endTime": 27.033333,
@@ -9826,7 +9826,7 @@
       "clips": [
         {
           "id": "156-1",
-          "file": "exercises/156-1.mp4",
+          "file": "exercises/156-1.gif",
           "duration": 25.6,
           "startTime": 2,
           "endTime": 27.603991,
@@ -9957,7 +9957,7 @@
       "clips": [
         {
           "id": "159-1",
-          "file": "exercises/159-1.mp4",
+          "file": "exercises/159-1.gif",
           "duration": 22.97,
           "startTime": 2,
           "endTime": 24.966667,
@@ -10010,7 +10010,7 @@
       "clips": [
         {
           "id": "160-1",
-          "file": "exercises/160-1.mp4",
+          "file": "exercises/160-1.gif",
           "duration": 20.43,
           "startTime": 2,
           "endTime": 22.433333,
@@ -10062,7 +10062,7 @@
       "clips": [
         {
           "id": "161-1",
-          "file": "exercises/161-1.mp4",
+          "file": "exercises/161-1.gif",
           "duration": 20.43,
           "startTime": 2,
           "endTime": 22.433333,
@@ -10154,7 +10154,7 @@
       "clips": [
         {
           "id": "163-1",
-          "file": "exercises/163-1.mp4",
+          "file": "exercises/163-1.gif",
           "duration": 18.7,
           "startTime": 2,
           "endTime": 20.7,
@@ -10207,7 +10207,7 @@
       "clips": [
         {
           "id": "164-1",
-          "file": "exercises/164-1.mp4",
+          "file": "exercises/164-1.gif",
           "duration": 13.23,
           "startTime": 1.6533333,
           "endTime": 14.879999699999999,
