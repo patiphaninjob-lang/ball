@@ -21,7 +21,6 @@ const checklistItems = [
 ];
 
 const dayIndexMap = [6, 0, 1, 2, 3, 4, 5];
-let lazyEmbedObserver = null;
 let installPromptEvent = null;
 
 main();
@@ -71,9 +70,6 @@ function hydrateControls() {
 
   document.getElementById('saveJournal').addEventListener('click', saveJournal);
   document.getElementById('journalDate').valueAsDate = new Date();
-  document.querySelectorAll('[data-close-preview]').forEach((element) => {
-    element.addEventListener('click', closePreview);
-  });
 
   hydrateInstallButton();
   registerServiceWorker();
@@ -194,7 +190,7 @@ function renderToday() {
   document.getElementById('todayLabel').textContent = `${program.name}: ${program.whenToChoose}`;
   renderPlanProgress(program);
   const drills = program.drillIds.map(findDrill).filter(Boolean);
-  renderCardGrid(document.getElementById('todayPlan'), drills, { inlineEmbed: true, lazyEmbed: true });
+  renderCardGrid(document.getElementById('todayPlan'), drills);
 }
 
 function renderPlanProgress(program = selectedSundayProgram()) {
@@ -221,7 +217,6 @@ function renderDrills() {
 
 function renderCardGrid(root, drills, options = {}) {
   const template = document.getElementById('drillCardTemplate');
-  if (options.inlineEmbed) resetLazyEmbedObserver();
   root.innerHTML = '';
 
   drills.forEach((drill) => {
@@ -234,16 +229,8 @@ function renderCardGrid(root, drills, options = {}) {
     const goal = card.querySelector('.goal');
     const meta = card.querySelector('.meta');
     const focus = card.querySelector('.focus');
-    const watchLink = card.querySelector('.watch-link');
-    const previewButton = card.querySelector('.preview-button');
     const checkButton = card.querySelector('.check-button');
     const gifState = card.querySelector('.gif-state');
-
-    const shouldInlineEmbed = options.inlineEmbed;
-
-    if (shouldInlineEmbed) {
-      card.classList.add('has-inline-embed');
-    }
 
     title.textContent = drill.name;
     badge.textContent = drill.category;
@@ -254,15 +241,6 @@ function renderCardGrid(root, drills, options = {}) {
     img.alt = drill.name;
     img.addEventListener('error', () => img.classList.add('is-broken'));
 
-    if (shouldInlineEmbed) {
-      if (options.lazyEmbed) {
-        queueLazyEmbed(card.querySelector('.media'), drill);
-      } else {
-        renderInlineEmbed(card.querySelector('.media'), drill);
-      }
-      previewButton.hidden = true;
-    }
-
     meta.innerHTML = [
       drill.participant,
       `${drill.levelName}: ${drill.levelTitle}`,
@@ -272,8 +250,6 @@ function renderCardGrid(root, drills, options = {}) {
     ].map((item) => `<span>${escapeHtml(item)}</span>`).join('');
 
     focus.innerHTML = drill.focus.slice(0, 3).map((item) => `<span>${escapeHtml(item)}</span>`).join('');
-    watchLink.href = drill.tiktokUrl;
-    previewButton.addEventListener('click', () => openPreview(drill));
     gifState.textContent = drill.hasGif ? 'GIF ready' : 'GIF pending';
     gifState.className = `gif-state ${drill.hasGif ? 'ready' : 'pending'}`;
 
@@ -289,113 +265,7 @@ function renderCardGrid(root, drills, options = {}) {
     root.append(card);
   });
 
-  if (options.inlineEmbed && !options.lazyEmbed && drills.length > 0) {
-    loadTikTokEmbedScript();
-  }
-
   lucideReady();
-}
-
-function queueLazyEmbed(media, drill) {
-  const load = () => {
-    if (media.dataset.tiktokLoaded === 'true') return;
-    media.dataset.tiktokLoaded = 'true';
-    renderInlineEmbed(media, drill);
-    loadTikTokEmbedScript();
-  };
-
-  if (!('IntersectionObserver' in window)) {
-    load();
-    return;
-  }
-
-  if (!lazyEmbedObserver) {
-    lazyEmbedObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          lazyEmbedObserver?.unobserve(entry.target);
-          entry.target.loadTikTokEmbed?.();
-        });
-      },
-      { rootMargin: '900px 0px' },
-    );
-  }
-
-  media.loadTikTokEmbed = load;
-  lazyEmbedObserver.observe(media);
-}
-
-function resetLazyEmbedObserver() {
-  if (!lazyEmbedObserver) return;
-  lazyEmbedObserver.disconnect();
-  lazyEmbedObserver = null;
-}
-
-function renderInlineEmbed(media, drill) {
-  media.innerHTML = `
-    <blockquote
-      class="tiktok-embed"
-      cite="${escapeHtml(drill.tiktokUrl)}"
-      data-video-id="${escapeHtml(drill.id)}"
-      data-embed-from="oembed"
-      style="max-width: 605px; min-width: 280px;"
-    >
-      <section>
-        <a target="_blank" rel="noreferrer" href="${escapeHtml(drill.tiktokUrl)}">View on TikTok</a>
-      </section>
-    </blockquote>
-    <a class="inline-fallback-link" target="_blank" rel="noreferrer" href="${escapeHtml(drill.tiktokUrl)}">เปิดใน TikTok</a>
-  `;
-}
-
-function openPreview(drill) {
-  const modal = document.getElementById('previewModal');
-  const title = document.getElementById('previewTitle');
-  const meta = document.getElementById('previewMeta');
-  const embed = document.getElementById('previewEmbed');
-
-  title.textContent = drill.name;
-  meta.textContent = `${drill.levelName}: ${drill.levelTitle} · ${drill.category}`;
-  embed.innerHTML = `
-    <blockquote
-      class="tiktok-embed"
-      cite="${escapeHtml(drill.tiktokUrl)}"
-      data-video-id="${escapeHtml(drill.id)}"
-      data-embed-from="oembed"
-      style="max-width: 605px; min-width: 325px;"
-    >
-      <section>
-        <a target="_blank" rel="noreferrer" href="${escapeHtml(drill.tiktokUrl)}">View on TikTok</a>
-      </section>
-    </blockquote>
-    <a class="fallback-link" target="_blank" rel="noreferrer" href="${escapeHtml(drill.tiktokUrl)}">เปิดใน TikTok</a>
-  `;
-
-  modal.hidden = false;
-  document.body.style.overflow = 'hidden';
-  loadTikTokEmbedScript();
-}
-
-function closePreview() {
-  const modal = document.getElementById('previewModal');
-  const embed = document.getElementById('previewEmbed');
-  modal.hidden = true;
-  embed.innerHTML = '';
-  document.body.style.overflow = '';
-}
-
-function loadTikTokEmbedScript() {
-  const existingScript = document.querySelector('script[data-tiktok-embed]');
-  if (existingScript) {
-    existingScript.remove();
-  }
-
-  const script = document.createElement('script');
-  script.src = 'https://www.tiktok.com/embed.js';
-  script.async = true;
-  script.dataset.tiktokEmbed = 'true';
-  document.body.append(script);
 }
 
 function renderChecklist() {
