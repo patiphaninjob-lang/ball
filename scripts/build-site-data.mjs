@@ -42,7 +42,15 @@ await mkdir(docsDataDir, { recursive: true });
 await mkdir(docsGifDir, { recursive: true });
 
 const gifManifest = await loadGifManifest();
-const drills = sourceVideos.map((video, index) => toDrill(video, index, gifManifest)).sort(compareDrills);
+const gifFiles = await readdir('docs/data/gifs').catch(() => []);
+const drills = sourceVideos.map((video, index) => {
+  const drill = toDrill(video, index, gifManifest);
+  // Assign GIF by index if not found by manifest
+  if (!drill.gif && gifFiles[index]) {
+    drill.gif = `data/gifs/${gifFiles[index]}`;
+  }
+  return drill;
+}).sort(compareDrills);
 const categories = summarizeCategories(drills);
 const levels = summarizeLevels(drills);
 const participants = summarizeParticipants(drills);
@@ -93,7 +101,7 @@ function toDrill(video, index, gifManifest) {
   const intensity = categoryIntensity(category);
   const level = assignLevel(title, category, exercises);
   const participant = assignParticipant(title, category);
-  const gif = gifManifest.get(video.id) || gifManifest.get(slug(video.url)) || '';
+  const gif = gifManifest.get(video.id) || gifManifest.get(slug(video.url)) || gifManifest.get(`index-${index}`) || '';
 
   return {
     id: video.id,
@@ -497,14 +505,28 @@ async function loadGifManifest() {
   const manifest = new Map();
 
   try {
+    // Try manifest.json first
     const text = await readFile('data/gifs/manifest.json', 'utf8');
     const items = JSON.parse(text);
     for (const item of items) {
       const key = slug(item.sourceVideo || item.gif || '');
-      manifest.set(key, item.gif.replace(/^data\/gifs\//, 'assets/gifs/'));
+      manifest.set(key, item.gif.replace(/^data\/gifs\//, 'data/gifs/'));
     }
   } catch {
-    return manifest;
+    // Fallback: scan GIF files directly
+    try {
+      const gifFiles = await readdir('docs/data/gifs');
+      const gifs = gifFiles.filter(f => f.endsWith('.gif'));
+
+      gifs.forEach((gif, index) => {
+        // Map by index to drills
+        manifest.set(`index-${index}`, `data/gifs/${gif}`);
+      });
+
+      console.log(`Loaded ${gifs.length} GIFs from docs/data/gifs/`);
+    } catch (e) {
+      console.log('No GIFs found, skipping');
+    }
   }
 
   return manifest;
