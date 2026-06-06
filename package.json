@@ -15,6 +15,7 @@
     "extract:all": "node scripts/extract-all-exercises.mjs",
     "categorize:exercises": "node scripts/categorize-exercises.mjs",
     "smart:categorize": "node scripts/smart-categorize-exercises.mjs",
+    "merge:clips": "node scripts/merge-exercise-clips.mjs",
     "check": "node --check scripts/collect-tiktok.mjs && node --check scripts/make-gifs.mjs && node --check scripts/make-webp.mjs && node --check scripts/build-site-data.mjs && node --check scripts/make-pwa-icons.mjs && node --check scripts/serve-docs.mjs && node --check docs/sw.js"
   },
   "dependencies": {

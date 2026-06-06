@@ -1,9 +1,12 @@
 const state = {
   data: null,
+  exercises: null,
   view: 'today',
   participant: 'Solo',
   level: 'All',
   category: 'All',
+  exerciseCategory: 'All',
+  exerciseLevel: 'All',
   search: '',
   selectedProgramId: loadJson('p45.selectedProgram', 'base'),
   selectedDay: new Date().getDay(),
@@ -48,6 +51,13 @@ async function main() {
     });
     console.log('[main] loaded program:', !!state.program);
 
+    console.log('[main] loading exercise-library.json');
+    state.exercises = await fetch('data/exercise-library.json').then((response) => response.json()).catch((e) => {
+      console.error('[main] exercises fetch failed:', e);
+      return null;
+    });
+    console.log('[main] loaded exercises:', state.exercises?.exercises?.length);
+
     state.selectedDay = dayIndexMap[new Date().getDay()] ?? 0;
     hydrateControls();
     render();
@@ -86,6 +96,42 @@ function hydrateControls() {
     renderDrills();
   });
 
+  const exerciseCategoryFilter = document.getElementById('exerciseCategoryFilter');
+  if (exerciseCategoryFilter) {
+    exerciseCategoryFilter.addEventListener('change', (event) => {
+      state.exerciseCategory = event.target.value;
+      renderExercises();
+    });
+  }
+
+  const exerciseLevelFilter = document.getElementById('exerciseLevelFilter');
+  if (exerciseLevelFilter) {
+    exerciseLevelFilter.addEventListener('change', (event) => {
+      state.exerciseLevel = event.target.value;
+      renderExercises();
+    });
+  }
+
+  const videoModal = document.getElementById('videoModal');
+  const videoPlayer = document.getElementById('videoPlayer');
+  const modalClose = document.querySelector('.modal-close');
+
+  if (modalClose) {
+    modalClose.addEventListener('click', () => {
+      videoPlayer.pause();
+      videoModal.style.display = 'none';
+    });
+  }
+
+  if (videoModal) {
+    videoModal.addEventListener('click', (e) => {
+      if (e.target === videoModal) {
+        videoPlayer.pause();
+        videoModal.style.display = 'none';
+      }
+    });
+  }
+
   document.getElementById('resetToday').addEventListener('click', () => {
     const key = todayKey();
     state.checklist[key] = {};
@@ -116,6 +162,7 @@ function render() {
   renderToday();
   renderChecklist();
   renderDrills();
+  renderExercises();
   renderProgram();
   renderJournal();
   lucideReady();
@@ -541,6 +588,97 @@ function escapeHtml(value) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#039;');
+}
+
+function renderExercises() {
+  if (!state.exercises || !state.exercises.exercises) return;
+
+  const root = document.getElementById('exercisesGrid');
+  if (!root) return;
+
+  root.innerHTML = '';
+
+  // Filter exercises
+  let filtered = state.exercises.exercises;
+
+  if (state.exerciseCategory !== 'All') {
+    filtered = filtered.filter(ex => ex.category === state.exerciseCategory);
+  }
+
+  if (state.exerciseLevel !== 'All') {
+    filtered = filtered.filter(ex => ex.level === state.exerciseLevel);
+  }
+
+  if (state.search) {
+    filtered = filtered.filter(ex =>
+      (ex.drillName || '').toLowerCase().includes(state.search) ||
+      (ex.category || '').toLowerCase().includes(state.search) ||
+      ex.tags.some(tag => tag.toLowerCase().includes(state.search))
+    );
+  }
+
+  // Render cards
+  filtered.forEach(exercise => {
+    const card = document.createElement('div');
+    card.className = 'exercise-card';
+
+    const thumbnail = document.createElement('div');
+    thumbnail.className = 'exercise-thumbnail';
+
+    const playButton = document.createElement('button');
+    playButton.className = 'exercise-play-button';
+    playButton.innerHTML = '<i data-lucide="play"></i>';
+    playButton.addEventListener('click', () => playVideo(exercise));
+
+    thumbnail.appendChild(playButton);
+
+    const info = document.createElement('div');
+    info.className = 'exercise-info';
+
+    const title = document.createElement('div');
+    title.className = 'exercise-title';
+    title.textContent = exercise.drillName.substring(0, 40);
+
+    const meta = document.createElement('div');
+    meta.className = 'exercise-meta';
+
+    const categoryBadge = document.createElement('span');
+    categoryBadge.className = 'exercise-badge';
+    categoryBadge.textContent = exercise.category;
+
+    const levelBadge = document.createElement('span');
+    levelBadge.className = 'exercise-badge';
+    levelBadge.textContent = exercise.level;
+
+    const durationBadge = document.createElement('span');
+    durationBadge.className = 'exercise-badge';
+    durationBadge.textContent = `${exercise.duration.toFixed(1)}s`;
+
+    meta.append(categoryBadge, levelBadge, durationBadge);
+    info.append(title, meta);
+    card.append(thumbnail, info);
+    root.append(card);
+  });
+
+  lucideReady();
+}
+
+function playVideo(exercise) {
+  const modal = document.getElementById('videoModal');
+  const player = document.getElementById('videoPlayer');
+  const info = document.getElementById('videoInfo');
+
+  player.src = exercise.file;
+  info.innerHTML = `
+    <h3>${exercise.drillName}</h3>
+    <p><strong>Category:</strong> ${exercise.category} | <strong>Level:</strong> ${exercise.level}</p>
+    <p><strong>Duration:</strong> ${exercise.duration.toFixed(1)}s</p>
+    <p><strong>Goal:</strong> ${exercise.drillGoal || 'N/A'}</p>
+    ${exercise.focus && exercise.focus.length > 0 ? `<p><strong>Focus:</strong> ${exercise.focus.join(', ')}</p>` : ''}
+  `;
+
+  modal.style.display = 'flex';
+  player.play();
 }
 
 function lucideReady() {

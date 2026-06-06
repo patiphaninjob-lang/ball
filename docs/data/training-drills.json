@@ -430,7 +430,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0iLQwARAMQetAAA4BeJ8WUfKGQGngxVGAenqA~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=a%2FWFCggaM4F8MpbrP0Dv6N8ajhk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_119.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "1-1",
+          "file": "exercises/1-1.mp4",
+          "duration": 15.92,
+          "startTime": 1.99,
+          "endTime": 17.91,
+          "category": "Mobility",
+          "focus": [
+            "slow range",
+            "no pain",
+            "finish relaxed"
+          ]
+        }
+      ]
     },
     {
       "id": "7504125381830577409",
@@ -466,7 +481,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQBCEkaBi2IAYVAKAAuAQhAERCCPACitlYIlS~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=DjYaMSw2VPddBwMtOGHf%2B2xgVUE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/.gitkeep",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7546125327622212865",
@@ -501,7 +517,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMUReuECDAVBY5USEUkmOsgEDfA5FBAiXCAoTI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=A5%2Fi7ceK4Tx5K%2F2POCbDVVq8gbA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_12.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "3-1",
+          "file": "exercises/3-1.mp4",
+          "duration": 9.43,
+          "startTime": 2.69,
+          "endTime": 12.12,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "3-2",
+          "file": "exercises/3-2.mp4",
+          "duration": 9.43,
+          "startTime": 12.12,
+          "endTime": 21.55,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "3-3",
+          "file": "exercises/3-3.mp4",
+          "duration": 9.42,
+          "startTime": 21.55,
+          "endTime": 30.97,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7543962692839591176",
@@ -536,7 +593,74 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4wgViML0A58iVe1ABAT2MDWiCRIqIvIhCptxL~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=X0BI4STIajW8L2xH97nK4fpPH0Y%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_121.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "4-1",
+          "file": "exercises/4-1.mp4",
+          "duration": 10.97,
+          "startTime": 3,
+          "endTime": 13.97,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "4-2",
+          "file": "exercises/4-2.mp4",
+          "duration": 10.98,
+          "startTime": 13.97,
+          "endTime": 24.95,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "4-3",
+          "file": "exercises/4-3.mp4",
+          "duration": 10.97,
+          "startTime": 24.95,
+          "endTime": 35.92,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "4-4",
+          "file": "exercises/4-4.mp4",
+          "duration": 10.97,
+          "startTime": 35.92,
+          "endTime": 46.89,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "4-5",
+          "file": "exercises/4-5.mp4",
+          "duration": 10.98,
+          "startTime": 46.89,
+          "endTime": 57.87,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7541759005887171841",
@@ -571,7 +695,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4ishAO0VARGATNAizaNCItBKtpfIMTACT9wEB~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=vRDdX9iaPdVCIskYrQrml72Gbjo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_122.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "5-1",
+          "file": "exercises/5-1.mp4",
+          "duration": 18.27,
+          "startTime": 2,
+          "endTime": 20.266667,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7537295012162178311",
@@ -608,7 +747,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMGllEQDoBstKjwFElPdfAIVEB3zfmsgkRQ80z~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=x0XBPEAp4xTvQZHmIkYEmVEy%2BAU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_124.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7530466901030374672",
@@ -644,7 +784,22 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/okXhKL2RIgIQAABTlGefQArAGAGriGQaGAfeJS~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=DtyJLpcW1jMh1338RaIoWzS%2FP8Y%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_131.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "7-1",
+          "file": "exercises/7-1.mp4",
+          "duration": 15.49,
+          "startTime": 1.9366667,
+          "endTime": 17.4300003,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7524961194432580880",
@@ -681,7 +836,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4IhN5DjEFAhIwCbWAEUACEABpgDfRXuofGBg5~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=J3PrxiU%2FBZdYs9RPFAmQiF1UU8w%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_140.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7520564966345166097",
@@ -719,7 +875,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0AADIhQoIxAAjEQQieeELavCGAjgNI061eL7A~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=hxFr4Vckpqa%2FeJC4e0O4SuOTOEY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_15.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "9-1",
+          "file": "exercises/9-1.mp4",
+          "duration": 19.27,
+          "startTime": 2,
+          "endTime": 21.266667,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7505257147907853569",
@@ -756,7 +927,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4AVH4CoHoAABIZM8pvBaBAvEiYAhiAEilgyw~tplv-tiktokx-dmt-logom:tos-alisg-i-0068/oMAiAfHWDDAQFAmIKoEBA7E8UEoIw3fAwpjIfA.image?dr=14573&x-expires=1780556400&x-signature=a1oWACQj3AtTtrdaLJcN7ofaLUs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_16.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7492269789017148673",
@@ -795,7 +967,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/owZxIVURAE3PmDBhBAgiEf97Ef4MnuiCcAH05A~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=I2XmcAbAvIg1jlSg%2FsKtFLF44H4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_22.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "11-1",
+          "file": "exercises/11-1.mp4",
+          "duration": 19.87,
+          "startTime": 2,
+          "endTime": 21.866667,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7487126704356363537",
@@ -833,7 +1020,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAQR5UnA5eNN0GQPDBIxd5FHqAAC9gfqEPEA0I~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=Wkx6OcO97MJwS5Nd2FIHvm%2FEbAg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_25.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "12-1",
+          "file": "exercises/12-1.mp4",
+          "duration": 19.4,
+          "startTime": 2,
+          "endTime": 21.4,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7483773668133309712",
@@ -870,7 +1072,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8D2UEtIDfbS7CtlgEfKA0AAJFJiAnBEx3rRhb~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=hv5TMOi7rSRQ1UrGZf9dt66GwwE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_29.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7478902495415110913",
@@ -908,7 +1111,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQ9n3UZHAAAeARQCgEF8yZUDdfC5wlmEBECDKI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=m47kW%2F2UEyAtKOki0O90pwakZAs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_38.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "14-1",
+          "file": "exercises/14-1.mp4",
+          "duration": 9.33,
+          "startTime": 1.1666667000000002,
+          "endTime": 10.5000003,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7476316336503672080",
@@ -946,7 +1164,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ociAIKAfJiYEEcCIWN4zpAisAACBGDwAA053BB~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=IR0mwAUgSztINeJeUj3q6aYGQ%2BI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_40.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7468306381095980305",
@@ -982,7 +1201,61 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQPkuBZr1CAzEYVAUTSEHRwBRi1A6BSiIED9z~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=MRTJNrcsNoISNqd19F0AVo1emxw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_59.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "16-1",
+          "file": "exercises/16-1.mp4",
+          "duration": 9.76,
+          "startTime": 3,
+          "endTime": 12.76,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "16-2",
+          "file": "exercises/16-2.mp4",
+          "duration": 9.76,
+          "startTime": 12.76,
+          "endTime": 22.52,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "16-3",
+          "file": "exercises/16-3.mp4",
+          "duration": 9.75,
+          "startTime": 22.52,
+          "endTime": 32.27,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "16-4",
+          "file": "exercises/16-4.mp4",
+          "duration": 9.76,
+          "startTime": 32.27,
+          "endTime": 42.03,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7467966911326850321",
@@ -1016,7 +1289,8 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogEiHDZM0ErVYH3mN4ENAMP6BAjniLBaj6VOI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=iN17SujAvT%2FDTbYntyQIsg4WprM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_6.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7466052637314600193",
@@ -1050,7 +1324,74 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIIlczvC7AluOwIlwjIAOiiAfvBbYzHkwPGW3q~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=D0Eq%2FLbytlDUJD3MKoDapEf8Mgc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_7.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "18-1",
+          "file": "exercises/18-1.mp4",
+          "duration": 9.91,
+          "startTime": 3,
+          "endTime": 12.91,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "18-2",
+          "file": "exercises/18-2.mp4",
+          "duration": 9.92,
+          "startTime": 12.91,
+          "endTime": 22.83,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "18-3",
+          "file": "exercises/18-3.mp4",
+          "duration": 9.91,
+          "startTime": 22.83,
+          "endTime": 32.74,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "18-4",
+          "file": "exercises/18-4.mp4",
+          "duration": 9.91,
+          "startTime": 32.74,
+          "endTime": 42.65,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "18-5",
+          "file": "exercises/18-5.mp4",
+          "duration": 9.92,
+          "startTime": 42.65,
+          "endTime": 52.57,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7465687786138504464",
@@ -1084,7 +1425,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oo4MIi5euDj6EAe2ueSHQCe5AAuzMeAcbWYgAg~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=27JZHwQnQnUGxfHrkgjY7HSuWZ0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_70.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7457114275581136144",
@@ -1122,7 +1464,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4d4fOADfAEwAmDOIgX54sQAyFj6PfCAHoEIDa~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=uU6O7R2zwZ1Z5yktR9NIAFWnvd0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_76.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "20-1",
+          "file": "exercises/20-1.mp4",
+          "duration": 8.88,
+          "startTime": 2.54,
+          "endTime": 11.42,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "20-2",
+          "file": "exercises/20-2.mp4",
+          "duration": 8.89,
+          "startTime": 11.42,
+          "endTime": 20.31,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        },
+        {
+          "id": "20-3",
+          "file": "exercises/20-3.mp4",
+          "duration": 8.88,
+          "startTime": 20.31,
+          "endTime": 29.19,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7447852879035092240",
@@ -1160,7 +1543,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8yydAslZE0nFYpKAzBui5BIAABiv1ZcaWAwE~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=TupEjayCsA1jrIxCyrOVzTVfce0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_80.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "21-1",
+          "file": "exercises/21-1.mp4",
+          "duration": 16.63,
+          "startTime": 2,
+          "endTime": 18.633333,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7439987165943155975",
@@ -1198,7 +1596,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okmnWPSZbAQzGR8ngIF7QJUDdfRfoPCEBEBFAI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=ssX6sLpdt507Po038%2BjCyYr4fMY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_90.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7426274937477893392",
@@ -1235,7 +1634,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/84a167d16c2747468ef18d764f9a5bd9_1729064403~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=iC24l6Ex4t4T2C6etUTWPbMeXww%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "23-1",
+          "file": "exercises/23-1.mp4",
+          "duration": 21.22,
+          "startTime": 2,
+          "endTime": 23.215011,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7386170247864143105",
@@ -1273,7 +1687,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMAcAAGBhIaVLmo8oAeFW5f29sTF88JeAIGewE~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=abDV8tyC%2BO%2BHwfdV5j3%2BFjvvieo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "24-1",
+          "file": "exercises/24-1.mp4",
+          "duration": 12.35,
+          "startTime": 1.5433333,
+          "endTime": 13.889999699999999,
+          "category": "Rehab",
+          "focus": [
+            "control",
+            "pain-free range",
+            "gradual load"
+          ]
+        }
+      ]
     },
     {
       "id": "7562540734289693960",
@@ -1308,7 +1737,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/owKYOEDBPAiA121SAaPAvEJnGAzKiiPwIOBrK~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=k98hnKEtZJwO%2BYmR1N3QCXonwTs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_10.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7523091049615576337",
@@ -1345,7 +1775,48 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUo4AGABA0yEnAPioBAaiBDEgjt2YFsdYBIFl~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=UzKA2Z3smR74ol7M9OI9eF%2FetiM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_145.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "26-1",
+          "file": "exercises/26-1.mp4",
+          "duration": 9.27,
+          "startTime": 2.65,
+          "endTime": 11.92,
+          "category": "Mobility",
+          "focus": [
+            "slow range",
+            "no pain",
+            "finish relaxed"
+          ]
+        },
+        {
+          "id": "26-2",
+          "file": "exercises/26-2.mp4",
+          "duration": 9.26,
+          "startTime": 11.92,
+          "endTime": 21.18,
+          "category": "Mobility",
+          "focus": [
+            "slow range",
+            "no pain",
+            "finish relaxed"
+          ]
+        },
+        {
+          "id": "26-3",
+          "file": "exercises/26-3.mp4",
+          "duration": 9.27,
+          "startTime": 21.18,
+          "endTime": 30.45,
+          "category": "Mobility",
+          "focus": [
+            "slow range",
+            "no pain",
+            "finish relaxed"
+          ]
+        }
+      ]
     },
     {
       "id": "7528693718417804545",
@@ -1382,7 +1853,61 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0b8iFSPwW3IAEvz0AIBudiSCGA7KafSBJAYBA~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=QYAlhSFhL9ZyxPteIZo51%2ByFv40%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_134.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "27-1",
+          "file": "exercises/27-1.mp4",
+          "duration": 11.57,
+          "startTime": 3,
+          "endTime": 14.57,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        },
+        {
+          "id": "27-2",
+          "file": "exercises/27-2.mp4",
+          "duration": 11.56,
+          "startTime": 14.57,
+          "endTime": 26.13,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        },
+        {
+          "id": "27-3",
+          "file": "exercises/27-3.mp4",
+          "duration": 11.57,
+          "startTime": 26.13,
+          "endTime": 37.7,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        },
+        {
+          "id": "27-4",
+          "file": "exercises/27-4.mp4",
+          "duration": 11.57,
+          "startTime": 37.7,
+          "endTime": 49.27,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        }
+      ]
     },
     {
       "id": "7509054197501889809",
@@ -1417,7 +1942,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogc1IsFH0Iq9CSA0hAGiB4KiIBBEDEA5HwfITL~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=08oCzm1iknVtU0xAEDA1nbzih80%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_159.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "28-1",
+          "file": "exercises/28-1.mp4",
+          "duration": 25.27,
+          "startTime": 2,
+          "endTime": 27.266667,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        }
+      ]
     },
     {
       "id": "7504555868478803217",
@@ -1455,7 +1995,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMRlIsJJ0EKACAAwiBEioATiI2BAUmAGswfDda~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=Y4%2FQyHPMImA0Momd%2FseTX2ORt%2FM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_160.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "29-1",
+          "file": "exercises/29-1.mp4",
+          "duration": 17.97,
+          "startTime": 2,
+          "endTime": 19.966667,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        }
+      ]
     },
     {
       "id": "7475307874424540434",
@@ -1490,7 +2045,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4CuRADQvFafDAep784MUhsEAmxFIEnOBQgAdc~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=%2F9OHg8XuGdpGzNHB3EG%2BoIFim7A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_42.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "30-1",
+          "file": "exercises/30-1.mp4",
+          "duration": 13.6,
+          "startTime": 1.7000000000000002,
+          "endTime": 15.3,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        }
+      ]
     },
     {
       "id": "7473040164168764673",
@@ -1526,7 +2096,74 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osCIBiwZEvzA9aCnIB1ApIiAJ2XvkAfs05Atk9~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=4WRSG5UI8%2FPEVWPzfhoucD%2BIGqI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_48.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "31-1",
+          "file": "exercises/31-1.mp4",
+          "duration": 11.06,
+          "startTime": 3,
+          "endTime": 14.06,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        },
+        {
+          "id": "31-2",
+          "file": "exercises/31-2.mp4",
+          "duration": 11.06,
+          "startTime": 14.06,
+          "endTime": 25.12,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        },
+        {
+          "id": "31-3",
+          "file": "exercises/31-3.mp4",
+          "duration": 11.06,
+          "startTime": 25.12,
+          "endTime": 36.18,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        },
+        {
+          "id": "31-4",
+          "file": "exercises/31-4.mp4",
+          "duration": 11.06,
+          "startTime": 36.18,
+          "endTime": 47.24,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        },
+        {
+          "id": "31-5",
+          "file": "exercises/31-5.mp4",
+          "duration": 11.06,
+          "startTime": 47.24,
+          "endTime": 58.3,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        }
+      ]
     },
     {
       "id": "7471996429741886737",
@@ -1561,7 +2198,74 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogxpEoi2rGAT35AXA7LeDjPACIEAeE6YImebxI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=eGeqLFqjpYwN7j3JhF%2FnacCUQck%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_5.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "32-1",
+          "file": "exercises/32-1.mp4",
+          "duration": 11.06,
+          "startTime": 3,
+          "endTime": 14.06,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        },
+        {
+          "id": "32-2",
+          "file": "exercises/32-2.mp4",
+          "duration": 11.06,
+          "startTime": 14.06,
+          "endTime": 25.12,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        },
+        {
+          "id": "32-3",
+          "file": "exercises/32-3.mp4",
+          "duration": 11.06,
+          "startTime": 25.12,
+          "endTime": 36.18,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        },
+        {
+          "id": "32-4",
+          "file": "exercises/32-4.mp4",
+          "duration": 11.06,
+          "startTime": 36.18,
+          "endTime": 47.24,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        },
+        {
+          "id": "32-5",
+          "file": "exercises/32-5.mp4",
+          "duration": 11.06,
+          "startTime": 47.24,
+          "endTime": 58.3,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        }
+      ]
     },
     {
       "id": "7470823737030364432",
@@ -1595,7 +2299,22 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/ocuSlwAnEizoVEAAtszCtBqB1IRLKRAfwAhiCI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=C4eBTFxoLUhPeE067OYktiHRZ84%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_53.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "33-1",
+          "file": "exercises/33-1.mp4",
+          "duration": 8.91,
+          "startTime": 1.1133333,
+          "endTime": 10.0199997,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        }
+      ]
     },
     {
       "id": "7470079459127758097",
@@ -1630,7 +2349,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogPAo3rfNEPEhALj8DEIfcbAAVIZAveCZuDGIv~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=EoI35oKfSsJnavGoJo9Mhb3nZtA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_54.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7468917016859020560",
@@ -1665,7 +2385,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4N7ATGAAQPALFGkHoeEjPpfSfFj2dIuAID6LI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=7%2BmihGLzj4HABOKgexZbq%2BpAs3g%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_57.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7441819431631686928",
@@ -1703,7 +2424,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooTNxQgRfAQZfcqpKDRnAsByTEBUFEAXwq3QZ6~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=bkzOXSJIJ%2BBOsFQM2mm290q%2BwOs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_86.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "36-1",
+          "file": "exercises/36-1.mp4",
+          "duration": 14.24,
+          "startTime": 1.7800000000000002,
+          "endTime": 16.02,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        }
+      ]
     },
     {
       "id": "7437405228779015445",
@@ -1741,7 +2477,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oE0thnK4EUIvAFYZrKUQ5gBetuwNBmD8EQLfRG~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=vSKvL2P34LhUo6XV0Xk0e0QzygE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_95.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "37-1",
+          "file": "exercises/37-1.mp4",
+          "duration": 14.24,
+          "startTime": 1.7800000000000002,
+          "endTime": 16.02,
+          "category": "Core",
+          "focus": [
+            "brace",
+            "resist rotation",
+            "controlled breathing"
+          ]
+        }
+      ]
     },
     {
       "id": "7428860049327525137",
@@ -1779,7 +2530,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/6f3e55d1180141d0a8852e69edc896b1_1729666290~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=7AX1AuTJS9ildOYfbJcb8rpPC6o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7559195609123638536",
@@ -1813,7 +2565,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8C8iXEwOpAi6ieqD4Ib6cvEAoBAABAIkAF05n~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=nsOcfBXBL6%2B9Tp40nC7LdohUjys%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_105.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "39-1",
+          "file": "exercises/39-1.mp4",
+          "duration": 13.52,
+          "startTime": 1.69,
+          "endTime": 15.209999999999999,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7554740067823160583",
@@ -1847,7 +2614,22 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/o81f0AIxUABTwDAEEIDCB6VXHKiBIaMiMACkvA~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=tNX6lneve%2BIfEkilNahx%2FqBWfjI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_11.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "40-1",
+          "file": "exercises/40-1.mp4",
+          "duration": 20.87,
+          "startTime": 2,
+          "endTime": 22.866667,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7553970859724115207",
@@ -1882,7 +2664,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEGiRDQ8eMD4ALAEQ47IC8ZVooFHjq9Emezcfk~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=bo8fnwdD%2FDRstdVcYfw99ALCtEY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_111.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7552141037565807879",
@@ -1917,7 +2700,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUHY6EDBPAmAz29kAa0AREilXAOYiiMTIxBEc~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=ZXdsq7EheMndIbyRzbfxdPwkTiI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_113.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7551355023708409095",
@@ -1951,7 +2735,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAfkANWD8okLEgESzeBFFECDCxAuyIRL16UAAB~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=72nhhYBpv2Tzu20fyrgNH65sZQc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_114.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "43-1",
+          "file": "exercises/43-1.mp4",
+          "duration": 13.52,
+          "startTime": 1.6901995,
+          "endTime": 15.2117955,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7549551258701450514",
@@ -1984,7 +2783,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooFOO5zoxAMMB8XDEiRWfRZBULFfQznIEVugID~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=k%2FoT1uZXTOlR9IKsF%2BlXWQV7Bys%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_116.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7548792200436518152",
@@ -2019,7 +2819,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osDALOg8IEEj0PN4hYaiBDBlkziSAAMwTAkAS~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=qsBxouBX0%2FwGw96ypBpdsF4KuvU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_117.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7544684097814269202",
@@ -2054,7 +2855,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4rDFCwmDI5VLdLoQFAHEfoeoNaHRQAwjDXjAf~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=Q5qBxx5aKvpyXui5%2BL2ReB645kc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_120.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7538300773256498433",
@@ -2083,7 +2885,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQKWES6ERcKfywcS2gRWfQQnQAQogmDs3itBFB~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=IUbOX2mF9sWaSzLGbg1KL26mH8o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_123.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "47-1",
+          "file": "exercises/47-1.mp4",
+          "duration": 9.45,
+          "startTime": 1.1817007000000002,
+          "endTime": 10.6353063,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7535819582674636040",
@@ -2120,7 +2937,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooKHJIbsUroAPOXn9lE5BFlERBADkgvceIfSO0~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=NGS3YDbAbvxFiBX5xgGss925Qy8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_125.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "48-1",
+          "file": "exercises/48-1.mp4",
+          "duration": 13.71,
+          "startTime": 1.7133333000000002,
+          "endTime": 15.4199997,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7533224326330436872",
@@ -2157,7 +2989,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4fhRi6yb0J8EwiBYYSiaCqBAhbtRIILF2qABA~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=%2BhXO0HzT5SlDeUvNzxNL7%2BF4f9Y%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_129.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "49-1",
+          "file": "exercises/49-1.mp4",
+          "duration": 17.93,
+          "startTime": 2,
+          "endTime": 19.933333,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7531572899862367489",
@@ -2193,7 +3040,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o06EsfYLEgmRDfAQADjEAUCUCBhFIFc2oXXWAE~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=fvF0TwvEGZBlMNe1SeLCQ5XxDXs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_130.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "50-1",
+          "file": "exercises/50-1.mp4",
+          "duration": 12.11,
+          "startTime": 1.5133333000000002,
+          "endTime": 13.619999700000001,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7528275582585539858",
@@ -2228,7 +3090,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0sI1fc5aAijDXgIBe9EArCozDeFEIr9QL3ojB~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=LZkErE9mDramxM9EJKpgfYQNFOM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_138.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "51-1",
+          "file": "exercises/51-1.mp4",
+          "duration": 11.26,
+          "startTime": 3,
+          "endTime": 14.26,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "51-2",
+          "file": "exercises/51-2.mp4",
+          "duration": 11.25,
+          "startTime": 14.26,
+          "endTime": 25.51,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "51-3",
+          "file": "exercises/51-3.mp4",
+          "duration": 11.26,
+          "startTime": 25.51,
+          "endTime": 36.77,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7527911762461609223",
@@ -2263,7 +3166,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oI0fIFMfA8GjSDjuQCBDrbCOD8EIeQxoADCxIv~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=q0NlYSIPfLeQlA%2FHRthwTIAcJTQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_139.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "52-1",
+          "file": "exercises/52-1.mp4",
+          "duration": 24.47,
+          "startTime": 2,
+          "endTime": 26.466667,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7526001098700639505",
@@ -2301,7 +3219,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogBcUESIDoZpbCufgEflAKAAIFSnAoBE32gRbx~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=1thvXXnIAdaNzybVPVgWC1Fkdkw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_14.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "53-1",
+          "file": "exercises/53-1.mp4",
+          "duration": 11.26,
+          "startTime": 3,
+          "endTime": 14.26,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "53-2",
+          "file": "exercises/53-2.mp4",
+          "duration": 11.25,
+          "startTime": 14.26,
+          "endTime": 25.51,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "53-3",
+          "file": "exercises/53-3.mp4",
+          "duration": 11.26,
+          "startTime": 25.51,
+          "endTime": 36.77,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7524641998729432336",
@@ -2339,7 +3298,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8DZAUDhQCEbXIESEfRzEM1BeYc2OgH8AEAAFo~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=xxM7tVHmAd9lFOj0he5s2GXPqm0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_141.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7523471101708487953",
@@ -2377,7 +3337,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4AALIAeo6oAd01vBZioCiaERBTBQg0U1EfBl4~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=X0h1w9sd7RxeLCtVzXH0MyDjXsI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_143.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "55-1",
+          "file": "exercises/55-1.mp4",
+          "duration": 10.67,
+          "startTime": 1.3333333,
+          "endTime": 11.9999997,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7522075003446185224",
@@ -2412,7 +3387,87 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIxhfFsEEI9IgTYn8jfc8t5ARtQKoDUbBFR2Bx~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=%2F%2BabBABAmtoyw3Q%2FEfPrTD%2B%2FXvw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_147.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "56-1",
+          "file": "exercises/56-1.mp4",
+          "duration": 10.16,
+          "startTime": 3,
+          "endTime": 13.16,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "56-2",
+          "file": "exercises/56-2.mp4",
+          "duration": 10.16,
+          "startTime": 13.16,
+          "endTime": 23.32,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "56-3",
+          "file": "exercises/56-3.mp4",
+          "duration": 10.16,
+          "startTime": 23.32,
+          "endTime": 33.48,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "56-4",
+          "file": "exercises/56-4.mp4",
+          "duration": 10.16,
+          "startTime": 33.48,
+          "endTime": 43.64,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "56-5",
+          "file": "exercises/56-5.mp4",
+          "duration": 10.17,
+          "startTime": 43.64,
+          "endTime": 53.81,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "56-6",
+          "file": "exercises/56-6.mp4",
+          "duration": 10.16,
+          "startTime": 53.81,
+          "endTime": 63.97,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7519861319558794497",
@@ -2449,7 +3504,87 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUvlqAC6bY0A7wEiAEBBqPBPiaA5AFyhIOExt~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=fiS4Yrg5PHLM30UdjXQXSKD5yyk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_151.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "57-1",
+          "file": "exercises/57-1.mp4",
+          "duration": 10.16,
+          "startTime": 3,
+          "endTime": 13.16,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "57-2",
+          "file": "exercises/57-2.mp4",
+          "duration": 10.16,
+          "startTime": 13.16,
+          "endTime": 23.32,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "57-3",
+          "file": "exercises/57-3.mp4",
+          "duration": 10.16,
+          "startTime": 23.32,
+          "endTime": 33.48,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "57-4",
+          "file": "exercises/57-4.mp4",
+          "duration": 10.16,
+          "startTime": 33.48,
+          "endTime": 43.64,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "57-5",
+          "file": "exercises/57-5.mp4",
+          "duration": 10.17,
+          "startTime": 43.64,
+          "endTime": 53.81,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "57-6",
+          "file": "exercises/57-6.mp4",
+          "duration": 10.16,
+          "startTime": 53.81,
+          "endTime": 63.97,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7518741259389881601",
@@ -2484,7 +3619,87 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8Ae9L8VA5Yj6GfKIG7D9YAeBYIIrQToAAEXEC~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=QHwmKcWwcNb1%2BQ2JPe5%2BRbXSLVA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_152.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "58-1",
+          "file": "exercises/58-1.mp4",
+          "duration": 10.16,
+          "startTime": 3,
+          "endTime": 13.16,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "58-2",
+          "file": "exercises/58-2.mp4",
+          "duration": 10.16,
+          "startTime": 13.16,
+          "endTime": 23.32,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "58-3",
+          "file": "exercises/58-3.mp4",
+          "duration": 10.16,
+          "startTime": 23.32,
+          "endTime": 33.48,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "58-4",
+          "file": "exercises/58-4.mp4",
+          "duration": 10.16,
+          "startTime": 33.48,
+          "endTime": 43.64,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "58-5",
+          "file": "exercises/58-5.mp4",
+          "duration": 10.17,
+          "startTime": 43.64,
+          "endTime": 53.81,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "58-6",
+          "file": "exercises/58-6.mp4",
+          "duration": 10.16,
+          "startTime": 53.81,
+          "endTime": 63.97,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7517880548614851857",
@@ -2520,7 +3735,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oAsLEuaVgCuRAIlVoAQCwmFfEqBpUOfwCGA8DA~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=pFbZyNq6OopWZXlYuOMTavbirt8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_153.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "59-1",
+          "file": "exercises/59-1.mp4",
+          "duration": 12.91,
+          "startTime": 1.6133333,
+          "endTime": 14.5199997,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7517260046552567057",
@@ -2556,7 +3786,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQBpoEDIGfRlVErvAIeKAGAAsLfNAQDIPC2jzS~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=Z5H1gSebuoC2LWS8ULZzkUtM0uw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_154.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "60-1",
+          "file": "exercises/60-1.mp4",
+          "duration": 9.19,
+          "startTime": 2.62,
+          "endTime": 11.81,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "60-2",
+          "file": "exercises/60-2.mp4",
+          "duration": 9.18,
+          "startTime": 11.81,
+          "endTime": 20.99,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "60-3",
+          "file": "exercises/60-3.mp4",
+          "duration": 9.19,
+          "startTime": 20.99,
+          "endTime": 30.18,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7516521757587557639",
@@ -2590,7 +3861,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMGQIAAk0IqUCbA4DAKid1YiIoBFXJAn8wf2Mt~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=79ART20nenOyVEAtbJKnwblck4Y%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_155.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7512312040577404177",
@@ -2627,7 +3899,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0ICjjYeQgofIcD1MCgLUiAIguGTdpAkjAeQIm~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=6uTimC5u%2B29glEGqD7cZvXss43g%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_157.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "62-1",
+          "file": "exercises/62-1.mp4",
+          "duration": 11.51,
+          "startTime": 3,
+          "endTime": 14.51,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "62-2",
+          "file": "exercises/62-2.mp4",
+          "duration": 11.51,
+          "startTime": 14.51,
+          "endTime": 26.02,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "62-3",
+          "file": "exercises/62-3.mp4",
+          "duration": 11.51,
+          "startTime": 26.02,
+          "endTime": 37.53,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7509345424365391121",
@@ -2664,7 +3977,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oY05e9QQQMABfBt8fHXgtSxcCBeqeiAWMKGNHb~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=JoMTASk96zBvwWCQ%2F5%2Ber6Ls0Uk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_158.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "63-1",
+          "file": "exercises/63-1.mp4",
+          "duration": 12.21,
+          "startTime": 1.5266667,
+          "endTime": 13.7400003,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7503817745302080785",
@@ -2701,7 +4029,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQqSEFFAA2Ug8oliBADAIqItReog6CAEAuEVfy~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=UF8a2iSo6UwPvs7wt7dLnLzwWnA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_161.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "64-1",
+          "file": "exercises/64-1.mp4",
+          "duration": 12.35,
+          "startTime": 1.5433333,
+          "endTime": 13.889999699999999,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7501961770228141329",
@@ -2737,7 +4080,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okBWAixAlIUDciqCRKlfA2arDVADBIwUc0EiAA~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=hPklMCkiE1AqZZf9etaI0HW8ZDM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_18.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "65-1",
+          "file": "exercises/65-1.mp4",
+          "duration": 9.97,
+          "startTime": 1.2466667,
+          "endTime": 11.220000299999999,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7501175323149470992",
@@ -2773,7 +4131,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oA1Cmj7Y21AIBiyHrBW9EZvilhhABEaAAZAEA~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=zrCbRYMaW7xIaAPoWCVjaLGRgm8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_19.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "66-1",
+          "file": "exercises/66-1.mp4",
+          "duration": 18.64,
+          "startTime": 2,
+          "endTime": 20.638005,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7500072287870258449",
@@ -2809,7 +4182,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQ4IzCiAnAA5kVKCCV4UnawEBfAiiAAXSBA0sI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=hA%2Bn8d337%2F1cm3%2FYoIgsg7QE3%2Bs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_2.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7497135080331070737",
@@ -2846,7 +4220,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okYYsEABvALA2r4SAanArEBlqALsiiA4IMBKX~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=NfbpYcJZ1oL%2BshDIRZBY6GCz9zA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_20.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "68-1",
+          "file": "exercises/68-1.mp4",
+          "duration": 11.55,
+          "startTime": 1.4433333,
+          "endTime": 12.989999699999998,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7484127129173576976",
@@ -2882,7 +4271,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4hIYiv3ZDFYryaEzKIlAYEAABA89csT92AiB~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=0BqFHQ8AsCn0nAHG%2Bo1vBYcgfhQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_28.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "69-1",
+          "file": "exercises/69-1.mp4",
+          "duration": 8.74,
+          "startTime": 2.5,
+          "endTime": 11.24,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "69-2",
+          "file": "exercises/69-2.mp4",
+          "duration": 8.75,
+          "startTime": 11.24,
+          "endTime": 19.99,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "69-3",
+          "file": "exercises/69-3.mp4",
+          "duration": 8.74,
+          "startTime": 19.99,
+          "endTime": 28.73,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7481630147943124225",
@@ -2918,7 +4348,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYgcEQHcUDAxF2AQABFeBRnADENg2CM1Ijf7UE~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=0bY9ZTKFQ0TQN172YESS33VA6cc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_31.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "70-1",
+          "file": "exercises/70-1.mp4",
+          "duration": 6.28,
+          "startTime": 0.7846893,
+          "endTime": 7.0622036999999995,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7474231222676344069",
@@ -2954,7 +4399,61 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-maliva-p-0068/o4CKAzwuXFCADEcAEnEDebfJIASCQ2v1BJ50UR~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=bKD3v5rFxgg8WBJQ7%2F%2F62DkG7y0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_44.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "71-1",
+          "file": "exercises/71-1.mp4",
+          "duration": 9.68,
+          "startTime": 3,
+          "endTime": 12.68,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "71-2",
+          "file": "exercises/71-2.mp4",
+          "duration": 9.68,
+          "startTime": 12.68,
+          "endTime": 22.36,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "71-3",
+          "file": "exercises/71-3.mp4",
+          "duration": 9.68,
+          "startTime": 22.36,
+          "endTime": 32.04,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "71-4",
+          "file": "exercises/71-4.mp4",
+          "duration": 9.68,
+          "startTime": 32.04,
+          "endTime": 41.72,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7471494053075389712",
@@ -2992,7 +4491,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0t6FPACeAERAeGnIFRwimIAfLjMCYlAigIED5~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=9PoSjeHVj40zLWcuG5mJ7skSM9k%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_50.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "72-1",
+          "file": "exercises/72-1.mp4",
+          "duration": 11.06,
+          "startTime": 3,
+          "endTime": 14.06,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "72-2",
+          "file": "exercises/72-2.mp4",
+          "duration": 11.05,
+          "startTime": 14.06,
+          "endTime": 25.11,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "72-3",
+          "file": "exercises/72-3.mp4",
+          "duration": 11.06,
+          "startTime": 25.11,
+          "endTime": 36.17,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7467554131750685953",
@@ -3027,7 +4567,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osUGoslR2Id3EK6BEnhgeUDxFEfAACgAFQEEAZ~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=3Ei52cYH0Vf9kgpYJoJNjwqrmT0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_61.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "73-1",
+          "file": "exercises/73-1.mp4",
+          "duration": 11.55,
+          "startTime": 1.4433333,
+          "endTime": 12.989999699999998,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7466624599501868304",
@@ -3062,7 +4617,87 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQLe8A88eAOBMfFAIqhxEMxSgLeeQdBAi5kAIG~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=W7ePJ7B186gXJAFjW8qtCARSpd0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_67.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "74-1",
+          "file": "exercises/74-1.mp4",
+          "duration": 10.73,
+          "startTime": 3,
+          "endTime": 13.73,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "74-2",
+          "file": "exercises/74-2.mp4",
+          "duration": 10.73,
+          "startTime": 13.73,
+          "endTime": 24.46,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "74-3",
+          "file": "exercises/74-3.mp4",
+          "duration": 10.73,
+          "startTime": 24.46,
+          "endTime": 35.19,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "74-4",
+          "file": "exercises/74-4.mp4",
+          "duration": 10.73,
+          "startTime": 35.19,
+          "endTime": 45.92,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "74-5",
+          "file": "exercises/74-5.mp4",
+          "duration": 10.73,
+          "startTime": 45.92,
+          "endTime": 56.65,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "74-6",
+          "file": "exercises/74-6.mp4",
+          "duration": 10.73,
+          "startTime": 56.65,
+          "endTime": 67.38,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7462964890504842497",
@@ -3100,7 +4735,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEYyCBcLR53UwHFZgAIlEAixHvAEEAK7aiApB~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=zWq1PNLFMsbdBI%2BkpvQ1gMWQzKw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_73.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "75-1",
+          "file": "exercises/75-1.mp4",
+          "duration": 20.17,
+          "startTime": 2,
+          "endTime": 22.166667,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7459996492489674001",
@@ -3138,7 +4788,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o81kAOtEzXIEhAqnARAQRd1FpfEpUeEUBDKCgX~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=WYCb8lVCRwRBiv%2Bm4Wue4tsLz8A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_74.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "76-1",
+          "file": "exercises/76-1.mp4",
+          "duration": 15.21,
+          "startTime": 1.9015011000000002,
+          "endTime": 17.1135099,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7444402739171413249",
@@ -3176,7 +4841,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEE5bIBz8pP1UiK9w9BBOwACKPAvA5JA0IAbif~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=cmamktoJCyv3ymI0vXezP2S6em0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_82.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "77-1",
+          "file": "exercises/77-1.mp4",
+          "duration": 8.55,
+          "startTime": 2.45,
+          "endTime": 11,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "77-2",
+          "file": "exercises/77-2.mp4",
+          "duration": 8.56,
+          "startTime": 11,
+          "endTime": 19.56,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "77-3",
+          "file": "exercises/77-3.mp4",
+          "duration": 8.56,
+          "startTime": 19.56,
+          "endTime": 28.12,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7444069796204776721",
@@ -3214,7 +4920,61 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0ZIpALMQEREB8IA0YiilAx6BvzXBAiOBCXAm~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=AWAd1vOom%2BIr32uUm%2FOVU%2F%2BY8NI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_83.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "78-1",
+          "file": "exercises/78-1.mp4",
+          "duration": 9.97,
+          "startTime": 3,
+          "endTime": 12.97,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "78-2",
+          "file": "exercises/78-2.mp4",
+          "duration": 9.96,
+          "startTime": 12.97,
+          "endTime": 22.93,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "78-3",
+          "file": "exercises/78-3.mp4",
+          "duration": 9.97,
+          "startTime": 22.93,
+          "endTime": 32.9,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        },
+        {
+          "id": "78-4",
+          "file": "exercises/78-4.mp4",
+          "duration": 9.97,
+          "startTime": 32.9,
+          "endTime": 42.87,
+          "category": "General",
+          "focus": [
+            "quality",
+            "repeatability",
+            "notes"
+          ]
+        }
+      ]
     },
     {
       "id": "7557637913392057618",
@@ -3249,7 +5009,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okUB44aA3hoBOD3gBQJR6PffEGBiiHiogETIzs~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=8uJukqBRzZ7w1BwSKkqm1kIBFv0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_106.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7556650414762937618",
@@ -3283,7 +5044,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8G9AoGPQEkvxIIPwejOIfGDZsy2TAz6AeAALR~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=GBtnNjynzNCX9A4fZfkEP%2B2BKQc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_108.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "80-1",
+          "file": "exercises/80-1.mp4",
+          "duration": 11.79,
+          "startTime": 3,
+          "endTime": 14.79,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "80-2",
+          "file": "exercises/80-2.mp4",
+          "duration": 11.79,
+          "startTime": 14.79,
+          "endTime": 26.58,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "80-3",
+          "file": "exercises/80-3.mp4",
+          "duration": 11.79,
+          "startTime": 26.58,
+          "endTime": 38.37,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        }
+      ]
     },
     {
       "id": "7534343255152954642",
@@ -3317,7 +5119,48 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/osRA8Bi6U2BAICwO6KAuidPAfyKAC0ICXjEj6Y~tplv-tiktokx-dmt-logom:tos-alisg-i-0068/oA9ABl5wEiAPUCc9vbdiUARIEAaXYALBvyVI9.image?dr=14573&x-expires=1780556400&x-signature=0%2FwfjA9PiPxaNqLUgp1er6585gg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_128.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "81-1",
+          "file": "exercises/81-1.mp4",
+          "duration": 8.87,
+          "startTime": 2.53,
+          "endTime": 11.4,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "81-2",
+          "file": "exercises/81-2.mp4",
+          "duration": 8.87,
+          "startTime": 11.4,
+          "endTime": 20.27,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "81-3",
+          "file": "exercises/81-3.mp4",
+          "duration": 8.86,
+          "startTime": 20.27,
+          "endTime": 29.13,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        }
+      ]
     },
     {
       "id": "7474828026220514615",
@@ -3352,7 +5195,61 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-maliva-p-0068/okfjEIyZRqE0CAe7mVERIba7gAFICPAedODSAE~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=TX6W7uzg27DdcLX5lkP%2FcByJN%2Fw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_43.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "82-1",
+          "file": "exercises/82-1.mp4",
+          "duration": 11.2,
+          "startTime": 3,
+          "endTime": 14.2,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "82-2",
+          "file": "exercises/82-2.mp4",
+          "duration": 11.2,
+          "startTime": 14.2,
+          "endTime": 25.4,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "82-3",
+          "file": "exercises/82-3.mp4",
+          "duration": 11.2,
+          "startTime": 25.4,
+          "endTime": 36.6,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "82-4",
+          "file": "exercises/82-4.mp4",
+          "duration": 11.2,
+          "startTime": 36.6,
+          "endTime": 47.8,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        }
+      ]
     },
     {
       "id": "7464939112869498128",
@@ -3386,7 +5283,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4qiE1FvAcUr1FTYBADAIqmnRengyCCEAME3fA~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=cHcLSUnGi2NDd4hKzbmOWIlh4ig%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_72.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "83-1",
+          "file": "exercises/83-1.mp4",
+          "duration": 20.83,
+          "startTime": 2,
+          "endTime": 22.833333,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        }
+      ]
     },
     {
       "id": "7431866853816847632",
@@ -3424,7 +5336,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUBgrn0BOitEELFRhSIF9aAUeSgf4Lhj70II5D~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=oJYKhfV1xXsAlFISmPiSoCj1nnw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7431419161894571265",
@@ -3462,7 +5375,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUtyZhBaKYAVYIbBtGEvAHP8iAYvLXDPzMilI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=7MEs%2FRJITJXrgAPnxNXBm4pkCf8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "85-1",
+          "file": "exercises/85-1.mp4",
+          "duration": 16.9,
+          "startTime": 2,
+          "endTime": 18.9,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        }
+      ]
     },
     {
       "id": "7410691707131530512",
@@ -3500,7 +5428,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/b89743f834154f85b4f47d8b22ec2660_1725436144~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=RsEYa1oZtbLZJi2HUZ3dEKcRklU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "86-1",
+          "file": "exercises/86-1.mp4",
+          "duration": 9.72,
+          "startTime": 2.78,
+          "endTime": 12.5,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "86-2",
+          "file": "exercises/86-2.mp4",
+          "duration": 9.73,
+          "startTime": 12.5,
+          "endTime": 22.23,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "86-3",
+          "file": "exercises/86-3.mp4",
+          "duration": 9.73,
+          "startTime": 22.23,
+          "endTime": 31.96,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        }
+      ]
     },
     {
       "id": "7390636256922799367",
@@ -3538,7 +5507,61 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/5b59101b06e648ee96e948591ddcd731_1720766603~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=7c1B0VS6KkgzZZMM4bxSFp53nPk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "87-1",
+          "file": "exercises/87-1.mp4",
+          "duration": 9.96,
+          "startTime": 3,
+          "endTime": 12.96,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "87-2",
+          "file": "exercises/87-2.mp4",
+          "duration": 9.96,
+          "startTime": 12.96,
+          "endTime": 22.92,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "87-3",
+          "file": "exercises/87-3.mp4",
+          "duration": 9.95,
+          "startTime": 22.92,
+          "endTime": 32.87,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        },
+        {
+          "id": "87-4",
+          "file": "exercises/87-4.mp4",
+          "duration": 9.96,
+          "startTime": 32.87,
+          "endTime": 42.83,
+          "category": "Football Skill",
+          "focus": [
+            "transfer to field",
+            "accuracy",
+            "fast reset"
+          ]
+        }
+      ]
     },
     {
       "id": "7503016762217188625",
@@ -3574,7 +5597,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYDUAExAIIEItFrE1U2fArmidXAfCRgKgoEBAB~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=Uri4fs8HJ6qPtjtXf98aQ7SX6FU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_17.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "88-1",
+          "file": "exercises/88-1.mp4",
+          "duration": 20,
+          "startTime": 2,
+          "endTime": 22,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        }
+      ]
     },
     {
       "id": "7491239853946834192",
@@ -3610,7 +5648,87 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYHIrdggI2wIoT7EisSGeDWjYFALAAHAAsfPQe~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=2qbCEFlpYUnQJAbnSI7Nhc4%2FdzU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_23.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "89-1",
+          "file": "exercises/89-1.mp4",
+          "duration": 10.02,
+          "startTime": 3,
+          "endTime": 13.02,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "89-2",
+          "file": "exercises/89-2.mp4",
+          "duration": 10.02,
+          "startTime": 13.02,
+          "endTime": 23.04,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "89-3",
+          "file": "exercises/89-3.mp4",
+          "duration": 10.03,
+          "startTime": 23.04,
+          "endTime": 33.07,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "89-4",
+          "file": "exercises/89-4.mp4",
+          "duration": 10.02,
+          "startTime": 33.07,
+          "endTime": 43.09,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "89-5",
+          "file": "exercises/89-5.mp4",
+          "duration": 10.02,
+          "startTime": 43.09,
+          "endTime": 53.11,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "89-6",
+          "file": "exercises/89-6.mp4",
+          "duration": 10.02,
+          "startTime": 53.11,
+          "endTime": 63.13,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        }
+      ]
     },
     {
       "id": "7484479056675704080",
@@ -3646,7 +5764,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogAQgEzARYFInANfeAW3Gjj1nGkDECF5UEnB1z~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=p3yg4D2JUi0Ghgwy05RS590hbok%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_27.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "90-1",
+          "file": "exercises/90-1.mp4",
+          "duration": 9.61,
+          "startTime": 2.74,
+          "endTime": 12.35,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "90-2",
+          "file": "exercises/90-2.mp4",
+          "duration": 9.6,
+          "startTime": 12.35,
+          "endTime": 21.95,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "90-3",
+          "file": "exercises/90-3.mp4",
+          "duration": 9.61,
+          "startTime": 21.95,
+          "endTime": 31.56,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        }
+      ]
     },
     {
       "id": "7467412155852131601",
@@ -3681,7 +5840,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogU7oAJR1IKqEJFBEnZguPDlFyfAACfAFQODA0~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=lGjk1g4CV4NQCBOxoGPGmdan2fM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_64.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7439617656006741255",
@@ -3719,7 +5879,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/owWR1PE5MW9oc9UcE8SlqKgQDfAfFBMPOBNntQ~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=YPfZjWDr8mPEnr4A3X1exTq8d7o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_91.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7397262122134080776",
@@ -3757,7 +5918,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/720a2db7f64a4be2b7ab1e7966cc4bd1_1722309309~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=duuhpTMw7g6iWKJMz8COLl6GHqQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/powerpump45 (@powerpump45).gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "93-1",
+          "file": "exercises/93-1.mp4",
+          "duration": 11.11,
+          "startTime": 3,
+          "endTime": 14.11,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "93-2",
+          "file": "exercises/93-2.mp4",
+          "duration": 11.11,
+          "startTime": 14.11,
+          "endTime": 25.22,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "93-3",
+          "file": "exercises/93-3.mp4",
+          "duration": 11.11,
+          "startTime": 25.22,
+          "endTime": 36.33,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        }
+      ]
     },
     {
       "id": "7521186843837123857",
@@ -3794,7 +5996,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/og1gjT20QEoAIADqnEwFdBfEIkDAFqAOKAf68f~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=qblYlvuS2n93rP41kvpJRkxGO2w%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_148.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7483461517107563792",
@@ -3831,7 +6034,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQKqEkFTATUkMc9aBADAIi29RengmCDEApEqfD~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=o54M35K2bU4WsWpL0nAmj%2FgGrFE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_3.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7478530799554350354",
@@ -3869,7 +6073,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMALgRkejPIfGoD3EeGSkhLiAF9kAADIlEKAQI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=XAT33RTPfRA6GbzqPG7X5YODQYE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_4.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7418446012055817473",
@@ -3907,7 +6112,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/4dfdc35c6df147f0a9fbc42ccab3a185_1727241574~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=SfPGzirAs1L4wLgh47fRlDcFCD0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "97-1",
+          "file": "exercises/97-1.mp4",
+          "duration": 12.8,
+          "startTime": 1.6,
+          "endTime": 14.4,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        }
+      ]
     },
     {
       "id": "7416220457742912784",
@@ -3945,7 +6165,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/c814fd38268a45d6b70d3bc2ccf56f02_1726723397~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=kl1ml9m3plbc4sqTkSqoVrYuBxU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7413245177428479252",
@@ -3983,7 +6204,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/2995993f7ce341828f7c9f7ca5a53f75_1726030669~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=qYpZiI8Nz1I1rO8Q7AV34kReMnI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "99-1",
+          "file": "exercises/99-1.mp4",
+          "duration": 9.25,
+          "startTime": 2.64,
+          "endTime": 11.89,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "99-2",
+          "file": "exercises/99-2.mp4",
+          "duration": 9.25,
+          "startTime": 11.89,
+          "endTime": 21.14,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "99-3",
+          "file": "exercises/99-3.mp4",
+          "duration": 9.25,
+          "startTime": 21.14,
+          "endTime": 30.39,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        }
+      ]
     },
     {
       "id": "7405122386447584520",
@@ -4021,7 +6283,74 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/3506aca449d74882a7485c4472d3e6cb_1724139417~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=PmdyCjTAS7BjIa2KnNYjJFSHNuQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "100-1",
+          "file": "exercises/100-1.mp4",
+          "duration": 10.71,
+          "startTime": 3,
+          "endTime": 13.71,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "100-2",
+          "file": "exercises/100-2.mp4",
+          "duration": 10.7,
+          "startTime": 13.71,
+          "endTime": 24.41,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "100-3",
+          "file": "exercises/100-3.mp4",
+          "duration": 10.71,
+          "startTime": 24.41,
+          "endTime": 35.12,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "100-4",
+          "file": "exercises/100-4.mp4",
+          "duration": 10.71,
+          "startTime": 35.12,
+          "endTime": 45.83,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "100-5",
+          "file": "exercises/100-5.mp4",
+          "duration": 10.7,
+          "startTime": 45.83,
+          "endTime": 56.53,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        }
+      ]
     },
     {
       "id": "7400991809477823751",
@@ -4059,7 +6388,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/1a70fe6c191a4640b1477daa8d3eeb60_1723177693~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=Bw701jch8F1s9F5u9bGHyXTCiSA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7395813318734269704",
@@ -4097,7 +6427,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/bc7aa494f3894ecebf34a5bc221e4202_1721971982~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=n4CZ5Ck0PetCb9rQJwG%2BEwgcfI8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "102-1",
+          "file": "exercises/102-1.mp4",
+          "duration": 8.95,
+          "startTime": 2.56,
+          "endTime": 11.51,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "102-2",
+          "file": "exercises/102-2.mp4",
+          "duration": 8.95,
+          "startTime": 11.51,
+          "endTime": 20.46,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "102-3",
+          "file": "exercises/102-3.mp4",
+          "duration": 8.95,
+          "startTime": 20.46,
+          "endTime": 29.41,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        }
+      ]
     },
     {
       "id": "7395433294269041938",
@@ -4135,7 +6506,100 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/6b91ae21fd1647468d5ee76ffa940bae_1721883500~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=%2BHp2SlwZIxICrGNEi4y3WAGIkRE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "103-1",
+          "file": "exercises/103-1.mp4",
+          "duration": 11.61,
+          "startTime": 3,
+          "endTime": 14.61,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "103-2",
+          "file": "exercises/103-2.mp4",
+          "duration": 11.62,
+          "startTime": 14.61,
+          "endTime": 26.23,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "103-3",
+          "file": "exercises/103-3.mp4",
+          "duration": 11.61,
+          "startTime": 26.23,
+          "endTime": 37.84,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "103-4",
+          "file": "exercises/103-4.mp4",
+          "duration": 11.62,
+          "startTime": 37.84,
+          "endTime": 49.46,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "103-5",
+          "file": "exercises/103-5.mp4",
+          "duration": 11.61,
+          "startTime": 49.46,
+          "endTime": 61.07,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "103-6",
+          "file": "exercises/103-6.mp4",
+          "duration": 11.62,
+          "startTime": 61.07,
+          "endTime": 72.69,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "103-7",
+          "file": "exercises/103-7.mp4",
+          "duration": 11.61,
+          "startTime": 72.69,
+          "endTime": 84.3,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        }
+      ]
     },
     {
       "id": "7395060842959555847",
@@ -4173,7 +6637,61 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/af932e3f50624fedb607121c2425a776_1721796784~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=8FVJbjj6Pcq2G8qvDNfXyFj6AqA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "104-1",
+          "file": "exercises/104-1.mp4",
+          "duration": 9.81,
+          "startTime": 3,
+          "endTime": 12.81,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "104-2",
+          "file": "exercises/104-2.mp4",
+          "duration": 9.81,
+          "startTime": 12.81,
+          "endTime": 22.62,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "104-3",
+          "file": "exercises/104-3.mp4",
+          "duration": 9.8,
+          "startTime": 22.62,
+          "endTime": 32.42,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "104-4",
+          "file": "exercises/104-4.mp4",
+          "duration": 9.81,
+          "startTime": 32.42,
+          "endTime": 42.23,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        }
+      ]
     },
     {
       "id": "7379867060135808264",
@@ -4211,7 +6729,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osIji1IjreX4PVoAI5urHfAQGeAmLDIQVCWMRg~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=zqtTnC6u00q41ejBQzHgEXgzxdc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "105-1",
+          "file": "exercises/105-1.mp4",
+          "duration": 18.5,
+          "startTime": 2,
+          "endTime": 20.5,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        }
+      ]
     },
     {
       "id": "7562105991307808018",
@@ -4248,7 +6781,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oE5fg4RhYMfHuoJi7HgferhrjKgArAeAbdN06A~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=Zg1jnLiRpKamhxi2KP7e8iq7Asw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_101.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7559932205750062343",
@@ -4282,7 +6816,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEmJUAIKkUAm0EQoH6FfBCgfojFAZKIaRADoEM~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=Xpp%2FrEqJKSY5byuUO5Kmd2ehKTs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_103.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7523828728804166929",
@@ -4320,7 +6855,22 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYoAUYqZICxEgAFR4BfI3oiAAaEgg2fByKADEb~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=oLccsSDig7CeHwhLnIIarDKoh2g%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_142.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "108-1",
+          "file": "exercises/108-1.mp4",
+          "duration": 14.32,
+          "startTime": 1.7900998000000001,
+          "endTime": 16.1108982,
+          "category": "Deceleration",
+          "focus": [
+            "stable stop",
+            "low position",
+            "control before speed"
+          ]
+        }
+      ]
     },
     {
       "id": "7481931282235149584",
@@ -4356,7 +6906,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okk1DfeAEEPcIQKurAngFCpVERRSAAloDBBAPn~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=SQNvCSKHfprUimbWH8p1nrQRm48%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_30.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7520802218237349121",
@@ -4392,7 +6943,22 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIQegADAjg9vAZGQYLFseEw44PQItIAAoQofEb~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=MBQrt%2B4x8dfAImcDx2jZH%2BehBh0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_149.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "110-1",
+          "file": "exercises/110-1.mp4",
+          "duration": 15.77,
+          "startTime": 1.9711995000000002,
+          "endTime": 17.7407955,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7489006810817400081",
@@ -4428,7 +6994,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUiYAAmz9AW0ADGAi7jyDITBK1ufIO5ACRDwEB~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=sAF1zob%2BvO3zPCaEXv%2FUMsSgwec%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_24.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "111-1",
+          "file": "exercises/111-1.mp4",
+          "duration": 21.23,
+          "startTime": 2,
+          "endTime": 23.233333,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7480770250422635792",
@@ -4464,7 +7045,8 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0VPAJfBIE8UIMzC6C1zD61IRBPAiiRAiAA6Iw~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=iNS9QNNY4h1I2wflyvq1gyILBrM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_34.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7452265761562774800",
@@ -4502,7 +7084,8 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUAPiEB83rBIEYl5jABW9iCzDAF2xiEZAvvAZ~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=wrm9P5awYqJtR%2BNQaT53D8%2Bju7U%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_77.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7451816158723902736",
@@ -4540,7 +7123,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o8bAOAfiOwt3z8ZKMIBWIwA6AGEni9CAB3BRKq~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=ef67Y%2BJB0VTtHpqMvgXS4gYrt1E%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_79.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "114-1",
+          "file": "exercises/114-1.mp4",
+          "duration": 9.85,
+          "startTime": 2.82,
+          "endTime": 12.67,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "114-2",
+          "file": "exercises/114-2.mp4",
+          "duration": 9.86,
+          "startTime": 12.67,
+          "endTime": 22.53,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "114-3",
+          "file": "exercises/114-3.mp4",
+          "duration": 9.85,
+          "startTime": 22.53,
+          "endTime": 32.38,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7449621119054712065",
@@ -4578,7 +7202,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4AsCvG9BApzi8rCniiXSaEvsAqIYbaw62IMeA~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=emEEYlWJLie8S8EfDOlZ6zyRpMI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_8.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "115-1",
+          "file": "exercises/115-1.mp4",
+          "duration": 6.59,
+          "startTime": 0.8233333,
+          "endTime": 7.4099997,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7447046222466043153",
@@ -4616,7 +7255,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4TMUFDGREBJnIAi0ZEEJkCAOAmgS9AAWnf9fB~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=8hjAG9%2BPxvQBnxmfbY1zM7UObFU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_81.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "116-1",
+          "file": "exercises/116-1.mp4",
+          "duration": 14.13,
+          "startTime": 1.7666667,
+          "endTime": 15.9000003,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7442222114746158344",
@@ -4654,7 +7308,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oQIagSDFLIniFJSW8UfBRcQEaifIFBE3AEBoBI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=iQsmzjFMhfSr1NgMJzfCM8FVtYI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_85.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7441469590707752193",
@@ -4692,7 +7347,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIAfBETnUEwIsRHQjOFfBFaR9DB25WQ6D3QIRg~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=AAd1AWhWh%2BF0qp8N6GWvsFtWFds%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_88.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "118-1",
+          "file": "exercises/118-1.mp4",
+          "duration": 25.47,
+          "startTime": 2,
+          "endTime": 27.466667,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7438870606793182484",
@@ -4730,7 +7400,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okBCpBaIyJihAwFfCw28AqzXLEIInAUMiIJAFK~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=F1%2BwplnMIse2VtpzdCB6E4EeO30%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_94.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7437076625436511508",
@@ -4768,7 +7439,48 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIQ0YQViZPOEuBOwToNdAAIc18zEIAXPBziNo~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=XDKOc%2BT1QHYdLruPRk%2FgU1UGKx0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_96.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "120-1",
+          "file": "exercises/120-1.mp4",
+          "duration": 9.93,
+          "startTime": 2.83,
+          "endTime": 12.76,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "120-2",
+          "file": "exercises/120-2.mp4",
+          "duration": 9.92,
+          "startTime": 12.76,
+          "endTime": 22.68,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "120-3",
+          "file": "exercises/120-3.mp4",
+          "duration": 9.92,
+          "startTime": 22.68,
+          "endTime": 32.6,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7434452423223135508",
@@ -4806,7 +7518,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o4yYRnLpLhvEEebqBAQszxsfY5Mg5FQDKwcB0H~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=BBjJB9gITbgkHwBmhoqUP1dZu6c%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_98.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "121-1",
+          "file": "exercises/121-1.mp4",
+          "duration": 8.79,
+          "startTime": 2.51,
+          "endTime": 11.3,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "121-2",
+          "file": "exercises/121-2.mp4",
+          "duration": 8.8,
+          "startTime": 11.3,
+          "endTime": 20.1,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "121-3",
+          "file": "exercises/121-3.mp4",
+          "duration": 8.79,
+          "startTime": 20.1,
+          "endTime": 28.89,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7434057103624441105",
@@ -4844,7 +7597,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooIMrzlCDAYNiwIlzWIAAiiAmEB3glEl2fLo5q~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=AQdj7mIkznCkjETinfcG0b3QtUE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_99.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7429615980248059152",
@@ -4882,7 +7636,87 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ee518b8e71f84b5488fe295ae8ef564c_1729842288~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=oYqLvLPwSovovRhiKNi3CcjA65k%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "123-1",
+          "file": "exercises/123-1.mp4",
+          "duration": 10.61,
+          "startTime": 3,
+          "endTime": 13.61,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "123-2",
+          "file": "exercises/123-2.mp4",
+          "duration": 10.6,
+          "startTime": 13.61,
+          "endTime": 24.21,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "123-3",
+          "file": "exercises/123-3.mp4",
+          "duration": 10.61,
+          "startTime": 24.21,
+          "endTime": 34.82,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "123-4",
+          "file": "exercises/123-4.mp4",
+          "duration": 10.6,
+          "startTime": 34.82,
+          "endTime": 45.42,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "123-5",
+          "file": "exercises/123-5.mp4",
+          "duration": 10.61,
+          "startTime": 45.42,
+          "endTime": 56.03,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "123-6",
+          "file": "exercises/123-6.mp4",
+          "duration": 10.6,
+          "startTime": 56.03,
+          "endTime": 66.63,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7424431625582300417",
@@ -4920,7 +7754,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/400f314d0629476eb94d9732de967ad1_1728635231~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=FAbgzq%2FOK7JcCFxZcJhD6i7VbaU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7423317505491422481",
@@ -4958,7 +7793,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEDE82wgfAEYTWU8CBIzRBAy7iAqiCTswnOI46~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=AX4YDPHBpsW%2Fg8eUGWW00OBPer4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7421786526994009360",
@@ -4996,7 +7832,74 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUbiAYed3FJhvAXGKG5AV7BRwfRYAo8f4beMQo~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=T%2F4EO4kgspA7nuHkhegaciazqFs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "126-1",
+          "file": "exercises/126-1.mp4",
+          "duration": 11.17,
+          "startTime": 3,
+          "endTime": 14.17,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "126-2",
+          "file": "exercises/126-2.mp4",
+          "duration": 11.16,
+          "startTime": 14.17,
+          "endTime": 25.33,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "126-3",
+          "file": "exercises/126-3.mp4",
+          "duration": 11.17,
+          "startTime": 25.33,
+          "endTime": 36.5,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "126-4",
+          "file": "exercises/126-4.mp4",
+          "duration": 11.17,
+          "startTime": 36.5,
+          "endTime": 47.67,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "126-5",
+          "file": "exercises/126-5.mp4",
+          "duration": 11.16,
+          "startTime": 47.67,
+          "endTime": 58.83,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7408428646865653000",
@@ -5034,7 +7937,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/6e21342e4cce41f6a7b67d0322d239dc_1724909215~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=u3UHOA0tkVrfdtf%2BHxfMJU%2FipYk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7407706254379928840",
@@ -5072,7 +7976,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/13ac2ecb6e3244379e7a94d0af8cda3e_1724741023~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=jI5xIByoXfeitCcU8axEATlu5Aw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7405831751550913800",
@@ -5110,7 +8015,61 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/c902a098a1ff4aba8c161e30811199ab_1724304579~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=v8nF8Grnubl0RkLCAFINkC3pswg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "129-1",
+          "file": "exercises/129-1.mp4",
+          "duration": 10.59,
+          "startTime": 3,
+          "endTime": 13.59,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "129-2",
+          "file": "exercises/129-2.mp4",
+          "duration": 10.59,
+          "startTime": 13.59,
+          "endTime": 24.18,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "129-3",
+          "file": "exercises/129-3.mp4",
+          "duration": 10.6,
+          "startTime": 24.18,
+          "endTime": 34.78,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "129-4",
+          "file": "exercises/129-4.mp4",
+          "duration": 10.59,
+          "startTime": 34.78,
+          "endTime": 45.37,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7402858266507660551",
@@ -5148,7 +8107,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/9d2199408f7d4fed83ca998f70bd0c85_1723612260~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=ohXyXuN64eUpneZhucuuF0cidOs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7401447327518461202",
@@ -5186,7 +8146,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/5fe631b209e644239047e2b13244d32b_1723283749~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=T6fZ%2FaxsH9SLjWD8X6BpGBCpfLM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7392459172316597522",
@@ -5224,7 +8185,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/dcd568ad6efd41f4ae75ac7502fbf0bc_1721191034~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=xILp2oir%2BOcV3z1sLoR0OX3%2Bqxo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "132-1",
+          "file": "exercises/132-1.mp4",
+          "duration": 9.83,
+          "startTime": 2.81,
+          "endTime": 12.64,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "132-2",
+          "file": "exercises/132-2.mp4",
+          "duration": 9.82,
+          "startTime": 12.64,
+          "endTime": 22.46,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "132-3",
+          "file": "exercises/132-3.mp4",
+          "duration": 9.83,
+          "startTime": 22.46,
+          "endTime": 32.29,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7391027036892024072",
@@ -5262,7 +8264,61 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/e293fe47ec204526a35716effcfad455_1720857590~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=8VzC2z1OyVsfg1fTf%2BCplHPF62k%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "133-1",
+          "file": "exercises/133-1.mp4",
+          "duration": 11.38,
+          "startTime": 3,
+          "endTime": 14.38,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "133-2",
+          "file": "exercises/133-2.mp4",
+          "duration": 11.38,
+          "startTime": 14.38,
+          "endTime": 25.76,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "133-3",
+          "file": "exercises/133-3.mp4",
+          "duration": 11.38,
+          "startTime": 25.76,
+          "endTime": 37.14,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "133-4",
+          "file": "exercises/133-4.mp4",
+          "duration": 11.38,
+          "startTime": 37.14,
+          "endTime": 48.52,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7390204059279461639",
@@ -5300,7 +8356,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/037bb4ab528e41bea128df9dd1398359_1720665976~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=O7%2BAt5UW0MwKHkxoXU%2BaLRQLSJQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7389873566805658887",
@@ -5338,7 +8395,87 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/4d7de8baa2a54852864e8d3bd07f3fa2_1720589027~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=J3G6irlaDrHrKrGya78XNxKnfT0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "135-1",
+          "file": "exercises/135-1.mp4",
+          "duration": 11.13,
+          "startTime": 3,
+          "endTime": 14.13,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "135-2",
+          "file": "exercises/135-2.mp4",
+          "duration": 11.13,
+          "startTime": 14.13,
+          "endTime": 25.26,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "135-3",
+          "file": "exercises/135-3.mp4",
+          "duration": 11.12,
+          "startTime": 25.26,
+          "endTime": 36.38,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "135-4",
+          "file": "exercises/135-4.mp4",
+          "duration": 11.13,
+          "startTime": 36.38,
+          "endTime": 47.51,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "135-5",
+          "file": "exercises/135-5.mp4",
+          "duration": 11.13,
+          "startTime": 47.51,
+          "endTime": 58.64,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "135-6",
+          "file": "exercises/135-6.mp4",
+          "duration": 11.13,
+          "startTime": 58.64,
+          "endTime": 69.77,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7387269801237925136",
@@ -5376,7 +8513,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/1ad778538b4b4015ad0f462e3e7895c3_1719982792~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=it%2FA2Rb%2FWnmkuyfFUCCZ9hwhGxE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "136-1",
+          "file": "exercises/136-1.mp4",
+          "duration": 11.24,
+          "startTime": 3,
+          "endTime": 14.24,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "136-2",
+          "file": "exercises/136-2.mp4",
+          "duration": 11.25,
+          "startTime": 14.24,
+          "endTime": 25.49,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "136-3",
+          "file": "exercises/136-3.mp4",
+          "duration": 11.24,
+          "startTime": 25.49,
+          "endTime": 36.73,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7385046632909294866",
@@ -5414,7 +8592,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/d0cd9d69b24041d3b51d8229faf93950_1719465170~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=H32v6OxjkEoCQZLeQu12NDF2O5A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "137-1",
+          "file": "exercises/137-1.mp4",
+          "duration": 14.43,
+          "startTime": 1.8033333,
+          "endTime": 16.2299997,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7384681998213827847",
@@ -5451,7 +8644,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oIfkq6qoeCDFNaYEBIThehA0UFkASMbODIj7Et~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=aj4s9KPcMtsYoExvXrflo9zQBEc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "138-1",
+          "file": "exercises/138-1.mp4",
+          "duration": 8.62,
+          "startTime": 2.46,
+          "endTime": 11.08,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "138-2",
+          "file": "exercises/138-2.mp4",
+          "duration": 8.61,
+          "startTime": 11.08,
+          "endTime": 19.69,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "138-3",
+          "file": "exercises/138-3.mp4",
+          "duration": 8.62,
+          "startTime": 19.69,
+          "endTime": 28.31,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7382452792616701202",
@@ -5488,7 +8722,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogBm9oVoMCEiO0zOnSvvsEABnIZbqUi5dAJDY~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=c7KRG3FZGUyPIK3CUhZRWopfxm8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "139-1",
+          "file": "exercises/139-1.mp4",
+          "duration": 20.01,
+          "startTime": 2,
+          "endTime": 22.007982,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7382118499889564935",
@@ -5526,7 +8775,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osZobMhu8AC8KkMxIYfUryAASWjeR5eEUoQhDw~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=knFPvIzyTzG58M3KipJWD%2B8KKao%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "140-1",
+          "file": "exercises/140-1.mp4",
+          "duration": 11.84,
+          "startTime": 3,
+          "endTime": 14.84,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "140-2",
+          "file": "exercises/140-2.mp4",
+          "duration": 11.85,
+          "startTime": 14.84,
+          "endTime": 26.69,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "140-3",
+          "file": "exercises/140-3.mp4",
+          "duration": 11.84,
+          "startTime": 26.69,
+          "endTime": 38.53,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7379120419564965128",
@@ -5560,7 +8850,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEL3vAUMzAzyDfNCISW8Fj5CgIneI7jCIYfAEG~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=kyhprWs92X9GxXBXZ7yEyK2K4d8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7473744581054549303",
@@ -5596,7 +8887,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-maliva-p-0068/oM4vQuDAAInAFCSMZJfCROjiyf5PEBE3AEBX7E~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=pyy4Oc%2B54w4CskmmxWnhfggZZgA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_45.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "142-1",
+          "file": "exercises/142-1.mp4",
+          "duration": 8.43,
+          "startTime": 2.41,
+          "endTime": 10.84,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "142-2",
+          "file": "exercises/142-2.mp4",
+          "duration": 8.42,
+          "startTime": 10.84,
+          "endTime": 19.26,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "142-3",
+          "file": "exercises/142-3.mp4",
+          "duration": 8.43,
+          "startTime": 19.26,
+          "endTime": 27.69,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        }
+      ]
     },
     {
       "id": "7469268754527030544",
@@ -5633,7 +8965,74 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMXjEmqqgy2RAIXSnAQFh4FfEpBQUCfWCgA4DA~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=HaD%2BP%2B9BduWulZQijNwB7vz0ewU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_55.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "143-1",
+          "file": "exercises/143-1.mp4",
+          "duration": 9.69,
+          "startTime": 3,
+          "endTime": 12.69,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "143-2",
+          "file": "exercises/143-2.mp4",
+          "duration": 9.68,
+          "startTime": 12.69,
+          "endTime": 22.37,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "143-3",
+          "file": "exercises/143-3.mp4",
+          "duration": 9.69,
+          "startTime": 22.37,
+          "endTime": 32.06,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "143-4",
+          "file": "exercises/143-4.mp4",
+          "duration": 9.69,
+          "startTime": 32.06,
+          "endTime": 41.75,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        },
+        {
+          "id": "143-5",
+          "file": "exercises/143-5.mp4",
+          "duration": 9.68,
+          "startTime": 41.75,
+          "endTime": 51.43,
+          "category": "Strength",
+          "focus": [
+            "clean position",
+            "force output",
+            "repeatable tempo"
+          ]
+        }
+      ]
     },
     {
       "id": "7400597866089057544",
@@ -5671,7 +9070,61 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/4edd5c0523eb46bfbef834bc12810f08_1723085971~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=rV3s5SlX5hRgO292JuvjzqynxOs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "144-1",
+          "file": "exercises/144-1.mp4",
+          "duration": 11.43,
+          "startTime": 3,
+          "endTime": 14.43,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "144-2",
+          "file": "exercises/144-2.mp4",
+          "duration": 11.44,
+          "startTime": 14.43,
+          "endTime": 25.87,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "144-3",
+          "file": "exercises/144-3.mp4",
+          "duration": 11.43,
+          "startTime": 25.87,
+          "endTime": 37.3,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "144-4",
+          "file": "exercises/144-4.mp4",
+          "duration": 11.43,
+          "startTime": 37.3,
+          "endTime": 48.73,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        }
+      ]
     },
     {
       "id": "7396202919365856520",
@@ -5709,7 +9162,61 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/1900bf7e48924857bbdfe9713ff8017c_1722062692~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=k9NBcCyp0Ohqbdv3YR1POocdu84%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "145-1",
+          "file": "exercises/145-1.mp4",
+          "duration": 9.34,
+          "startTime": 3,
+          "endTime": 12.34,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "145-2",
+          "file": "exercises/145-2.mp4",
+          "duration": 9.34,
+          "startTime": 12.34,
+          "endTime": 21.68,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "145-3",
+          "file": "exercises/145-3.mp4",
+          "duration": 9.35,
+          "startTime": 21.68,
+          "endTime": 31.03,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        },
+        {
+          "id": "145-4",
+          "file": "exercises/145-4.mp4",
+          "duration": 9.34,
+          "startTime": 31.03,
+          "endTime": 40.37,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        }
+      ]
     },
     {
       "id": "7379537664678137106",
@@ -5747,7 +9254,22 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oMej30IDruVT4SoNIhRTxeAIGeAvLDCLKC5MsQ~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=wUcEs3Z1K2QuFLu3tTvfhTSEYNc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "146-1",
+          "file": "exercises/146-1.mp4",
+          "duration": 12.77,
+          "startTime": 1.5966667,
+          "endTime": 14.3700003,
+          "category": "Agility",
+          "focus": [
+            "clean footwork",
+            "sharp direction change",
+            "balance"
+          ]
+        }
+      ]
     },
     {
       "id": "7564344762694733063",
@@ -5790,7 +9312,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ogA2oK8nAiI43Pr5taBrYVPvAEzPBnAhBinI6~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=LQGMqTs5ux5Vd3D%2BhUAFengzOFg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "147-1",
+          "file": "exercises/147-1.mp4",
+          "duration": 25.51,
+          "startTime": 2,
+          "endTime": 27.510998,
+          "category": "Deceleration",
+          "focus": [
+            "stable stop",
+            "low position",
+            "control before speed"
+          ]
+        }
+      ]
     },
     {
       "id": "7439242258798447892",
@@ -5828,7 +9365,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o05I0f83QtDRQYeFf6QGeGcG6RALLSvAoskcQ6~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=5ggAgUk5rW17McT51KSVMFsLRUE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/powerpump45 (@powerpump45)_3.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7522724584550927634",
@@ -5864,7 +9402,61 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oYBMKEVIBYXswBF6wifiAvAAJi3uA0ACH64Ihm~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=dMGrjZYN9nPPjvYb%2BGt%2Bih3pVXA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_146.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "149-1",
+          "file": "exercises/149-1.mp4",
+          "duration": 11.26,
+          "startTime": 3,
+          "endTime": 14.26,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "149-2",
+          "file": "exercises/149-2.mp4",
+          "duration": 11.26,
+          "startTime": 14.26,
+          "endTime": 25.52,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "149-3",
+          "file": "exercises/149-3.mp4",
+          "duration": 11.25,
+          "startTime": 25.52,
+          "endTime": 36.77,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "149-4",
+          "file": "exercises/149-4.mp4",
+          "duration": 11.26,
+          "startTime": 36.77,
+          "endTime": 48.03,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7458174613592329473",
@@ -5902,7 +9494,48 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUB8EA6nAxAqyAADMBywLCAliIZvPcYtCi4IE~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=YKof95KuSQf22fy4dt5Qc%2FdFgTA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "assets/gifs/สมัครสมาชิก_75.gif",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "150-1",
+          "file": "exercises/150-1.mp4",
+          "duration": 8.77,
+          "startTime": 2.5,
+          "endTime": 11.27,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "150-2",
+          "file": "exercises/150-2.mp4",
+          "duration": 8.76,
+          "startTime": 11.27,
+          "endTime": 20.03,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "150-3",
+          "file": "exercises/150-3.mp4",
+          "duration": 8.77,
+          "startTime": 20.03,
+          "endTime": 28.8,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7416626058105081089",
@@ -5940,7 +9573,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/98d03c72a0174214bf3e181962328520_1726817867~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=H9vqfGEjihxwELKSIwOqoWURDwg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7415873945129356560",
@@ -5978,7 +9612,48 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/d986785ba557463a9252b6f0d9c353ad_1726642717~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=mCIfwEcUtGBq2jqNZnvxH7LNds8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "152-1",
+          "file": "exercises/152-1.mp4",
+          "duration": 8.81,
+          "startTime": 2.52,
+          "endTime": 11.33,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "152-2",
+          "file": "exercises/152-2.mp4",
+          "duration": 8.81,
+          "startTime": 11.33,
+          "endTime": 20.14,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        },
+        {
+          "id": "152-3",
+          "file": "exercises/152-3.mp4",
+          "duration": 8.81,
+          "startTime": 20.14,
+          "endTime": 28.95,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7411400585561328897",
@@ -6016,7 +9691,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/9f1a6db13cb04b7f95448170f8e57fbc_1725601185~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=A2Y96PRZseT9U1WA%2BK552oLNXyQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7405443482527010056",
@@ -6054,7 +9730,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/54f83e509be744cc9150055a81e9844c_1724214179~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=jBBWAH410eZfK1mQCnlWDrVR8Q4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7402530873737743634",
@@ -6092,7 +9769,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/78ba7d8abbc847e8b33ca7f8c599786f_1723536034~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=S552GVms4IgB17QmnOrwiV50eKY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "155-1",
+          "file": "exercises/155-1.mp4",
+          "duration": 25.03,
+          "startTime": 2,
+          "endTime": 27.033333,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7392145240959831304",
@@ -6130,7 +9822,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/907322e8a7d5420b9cdb6960ca04f63b_1721117944~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=X%2BJbJlqv0ZjuCCKXTTEPjQYaNJI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "156-1",
+          "file": "exercises/156-1.mp4",
+          "duration": 25.6,
+          "startTime": 2,
+          "endTime": 27.603991,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7387710498092977425",
@@ -6168,7 +9875,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/osEEGFmhmBWjBFDOIfB50cBgEraifhsoqatAR5~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=YWbFPVfeoPvGMW2MWNw6DqcxJSk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7385828897788546321",
@@ -6206,7 +9914,8 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/9d5ef1c74d294698ac7a5db9b8905492_1719647306~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=MAiS6rZw1%2FUeIlzrn9xjo0ZcpQM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7385415491667397905",
@@ -6244,7 +9953,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/ooBRU7LfKIGRDhDAim6AeDIfZeQhGh2GwQEIRF~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=3mxbPaXBJbg0ILFcbpLfbl05KVY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "159-1",
+          "file": "exercises/159-1.mp4",
+          "duration": 22.97,
+          "startTime": 2,
+          "endTime": 24.966667,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7382883349485882631",
@@ -6282,7 +10006,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/565602ae384e48a5b55fbacec2d3e298_1718961488~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=ve28HSF60yzPNHvf6%2FXaThY32Ho%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "160-1",
+          "file": "exercises/160-1.mp4",
+          "duration": 20.43,
+          "startTime": 2,
+          "endTime": 22.433333,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7379183147495214343",
@@ -6319,7 +10058,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/6c7fd1fd8f8b4ea591002be4e1fd7564_1718099968~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=oXFuR7FX1gWVOvLuMk4LYiUQ43o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "161-1",
+          "file": "exercises/161-1.mp4",
+          "duration": 20.43,
+          "startTime": 2,
+          "endTime": 22.433333,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7378815567723056391",
@@ -6357,7 +10111,8 @@
       "thumbnailUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUBKEDFIifFtBwdfEggmoUma0NRaZAZ0EQ1BD9~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=2a6s6Zfk6DRvYF5h%2B5NJBbEiw4c%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": []
     },
     {
       "id": "7378470191212055816",
@@ -6395,7 +10150,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUEmDRBmkZlldFkZyJ5D5gBEQiBfA3VvIIufEZ~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=pE7N9iPVuvrwExCNtsdABGpdZl0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "163-1",
+          "file": "exercises/163-1.mp4",
+          "duration": 18.7,
+          "startTime": 2,
+          "endTime": 20.7,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     },
     {
       "id": "7377984297594129672",
@@ -6433,7 +10203,22 @@
       "thumbnailUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/oEWmhS3SoAr4BR2ngEiLY3QBrf5hTaeiBEBpjI~tplv-tiktokx-origin.image?dr=14575&x-expires=1780556400&x-signature=n1XiB9ZyjTMGdPPLs8yxrpKbwRA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=sg1",
       "gif": "",
       "hasGif": false,
-      "source": "visible-page+oembed"
+      "source": "visible-page+oembed",
+      "clips": [
+        {
+          "id": "164-1",
+          "file": "exercises/164-1.mp4",
+          "duration": 13.23,
+          "startTime": 1.6533333,
+          "endTime": 14.879999699999999,
+          "category": "Power",
+          "focus": [
+            "max speed",
+            "quality reps",
+            "full rest"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -40,6 +40,7 @@
         <div class="tabs" role="tablist" aria-label="views">
           <button class="tab active" type="button" data-view="today"><i data-lucide="calendar-days"></i><span>วันนี้</span></button>
           <button class="tab" type="button" data-view="program"><i data-lucide="target"></i><span>โปรแกรม</span></button>
+          <button class="tab" type="button" data-view="exercises"><i data-lucide="video"></i><span>ท่าฝึก</span></button>
           <button class="tab" type="button" data-view="library"><i data-lucide="dumbbell"></i><span>คลังท่า</span></button>
           <button class="tab" type="button" data-view="journal"><i data-lucide="notebook-pen"></i><span>บันทึก</span></button>
         </div>
@@ -69,6 +70,44 @@
         <div class="check-panel">
           <h3>Checklist</h3>
           <div id="checklist"></div>
+        </div>
+      </section>
+
+      <section id="exercisesView" class="view" aria-label="exercise library">
+        <div class="section-head">
+          <div>
+            <h2>ท่าฝึก (270 Video Clips)</h2>
+            <p>ท่าฝึกแยกจากวิดีโอแต่ละท่า พร้อมจำแนกตามประเภท</p>
+          </div>
+          <div class="filter-row">
+            <select id="exerciseCategoryFilter" aria-label="exercise category filter">
+              <option value="All">All Categories</option>
+              <option value="Power">Power (70)</option>
+              <option value="Agility">Agility (36)</option>
+              <option value="Rehab">Rehab (29)</option>
+              <option value="Core">Core (20)</option>
+              <option value="Football Skill">Football (19)</option>
+              <option value="Strength">Strength (18)</option>
+              <option value="Mobility">Mobility (4)</option>
+              <option value="Deceleration">Deceleration (2)</option>
+            </select>
+            <select id="exerciseLevelFilter" aria-label="exercise level filter">
+              <option value="All">All Levels</option>
+              <option value="Level 1">Level 1 (33)</option>
+              <option value="Level 2">Level 2 (92)</option>
+              <option value="Level 3">Level 3 (29)</option>
+              <option value="Level 4">Level 4 (89)</option>
+              <option value="Level 5">Level 5 (27)</option>
+            </select>
+          </div>
+        </div>
+        <div id="exercisesGrid" class="exercise-grid"></div>
+        <div id="videoModal" class="modal" style="display: none;">
+          <div class="modal-content">
+            <button class="modal-close" type="button">&times;</button>
+            <video id="videoPlayer" controls style="width: 100%; max-height: 80vh;"></video>
+            <div id="videoInfo" style="padding: 1rem;"></div>
+          </div>
         </div>
       </section>
 
