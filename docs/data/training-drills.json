@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T08:47:35.223Z",
+  "generatedAt": "2026-06-06T09:45:13.103Z",
   "creator": "powerpump45",
   "sourceCount": 164,
   "levels": [
@@ -6435,12 +6435,5 @@
       "hasGif": false,
       "source": "visible-page+oembed"
     }
-  ],
-  "personalizedProgram": {
-    "active": true,
-    "programId": "acl-recovery-program-1",
-    "startDate": "2026-06-06T09:23:40.606Z",
-    "currentPhase": 1,
-    "currentWeek": 1
-  }
+  ]
 }
