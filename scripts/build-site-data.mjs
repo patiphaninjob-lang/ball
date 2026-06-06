@@ -42,12 +42,12 @@ await mkdir(docsDataDir, { recursive: true });
 await mkdir(docsGifDir, { recursive: true });
 
 const gifManifest = await loadGifManifest();
-const gifFiles = await readdir('docs/data/gifs').catch(() => []);
+const gifFiles = await readdir('docs/assets/gifs').catch(() => []);
 const drills = sourceVideos.map((video, index) => {
   const drill = toDrill(video, index, gifManifest);
   // Assign GIF by index if not found by manifest
   if (!drill.gif && gifFiles[index]) {
-    drill.gif = `data/gifs/${gifFiles[index]}`;
+    drill.gif = `assets/gifs/${gifFiles[index]}`;
   }
   return drill;
 }).sort(compareDrills);
@@ -510,20 +510,20 @@ async function loadGifManifest() {
     const items = JSON.parse(text);
     for (const item of items) {
       const key = slug(item.sourceVideo || item.gif || '');
-      manifest.set(key, item.gif.replace(/^data\/gifs\//, 'data/gifs/'));
+      manifest.set(key, item.gif.replace(/^data\/gifs\//, 'assets/gifs/'));
     }
   } catch {
     // Fallback: scan GIF files directly
     try {
-      const gifFiles = await readdir('docs/data/gifs');
+      const gifFiles = await readdir('docs/assets/gifs');
       const gifs = gifFiles.filter(f => f.endsWith('.gif'));
 
       gifs.forEach((gif, index) => {
         // Map by index to drills
-        manifest.set(`index-${index}`, `data/gifs/${gif}`);
+        manifest.set(`index-${index}`, `assets/gifs/${gif}`);
       });
 
-      console.log(`Loaded ${gifs.length} GIFs from docs/data/gifs/`);
+      console.log(`Loaded ${gifs.length} GIFs from docs/assets/gifs/`);
     } catch (e) {
       console.log('No GIFs found, skipping');
     }
