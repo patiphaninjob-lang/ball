@@ -40,17 +40,6 @@ if (document.readyState === 'loading') {
 
 async function main() {
   try {
-    console.log('[main] loading training-drills.json');
-    state.data = await fetch('data/training-drills.json').then((response) => response.json());
-    console.log('[main] loaded drills:', state.data?.drills?.length);
-
-    console.log('[main] loading acl-recovery-program.json');
-    state.program = await fetch('data/acl-recovery-program.json').then((response) => response.json()).catch((e) => {
-      console.error('[main] program fetch failed:', e);
-      return null;
-    });
-    console.log('[main] loaded program:', !!state.program);
-
     console.log('[main] loading exercise-library.json');
     state.exercises = await fetch('data/exercise-library.json').then((response) => response.json()).catch((e) => {
       console.error('[main] exercises fetch failed:', e);
@@ -58,7 +47,6 @@ async function main() {
     });
     console.log('[main] loaded exercises:', state.exercises?.exercises?.length);
 
-    state.selectedDay = dayIndexMap[new Date().getDay()] ?? 0;
     hydrateControls();
     render();
     console.log('[main] render complete');
@@ -77,23 +65,7 @@ function hydrateControls() {
 
   document.getElementById('searchInput').addEventListener('input', (event) => {
     state.search = event.target.value.trim().toLowerCase();
-    renderDrills();
-  });
-
-  document.getElementById('participantFilter').addEventListener('change', (event) => {
-    state.participant = event.target.value;
-    renderDrills();
-  });
-
-  document.getElementById('levelFilter').addEventListener('change', (event) => {
-    state.level = event.target.value;
-    renderLevels();
-    renderDrills();
-  });
-
-  document.getElementById('categoryFilter').addEventListener('change', (event) => {
-    state.category = event.target.value;
-    renderDrills();
+    renderExercises();
   });
 
   const exerciseCategoryFilter = document.getElementById('exerciseCategoryFilter');
@@ -112,13 +84,6 @@ function hydrateControls() {
     });
   }
 
-  document.getElementById('resetToday').addEventListener('click', () => {
-    const key = todayKey();
-    state.checklist[key] = {};
-    saveJson('p45.checklist', state.checklist);
-    renderChecklist();
-  });
-
   document.getElementById('saveJournal').addEventListener('click', saveJournal);
   document.getElementById('journalDate').valueAsDate = new Date();
 
@@ -135,16 +100,7 @@ function render() {
   document.querySelectorAll('.view').forEach((section) => section.classList.remove('active'));
   document.getElementById(`${state.view}View`).classList.add('active');
 
-  renderSummary();
-  renderCategories();
-  renderLevels();
-  renderWeek();
-  renderToday();
-  renderChecklist();
-  renderDrills();
   renderExercises();
-  renderProgram();
-  renderJournal();
   lucideReady();
 }
 
