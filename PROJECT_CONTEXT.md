@@ -19,10 +19,13 @@
 ## Current Status
 
 - ✅ Repository cloned and accessible
-- ✅ Core scripts working: collect, build, serve, make:gifs
-- ✅ Training planner with 5 difficulty levels
+- ✅ 92 exercise GIFs extracted and optimized (62% size reduction)
+- ✅ Training planner with 5 difficulty levels - LIVE
 - ✅ PWA configured for mobile installation
-- ⏳ Last update: initial memory system setup
+- ✅ TikTok links removed - app uses only local GIFs
+- ✅ GIFs auto-play without click needed
+- ✅ App deployed to GitHub Pages
+- **Last update:** 2026-06-06 - Production deployment complete
 
 ## Key Files & Directories
 
