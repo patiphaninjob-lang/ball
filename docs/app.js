@@ -237,9 +237,29 @@ function renderCardGrid(root, drills, options = {}) {
     levelBadge.textContent = `L${drill.level}`;
     goal.textContent = drill.goal;
     fallback.textContent = drill.category;
-    img.src = drill.gif || drill.thumbnailUrl || '';
-    img.alt = drill.name;
-    img.addEventListener('error', () => img.classList.add('is-broken'));
+    // Set up image with proper loading and visibility handling
+    const imagePath = drill.gif || drill.thumbnailUrl || '';
+    if (imagePath) {
+      img.src = imagePath;
+      img.alt = drill.name;
+
+      // Hide fallback when image loads
+      img.addEventListener('load', () => {
+        fallback.style.display = 'none';
+        img.style.display = 'block';
+      });
+
+      // Show fallback if image fails to load
+      img.addEventListener('error', () => {
+        img.classList.add('is-broken');
+        img.style.display = 'none';
+        fallback.style.display = 'grid';
+      });
+    } else {
+      // No image, show fallback
+      img.style.display = 'none';
+      fallback.style.display = 'grid';
+    }
 
     meta.innerHTML = [
       drill.participant,
