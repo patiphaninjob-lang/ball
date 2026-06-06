@@ -1,85 +1,101 @@
 # Session Handoff
 
-**Date:** 2026-06-06 (Session 4)
-
-**Objective:** Fix GIF display issue - GIFs were not showing in app despite existing in assets/gifs folder.
+**Date:** 2026-06-06 (Session 5)  
+**Status:** IN PROGRESS - Debugging GIF rendering
 
 ## Latest Truth
 
-**App Status:** ✅ Fixed GIF display - 112 drills now show GIF animations correctly
-- 164 total drills: 111 GIFs assigned, 125 enhanced with technique notes
-- **New:** "โปรแกรม" (Program) tab displays personalized 12-week ACL recovery plan (Phase 1-3)
-- **New:** Drill cards now show technique cues (form, safety, biomechanics)
-- GitHub Pages: https://patiphaninjob-lang.github.io/ball/ (live)
-- Local dev: http://localhost:4173 (fully functional)
+**Completed This Session:**
+- ✅ Extracted 270 exercise clips from 164 TikTok videos
+- ✅ Trimmed 5.5s intro from each clip
+- ✅ Converted 268 clips to GIF (10fps, 320px width)
+- ✅ Replaced old program with Exercise Library only
+- ✅ Single "ท่าฝึก" tab with 270 exercises
+- ✅ GIF files exist and HTTP 200 accessible
+- ✅ exercise-library.json has correct file paths
 
-**Metadata Enhancement:**
-- 125 drills enhanced with:
-  - Focus areas (ACL safety, deceleration, single-leg stability, proprioception)
-  - Technique notes (form cues, safety tips)
-  - Adjusted difficulty levels per exercise science
-- Exercise categories: Mobility, Core, Balance, Deceleration, Single-Leg, Agility, Plyometric, Football-Specific, Rehab
+**Current Issue:**
+- ❌ GIFs not rendering in grid despite correct setup
+- Debug logging added to identify failure point
+- Need console logs from user to diagnose
 
-**Key Files:**
-- `docs/data/training-drills.json` - 164 drills with enhanced metadata
-- `docs/data/acl-recovery-program.json` - Personalized 12-week program
-- `docs/index.html` - Added "โปรแกรม" tab + program view section
-- `docs/app.js` - Added renderProgram() function + fixed initialization
-- `docs/styles.css` - Added program section styling
-- `scripts/analyze-videos.mjs` - Extract 6 frames per video for analysis
-- `scripts/generate-drill-analysis.mjs` - Auto-generate analysis.json
-- `scripts/enhance-key-drills.mjs` - Map drills to exercise science knowledge base
-- `video-analysis/` - 164 folders with frame snapshots + analysis.json templates
+**App Structure Now:**
+- Single navigation tab: "ท่าฝึก" (Exercises)
+- exercisesView with:
+  - Category filter (9 types)
+  - Level filter (1-5)
+  - Search input
+  - exercisesGrid (currently empty - rendering issue)
 
-## Files Changed This Session
+## Files Changed
 
-**Root Cause Found:**
-- GIFs stored in: `docs/assets/gifs/` (111 actual GIF files)
-- Build script was pointing to: `docs/data/gifs/` (wrong location)
-- JSON paths were: `data/gifs/` (old, non-existent folder)
+**Deleted (Old Program):**
+- docs/data/acl-recovery-program.json
+- docs/data/gifs/ (all old GIFs)
+- 5 view sections from index.html (Today, Program, Library, Journal)
 
-**Modified:**
-- `scripts/build-site-data.mjs` - Fixed GIF path references from `data/gifs/` to `assets/gifs/` in loadGifManifest()
-- `scripts/build-site-data.mjs` - Fixed fallback GIF reader to use `docs/assets/gifs` instead of `docs/data/gifs`
-- `docs/data/training-drills.json` - Regenerated with correct GIF paths (112 drills with GIFs)
+**Updated:**
+- `docs/index.html` - Removed 4 old tabs, kept only Exercises
+- `docs/app.js` - Removed old event listeners & render functions, added debug logging
+- `docs/data/exercise-library.json` - Fixed with file paths (exercises/X-Y.gif)
 
-**Deployed:**
-- 111 GIFs with `data/gifs/` paths
-- Enhanced metadata to GitHub Pages
+**Created/Updated:**
+- `docs/exercises/` - 268 GIF files (609MB)
+- `scripts/trim-exercise-intros.mjs` - Trim logic
+- `scripts/convert-clips-to-gif.mjs` - GIF conversion
 
 ## Tests Run
 
-✅ Build script: `npm run build` completes successfully
-✅ GIF detection: Build finds 112 drills with valid GIF files
-✅ Path verification: All GIF paths now use `assets/gifs/` prefix (was `data/gifs/`)
-✅ Local server: App loads at http://localhost:4173 with correct GIF paths
-✅ Manual check: Sample drills with GIFs load images correctly
-✅ GitHub Pages: Deployed to https://patiphaninjob-lang.github.io/ball/ (awaiting GitHub Actions completion)
+| Test | Status | Notes |
+|------|--------|-------|
+| GIF files exist | ✅ | 268 files in docs/exercises/ |
+| HTTP 200 access | ✅ | curl exercises/1-1.gif returns GIF89a |
+| JSON structure | ✅ | 270 exercises with file paths |
+| File path format | ✅ | exercises/X-Y.gif correct |
+| HTML loads | ✅ | Tab and grid elements present |
+| **GIF rendering** | ❌ | Grid empty despite correct data |
 
 ## Open Risks
 
-**None blocking:**
-- GitHub Pages deployment 2-3 minute delay (expected, normal behavior)
-- 52 drills still without GIFs (will show TikTok thumbnail fallback instead)
+**CRITICAL:** GIFs not displaying
+- Possible causes (in order):
+  1. state.exercises not loaded from fetch
+  2. renderExercises() never called
+  3. All exercises filtered out (0 results)
+  4. Image rendering blocked
+  5. Browser cache issue
 
-**Verified Fixed:**
-- ✅ GIF paths corrected in build script
-- ✅ 112 drills now have correct asset references
-- ✅ Build process regenerates JSON with correct paths on each deploy
+Blocking next steps until resolved.
 
-## Next Recommended Step
+## Next Steps
 
-1. **Immediate:** Verify GitHub Pages deployed successfully (~2-3 minutes from push)
-   - Check: https://patiphaninjob-lang.github.io/ball/ loads GIFs in library view
-   - Verify: Drills with GIFs (like #1, #5, #6) show animations, not fallback placeholders
+**IMMEDIATE (User Must Do):**
+1. Reload page: `Ctrl+Shift+R`
+2. Open console: `F12`
+3. Look for logs starting with `[renderExercises]`
+4. Report console output
 
-2. **If GIFs still not showing after 5 minutes:**
-   - Clear browser cache (hard refresh: Ctrl+Shift+R or Cmd+Shift+R)
-   - Check browser console for any 404 errors on GIF requests
-   - Verify the /assets/gifs/ path works: https://patiphaninjob-lang.github.io/ball/assets/gifs/สมัครสมาชิก_106.gif
+**Based on Logs:**
+- If see "state.exercises: 270" → data loaded ✓
+- If see "no exercises data" → fetch() failed ✗
+- If see "rendering N exercises" → function called ✓
+- If see "rendered: 0" → all filtered out ✗
+- If NO logs → render() or renderExercises() not called ✗
 
-3. **Enhancement:** Create GIFs for remaining 52 drills (optional future work)
+**Once Diagnosed:**
+- Fix root cause based on which log fails
+- Verify GIFs display on http://localhost:4173
+- Deploy to mobile (GitHub Pages)
 
-**Commits this session:**
-- 3d62f83: Fix build script: use correct GIF paths (assets/gifs)
-- da49ecb: Fix GIF paths: data/gifs → assets/gifs and remove invalid entries
+## Commits This Session
+
+```
+1d6c0e9 debug: add console logging to renderExercises
+1c9a796 fix: add file paths to exercise library - GIFs now display
+575c977 fix: repair app.js - remove broken old event listeners
+08c3075 feat: refresh exercise library with 270 verified exercises v2.0
+8aed59e refactor: replace old program with exercise library - exercises only
+745967c feat: convert exercise clips to GIF format for auto-play preview
+2bed395 fix: trim 5.5s intro from exercise clips
+f538d8a feat: integrate 270 exercise clips into app with exercise library
+```
