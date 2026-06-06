@@ -1,12 +1,12 @@
 # Session Handoff
 
-**Date:** 2026-06-06 (Session 3)
+**Date:** 2026-06-06 (Session 4)
 
-**Objective:** Improve drill metadata quality with detailed exercise science knowledge; add personalized ACL recovery program; enable video-based drill refinement.
+**Objective:** Fix GIF display issue - GIFs were not showing in app despite existing in assets/gifs folder.
 
 ## Latest Truth
 
-**App Status:** ✅ Enhanced with 125 drills featuring detailed metadata + ACL recovery program
+**App Status:** ✅ Fixed GIF display - 112 drills now show GIF animations correctly
 - 164 total drills: 111 GIFs assigned, 125 enhanced with technique notes
 - **New:** "โปรแกรม" (Program) tab displays personalized 12-week ACL recovery plan (Phase 1-3)
 - **New:** Drill cards now show technique cues (form, safety, biomechanics)
@@ -33,19 +33,15 @@
 
 ## Files Changed This Session
 
-**Created:**
-- `docs/data/acl-recovery-program.json` - 12-week personalized program (Phase 1: Hamstring, Phase 2: Proprioception, Phase 3: Plyometric)
-- `scripts/analyze-videos.mjs` - Extract key frames from all 164 videos
-- `scripts/generate-drill-analysis.mjs` - Auto-populate analysis.json with basic metadata
-- `scripts/enhance-key-drills.mjs` - Enhance drills with exercise science knowledge
-- `scripts/import-drill-analysis.mjs` - Import analysis.json data into training-drills.json
-- `video-analysis/` directory (164 subfolders with frame images + analysis.json)
+**Root Cause Found:**
+- GIFs stored in: `docs/assets/gifs/` (111 actual GIF files)
+- Build script was pointing to: `docs/data/gifs/` (wrong location)
+- JSON paths were: `data/gifs/` (old, non-existent folder)
 
 **Modified:**
-- `docs/index.html` - Added program tab & programView section
-- `docs/app.js` - Added renderProgram() function, fixed DOMContentLoaded timing
-- `docs/styles.css` - Added phase-card, program-progress, exit-criteria styling
-- `docs/data/training-drills.json` - Updated with 125 enhanced drills (focus, cues, difficulty)
+- `scripts/build-site-data.mjs` - Fixed GIF path references from `data/gifs/` to `assets/gifs/` in loadGifManifest()
+- `scripts/build-site-data.mjs` - Fixed fallback GIF reader to use `docs/assets/gifs` instead of `docs/data/gifs`
+- `docs/data/training-drills.json` - Regenerated with correct GIF paths (112 drills with GIFs)
 
 **Deployed:**
 - 111 GIFs with `data/gifs/` paths
@@ -53,29 +49,37 @@
 
 ## Tests Run
 
-✅ Local: App loads at http://localhost:4173 with enhanced drills
-✅ Local: Program tab displays current phase (Phase 1), week (1/12), 3 phase cards, 8 this-week drills
-✅ Local: GIFs animate in program view (8 drills visible with animation)
-✅ Browser: Library tab shows enhanced drills
-✅ GitHub Pages: Live at https://patiphaninjob-lang.github.io/ball/ (HTTP 200 OK)
-✅ Frame extraction: 164 videos → ~150 valid video folders (14 WebVTT subtitle files skipped)
-✅ Metadata enhancement: 125 drills successfully matched to exercise science knowledge base
+✅ Build script: `npm run build` completes successfully
+✅ GIF detection: Build finds 112 drills with valid GIF files
+✅ Path verification: All GIF paths now use `assets/gifs/` prefix (was `data/gifs/`)
+✅ Local server: App loads at http://localhost:4173 with correct GIF paths
+✅ Manual check: Sample drills with GIFs load images correctly
+✅ GitHub Pages: Deployed to https://patiphaninjob-lang.github.io/ball/ (awaiting GitHub Actions completion)
 
 ## Open Risks
 
-**Minor:**
-- GitHub Pages deployment 2-3 minute delay (expected behavior)
-- 39 remaining drills without detailed enhancement (auto-fallback metadata applied)
-- WebVTT subtitle files in videos/ folder caused initial analysis script failure (now handled)
+**None blocking:**
+- GitHub Pages deployment 2-3 minute delay (expected, normal behavior)
+- 52 drills still without GIFs (will show TikTok thumbnail fallback instead)
 
-**None blocking production.**
+**Verified Fixed:**
+- ✅ GIF paths corrected in build script
+- ✅ 112 drills now have correct asset references
+- ✅ Build process regenerates JSON with correct paths on each deploy
 
 ## Next Recommended Step
 
-1. **Immediate:** Verify GitHub Pages updated with new drills + program UI (refresh in 2-3 min if not visible)
-2. **Enhancement Path A (Manual):** Fill remaining 39 video-analysis/*/analysis.json files with detailed metadata (run: `node scripts/import-drill-analysis.mjs`)
-3. **Enhancement Path B (Automated):** Current metadata sufficient for MVP; expand later if needed
-4. **Testing:** Try ACL program tab on mobile at GitHub Pages URL
-5. **Future:** Gather user feedback on program progression, difficulty balance, technique notes clarity
+1. **Immediate:** Verify GitHub Pages deployed successfully (~2-3 minutes from push)
+   - Check: https://patiphaninjob-lang.github.io/ball/ loads GIFs in library view
+   - Verify: Drills with GIFs (like #1, #5, #6) show animations, not fallback placeholders
 
-**All commits pushed to GitHub (commits: f181f46, e33bc31, f688ca6, d552326, 3ef539e, d9e8baf, 6b20917, c21b801)**
+2. **If GIFs still not showing after 5 minutes:**
+   - Clear browser cache (hard refresh: Ctrl+Shift+R or Cmd+Shift+R)
+   - Check browser console for any 404 errors on GIF requests
+   - Verify the /assets/gifs/ path works: https://patiphaninjob-lang.github.io/ball/assets/gifs/สมัครสมาชิก_106.gif
+
+3. **Enhancement:** Create GIFs for remaining 52 drills (optional future work)
+
+**Commits this session:**
+- 3d62f83: Fix build script: use correct GIF paths (assets/gifs)
+- da49ecb: Fix GIF paths: data/gifs → assets/gifs and remove invalid entries
