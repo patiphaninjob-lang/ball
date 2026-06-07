@@ -7,12 +7,14 @@ const state = {
   category: 'All',
   exerciseCategory: 'All',
   exerciseLevel: 'All',
+  exerciseFavorite: 'All',
   search: '',
   selectedProgramId: loadJson('p45.selectedProgram', 'base'),
   selectedDay: new Date().getDay(),
   done: loadJson('p45.done', {}),
   checklist: loadJson('p45.checklist', {}),
   journal: loadJson('p45.journal', []),
+  favorites: loadJson('p45.favorites', {}),
 };
 
 const checklistItems = [
@@ -67,6 +69,14 @@ function hydrateControls() {
     state.search = event.target.value.trim().toLowerCase();
     renderExercises();
   });
+
+  const exerciseFavoriteFilter = document.getElementById('exerciseFavoriteFilter');
+  if (exerciseFavoriteFilter) {
+    exerciseFavoriteFilter.addEventListener('change', (event) => {
+      state.exerciseFavorite = event.target.value;
+      renderExercises();
+    });
+  }
 
   const exerciseCategoryFilter = document.getElementById('exerciseCategoryFilter');
   if (exerciseCategoryFilter) {
@@ -552,6 +562,10 @@ function renderExercises() {
   // Filter exercises
   let filtered = state.exercises.exercises;
 
+  if (state.exerciseFavorite === 'Favorites') {
+    filtered = filtered.filter(ex => state.favorites[ex.id]);
+  }
+
   if (state.exerciseCategory !== 'All') {
     filtered = filtered.filter(ex => ex.category === state.exerciseCategory);
   }
@@ -613,6 +627,18 @@ function renderExercises() {
     meta.append(categoryBadge, levelBadge, durationBadge);
     info.append(title, meta);
     card.append(thumbnail, info);
+
+    // Add favorite badge
+    const favoriteBadge = document.createElement('button');
+    favoriteBadge.className = `favorite-badge ${state.favorites[exercise.id] ? 'active' : ''}`;
+    favoriteBadge.textContent = '♥️';
+    favoriteBadge.type = 'button';
+    favoriteBadge.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleFavorite(exercise.id);
+      favoriteBadge.classList.toggle('active', state.favorites[exercise.id]);
+    });
+    thumbnail.appendChild(favoriteBadge);
 
     // Add click handler to open fullscreen viewer directly
     card.addEventListener('click', () => {
@@ -726,10 +752,28 @@ function setupModalHandlers() {
   setupFullscreenHandlers();
 }
 
+function toggleFavorite(exerciseId) {
+  if (state.favorites[exerciseId]) {
+    delete state.favorites[exerciseId];
+  } else {
+    state.favorites[exerciseId] = true;
+  }
+  saveJson('p45.favorites', state.favorites);
+}
+
 function showFullscreenViewer(exercise) {
   const viewer = document.getElementById('fullscreenViewer');
+  currentExerciseForFullscreen = exercise;
 
   document.getElementById('fsTitle').textContent = exercise.drillName;
+
+  // Update favorite button state
+  const favBtn = document.getElementById('fsFavorite');
+  favBtn.classList.toggle('active', state.favorites[exercise.id]);
+  favBtn.onclick = () => {
+    toggleFavorite(exercise.id);
+    favBtn.classList.toggle('active', state.favorites[exercise.id]);
+  };
   document.getElementById('fsGif').src = exercise.file;
   document.getElementById('fsGif').alt = exercise.drillName;
   document.getElementById('fsGoal').textContent = exercise.drillGoal_th || exercise.drillGoal || 'ไม่มีคำอธิบาย';
