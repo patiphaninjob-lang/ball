@@ -1,7 +1,7 @@
 const state = {
   data: null,
   exercises: null,
-  view: 'today',
+  view: 'exercises',
   participant: 'Solo',
   level: 'All',
   category: 'All',
@@ -84,8 +84,15 @@ function hydrateControls() {
     });
   }
 
-  document.getElementById('saveJournal').addEventListener('click', saveJournal);
-  document.getElementById('journalDate').valueAsDate = new Date();
+  const saveJournalBtn = document.getElementById('saveJournal');
+  if (saveJournalBtn) {
+    saveJournalBtn.addEventListener('click', saveJournal);
+  }
+
+  const journalDate = document.getElementById('journalDate');
+  if (journalDate) {
+    journalDate.valueAsDate = new Date();
+  }
 
   hydrateInstallButton();
   registerServiceWorker();
