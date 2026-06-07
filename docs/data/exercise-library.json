@@ -1,17 +1,17 @@
 {
   "generatedAt": "2026-06-07T02:55:18.935Z",
   "version": "2.0",
-  "totalExercises": 270,
+  "totalExercises": 268,
   "categories": {
     "Mobility": 4,
     "Rehab": 29,
     "Core": 20,
-    "General": 72,
+    "General": 71,
     "Football Skill": 19,
     "Strength": 18,
     "Agility": 36,
     "Deceleration": 2,
-    "Power": 70
+    "Power": 69
   },
   "exercises": [
     {
@@ -2331,29 +2331,6 @@
       "participant": "Solo"
     },
     {
-      "id": "70-1",
-      "file": "exercises/70-1.gif",
-      "duration": 6.28,
-      "category": "General",
-      "level": 2,
-      "drillName": "คล่องขึ้นแน่นอน หากสามารถระเบิดต่อเนื่องได้ดี",
-      "drillGoal": "add a focused drill to the training library",
-      "focus": [
-        "quality",
-        "repeatability",
-        "notes"
-      ],
-      "tags": [
-        "#power",
-        "#fyp",
-        "#baseball5",
-        "#championscomewithpower",
-        "#powerpump45",
-        "#thailand"
-      ],
-      "participant": "Solo"
-    },
-    {
       "id": "71-1",
       "file": "exercises/71-1.gif",
       "duration": 9.68,
@@ -4382,31 +4359,6 @@
         "#fyp",
         "#powerpump45",
         "#thailand"
-      ],
-      "participant": "Solo"
-    },
-    {
-      "id": "115-1",
-      "file": "exercises/115-1.gif",
-      "duration": 6.59,
-      "category": "Power",
-      "level": 5,
-      "drillName": "หากกล้ามเนื้อ แข็งแรง ขึ้น จะสามารถออกแรง ระเบิด ได้ดีขึ้น ส่งผลให้ ก...",
-      "drillGoal": "connect strength to fast field movement",
-      "focus": [
-        "max speed",
-        "quality reps",
-        "full rest"
-      ],
-      "tags": [
-        "#power",
-        "#strength",
-        "#fyp",
-        "#powertraining",
-        "#speed",
-        "#ออกตัวแรง",
-        "#ความเร็ว",
-        "#แรง"
       ],
       "participant": "Solo"
     },
