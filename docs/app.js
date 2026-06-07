@@ -614,9 +614,9 @@ function renderExercises() {
     info.append(title, meta);
     card.append(thumbnail, info);
 
-    // Add click handler to open modal
+    // Add click handler to open fullscreen viewer directly
     card.addEventListener('click', () => {
-      showExerciseModal(exercise);
+      showFullscreenViewer(exercise);
     });
 
     root.append(card);
