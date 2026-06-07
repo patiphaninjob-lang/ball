@@ -1,12 +1,12 @@
 # Ball Project Context
 
-**Date Updated:** 2026-06-06
+**Date Updated:** 2026-06-07
 
 ## Project Overview
 
 **Name:** Ball (TikTok Training Collector)
 
-**Purpose:** Mobile-friendly training planner web app built from TikTok creator @powerpump45 video metadata. PWA installable on Android/iOS.
+**Purpose:** Mobile-friendly exercise library web app built from TikTok creator @powerpump45 video metadata. PWA installable on Android/iOS with 5-level training progression.
 
 **Language:** JavaScript (100%)
 
@@ -18,14 +18,13 @@
 
 ## Current Status
 
-- ✅ Repository cloned and accessible
-- ✅ 92 exercise GIFs extracted and optimized (62% size reduction)
-- ✅ Training planner with 5 difficulty levels - LIVE
+- ✅ 270 exercises extracted from 164 TikTok videos
+- ✅ All exercises converted to auto-playing GIFs (608MB total)
+- ✅ Training progression organized into 5 levels
+- ✅ Category filters (9 types) + Level filters
 - ✅ PWA configured for mobile installation
-- ✅ TikTok links removed - app uses only local GIFs
-- ✅ GIFs auto-play without click needed
 - ✅ App deployed to GitHub Pages
-- **Last update:** 2026-06-06 - Production deployment complete
+- **Last update:** 2026-06-07 - Training progression implemented
 
 ## Key Files & Directories
 
@@ -66,18 +65,18 @@ npm run check                      # Syntax check all scripts
 4. **Deploy** - GitHub Actions publishes `docs/` to GitHub Pages
 5. **Install** - Users open GitHub Pages URL, install PWA on phone
 
-**Training Levels:**
-- Level 1: Reset, mobility, rehab control
-- Level 2: Body control and core basics
-- Level 3: Strength base and football basics
-- Level 4: Speed, braking, agility
-- Level 5: Power transfer and complex field actions
+**Training Progression (5 Levels):**
+- Level 1: Recovery & Mobility (33) - Rehab control, pain-free movement
+- Level 2: Core & Body Control (83) - Stability foundation, body awareness
+- Level 3: Strength & Skill (43) - Strength base, football basics
+- Level 4: Agility & Speed (38) - Directional change, deceleration control
+- Level 5: Power & Complex (73) - Explosive movements, advanced field actions
 
 **UI Features:**
-- Today view: Sunday-only planner for 2-3 hour solo session
-- Full library: All drills with click-to-preview GIFs (not auto-loaded)
-- Solo-only filter: Hide partner-assisted drills
-- PWA: Install on Android/Chrome or iPhone/Safari
+- Exercise library: All 270 exercises with auto-playing GIFs
+- Filters: Category (9 types) + Level (1-5)
+- Search: By drill name, category, or hashtags
+- Mobile: Fully responsive, PWA installable on Android/iOS
 
 ## Known Constraints & Rules
 
@@ -89,11 +88,15 @@ npm run check                      # Syntax check all scripts
 ## Next Recommended Steps
 
 1. ✅ Initialize project memory system (DONE)
-2. ⏳ Verify all npm scripts run correctly
-3. ⏳ Test TikTok collection workflow
-4. ⏳ Check deployment pipeline
-5. ⏳ Document any outstanding issues or roadmap
+2. ✅ Extract 270 exercises and convert to GIFs (DONE)
+3. ✅ Fix GIF rendering on app load (DONE)
+4. ✅ Organize exercises into 5-level progression (DONE)
+5. ⏳ Test on mobile devices (Android/iOS)
+6. ⏳ Gather user feedback on category organization
+7. ⏳ Consider adding saved favorites or custom programs
 
 ## Open Questions & Risks
 
-- None identified yet; awaiting first use case
+- General category (72 exercises) partially reorganized; some may still need refinement
+- GIF file size (608MB) - consider optimization if mobile data is concern
+- Level filter UX - users understand the progression system?
