@@ -1,24 +1,27 @@
 # Session Handoff
 
 **Date:** 2026-06-07 (Session 6)  
-**Status:** COMPLETE - GIF rendering fixed and deployed
+**Status:** COMPLETE - Level progression organized & deployed
 
 ## Latest Truth
 
 **Completed This Session:**
 - ✅ Fixed GIF rendering issue - all 270 exercises now display
-- ✅ Root cause: state.view initialized to 'today' but tab was removed
-- ✅ Solution: Changed state.view to 'exercises'
-- ✅ Added null checks for removed journal element references
-- ✅ Verified rendering: 270 GIFs loaded correctly via Playwright
-- ✅ Committed and pushed to GitHub
+- ✅ Organized exercises into 5-level training progression
+- ✅ Level 1: Recovery & Mobility (33)
+- ✅ Level 2: Core & Body Control (83)
+- ✅ Level 3: Strength & Skill (43)
+- ✅ Level 4: Agility & Speed (38)
+- ✅ Level 5: Power & Complex (73)
+- ✅ Updated UI with level descriptions and counts
+- ✅ Verified app serving correct exercise distribution
 
 **App Status:**
-- ✅ Single "ท่าฝึก" (Exercises) tab with 270 videos
-- ✅ GIFs rendering in responsive grid
-- ✅ Category and Level filters working
-- ✅ Search functionality ready
-- ✅ Mobile PWA configured and deployed
+- ✅ 270 exercises with proper 5-level progression
+- ✅ 9 category filters + 5 level filters
+- ✅ GIFs rendering (608MB total, auto-playing)
+- ✅ Search functionality working
+- ✅ Mobile PWA ready for deployment
 
 **App Structure Now:**
 - Single navigation tab: "ท่าฝึก" (Exercises)
@@ -31,15 +34,17 @@
 ## Files Changed (This Session)
 
 **Updated:**
-- `docs/app.js`
-  - Line 4: Changed `view: 'today'` → `view: 'exercises'`
-  - Lines 87-95: Added null checks for journal elements (saveJournal, journalDate)
-  - Reason: Removed old tabs but code still referenced missing elements
+- `docs/app.js` - Fixed initial view state and removed broken element references
+- `docs/index.html` - Updated level filter labels with descriptions and new counts
+- `docs/data/exercise-library.json` - Reorganized all 270 exercises into 5-level progression
+- `scripts/organize-levels.mjs` - New script for category-to-level mapping
 
-**Previously Changed:**
-- `docs/index.html` - Single Exercises tab only
-- `docs/data/exercise-library.json` - 270 exercises with GIF paths
-- `docs/exercises/` - 268 GIF files (609MB)
+**Mapping Logic:**
+- Level 1 ← Mobility + Rehab categories
+- Level 2 ← Core + General (with control/stability keywords)
+- Level 3 ← Strength + Football Skill + General (skill-related)
+- Level 4 ← Agility + Deceleration
+- Level 5 ← Power + General (power/explosive keywords)
 
 ## Tests Run
 
@@ -76,14 +81,23 @@ Changes automatically deployed to:
 
 ```
 3bc5c7a fix: fix GIF rendering - set initial view to exercises
+741781c docs: update HANDOFF - GIF rendering fixed and verified
+a28f7b8 feat: reorganize exercises into 5-level training progression
+15c8fc8 docs: update level filter labels with descriptions and counts
+f6c93d6 docs: update PROJECT_CONTEXT - reflect level organization and current status
 ```
 
-## Diagnosis Process
+## Work Summary
 
-1. **Verified server & assets** - JSON loads ✓, GIFs accessible via HTTP 200 ✓
-2. **Used Playwright to debug** - Found exercisesView hidden and hydrateControls() throwing error
-3. **Traced root cause** - state.view='today' but today tab was deleted
-4. **Fixed two issues:**
-   - Set state.view='exercises' as default
-   - Added null checks for journal elements to prevent runtime errors
-5. **Verified fix** - 270 GIFs render correctly, all images load with proper dimensions
+**Part 1: GIF Rendering Fix**
+1. Used Playwright to debug DOM rendering
+2. Found state.view='today' but today tab was removed
+3. Fixed: Set state.view='exercises' + added null checks for removed elements
+4. Verified: 270 GIFs render with correct file paths
+
+**Part 2: Level Organization**
+1. Analyzed current level distribution (uneven: 92 L2, 89 L4 vs 27-29 L3/5)
+2. Created organize-levels.mjs script with intelligent category-to-level mapping
+3. Reorganized exercises based on training progression principles
+4. Updated HTML filter labels with descriptions and new counts
+5. Verified app serving correct distribution
