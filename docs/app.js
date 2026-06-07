@@ -9,7 +9,6 @@ const state = {
   exerciseLevel: 'All',
   favoritesCategory: 'All',
   favoritesLevel: 'All',
-  search: '',
   selectedProgramId: loadJson('p45.selectedProgram', 'base'),
   selectedDay: new Date().getDay(),
   done: loadJson('p45.done', {}),
@@ -64,11 +63,6 @@ function hydrateControls() {
       state.view = button.dataset.view;
       render();
     });
-  });
-
-  document.getElementById('searchInput').addEventListener('input', (event) => {
-    state.search = event.target.value.trim().toLowerCase();
-    renderExercises();
   });
 
   const exerciseCategoryFilter = document.getElementById('exerciseCategoryFilter');
@@ -582,14 +576,6 @@ function renderExercises() {
 
   if (state.exerciseLevel !== 'All') {
     filtered = filtered.filter(ex => ex.level === state.exerciseLevel);
-  }
-
-  if (state.search) {
-    filtered = filtered.filter(ex =>
-      (ex.drillName || '').toLowerCase().includes(state.search) ||
-      (ex.category || '').toLowerCase().includes(state.search) ||
-      ex.tags.some(tag => tag.toLowerCase().includes(state.search))
-    );
   }
 
   // Render cards with GIFs
