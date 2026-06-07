@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T14:11:06.741Z",
+  "generatedAt": "2026-06-07T02:55:18.935Z",
   "version": "2.0",
   "totalExercises": 270,
   "categories": {
@@ -1576,7 +1576,7 @@
       "file": "exercises/56-1.gif",
       "duration": 10.16,
       "category": "General",
-      "level": 2,
+      "level": 3,
       "drillName": "ทักษะจะคมแค่ไหน ถ้าร่างกายสั่น…ก็ใช้ไม่ได้ Skill ที่ดี เริ่มจาก “ควบค...",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
@@ -1598,7 +1598,7 @@
       "file": "exercises/56-2.gif",
       "duration": 10.16,
       "category": "General",
-      "level": 2,
+      "level": 3,
       "drillName": "ทักษะจะคมแค่ไหน ถ้าร่างกายสั่น…ก็ใช้ไม่ได้ Skill ที่ดี เริ่มจาก “ควบค...",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
@@ -1620,7 +1620,7 @@
       "file": "exercises/56-3.gif",
       "duration": 10.16,
       "category": "General",
-      "level": 2,
+      "level": 3,
       "drillName": "ทักษะจะคมแค่ไหน ถ้าร่างกายสั่น…ก็ใช้ไม่ได้ Skill ที่ดี เริ่มจาก “ควบค...",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
@@ -1642,7 +1642,7 @@
       "file": "exercises/56-4.gif",
       "duration": 10.16,
       "category": "General",
-      "level": 2,
+      "level": 3,
       "drillName": "ทักษะจะคมแค่ไหน ถ้าร่างกายสั่น…ก็ใช้ไม่ได้ Skill ที่ดี เริ่มจาก “ควบค...",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
@@ -1664,7 +1664,7 @@
       "file": "exercises/56-5.gif",
       "duration": 10.17,
       "category": "General",
-      "level": 2,
+      "level": 3,
       "drillName": "ทักษะจะคมแค่ไหน ถ้าร่างกายสั่น…ก็ใช้ไม่ได้ Skill ที่ดี เริ่มจาก “ควบค...",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
@@ -1686,7 +1686,7 @@
       "file": "exercises/56-6.gif",
       "duration": 10.16,
       "category": "General",
-      "level": 2,
+      "level": 3,
       "drillName": "ทักษะจะคมแค่ไหน ถ้าร่างกายสั่น…ก็ใช้ไม่ได้ Skill ที่ดี เริ่มจาก “ควบค...",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
@@ -2076,7 +2076,7 @@
       "file": "exercises/62-1.gif",
       "duration": 11.51,
       "category": "General",
-      "level": 2,
+      "level": 5,
       "drillName": "พุ่งเซฟรอบแรกไม่ยาก แต่พุ่งซ้ำรอบ 3,4 แล้ว ยังแรงเหมือนเดิม Power End...",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
@@ -2100,7 +2100,7 @@
       "file": "exercises/62-2.gif",
       "duration": 11.51,
       "category": "General",
-      "level": 2,
+      "level": 5,
       "drillName": "พุ่งเซฟรอบแรกไม่ยาก แต่พุ่งซ้ำรอบ 3,4 แล้ว ยังแรงเหมือนเดิม Power End...",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
@@ -2124,7 +2124,7 @@
       "file": "exercises/62-3.gif",
       "duration": 11.51,
       "category": "General",
-      "level": 2,
+      "level": 5,
       "drillName": "พุ่งเซฟรอบแรกไม่ยาก แต่พุ่งซ้ำรอบ 3,4 แล้ว ยังแรงเหมือนเดิม Power End...",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
@@ -4269,7 +4269,7 @@
       "file": "exercises/110-1.gif",
       "duration": 15.77,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "เร็วขึ้นกว่าที่เคย หากแกนนิ่งขณะทำแรงระเบิด",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4292,7 +4292,7 @@
       "file": "exercises/111-1.gif",
       "duration": 21.23,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "กีฬาที่ใช้แรงระเบิดส่วนบน ควรมีการฝึกควบคุมข้อต่อของไหล่ให้นิ่ง เพื่อ...",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4315,7 +4315,7 @@
       "file": "exercises/114-1.gif",
       "duration": 9.85,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ถ้าหากอยากระเบิดได้ง่ายขึ้น การสั่งการของระบบประสาทต้องดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4340,7 +4340,7 @@
       "file": "exercises/114-2.gif",
       "duration": 9.86,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ถ้าหากอยากระเบิดได้ง่ายขึ้น การสั่งการของระบบประสาทต้องดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4365,7 +4365,7 @@
       "file": "exercises/114-3.gif",
       "duration": 9.85,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ถ้าหากอยากระเบิดได้ง่ายขึ้น การสั่งการของระบบประสาทต้องดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4390,7 +4390,7 @@
       "file": "exercises/115-1.gif",
       "duration": 6.59,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "หากกล้ามเนื้อ แข็งแรง ขึ้น จะสามารถออกแรง ระเบิด ได้ดีขึ้น ส่งผลให้ ก...",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4415,7 +4415,7 @@
       "file": "exercises/116-1.gif",
       "duration": 14.13,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "การลงสู่พื้น ให้ดีนั้น นอกจาก การผ่อนแรง แล้ว จังหวะตอนลงสู่พื้นทุกข้...",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4440,7 +4440,7 @@
       "file": "exercises/118-1.gif",
       "duration": 25.47,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ระบบประสาทสัมพันธ์ที่ดี จะช่วยให้การทำ ทักษะ ง่ายขึ้น อย่าง ว่ายน้ำ ก...",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4465,7 +4465,7 @@
       "file": "exercises/120-1.gif",
       "duration": 9.93,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "กระโดดเชือก เป็นการฝึกระบบประสาทสัมพันธ์ ซึ่งสมองนั้นจะสั่งการกล้ามเน...",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4490,7 +4490,7 @@
       "file": "exercises/120-2.gif",
       "duration": 9.92,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "กระโดดเชือก เป็นการฝึกระบบประสาทสัมพันธ์ ซึ่งสมองนั้นจะสั่งการกล้ามเน...",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4515,7 +4515,7 @@
       "file": "exercises/120-3.gif",
       "duration": 9.92,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "กระโดดเชือก เป็นการฝึกระบบประสาทสัมพันธ์ ซึ่งสมองนั้นจะสั่งการกล้ามเน...",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4540,7 +4540,7 @@
       "file": "exercises/121-1.gif",
       "duration": 8.79,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ระเบิดพลังออกมา เตรียมร่างกายให้พร้อม",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4565,7 +4565,7 @@
       "file": "exercises/121-2.gif",
       "duration": 8.8,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ระเบิดพลังออกมา เตรียมร่างกายให้พร้อม",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4590,7 +4590,7 @@
       "file": "exercises/121-3.gif",
       "duration": 8.79,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ระเบิดพลังออกมา เตรียมร่างกายให้พร้อม",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4615,7 +4615,7 @@
       "file": "exercises/123-1.gif",
       "duration": 10.61,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ต่อยแรงแน่นอน ถ้าหากแรงระเบิดส่วนบนดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4640,7 +4640,7 @@
       "file": "exercises/123-2.gif",
       "duration": 10.6,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ต่อยแรงแน่นอน ถ้าหากแรงระเบิดส่วนบนดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4665,7 +4665,7 @@
       "file": "exercises/123-3.gif",
       "duration": 10.61,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ต่อยแรงแน่นอน ถ้าหากแรงระเบิดส่วนบนดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4690,7 +4690,7 @@
       "file": "exercises/123-4.gif",
       "duration": 10.6,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ต่อยแรงแน่นอน ถ้าหากแรงระเบิดส่วนบนดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4715,7 +4715,7 @@
       "file": "exercises/123-5.gif",
       "duration": 10.61,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ต่อยแรงแน่นอน ถ้าหากแรงระเบิดส่วนบนดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4740,7 +4740,7 @@
       "file": "exercises/123-6.gif",
       "duration": 10.6,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ต่อยแรงแน่นอน ถ้าหากแรงระเบิดส่วนบนดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4765,7 +4765,7 @@
       "file": "exercises/126-1.gif",
       "duration": 11.17,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "Strength-Power🦵💪⚽️",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4790,7 +4790,7 @@
       "file": "exercises/126-2.gif",
       "duration": 11.16,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "Strength-Power🦵💪⚽️",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4815,7 +4815,7 @@
       "file": "exercises/126-3.gif",
       "duration": 11.17,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "Strength-Power🦵💪⚽️",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4840,7 +4840,7 @@
       "file": "exercises/126-4.gif",
       "duration": 11.17,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "Strength-Power🦵💪⚽️",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4865,7 +4865,7 @@
       "file": "exercises/126-5.gif",
       "duration": 11.16,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "Strength-Power🦵💪⚽️",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4890,7 +4890,7 @@
       "file": "exercises/129-1.gif",
       "duration": 10.59,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "อยากบินสูง แรงระเบิดต้องดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4915,7 +4915,7 @@
       "file": "exercises/129-2.gif",
       "duration": 10.59,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "อยากบินสูง แรงระเบิดต้องดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4940,7 +4940,7 @@
       "file": "exercises/129-3.gif",
       "duration": 10.6,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "อยากบินสูง แรงระเบิดต้องดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4965,7 +4965,7 @@
       "file": "exercises/129-4.gif",
       "duration": 10.59,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "อยากบินสูง แรงระเบิดต้องดี",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -4990,7 +4990,7 @@
       "file": "exercises/132-1.gif",
       "duration": 9.83,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "เร็วขึ้นแน่นอน ถ้าแรงระเบิดดี ⚽️🦵💪",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5015,7 +5015,7 @@
       "file": "exercises/132-2.gif",
       "duration": 9.82,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "เร็วขึ้นแน่นอน ถ้าแรงระเบิดดี ⚽️🦵💪",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5040,7 +5040,7 @@
       "file": "exercises/132-3.gif",
       "duration": 9.83,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "เร็วขึ้นแน่นอน ถ้าแรงระเบิดดี ⚽️🦵💪",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5065,7 +5065,7 @@
       "file": "exercises/133-1.gif",
       "duration": 11.38,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "Complex Power 🦵💪⚽️",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5090,7 +5090,7 @@
       "file": "exercises/133-2.gif",
       "duration": 11.38,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "Complex Power 🦵💪⚽️",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5115,7 +5115,7 @@
       "file": "exercises/133-3.gif",
       "duration": 11.38,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "Complex Power 🦵💪⚽️",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5140,7 +5140,7 @@
       "file": "exercises/133-4.gif",
       "duration": 11.38,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "Complex Power 🦵💪⚽️",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5165,7 +5165,7 @@
       "file": "exercises/135-1.gif",
       "duration": 11.13,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "คล่องขึ้นแน่นอน ถ้าแรงระเบิดดี ⚽️🦵💪",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5190,7 +5190,7 @@
       "file": "exercises/135-2.gif",
       "duration": 11.13,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "คล่องขึ้นแน่นอน ถ้าแรงระเบิดดี ⚽️🦵💪",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5215,7 +5215,7 @@
       "file": "exercises/135-3.gif",
       "duration": 11.12,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "คล่องขึ้นแน่นอน ถ้าแรงระเบิดดี ⚽️🦵💪",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5240,7 +5240,7 @@
       "file": "exercises/135-4.gif",
       "duration": 11.13,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "คล่องขึ้นแน่นอน ถ้าแรงระเบิดดี ⚽️🦵💪",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5265,7 +5265,7 @@
       "file": "exercises/135-5.gif",
       "duration": 11.13,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "คล่องขึ้นแน่นอน ถ้าแรงระเบิดดี ⚽️🦵💪",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5290,7 +5290,7 @@
       "file": "exercises/135-6.gif",
       "duration": 11.13,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "คล่องขึ้นแน่นอน ถ้าแรงระเบิดดี ⚽️🦵💪",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5315,7 +5315,7 @@
       "file": "exercises/136-1.gif",
       "duration": 11.24,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "วอร์มถึง = พร้อมแข่ง",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5340,7 +5340,7 @@
       "file": "exercises/136-2.gif",
       "duration": 11.25,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "วอร์มถึง = พร้อมแข่ง",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5365,7 +5365,7 @@
       "file": "exercises/136-3.gif",
       "duration": 11.24,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "วอร์มถึง = พร้อมแข่ง",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5390,7 +5390,7 @@
       "file": "exercises/137-1.gif",
       "duration": 14.43,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "Dept jump 120 cm",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5415,7 +5415,7 @@
       "file": "exercises/138-1.gif",
       "duration": 8.62,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "แรงระเบิด สำคัญต่อนักกีฬา",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5439,7 +5439,7 @@
       "file": "exercises/138-2.gif",
       "duration": 8.61,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "แรงระเบิด สำคัญต่อนักกีฬา",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5463,7 +5463,7 @@
       "file": "exercises/138-3.gif",
       "duration": 8.62,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "แรงระเบิด สำคัญต่อนักกีฬา",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5487,7 +5487,7 @@
       "file": "exercises/139-1.gif",
       "duration": 20.01,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "Maximum Power 🔥🔥🔥",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5511,7 +5511,7 @@
       "file": "exercises/140-1.gif",
       "duration": 11.84,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ฝึกแล้วความเร็วไม่คงที่ ทำให้ว่ายน้ำได้ไม่เร็ว",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5536,7 +5536,7 @@
       "file": "exercises/140-2.gif",
       "duration": 11.85,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ฝึกแล้วความเร็วไม่คงที่ ทำให้ว่ายน้ำได้ไม่เร็ว",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5561,7 +5561,7 @@
       "file": "exercises/140-3.gif",
       "duration": 11.84,
       "category": "Power",
-      "level": 4,
+      "level": 5,
       "drillName": "ฝึกแล้วความเร็วไม่คงที่ ทำให้ว่ายน้ำได้ไม่เร็ว",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
@@ -5586,7 +5586,7 @@
       "file": "exercises/142-1.gif",
       "duration": 8.43,
       "category": "Strength",
-      "level": 4,
+      "level": 3,
       "drillName": "Power = Velocity x Force",
       "drillGoal": "build usable strength for sport performance",
       "focus": [
@@ -5609,7 +5609,7 @@
       "file": "exercises/142-2.gif",
       "duration": 8.42,
       "category": "Strength",
-      "level": 4,
+      "level": 3,
       "drillName": "Power = Velocity x Force",
       "drillGoal": "build usable strength for sport performance",
       "focus": [
@@ -5632,7 +5632,7 @@
       "file": "exercises/142-3.gif",
       "duration": 8.43,
       "category": "Strength",
-      "level": 4,
+      "level": 3,
       "drillName": "Power = Velocity x Force",
       "drillGoal": "build usable strength for sport performance",
       "focus": [
@@ -5655,7 +5655,7 @@
       "file": "exercises/143-1.gif",
       "duration": 9.69,
       "category": "Strength",
-      "level": 4,
+      "level": 3,
       "drillName": "ถ้าหากการควบคุมร่างกายดี ก็จะสามารถระเบิดพลังออกมาได้",
       "drillGoal": "build usable strength for sport performance",
       "focus": [
@@ -5679,7 +5679,7 @@
       "file": "exercises/143-2.gif",
       "duration": 9.68,
       "category": "Strength",
-      "level": 4,
+      "level": 3,
       "drillName": "ถ้าหากการควบคุมร่างกายดี ก็จะสามารถระเบิดพลังออกมาได้",
       "drillGoal": "build usable strength for sport performance",
       "focus": [
@@ -5703,7 +5703,7 @@
       "file": "exercises/143-3.gif",
       "duration": 9.69,
       "category": "Strength",
-      "level": 4,
+      "level": 3,
       "drillName": "ถ้าหากการควบคุมร่างกายดี ก็จะสามารถระเบิดพลังออกมาได้",
       "drillGoal": "build usable strength for sport performance",
       "focus": [
@@ -5727,7 +5727,7 @@
       "file": "exercises/143-4.gif",
       "duration": 9.69,
       "category": "Strength",
-      "level": 4,
+      "level": 3,
       "drillName": "ถ้าหากการควบคุมร่างกายดี ก็จะสามารถระเบิดพลังออกมาได้",
       "drillGoal": "build usable strength for sport performance",
       "focus": [
@@ -5751,7 +5751,7 @@
       "file": "exercises/143-5.gif",
       "duration": 9.68,
       "category": "Strength",
-      "level": 4,
+      "level": 3,
       "drillName": "ถ้าหากการควบคุมร่างกายดี ก็จะสามารถระเบิดพลังออกมาได้",
       "drillGoal": "build usable strength for sport performance",
       "focus": [
@@ -5775,7 +5775,7 @@
       "file": "exercises/144-1.gif",
       "duration": 11.43,
       "category": "Agility",
-      "level": 5,
+      "level": 4,
       "drillName": "การฝึกแบบ VBT 🔥🔥🔥",
       "drillGoal": "change direction faster with control",
       "focus": [
@@ -5800,7 +5800,7 @@
       "file": "exercises/144-2.gif",
       "duration": 11.44,
       "category": "Agility",
-      "level": 5,
+      "level": 4,
       "drillName": "การฝึกแบบ VBT 🔥🔥🔥",
       "drillGoal": "change direction faster with control",
       "focus": [
@@ -5825,7 +5825,7 @@
       "file": "exercises/144-3.gif",
       "duration": 11.43,
       "category": "Agility",
-      "level": 5,
+      "level": 4,
       "drillName": "การฝึกแบบ VBT 🔥🔥🔥",
       "drillGoal": "change direction faster with control",
       "focus": [
@@ -5850,7 +5850,7 @@
       "file": "exercises/144-4.gif",
       "duration": 11.43,
       "category": "Agility",
-      "level": 5,
+      "level": 4,
       "drillName": "การฝึกแบบ VBT 🔥🔥🔥",
       "drillGoal": "change direction faster with control",
       "focus": [
@@ -5875,7 +5875,7 @@
       "file": "exercises/145-1.gif",
       "duration": 9.34,
       "category": "Agility",
-      "level": 5,
+      "level": 4,
       "drillName": "ฝึกแบบ VBT หากสามารถควบคุมความเร็วได้ การพัฒนาร่างกายจะเร็วและมีคุณภา...",
       "drillGoal": "change direction faster with control",
       "focus": [
@@ -5900,7 +5900,7 @@
       "file": "exercises/145-2.gif",
       "duration": 9.34,
       "category": "Agility",
-      "level": 5,
+      "level": 4,
       "drillName": "ฝึกแบบ VBT หากสามารถควบคุมความเร็วได้ การพัฒนาร่างกายจะเร็วและมีคุณภา...",
       "drillGoal": "change direction faster with control",
       "focus": [
@@ -5925,7 +5925,7 @@
       "file": "exercises/145-3.gif",
       "duration": 9.35,
       "category": "Agility",
-      "level": 5,
+      "level": 4,
       "drillName": "ฝึกแบบ VBT หากสามารถควบคุมความเร็วได้ การพัฒนาร่างกายจะเร็วและมีคุณภา...",
       "drillGoal": "change direction faster with control",
       "focus": [
@@ -5950,7 +5950,7 @@
       "file": "exercises/145-4.gif",
       "duration": 9.34,
       "category": "Agility",
-      "level": 5,
+      "level": 4,
       "drillName": "ฝึกแบบ VBT หากสามารถควบคุมความเร็วได้ การพัฒนาร่างกายจะเร็วและมีคุณภา...",
       "drillGoal": "change direction faster with control",
       "focus": [
@@ -5975,7 +5975,7 @@
       "file": "exercises/146-1.gif",
       "duration": 12.77,
       "category": "Agility",
-      "level": 5,
+      "level": 4,
       "drillName": "Agility Drill 159",
       "drillGoal": "change direction faster with control",
       "focus": [
@@ -6000,7 +6000,7 @@
       "file": "exercises/147-1.gif",
       "duration": 25.51,
       "category": "Deceleration",
-      "level": 5,
+      "level": 4,
       "drillName": "คัดมาแล้ว",
       "drillGoal": "brake sharply and stay stable",
       "focus": [
