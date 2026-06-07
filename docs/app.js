@@ -613,12 +613,92 @@ function renderExercises() {
     meta.append(categoryBadge, levelBadge, durationBadge);
     info.append(title, meta);
     card.append(thumbnail, info);
+
+    // Add click handler to open modal
+    card.addEventListener('click', () => {
+      showExerciseModal(exercise);
+    });
+
     root.append(card);
   });
 
+  setupModalHandlers();
   lucideReady();
 }
 
+
+function showExerciseModal(exercise) {
+  const modal = document.getElementById('exerciseModal');
+
+  document.getElementById('modalGif').src = exercise.file;
+  document.getElementById('modalGif').alt = exercise.drillName;
+  document.getElementById('modalTitle').textContent = exercise.drillName;
+  document.getElementById('modalGoal').textContent = exercise.drillGoal || 'No description available';
+  document.getElementById('modalLevel').textContent = `Level ${exercise.level}`;
+  document.getElementById('modalCategory').textContent = exercise.category;
+  document.getElementById('modalDuration').textContent = `${exercise.duration.toFixed(1)}s`;
+
+  // Focus items
+  const focusList = document.getElementById('modalFocus');
+  focusList.innerHTML = '';
+  if (exercise.focus && exercise.focus.length > 0) {
+    exercise.focus.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = item;
+      focusList.appendChild(li);
+    });
+  } else {
+    const li = document.createElement('li');
+    li.textContent = 'Focus on proper form and breathing';
+    focusList.appendChild(li);
+  }
+
+  // Tags
+  const tagsList = document.getElementById('modalTags');
+  tagsList.innerHTML = '';
+  if (exercise.tags && exercise.tags.length > 0) {
+    exercise.tags.forEach(tag => {
+      const span = document.createElement('span');
+      span.textContent = tag;
+      tagsList.appendChild(span);
+    });
+  }
+
+  // Done button
+  const doneBtn = document.getElementById('modalDone');
+  doneBtn.textContent = state.done[exercise.id] ? '✓ ทำเสร็จแล้ว' : 'ทำเสร็จแล้ว';
+  doneBtn.onclick = () => {
+    state.done[exercise.id] = !state.done[exercise.id];
+    saveJson('p45.done', state.done);
+    doneBtn.textContent = state.done[exercise.id] ? '✓ ทำเสร็จแล้ว' : 'ทำเสร็จแล้ว';
+  };
+
+  modal.showModal();
+  lucideReady();
+}
+
+function setupModalHandlers() {
+  const modal = document.getElementById('exerciseModal');
+  const closeBtn = document.querySelector('.modal-close');
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => modal.close());
+  }
+
+  // Close modal when clicking outside
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.close();
+    }
+  });
+
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.open) {
+      modal.close();
+    }
+  });
+}
 
 function lucideReady() {
   if (window.lucide) window.lucide.createIcons();
