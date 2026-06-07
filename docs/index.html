@@ -38,7 +38,8 @@
     <main>
       <section class="control-band" aria-label="planner controls">
         <div class="tabs" role="tablist" aria-label="views">
-          <button class="tab active" type="button" data-view="exercises"><i data-lucide="video"></i><span>ท่าฝึก</span></button>
+          <button class="tab active" type="button" data-view="exercises"><i data-lucide="grid"></i><span>ท่าฝึกทั้งหมด</span></button>
+          <button class="tab" type="button" data-view="favorites"><i data-lucide="heart"></i><span>♥️ ท่าโปรด</span></button>
         </div>
         <label class="search">
           <i data-lucide="search"></i>
@@ -54,10 +55,6 @@
             <p>ท่าฝึกแยกจากวิดีโอแต่ละท่า พร้อมจำแนกตามประเภท</p>
           </div>
           <div class="filter-row">
-            <select id="exerciseFavoriteFilter" aria-label="favorite filter">
-              <option value="All">All Exercises</option>
-              <option value="Favorites">♥️ Favorites</option>
-            </select>
             <select id="exerciseCategoryFilter" aria-label="exercise category filter">
               <option value="All">All Categories</option>
               <option value="Power">Power (70)</option>
@@ -82,6 +79,40 @@
         <div id="exercisesGrid" class="exercise-grid"></div>
       </section>
 
+      <section id="favoritesView" class="view" aria-label="favorite exercises">
+        <div class="section-head">
+          <div>
+            <h2>♥️ ท่าฝึกโปรด</h2>
+            <p>ท่าฝึกที่คุณได้เลือกไว้ <span id="favoriteCount">0</span> ท่า</p>
+          </div>
+          <div class="filter-row">
+            <select id="favoritesCategoryFilter" aria-label="exercise category filter">
+              <option value="All">All Categories</option>
+              <option value="Power">Power (70)</option>
+              <option value="Agility">Agility (36)</option>
+              <option value="Rehab">Rehab (29)</option>
+              <option value="Core">Core (20)</option>
+              <option value="Football Skill">Football (19)</option>
+              <option value="Strength">Strength (18)</option>
+              <option value="Mobility">Mobility (4)</option>
+              <option value="Deceleration">Deceleration (2)</option>
+            </select>
+            <select id="favoritesLevelFilter" aria-label="exercise level filter">
+              <option value="All">All Levels</option>
+              <option value="Level 1">Level 1: Recovery (33)</option>
+              <option value="Level 2">Level 2: Core Control (83)</option>
+              <option value="Level 3">Level 3: Strength (43)</option>
+              <option value="Level 4">Level 4: Agility (38)</option>
+              <option value="Level 5">Level 5: Power (73)</option>
+            </select>
+          </div>
+        </div>
+        <div id="favoritesGrid" class="exercise-grid"></div>
+        <div id="emptyFavorites" class="empty-state" style="display: none;">
+          <p>ยังไม่มีท่าฝึกที่บันทึก</p>
+          <p style="font-size: 12px; color: var(--muted);">คลิก ♥️ บนท่าฝึกเพื่อเพิ่มลงรายการโปรด</p>
+        </div>
+      </section>
 
 
     </main>

@@ -7,7 +7,8 @@ const state = {
   category: 'All',
   exerciseCategory: 'All',
   exerciseLevel: 'All',
-  exerciseFavorite: 'All',
+  favoritesCategory: 'All',
+  favoritesLevel: 'All',
   search: '',
   selectedProgramId: loadJson('p45.selectedProgram', 'base'),
   selectedDay: new Date().getDay(),
@@ -70,14 +71,6 @@ function hydrateControls() {
     renderExercises();
   });
 
-  const exerciseFavoriteFilter = document.getElementById('exerciseFavoriteFilter');
-  if (exerciseFavoriteFilter) {
-    exerciseFavoriteFilter.addEventListener('change', (event) => {
-      state.exerciseFavorite = event.target.value;
-      renderExercises();
-    });
-  }
-
   const exerciseCategoryFilter = document.getElementById('exerciseCategoryFilter');
   if (exerciseCategoryFilter) {
     exerciseCategoryFilter.addEventListener('change', (event) => {
@@ -91,6 +84,22 @@ function hydrateControls() {
     exerciseLevelFilter.addEventListener('change', (event) => {
       state.exerciseLevel = event.target.value;
       renderExercises();
+    });
+  }
+
+  const favoritesCategoryFilter = document.getElementById('favoritesCategoryFilter');
+  if (favoritesCategoryFilter) {
+    favoritesCategoryFilter.addEventListener('change', (event) => {
+      state.favoritesCategory = event.target.value;
+      renderFavorites();
+    });
+  }
+
+  const favoritesLevelFilter = document.getElementById('favoritesLevelFilter');
+  if (favoritesLevelFilter) {
+    favoritesLevelFilter.addEventListener('change', (event) => {
+      state.favoritesLevel = event.target.value;
+      renderFavorites();
     });
   }
 
@@ -117,7 +126,12 @@ function render() {
   document.querySelectorAll('.view').forEach((section) => section.classList.remove('active'));
   document.getElementById(`${state.view}View`).classList.add('active');
 
-  renderExercises();
+  if (state.view === 'exercises') {
+    renderExercises();
+  } else if (state.view === 'favorites') {
+    renderFavorites();
+  }
+
   lucideReady();
 }
 
@@ -562,10 +576,6 @@ function renderExercises() {
   // Filter exercises
   let filtered = state.exercises.exercises;
 
-  if (state.exerciseFavorite === 'Favorites') {
-    filtered = filtered.filter(ex => state.favorites[ex.id]);
-  }
-
   if (state.exerciseCategory !== 'All') {
     filtered = filtered.filter(ex => ex.category === state.exerciseCategory);
   }
@@ -652,6 +662,106 @@ function renderExercises() {
   lucideReady();
 }
 
+function renderFavorites() {
+  const root = document.getElementById('favoritesGrid');
+  const emptyMsg = document.getElementById('emptyFavorites');
+  const countSpan = document.getElementById('favoriteCount');
+
+  // Get favorite exercises
+  const allFavorites = state.exercises.exercises.filter(ex => state.favorites[ex.id]);
+
+  // Update count
+  countSpan.textContent = allFavorites.length;
+
+  // Filter by category and level
+  let filtered = allFavorites;
+
+  if (state.favoritesCategory !== 'All') {
+    filtered = filtered.filter(ex => ex.category === state.favoritesCategory);
+  }
+
+  if (state.favoritesLevel !== 'All') {
+    filtered = filtered.filter(ex => ex.level === state.favoritesLevel);
+  }
+
+  // Show/hide empty message
+  if (allFavorites.length === 0) {
+    root.innerHTML = '';
+    emptyMsg.style.display = 'flex';
+    return;
+  } else {
+    emptyMsg.style.display = 'none';
+  }
+
+  // Render filtered favorites
+  console.log('[renderFavorites] rendering', filtered.length, 'favorites');
+  root.innerHTML = '';
+
+  filtered.forEach((exercise, idx) => {
+    const card = document.createElement('div');
+    card.className = 'exercise-card';
+    card.title = exercise.drillName + ' - ' + exercise.category;
+
+    const thumbnail = document.createElement('div');
+    thumbnail.className = 'exercise-thumbnail';
+
+    const gif = document.createElement('img');
+    gif.src = exercise.file;
+    gif.alt = exercise.drillName;
+    gif.style.width = '100%';
+    gif.style.height = '100%';
+    gif.style.objectFit = 'cover';
+
+    thumbnail.appendChild(gif);
+
+    const info = document.createElement('div');
+    info.className = 'exercise-info';
+
+    const title = document.createElement('div');
+    title.className = 'exercise-title';
+    title.textContent = exercise.drillName.substring(0, 40);
+
+    const meta = document.createElement('div');
+    meta.className = 'exercise-meta';
+
+    const categoryBadge = document.createElement('span');
+    categoryBadge.className = 'exercise-badge';
+    categoryBadge.textContent = exercise.category;
+
+    const levelBadge = document.createElement('span');
+    levelBadge.className = 'exercise-badge';
+    levelBadge.textContent = exercise.level;
+
+    const durationBadge = document.createElement('span');
+    durationBadge.className = 'exercise-badge';
+    durationBadge.textContent = `${exercise.duration.toFixed(1)}s`;
+
+    meta.append(categoryBadge, levelBadge, durationBadge);
+    info.append(title, meta);
+    card.append(thumbnail, info);
+
+    // Add favorite badge (always active for favorites view)
+    const favoriteBadge = document.createElement('button');
+    favoriteBadge.className = 'favorite-badge active';
+    favoriteBadge.textContent = '♥️';
+    favoriteBadge.type = 'button';
+    favoriteBadge.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleFavorite(exercise.id);
+      favoriteBadge.classList.toggle('active', state.favorites[exercise.id]);
+      renderFavorites(); // Re-render to remove from list
+    });
+    thumbnail.appendChild(favoriteBadge);
+
+    card.addEventListener('click', () => {
+      showFullscreenViewer(exercise);
+    });
+
+    root.append(card);
+  });
+
+  lucideReady();
+}
 
 function showExerciseModal(exercise) {
   const modal = document.getElementById('exerciseModal');
