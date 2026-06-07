@@ -105,11 +105,42 @@
       </article>
     </template>
 
+    <!-- Fullscreen Exercise Viewer -->
+    <dialog id="fullscreenViewer" class="fullscreen-viewer">
+      <div class="fullscreen-content">
+        <div class="fullscreen-header">
+          <h2 id="fsTitle"></h2>
+          <button id="fsClose" class="fs-close" type="button" aria-label="Close"><i data-lucide="x"></i></button>
+        </div>
+        <div class="fullscreen-body">
+          <div class="fs-gif-container">
+            <img id="fsGif" alt="" />
+          </div>
+          <div class="fs-info">
+            <div class="fs-section">
+              <h3>📌 ช่วยอะไร</h3>
+              <p id="fsGoal"></p>
+            </div>
+            <div class="fs-section">
+              <h3>💡 สิ่งที่ต้องสนใจ</h3>
+              <ul id="fsFocus" class="focus-list"></ul>
+            </div>
+            <div class="fs-meta">
+              <span id="fsLevel" class="badge"></span>
+              <span id="fsCategory" class="badge"></span>
+              <span id="fsDuration" class="badge"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
     <!-- Exercise Detail Modal -->
     <dialog id="exerciseModal" class="exercise-modal">
       <div class="modal-content">
         <div class="modal-header">
           <button class="modal-close" type="button" aria-label="Close"><i data-lucide="x"></i></button>
+          <button id="expandFullscreen" class="modal-expand" type="button" aria-label="Fullscreen" title="ดูเต็มจอ"><i data-lucide="maximize-2"></i></button>
         </div>
         <div class="modal-body">
           <div class="modal-gif">

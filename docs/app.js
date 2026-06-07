@@ -629,6 +629,7 @@ function renderExercises() {
 
 function showExerciseModal(exercise) {
   const modal = document.getElementById('exerciseModal');
+  currentExerciseForFullscreen = exercise;
 
   document.getElementById('modalGif').src = exercise.file;
   document.getElementById('modalGif').alt = exercise.drillName;
@@ -677,12 +678,24 @@ function showExerciseModal(exercise) {
   lucideReady();
 }
 
+let currentExerciseForFullscreen = null;
+
 function setupModalHandlers() {
   const modal = document.getElementById('exerciseModal');
   const closeBtn = document.querySelector('.modal-close');
+  const expandBtn = document.getElementById('expandFullscreen');
 
   if (closeBtn) {
     closeBtn.addEventListener('click', () => modal.close());
+  }
+
+  if (expandBtn) {
+    expandBtn.addEventListener('click', () => {
+      if (currentExerciseForFullscreen) {
+        showFullscreenViewer(currentExerciseForFullscreen);
+        modal.close();
+      }
+    });
   }
 
   // Close modal when clicking outside
@@ -694,8 +707,56 @@ function setupModalHandlers() {
 
   // Close on Escape key
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && modal.open) {
-      modal.close();
+    if (e.key === 'Escape') {
+      const fsViewer = document.getElementById('fullscreenViewer');
+      if (fsViewer && fsViewer.open) {
+        fsViewer.close();
+      } else if (modal && modal.open) {
+        modal.close();
+      }
+    }
+  });
+
+  setupFullscreenHandlers();
+}
+
+function showFullscreenViewer(exercise) {
+  const viewer = document.getElementById('fullscreenViewer');
+
+  document.getElementById('fsTitle').textContent = exercise.drillName;
+  document.getElementById('fsGif').src = exercise.file;
+  document.getElementById('fsGif').alt = exercise.drillName;
+  document.getElementById('fsGoal').textContent = exercise.drillGoal || 'No description available';
+  document.getElementById('fsLevel').textContent = `Level ${exercise.level}`;
+  document.getElementById('fsCategory').textContent = exercise.category;
+  document.getElementById('fsDuration').textContent = `${exercise.duration.toFixed(1)}s`;
+
+  // Focus items
+  const focusList = document.getElementById('fsFocus');
+  focusList.innerHTML = '';
+  if (exercise.focus && exercise.focus.length > 0) {
+    exercise.focus.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = item;
+      focusList.appendChild(li);
+    });
+  }
+
+  viewer.showModal();
+  lucideReady();
+}
+
+function setupFullscreenHandlers() {
+  const viewer = document.getElementById('fullscreenViewer');
+  const closeBtn = document.getElementById('fsClose');
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => viewer.close());
+  }
+
+  viewer.addEventListener('click', (e) => {
+    if (e.target === viewer) {
+      viewer.close();
     }
   });
 }
