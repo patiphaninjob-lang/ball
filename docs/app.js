@@ -634,15 +634,21 @@ function showExerciseModal(exercise) {
   document.getElementById('modalGif').src = exercise.file;
   document.getElementById('modalGif').alt = exercise.drillName;
   document.getElementById('modalTitle').textContent = exercise.drillName;
-  document.getElementById('modalGoal').textContent = exercise.drillGoal || 'No description available';
+  document.getElementById('modalGoal').textContent = exercise.drillGoal_th || exercise.drillGoal || 'ไม่มีคำอธิบาย';
   document.getElementById('modalLevel').textContent = `Level ${exercise.level}`;
   document.getElementById('modalCategory').textContent = exercise.category;
   document.getElementById('modalDuration').textContent = `${exercise.duration.toFixed(1)}s`;
 
-  // Focus items
+  // Focus items (Thai version)
   const focusList = document.getElementById('modalFocus');
   focusList.innerHTML = '';
-  if (exercise.focus && exercise.focus.length > 0) {
+  if (exercise.focus_th && exercise.focus_th.length > 0) {
+    exercise.focus_th.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = item;
+      focusList.appendChild(li);
+    });
+  } else if (exercise.focus && exercise.focus.length > 0) {
     exercise.focus.forEach(item => {
       const li = document.createElement('li');
       li.textContent = item;
@@ -650,7 +656,7 @@ function showExerciseModal(exercise) {
     });
   } else {
     const li = document.createElement('li');
-    li.textContent = 'Focus on proper form and breathing';
+    li.textContent = 'สนใจให้ท่าถูกต้องและหายใจสมดุล';
     focusList.appendChild(li);
   }
 
@@ -726,15 +732,21 @@ function showFullscreenViewer(exercise) {
   document.getElementById('fsTitle').textContent = exercise.drillName;
   document.getElementById('fsGif').src = exercise.file;
   document.getElementById('fsGif').alt = exercise.drillName;
-  document.getElementById('fsGoal').textContent = exercise.drillGoal || 'No description available';
+  document.getElementById('fsGoal').textContent = exercise.drillGoal_th || exercise.drillGoal || 'ไม่มีคำอธิบาย';
   document.getElementById('fsLevel').textContent = `Level ${exercise.level}`;
   document.getElementById('fsCategory').textContent = exercise.category;
   document.getElementById('fsDuration').textContent = `${exercise.duration.toFixed(1)}s`;
 
-  // Focus items
+  // Focus items (Thai version)
   const focusList = document.getElementById('fsFocus');
   focusList.innerHTML = '';
-  if (exercise.focus && exercise.focus.length > 0) {
+  if (exercise.focus_th && exercise.focus_th.length > 0) {
+    exercise.focus_th.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = item;
+      focusList.appendChild(li);
+    });
+  } else if (exercise.focus && exercise.focus.length > 0) {
     exercise.focus.forEach(item => {
       const li = document.createElement('li');
       li.textContent = item;
