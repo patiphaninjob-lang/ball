@@ -154,6 +154,8 @@ main {
 .tab,
 .icon-button,
 .primary-button,
+.secondary-button,
+.danger-button,
 .install-button,
 .check-button,
 .preview-button {
@@ -189,6 +191,8 @@ main {
 .tab svg,
 .icon-button svg,
 .primary-button svg,
+.secondary-button svg,
+.danger-button svg,
 .install-button svg,
 .watch-link svg,
 .check-button svg,
@@ -259,6 +263,35 @@ main {
   background: var(--accent);
   color: var(--accent-ink);
   box-shadow: 0 10px 20px rgba(0, 122, 255, 0.22);
+}
+
+.secondary-button,
+.danger-button {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  gap: 7px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--ink);
+  border-color: rgba(60, 60, 67, 0.12);
+  box-shadow: 0 8px 20px rgba(28, 28, 30, 0.07);
+}
+
+.danger-button {
+  color: var(--red);
+}
+
+.secondary-button:active,
+.danger-button:active {
+  transform: scale(0.98);
+}
+
+.danger-button:disabled {
+  color: var(--muted);
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .week-strip,
@@ -671,6 +704,7 @@ main {
 #exerciseLevelFilter,
 #favoritesCategoryFilter,
 #favoritesLevelFilter,
+#favoriteListSelect,
 .journal-form input,
 .journal-form select,
 .journal-form textarea {
@@ -688,10 +722,42 @@ main {
 #exerciseCategoryFilter,
 #exerciseLevelFilter,
 #favoritesCategoryFilter,
-#favoritesLevelFilter {
+#favoritesLevelFilter,
+#favoriteListSelect {
   min-height: 40px;
   padding: 0 34px 0 14px;
   color: var(--text);
+}
+
+.favorite-list-toolbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 12px;
+  margin: -2px 0 16px;
+  padding: 12px;
+  border: 1px solid rgba(60, 60, 67, 0.1);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: var(--soft-shadow);
+  backdrop-filter: saturate(160%) blur(18px);
+  -webkit-backdrop-filter: saturate(160%) blur(18px);
+}
+
+.favorite-list-select-label {
+  display: grid;
+  flex: 1 1 220px;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.favorite-list-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
 }
 
 .journal-form {
@@ -982,8 +1048,23 @@ main {
   #exerciseCategoryFilter,
   #exerciseLevelFilter,
   #favoritesCategoryFilter,
-  #favoritesLevelFilter {
+  #favoritesLevelFilter,
+  #favoriteListSelect {
     width: 100%;
+  }
+
+  .favorite-list-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .favorite-list-select-label {
+    flex: none;
+  }
+
+  .favorite-list-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .plan-meter {
@@ -1526,6 +1607,35 @@ main {
   line-height: 1.5;
 }
 
+.favorite-list-picker {
+  display: grid;
+  gap: 8px;
+}
+
+.favorite-list-option {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 10px;
+  border: 1px solid rgba(60, 60, 67, 0.1);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--text);
+  font-size: 13px;
+}
+
+.favorite-list-option input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+}
+
+.favorite-list-option small {
+  color: var(--muted);
+  font-size: 11px;
+}
+
 .research-note {
   border: 1px solid rgba(0, 122, 255, 0.14);
   border-radius: 8px;
@@ -1696,6 +1806,28 @@ main {
 .exercise-card .favorite-badge.active {
   background: rgba(255, 59, 48, 0.9);
   box-shadow: 0 10px 22px rgba(255, 59, 48, 0.3);
+}
+
+.exercise-card .favorite-badge.saved-elsewhere {
+  border-color: rgba(0, 122, 255, 0.38);
+  color: var(--accent);
+}
+
+.exercise-card .favorite-badge[data-count]::after {
+  content: attr(data-count);
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 16px;
+  box-shadow: 0 4px 10px rgba(0, 122, 255, 0.28);
 }
 
 /* Empty State */

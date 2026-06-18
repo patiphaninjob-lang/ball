@@ -1,3 +1,7 @@
+const DEFAULT_FAVORITE_LIST_ID = 'default';
+const FAVORITE_LISTS_STORAGE_KEY = 'p45.favoriteLists';
+const SELECTED_FAVORITE_LIST_STORAGE_KEY = 'p45.selectedFavoriteList';
+
 const state = {
   data: null,
   exercises: null,
@@ -9,12 +13,14 @@ const state = {
   exerciseLevel: 'All',
   favoritesCategory: 'All',
   favoritesLevel: 'All',
+  selectedFavoriteListId: loadJson(SELECTED_FAVORITE_LIST_STORAGE_KEY, DEFAULT_FAVORITE_LIST_ID),
   selectedProgramId: loadJson('p45.selectedProgram', 'base'),
   selectedDay: new Date().getDay(),
   done: loadJson('p45.done', {}),
   checklist: loadJson('p45.checklist', {}),
   journal: loadJson('p45.journal', []),
   favorites: loadJson('p45.favorites', {}),
+  favoriteLists: loadFavoriteLists(),
 };
 
 const checklistItems = [
@@ -50,6 +56,8 @@ async function main() {
     });
     console.log('[main] loaded exercises:', state.exercises?.exercises?.length);
 
+    ensureSelectedFavoriteList();
+    saveFavoriteLists();
     hydrateControls();
     render();
     console.log('[main] render complete');
@@ -98,6 +106,8 @@ function hydrateControls() {
     });
   }
 
+  hydrateFavoriteListControls();
+
   const saveJournalBtn = document.getElementById('saveJournal');
   if (saveJournalBtn) {
     saveJournalBtn.addEventListener('click', saveJournal);
@@ -114,6 +124,8 @@ function hydrateControls() {
 }
 
 function render() {
+  renderFavoriteListControls();
+
   document.querySelectorAll('.tab').forEach((button) => {
     button.classList.toggle('active', button.dataset.view === state.view);
   });
@@ -501,6 +513,264 @@ function saveJson(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
 }
 
+function loadFavoriteLists() {
+  const stored = loadJson(FAVORITE_LISTS_STORAGE_KEY, null);
+  const legacyFavorites = loadJson('p45.favorites', {});
+  const legacyExerciseIds = Object.keys(legacyFavorites).filter((id) => legacyFavorites[id]);
+
+  if (Array.isArray(stored) && stored.length > 0) {
+    const lists = stored.map((list, index) => normalizeFavoriteList(list, index)).filter(Boolean);
+    return lists.length ? lists : [createFavoriteList(DEFAULT_FAVORITE_LIST_ID, 'โปรด 1', legacyExerciseIds)];
+  }
+
+  return [createFavoriteList(DEFAULT_FAVORITE_LIST_ID, 'โปรด 1', legacyExerciseIds)];
+}
+
+function normalizeFavoriteList(list, index) {
+  if (!list || typeof list !== 'object') return null;
+
+  const exerciseIds = Array.isArray(list.exerciseIds)
+    ? list.exerciseIds
+    : Object.keys(list.exercises || {}).filter((id) => list.exercises[id]);
+
+  return createFavoriteList(
+    String(list.id || `favorite-${index + 1}`),
+    String(list.name || `โปรด ${index + 1}`),
+    exerciseIds,
+  );
+}
+
+function createFavoriteList(id, name, exerciseIds = []) {
+  return {
+    id,
+    name,
+    exerciseIds: [...new Set(exerciseIds.map((exerciseId) => String(exerciseId)).filter(Boolean))],
+  };
+}
+
+function createFavoriteListId() {
+  return `favorite-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`;
+}
+
+function ensureSelectedFavoriteList() {
+  if (!state.favoriteLists.length) {
+    state.favoriteLists = [createFavoriteList(DEFAULT_FAVORITE_LIST_ID, 'โปรด 1')];
+  }
+
+  if (!state.favoriteLists.some((list) => list.id === state.selectedFavoriteListId)) {
+    state.selectedFavoriteListId = state.favoriteLists[0].id;
+  }
+}
+
+function selectedFavoriteList() {
+  ensureSelectedFavoriteList();
+  return state.favoriteLists.find((list) => list.id === state.selectedFavoriteListId) || state.favoriteLists[0];
+}
+
+function saveFavoriteLists() {
+  ensureSelectedFavoriteList();
+  saveJson(FAVORITE_LISTS_STORAGE_KEY, state.favoriteLists);
+  saveJson(SELECTED_FAVORITE_LIST_STORAGE_KEY, state.selectedFavoriteListId);
+  syncLegacyFavorites();
+}
+
+function syncLegacyFavorites() {
+  const nextFavorites = {};
+
+  state.favoriteLists.forEach((list) => {
+    list.exerciseIds.forEach((exerciseId) => {
+      nextFavorites[exerciseId] = true;
+    });
+  });
+
+  state.favorites = nextFavorites;
+  saveJson('p45.favorites', nextFavorites);
+}
+
+function isExerciseInFavoriteList(exerciseId, listId = state.selectedFavoriteListId) {
+  const id = String(exerciseId);
+  const list = state.favoriteLists.find((item) => item.id === listId);
+  return Boolean(list?.exerciseIds.includes(id));
+}
+
+function favoriteListCountForExercise(exerciseId) {
+  const id = String(exerciseId);
+  return state.favoriteLists.filter((list) => list.exerciseIds.includes(id)).length;
+}
+
+function setExerciseFavoriteListMembership(exerciseId, listId, shouldInclude) {
+  const list = state.favoriteLists.find((item) => item.id === listId);
+  if (!list) return false;
+
+  const id = String(exerciseId);
+  const currentIndex = list.exerciseIds.indexOf(id);
+
+  if (shouldInclude && currentIndex === -1) {
+    list.exerciseIds.push(id);
+  } else if (!shouldInclude && currentIndex !== -1) {
+    list.exerciseIds.splice(currentIndex, 1);
+  }
+
+  saveFavoriteLists();
+  return isExerciseInFavoriteList(id, listId);
+}
+
+function toggleFavorite(exerciseId, listId = state.selectedFavoriteListId) {
+  return setExerciseFavoriteListMembership(exerciseId, listId, !isExerciseInFavoriteList(exerciseId, listId));
+}
+
+function hydrateFavoriteListControls() {
+  const select = document.getElementById('favoriteListSelect');
+  const createButton = document.getElementById('createFavoriteList');
+  const deleteButton = document.getElementById('deleteFavoriteList');
+
+  if (select) {
+    select.addEventListener('change', (event) => {
+      state.selectedFavoriteListId = event.target.value;
+      saveFavoriteLists();
+      renderFavoriteListControls();
+      refreshFavoriteBadges();
+      if (state.view === 'favorites') renderFavorites();
+      if (currentExerciseForFullscreen) renderFavoriteListPicker(currentExerciseForFullscreen);
+    });
+  }
+
+  if (createButton) {
+    createButton.addEventListener('click', createFavoriteListFromPrompt);
+  }
+
+  if (deleteButton) {
+    deleteButton.addEventListener('click', deleteSelectedFavoriteList);
+  }
+
+  renderFavoriteListControls();
+}
+
+function renderFavoriteListControls() {
+  const select = document.getElementById('favoriteListSelect');
+  const deleteButton = document.getElementById('deleteFavoriteList');
+  if (!select) return;
+
+  ensureSelectedFavoriteList();
+  select.innerHTML = '';
+
+  state.favoriteLists.forEach((list) => {
+    const option = document.createElement('option');
+    option.value = list.id;
+    option.textContent = `${list.name} (${list.exerciseIds.length})`;
+    select.appendChild(option);
+  });
+
+  select.value = state.selectedFavoriteListId;
+
+  if (deleteButton) {
+    deleteButton.disabled = state.favoriteLists.length <= 1;
+  }
+}
+
+function createFavoriteListFromPrompt() {
+  const defaultName = `โปรด ${state.favoriteLists.length + 1}`;
+  const name = window.prompt('ตั้งชื่อรายการโปรดใหม่', defaultName);
+  const trimmedName = name?.trim();
+  if (!trimmedName) return;
+
+  const list = createFavoriteList(createFavoriteListId(), trimmedName);
+  state.favoriteLists.push(list);
+  state.selectedFavoriteListId = list.id;
+  saveFavoriteLists();
+  renderFavoriteListControls();
+  refreshFavoriteBadges();
+  if (state.view === 'favorites') renderFavorites();
+  if (currentExerciseForFullscreen) renderFavoriteListPicker(currentExerciseForFullscreen);
+}
+
+function deleteSelectedFavoriteList() {
+  if (state.favoriteLists.length <= 1) return;
+
+  const list = selectedFavoriteList();
+  const confirmed = window.confirm(`ลบรายการ "${list.name}" หรือไม่? ท่าฝึกจะยังอยู่ในคลังทั้งหมด`);
+  if (!confirmed) return;
+
+  state.favoriteLists = state.favoriteLists.filter((item) => item.id !== list.id);
+  state.selectedFavoriteListId = state.favoriteLists[0].id;
+  saveFavoriteLists();
+  renderFavoriteListControls();
+  refreshFavoriteBadges();
+  if (state.view === 'favorites') renderFavorites();
+  if (currentExerciseForFullscreen) renderFavoriteListPicker(currentExerciseForFullscreen);
+}
+
+function updateFavoriteBadge(button, exerciseId) {
+  const currentList = selectedFavoriteList();
+  const isInSelectedList = isExerciseInFavoriteList(exerciseId, currentList.id);
+  const listCount = favoriteListCountForExercise(exerciseId);
+
+  button.classList.toggle('active', isInSelectedList);
+  button.classList.toggle('saved-elsewhere', listCount > 0 && !isInSelectedList);
+  button.title = `${isInSelectedList ? 'ลบออกจาก' : 'เพิ่มลง'} ${currentList.name}`;
+  button.setAttribute('aria-label', button.title);
+
+  if (listCount > 1) {
+    button.dataset.count = String(listCount);
+  } else {
+    delete button.dataset.count;
+  }
+}
+
+function refreshFavoriteBadges() {
+  document.querySelectorAll('.favorite-badge[data-exercise-id]').forEach((button) => {
+    updateFavoriteBadge(button, button.dataset.exerciseId);
+  });
+}
+
+function renderFavoriteListPicker(exercise) {
+  const root = document.getElementById('fsFavoriteLists');
+  if (!root || !exercise) return;
+
+  root.innerHTML = '';
+
+  state.favoriteLists.forEach((list) => {
+    const label = document.createElement('label');
+    label.className = 'favorite-list-option';
+
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.checked = isExerciseInFavoriteList(exercise.id, list.id);
+    input.addEventListener('change', () => {
+      setExerciseFavoriteListMembership(exercise.id, list.id, input.checked);
+      renderFavoriteListPicker(exercise);
+      updateFullscreenFavoriteButton(exercise);
+      refreshFavoriteBadges();
+      if (state.view === 'favorites') renderFavorites();
+    });
+
+    const name = document.createElement('span');
+    name.textContent = list.name;
+
+    const count = document.createElement('small');
+    count.textContent = `${list.exerciseIds.length} ท่า`;
+
+    label.append(input, name, count);
+    root.append(label);
+  });
+}
+
+function updateFullscreenFavoriteButton(exercise) {
+  const favBtn = document.getElementById('fsFavorite');
+  if (!favBtn || !exercise) return;
+
+  const list = selectedFavoriteList();
+  favBtn.classList.toggle('active', isExerciseInFavoriteList(exercise.id, list.id));
+  favBtn.title = `เพิ่ม/ลบจาก ${list.name}`;
+  favBtn.onclick = () => {
+    toggleFavorite(exercise.id, list.id);
+    updateFullscreenFavoriteButton(exercise);
+    renderFavoriteListPicker(exercise);
+    refreshFavoriteBadges();
+    if (state.view === 'favorites') renderFavorites();
+  };
+}
+
 function hydrateInstallButton() {
   const button = document.getElementById('installApp');
   if (!button) return;
@@ -622,13 +892,16 @@ function renderExercises() {
 
     // Add favorite badge
     const favoriteBadge = document.createElement('button');
-    favoriteBadge.className = `favorite-badge ${state.favorites[exercise.id] ? 'active' : ''}`;
+    favoriteBadge.className = 'favorite-badge';
     favoriteBadge.textContent = '♥️';
     favoriteBadge.type = 'button';
+    favoriteBadge.dataset.exerciseId = exercise.id;
+    updateFavoriteBadge(favoriteBadge, exercise.id);
     favoriteBadge.addEventListener('click', (e) => {
       e.stopPropagation();
       toggleFavorite(exercise.id);
-      favoriteBadge.classList.toggle('active', state.favorites[exercise.id]);
+      updateFavoriteBadge(favoriteBadge, exercise.id);
+      if (state.view === 'favorites') renderFavorites();
     });
     thumbnail.appendChild(favoriteBadge);
 
@@ -650,8 +923,9 @@ function renderFavorites() {
   const emptyMsg = document.getElementById('emptyFavorites');
   const countSpan = document.getElementById('favoriteCount');
 
-  // Get favorite exercises
-  const allFavorites = state.exercises.exercises.filter(ex => state.favorites[ex.id]);
+  const activeFavoriteList = selectedFavoriteList();
+  const favoriteIds = new Set(activeFavoriteList.exerciseIds);
+  const allFavorites = state.exercises.exercises.filter(ex => favoriteIds.has(String(ex.id)));
 
   // Update count
   countSpan.textContent = allFavorites.length;
@@ -718,16 +992,16 @@ function renderFavorites() {
     info.append(title, meta);
     card.append(thumbnail, info);
 
-    // Add favorite badge (always active for favorites view)
     const favoriteBadge = document.createElement('button');
-    favoriteBadge.className = 'favorite-badge active';
+    favoriteBadge.className = 'favorite-badge';
     favoriteBadge.textContent = '♥️';
     favoriteBadge.type = 'button';
+    favoriteBadge.dataset.exerciseId = exercise.id;
+    updateFavoriteBadge(favoriteBadge, exercise.id);
     favoriteBadge.addEventListener('click', (e) => {
       e.stopPropagation();
       toggleFavorite(exercise.id);
-      favoriteBadge.classList.toggle('active', state.favorites[exercise.id]);
-      renderFavorites(); // Re-render to remove from list
+      renderFavorites();
     });
     thumbnail.appendChild(favoriteBadge);
 
@@ -921,28 +1195,13 @@ function setupModalHandlers() {
   setupFullscreenHandlers();
 }
 
-function toggleFavorite(exerciseId) {
-  if (state.favorites[exerciseId]) {
-    delete state.favorites[exerciseId];
-  } else {
-    state.favorites[exerciseId] = true;
-  }
-  saveJson('p45.favorites', state.favorites);
-}
-
 function showFullscreenViewer(exercise) {
   const viewer = document.getElementById('fullscreenViewer');
   currentExerciseForFullscreen = exercise;
 
   document.getElementById('fsTitle').textContent = exercise.drillName;
 
-  // Update favorite button state
-  const favBtn = document.getElementById('fsFavorite');
-  favBtn.classList.toggle('active', state.favorites[exercise.id]);
-  favBtn.onclick = () => {
-    toggleFavorite(exercise.id);
-    favBtn.classList.toggle('active', state.favorites[exercise.id]);
-  };
+  updateFullscreenFavoriteButton(exercise);
   const fullscreenGif = document.getElementById('fsGif');
   fullscreenGif.alt = exercise.drillName;
   setGifImageSource(fullscreenGif, exercise.file);
@@ -969,6 +1228,7 @@ function showFullscreenViewer(exercise) {
   }
 
   renderResearchNote('fsResearch', exercise.research);
+  renderFavoriteListPicker(exercise);
 
   viewer.showModal();
   lucideReady();

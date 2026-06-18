@@ -98,6 +98,16 @@
             </select>
           </div>
         </div>
+        <div class="favorite-list-toolbar" aria-label="favorite lists">
+          <label class="favorite-list-select-label" for="favoriteListSelect">
+            <span>รายการโปรด</span>
+            <select id="favoriteListSelect" aria-label="เลือกรายการโปรด"></select>
+          </label>
+          <div class="favorite-list-actions">
+            <button id="createFavoriteList" class="secondary-button" type="button"><i data-lucide="plus"></i><span>สร้างรายการ</span></button>
+            <button id="deleteFavoriteList" class="danger-button" type="button"><i data-lucide="trash-2"></i><span>ลบรายการ</span></button>
+          </div>
+        </div>
         <div id="favoritesGrid" class="exercise-grid"></div>
         <div id="emptyFavorites" class="empty-state" style="display: none;">
           <p>ยังไม่มีท่าฝึกที่บันทึก</p>
@@ -153,6 +163,10 @@
             <div class="fs-section">
               <h3>💡 สิ่งที่ต้องสนใจ</h3>
               <ul id="fsFocus" class="focus-list"></ul>
+            </div>
+            <div class="fs-section">
+              <h3>รายการโปรด</h3>
+              <div id="fsFavoriteLists" class="favorite-list-picker"></div>
             </div>
             <div id="fsResearch" class="research-note" hidden></div>
             <div class="fs-meta">
