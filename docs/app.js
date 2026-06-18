@@ -27,6 +27,7 @@ const checklistItems = [
 
 const dayIndexMap = [6, 0, 1, 2, 3, 4, 5];
 let installPromptEvent = null;
+let lazyGifObserver = null;
 
 // Call main() when DOM is ready (use both event and fallback)
 if (document.readyState === 'loading') {
@@ -588,13 +589,8 @@ function renderExercises() {
     const thumbnail = document.createElement('div');
     thumbnail.className = 'exercise-thumbnail';
 
-    const gif = document.createElement('img');
-    gif.src = exercise.file;
-    gif.alt = exercise.drillName;
-    if (idx === 0) console.log('[renderExercises] first GIF src:', gif.src);
-    gif.style.width = '100%';
-    gif.style.height = '100%';
-    gif.style.objectFit = 'cover';
+    const gif = createExerciseGif(exercise);
+    if (idx === 0) console.log('[renderExercises] first GIF src:', exercise.file);
 
     thumbnail.appendChild(gif);
 
@@ -644,6 +640,7 @@ function renderExercises() {
     root.append(card);
   });
 
+  setupLazyGifs(root);
   setupModalHandlers();
   lucideReady();
 }
@@ -691,12 +688,7 @@ function renderFavorites() {
     const thumbnail = document.createElement('div');
     thumbnail.className = 'exercise-thumbnail';
 
-    const gif = document.createElement('img');
-    gif.src = exercise.file;
-    gif.alt = exercise.drillName;
-    gif.style.width = '100%';
-    gif.style.height = '100%';
-    gif.style.objectFit = 'cover';
+    const gif = createExerciseGif(exercise);
 
     thumbnail.appendChild(gif);
 
@@ -746,15 +738,94 @@ function renderFavorites() {
     root.append(card);
   });
 
+  setupLazyGifs(root);
   lucideReady();
+}
+
+function createExerciseGif(exercise) {
+  const gif = document.createElement('img');
+  gif.alt = exercise.drillName;
+  gif.dataset.src = exercise.file;
+  gif.loading = 'lazy';
+  gif.decoding = 'async';
+  gif.className = 'exercise-gif is-pending';
+  return gif;
+}
+
+function setupLazyGifs(root) {
+  const images = [...root.querySelectorAll('img[data-src]')];
+
+  if (!('IntersectionObserver' in window)) {
+    images.forEach(loadLazyGif);
+    return;
+  }
+
+  lazyGifObserver?.disconnect();
+  lazyGifObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        loadLazyGif(entry.target);
+        lazyGifObserver.unobserve(entry.target);
+      });
+    },
+    { rootMargin: '600px 0px', threshold: 0.01 },
+  );
+
+  images.forEach((image) => lazyGifObserver.observe(image));
+}
+
+function loadLazyGif(image) {
+  if (image.dataset.loaded === 'true') return;
+  image.dataset.loaded = 'true';
+  setGifImageSource(image, image.dataset.src);
+}
+
+function setGifImageSource(image, src) {
+  image.dataset.baseSrc = src;
+  image.dataset.retries = '0';
+  image.classList.remove('is-broken', 'is-loaded');
+  image.classList.add('is-pending');
+  image.onload = () => markGifLoaded(image);
+  image.onerror = () => retryGif(image);
+  image.src = src;
+}
+
+function markGifLoaded(image) {
+  image.classList.remove('is-pending', 'is-broken');
+  image.classList.add('is-loaded');
+}
+
+function retryGif(image) {
+  const retries = Number(image.dataset.retries || 0);
+
+  if (retries >= 2) {
+    image.classList.remove('is-pending');
+    image.classList.add('is-broken');
+    return;
+  }
+
+  image.dataset.retries = String(retries + 1);
+  const retryDelay = 450 * (retries + 1);
+
+  window.setTimeout(() => {
+    image.src = cacheBustedUrl(image.dataset.baseSrc || image.dataset.src || image.src);
+  }, retryDelay);
+}
+
+function cacheBustedUrl(src) {
+  const url = new URL(src, window.location.href);
+  url.searchParams.set('retry', String(Date.now()));
+  return url.toString();
 }
 
 function showExerciseModal(exercise) {
   const modal = document.getElementById('exerciseModal');
   currentExerciseForFullscreen = exercise;
 
-  document.getElementById('modalGif').src = exercise.file;
-  document.getElementById('modalGif').alt = exercise.drillName;
+  const modalGif = document.getElementById('modalGif');
+  modalGif.alt = exercise.drillName;
+  setGifImageSource(modalGif, exercise.file);
   document.getElementById('modalTitle').textContent = exercise.drillName;
   document.getElementById('modalGoal').textContent = exercise.drillGoal_th || exercise.drillGoal || 'ไม่มีคำอธิบาย';
   document.getElementById('modalLevel').textContent = `Level ${exercise.level}`;
@@ -872,8 +943,9 @@ function showFullscreenViewer(exercise) {
     toggleFavorite(exercise.id);
     favBtn.classList.toggle('active', state.favorites[exercise.id]);
   };
-  document.getElementById('fsGif').src = exercise.file;
-  document.getElementById('fsGif').alt = exercise.drillName;
+  const fullscreenGif = document.getElementById('fsGif');
+  fullscreenGif.alt = exercise.drillName;
+  setGifImageSource(fullscreenGif, exercise.file);
   document.getElementById('fsGoal').textContent = exercise.drillGoal_th || exercise.drillGoal || 'ไม่มีคำอธิบาย';
   document.getElementById('fsLevel').textContent = `Level ${exercise.level}`;
   document.getElementById('fsCategory').textContent = exercise.category;

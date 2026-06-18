@@ -1,4 +1,4 @@
-const CACHE_NAME = 'p45-planner-v4';
+const CACHE_NAME = 'p45-planner-v5';
 const APP_SHELL = [
   './',
   './index.html',
@@ -82,7 +82,7 @@ async function staleWhileRevalidate(request) {
   const cached = await cache.match(request);
   const fresh = fetch(request)
     .then((response) => {
-      cache.put(request, response.clone());
+      if (response.ok) cache.put(request, response.clone());
       return response;
     })
     .catch(() => cached);
