@@ -1,4 +1,4 @@
-const CACHE_NAME = 'p45-planner-v2';
+const CACHE_NAME = 'p45-planner-v3';
 const APP_SHELL = [
   './',
   './index.html',
@@ -6,6 +6,7 @@ const APP_SHELL = [
   './app.js',
   './manifest.webmanifest',
   './data/training-drills.json',
+  './data/exercise-library.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/maskable-512.png',

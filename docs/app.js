@@ -782,6 +782,8 @@ function showExerciseModal(exercise) {
     focusList.appendChild(li);
   }
 
+  renderResearchNote('modalResearch', exercise.research);
+
   // Tags
   const tagsList = document.getElementById('modalTags');
   tagsList.innerHTML = '';
@@ -894,8 +896,33 @@ function showFullscreenViewer(exercise) {
     });
   }
 
+  renderResearchNote('fsResearch', exercise.research);
+
   viewer.showModal();
   lucideReady();
+}
+
+function renderResearchNote(elementId, research) {
+  const root = document.getElementById(elementId);
+  if (!root) return;
+
+  if (!research) {
+    root.hidden = true;
+    root.innerHTML = '';
+    return;
+  }
+
+  const benefits = (research.benefits || []).slice(0, 3);
+  const cautions = (research.cautions || []).slice(0, 3);
+  const sources = (research.sources || []).slice(0, 2);
+
+  root.hidden = false;
+  root.innerHTML = `
+    <h3>ข้อมูลที่ตรวจแล้ว</h3>
+    ${benefits.length ? `<strong>ประโยชน์</strong><ul>${benefits.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : ''}
+    ${cautions.length ? `<strong>ระวัง</strong><ul>${cautions.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : ''}
+    ${sources.length ? `<p class="research-sources">ที่มา: ${sources.map((source) => source.url ? `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.title)}</a>` : escapeHtml(source.title)).join(', ')}</p>` : ''}
+  `;
 }
 
 function setupFullscreenHandlers() {

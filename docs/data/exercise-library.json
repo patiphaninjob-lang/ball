@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T02:55:18.935Z",
+  "generatedAt": "2026-06-18T04:58:26.487Z",
   "version": "2.0",
   "totalExercises": 268,
   "categories": {
@@ -419,7 +419,7 @@
       "duration": 9.33,
       "category": "Rehab",
       "level": 1,
-      "drillName": "อาการแหย่ง คือ ปัญหาของทางจิตใจ เป็นความกลัว ในมุมการเคลื่อนไหวที่เคย...",
+      "drillName": "Plyometric agility contacts",
       "drillGoal": "return to training with controlled progression",
       "focus": [
         "control",
@@ -437,12 +437,45 @@
         "#powerpump45"
       ],
       "participant": "Solo",
-      "drillGoal_th": "กลับมาฝึกแบบค่อยๆ ขึ้น",
+      "drillGoal_th": "ฝึกการแตะพื้นแบบ plyometric ระดับต่ำถึงกลาง",
       "focus_th": [
-        "ควบคุม",
-        "ปราศจากความเจ็บ ระดับ",
-        "เพิ่มน้ำหนักค่อยๆ"
-      ]
+        "แตะพื้นเร็วแต่เบา",
+        "จังหวะนิ่ง",
+        "หยุดก่อนฟอร์มเสีย"
+      ],
+      "sourceVideo": "สมัครสมาชิก_108.mp4",
+      "videoIndex": 14,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "Plyometric agility contacts",
+        "type": "plyometric_agility",
+        "confidence": "high",
+        "benefits": [
+          "ฝึกการแตะพื้นแบบ plyometric ระดับต่ำถึงกลาง",
+          "เพิ่ม coordination สำหรับการเคลื่อนที่หลายทิศทาง",
+          "เตรียมร่างกายก่อนเข้าสู่ cutting และ acceleration ที่เร็วขึ้น"
+        ],
+        "cautions": [
+          "ต้อง landing ได้คุมก่อนเพิ่ม speed",
+          "หยุดเมื่อจังหวะเริ่มเสียจากความล้า",
+          "อย่าใช้จำนวน contact มากเกินคุณภาพ"
+        ],
+        "focus": [
+          "แตะพื้นเร็วแต่เบา",
+          "จังหวะนิ่ง",
+          "หยุดก่อนฟอร์มเสีย"
+        ],
+        "sources": [
+          {
+            "title": "Plyometric jump training effects on soccer players' physical fitness",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32915430/"
+          },
+          {
+            "title": "Effects of coordination training with an agility ladder on physical fitness",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386157/"
+          }
+        ]
+      }
     },
     {
       "id": "16-1",
@@ -886,7 +919,7 @@
       "duration": 9.27,
       "category": "Mobility",
       "level": 1,
-      "drillName": "ยืดเบาๆ แต่ช่วยให้กล้ามเนื้อฟื้นเร็วขึ้น        @มึนไปก็ขออภัย",
+      "drillName": "เดดลิฟต์แบบวัด velocity",
       "drillGoal": "reduce tightness and recover after training",
       "focus": [
         "slow range",
@@ -903,12 +936,45 @@
         "#thailand"
       ],
       "participant": "Partner",
-      "drillGoal_th": "ลดความตึงและฟื้นฟูหลังฝึก",
+      "drillGoal_th": "สร้าง strength พร้อมใช้ velocity ช่วยคุม intensity",
       "focus_th": [
-        "ยืดช้าๆ",
-        "ไม่ให้เจ็บ",
-        "ปลายสุดต้องนุ่มสบาย"
-      ]
+        "bar speed ยังดี",
+        "ฟอร์มคงที่",
+        "หยุด set เมื่อคุณภาพตก"
+      ],
+      "sourceVideo": "สมัครสมาชิก_119.mp4",
+      "videoIndex": 26,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "เดดลิฟต์แบบวัด velocity",
+        "type": "vbt_strength",
+        "confidence": "high",
+        "benefits": [
+          "สร้าง strength พร้อมใช้ velocity ช่วยคุม intensity",
+          "ติดตาม intent และ fatigue จากความเร็วของบาร์",
+          "ช่วยต่อยอดไป power เมื่อ load และ velocity zone ถูกต้อง"
+        ],
+        "cautions": [
+          "อย่าไล่ load ถ้า velocity ตกชัดเจน",
+          "ท่าและช่วงการเคลื่อนไหวต้องเหมือนกันทุก rep",
+          "ตัวเลข velocity ต้องมาจาก setup ที่สม่ำเสมอ"
+        ],
+        "focus": [
+          "bar speed ยังดี",
+          "ฟอร์มคงที่",
+          "หยุด set เมื่อคุณภาพตก"
+        ],
+        "sources": [
+          {
+            "title": "Effects of velocity-based training on strength and power in athletes",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34069249/"
+          },
+          {
+            "title": "Muscle activation in deadlift exercise and its variants",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7046193/"
+          }
+        ]
+      }
     },
     {
       "id": "26-2",
@@ -916,7 +982,7 @@
       "duration": 9.26,
       "category": "Mobility",
       "level": 1,
-      "drillName": "ยืดเบาๆ แต่ช่วยให้กล้ามเนื้อฟื้นเร็วขึ้น        @มึนไปก็ขออภัย",
+      "drillName": "เดดลิฟต์แบบวัด velocity",
       "drillGoal": "reduce tightness and recover after training",
       "focus": [
         "slow range",
@@ -933,12 +999,45 @@
         "#thailand"
       ],
       "participant": "Partner",
-      "drillGoal_th": "ลดความตึงและฟื้นฟูหลังฝึก",
+      "drillGoal_th": "สร้าง strength พร้อมใช้ velocity ช่วยคุม intensity",
       "focus_th": [
-        "ยืดช้าๆ",
-        "ไม่ให้เจ็บ",
-        "ปลายสุดต้องนุ่มสบาย"
-      ]
+        "bar speed ยังดี",
+        "ฟอร์มคงที่",
+        "หยุด set เมื่อคุณภาพตก"
+      ],
+      "sourceVideo": "สมัครสมาชิก_119.mp4",
+      "videoIndex": 26,
+      "exerciseIndex": 2,
+      "research": {
+        "name": "เดดลิฟต์แบบวัด velocity",
+        "type": "vbt_strength",
+        "confidence": "high",
+        "benefits": [
+          "สร้าง strength พร้อมใช้ velocity ช่วยคุม intensity",
+          "ติดตาม intent และ fatigue จากความเร็วของบาร์",
+          "ช่วยต่อยอดไป power เมื่อ load และ velocity zone ถูกต้อง"
+        ],
+        "cautions": [
+          "อย่าไล่ load ถ้า velocity ตกชัดเจน",
+          "ท่าและช่วงการเคลื่อนไหวต้องเหมือนกันทุก rep",
+          "ตัวเลข velocity ต้องมาจาก setup ที่สม่ำเสมอ"
+        ],
+        "focus": [
+          "bar speed ยังดี",
+          "ฟอร์มคงที่",
+          "หยุด set เมื่อคุณภาพตก"
+        ],
+        "sources": [
+          {
+            "title": "Effects of velocity-based training on strength and power in athletes",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34069249/"
+          },
+          {
+            "title": "Muscle activation in deadlift exercise and its variants",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7046193/"
+          }
+        ]
+      }
     },
     {
       "id": "26-3",
@@ -946,7 +1045,7 @@
       "duration": 9.27,
       "category": "Mobility",
       "level": 1,
-      "drillName": "ยืดเบาๆ แต่ช่วยให้กล้ามเนื้อฟื้นเร็วขึ้น        @มึนไปก็ขออภัย",
+      "drillName": "เดดลิฟต์แบบวัด velocity",
       "drillGoal": "reduce tightness and recover after training",
       "focus": [
         "slow range",
@@ -963,12 +1062,45 @@
         "#thailand"
       ],
       "participant": "Partner",
-      "drillGoal_th": "ลดความตึงและฟื้นฟูหลังฝึก",
+      "drillGoal_th": "สร้าง strength พร้อมใช้ velocity ช่วยคุม intensity",
       "focus_th": [
-        "ยืดช้าๆ",
-        "ไม่ให้เจ็บ",
-        "ปลายสุดต้องนุ่มสบาย"
-      ]
+        "bar speed ยังดี",
+        "ฟอร์มคงที่",
+        "หยุด set เมื่อคุณภาพตก"
+      ],
+      "sourceVideo": "สมัครสมาชิก_119.mp4",
+      "videoIndex": 26,
+      "exerciseIndex": 3,
+      "research": {
+        "name": "เดดลิฟต์แบบวัด velocity",
+        "type": "vbt_strength",
+        "confidence": "high",
+        "benefits": [
+          "สร้าง strength พร้อมใช้ velocity ช่วยคุม intensity",
+          "ติดตาม intent และ fatigue จากความเร็วของบาร์",
+          "ช่วยต่อยอดไป power เมื่อ load และ velocity zone ถูกต้อง"
+        ],
+        "cautions": [
+          "อย่าไล่ load ถ้า velocity ตกชัดเจน",
+          "ท่าและช่วงการเคลื่อนไหวต้องเหมือนกันทุก rep",
+          "ตัวเลข velocity ต้องมาจาก setup ที่สม่ำเสมอ"
+        ],
+        "focus": [
+          "bar speed ยังดี",
+          "ฟอร์มคงที่",
+          "หยุด set เมื่อคุณภาพตก"
+        ],
+        "sources": [
+          {
+            "title": "Effects of velocity-based training on strength and power in athletes",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34069249/"
+          },
+          {
+            "title": "Muscle activation in deadlift exercise and its variants",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7046193/"
+          }
+        ]
+      }
     },
     {
       "id": "27-1",
@@ -1096,7 +1228,7 @@
       "duration": 25.27,
       "category": "Core",
       "level": 2,
-      "drillName": "ดูเหมือนจะง่าย",
+      "drillName": "Back squat แบบวัด velocity",
       "drillGoal": "control rotation for shooting and contact",
       "focus": [
         "brace",
@@ -1111,12 +1243,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "ควบคุม หมุน for shooting and contact",
+      "drillGoal_th": "สร้าง strength พร้อมใช้ velocity ช่วยคุม intensity",
       "focus_th": [
-        "brace",
-        "resist หมุน",
-        "ควบคุมled breathing"
-      ]
+        "bar speed ยังดี",
+        "ฟอร์มคงที่",
+        "หยุด set เมื่อคุณภาพตก"
+      ],
+      "sourceVideo": "สมัครสมาชิก_120.mp4",
+      "videoIndex": 28,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "Back squat แบบวัด velocity",
+        "type": "vbt_strength",
+        "confidence": "high",
+        "benefits": [
+          "สร้าง strength พร้อมใช้ velocity ช่วยคุม intensity",
+          "ติดตาม intent และ fatigue จากความเร็วของบาร์",
+          "ช่วยต่อยอดไป power เมื่อ load และ velocity zone ถูกต้อง"
+        ],
+        "cautions": [
+          "อย่าไล่ load ถ้า velocity ตกชัดเจน",
+          "ท่าและช่วงการเคลื่อนไหวต้องเหมือนกันทุก rep",
+          "ตัวเลข velocity ต้องมาจาก setup ที่สม่ำเสมอ"
+        ],
+        "focus": [
+          "bar speed ยังดี",
+          "ฟอร์มคงที่",
+          "หยุด set เมื่อคุณภาพตก"
+        ],
+        "sources": [
+          {
+            "title": "Effects of velocity-based training on strength and power in athletes",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34069249/"
+          },
+          {
+            "title": "Resistance training effects on strength, power, endurance, and physical performance",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/"
+          }
+        ]
+      }
     },
     {
       "id": "29-1",
@@ -1183,7 +1348,7 @@
       "duration": 11.06,
       "category": "Core",
       "level": 2,
-      "drillName": "แกนกลางลำตัวต้องนิ่ง พร้อมฝึกระบบประสาทสัมพัทธ์ เพื่อการควบคุมและสั่ง...",
+      "drillName": "ฝึกออกตัวและเร่งสปีดระยะสั้น",
       "drillGoal": "control rotation for shooting and contact",
       "focus": [
         "brace",
@@ -1199,12 +1364,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "ควบคุม หมุน for shooting and contact",
+      "drillGoal_th": "พัฒนา first step และ acceleration ระยะสั้น",
       "focus_th": [
-        "brace",
-        "resist หมุน",
-        "ควบคุมled breathing"
-      ]
+        "ออกตัวแรง",
+        "ลำตัวเอนไปข้างหน้า",
+        "พักให้พอก่อน rep ถัดไป"
+      ],
+      "sourceVideo": "สมัครสมาชิก_123.mp4",
+      "videoIndex": 31,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "ฝึกออกตัวและเร่งสปีดระยะสั้น",
+        "type": "sprint_acceleration",
+        "confidence": "high",
+        "benefits": [
+          "พัฒนา first step และ acceleration ระยะสั้น",
+          "ฝึกการส่งแรงแนวนอน",
+          "เชื่อมตรงกับจังหวะ sprint ในฟุตบอล"
+        ],
+        "cautions": [
+          "พักไม่พอจะกลายเป็น conditioning ไม่ใช่ speed",
+          "อย่ายืนตัวตรงเร็วเกินไป",
+          "คุณภาพ sprint สำคัญกว่าปริมาณ"
+        ],
+        "focus": [
+          "ออกตัวแรง",
+          "ลำตัวเอนไปข้างหน้า",
+          "พักให้พอก่อน rep ถัดไป"
+        ],
+        "sources": [
+          {
+            "title": "Short-distance sprint performance development in football code athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8124057/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "31-2",
@@ -1212,7 +1410,7 @@
       "duration": 11.06,
       "category": "Core",
       "level": 2,
-      "drillName": "แกนกลางลำตัวต้องนิ่ง พร้อมฝึกระบบประสาทสัมพัทธ์ เพื่อการควบคุมและสั่ง...",
+      "drillName": "ฝึกออกตัวและเร่งสปีดระยะสั้น",
       "drillGoal": "control rotation for shooting and contact",
       "focus": [
         "brace",
@@ -1228,12 +1426,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "ควบคุม หมุน for shooting and contact",
+      "drillGoal_th": "พัฒนา first step และ acceleration ระยะสั้น",
       "focus_th": [
-        "brace",
-        "resist หมุน",
-        "ควบคุมled breathing"
-      ]
+        "ออกตัวแรง",
+        "ลำตัวเอนไปข้างหน้า",
+        "พักให้พอก่อน rep ถัดไป"
+      ],
+      "sourceVideo": "สมัครสมาชิก_123.mp4",
+      "videoIndex": 31,
+      "exerciseIndex": 2,
+      "research": {
+        "name": "ฝึกออกตัวและเร่งสปีดระยะสั้น",
+        "type": "sprint_acceleration",
+        "confidence": "high",
+        "benefits": [
+          "พัฒนา first step และ acceleration ระยะสั้น",
+          "ฝึกการส่งแรงแนวนอน",
+          "เชื่อมตรงกับจังหวะ sprint ในฟุตบอล"
+        ],
+        "cautions": [
+          "พักไม่พอจะกลายเป็น conditioning ไม่ใช่ speed",
+          "อย่ายืนตัวตรงเร็วเกินไป",
+          "คุณภาพ sprint สำคัญกว่าปริมาณ"
+        ],
+        "focus": [
+          "ออกตัวแรง",
+          "ลำตัวเอนไปข้างหน้า",
+          "พักให้พอก่อน rep ถัดไป"
+        ],
+        "sources": [
+          {
+            "title": "Short-distance sprint performance development in football code athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8124057/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "31-3",
@@ -1241,7 +1472,7 @@
       "duration": 11.06,
       "category": "Core",
       "level": 2,
-      "drillName": "แกนกลางลำตัวต้องนิ่ง พร้อมฝึกระบบประสาทสัมพัทธ์ เพื่อการควบคุมและสั่ง...",
+      "drillName": "ฝึกออกตัวและเร่งสปีดระยะสั้น",
       "drillGoal": "control rotation for shooting and contact",
       "focus": [
         "brace",
@@ -1257,12 +1488,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "ควบคุม หมุน for shooting and contact",
+      "drillGoal_th": "พัฒนา first step และ acceleration ระยะสั้น",
       "focus_th": [
-        "brace",
-        "resist หมุน",
-        "ควบคุมled breathing"
-      ]
+        "ออกตัวแรง",
+        "ลำตัวเอนไปข้างหน้า",
+        "พักให้พอก่อน rep ถัดไป"
+      ],
+      "sourceVideo": "สมัครสมาชิก_123.mp4",
+      "videoIndex": 31,
+      "exerciseIndex": 3,
+      "research": {
+        "name": "ฝึกออกตัวและเร่งสปีดระยะสั้น",
+        "type": "sprint_acceleration",
+        "confidence": "high",
+        "benefits": [
+          "พัฒนา first step และ acceleration ระยะสั้น",
+          "ฝึกการส่งแรงแนวนอน",
+          "เชื่อมตรงกับจังหวะ sprint ในฟุตบอล"
+        ],
+        "cautions": [
+          "พักไม่พอจะกลายเป็น conditioning ไม่ใช่ speed",
+          "อย่ายืนตัวตรงเร็วเกินไป",
+          "คุณภาพ sprint สำคัญกว่าปริมาณ"
+        ],
+        "focus": [
+          "ออกตัวแรง",
+          "ลำตัวเอนไปข้างหน้า",
+          "พักให้พอก่อน rep ถัดไป"
+        ],
+        "sources": [
+          {
+            "title": "Short-distance sprint performance development in football code athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8124057/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "31-4",
@@ -1270,7 +1534,7 @@
       "duration": 11.06,
       "category": "Core",
       "level": 2,
-      "drillName": "แกนกลางลำตัวต้องนิ่ง พร้อมฝึกระบบประสาทสัมพัทธ์ เพื่อการควบคุมและสั่ง...",
+      "drillName": "ฝึกออกตัวและเร่งสปีดระยะสั้น",
       "drillGoal": "control rotation for shooting and contact",
       "focus": [
         "brace",
@@ -1286,12 +1550,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "ควบคุม หมุน for shooting and contact",
+      "drillGoal_th": "พัฒนา first step และ acceleration ระยะสั้น",
       "focus_th": [
-        "brace",
-        "resist หมุน",
-        "ควบคุมled breathing"
-      ]
+        "ออกตัวแรง",
+        "ลำตัวเอนไปข้างหน้า",
+        "พักให้พอก่อน rep ถัดไป"
+      ],
+      "sourceVideo": "สมัครสมาชิก_123.mp4",
+      "videoIndex": 31,
+      "exerciseIndex": 4,
+      "research": {
+        "name": "ฝึกออกตัวและเร่งสปีดระยะสั้น",
+        "type": "sprint_acceleration",
+        "confidence": "high",
+        "benefits": [
+          "พัฒนา first step และ acceleration ระยะสั้น",
+          "ฝึกการส่งแรงแนวนอน",
+          "เชื่อมตรงกับจังหวะ sprint ในฟุตบอล"
+        ],
+        "cautions": [
+          "พักไม่พอจะกลายเป็น conditioning ไม่ใช่ speed",
+          "อย่ายืนตัวตรงเร็วเกินไป",
+          "คุณภาพ sprint สำคัญกว่าปริมาณ"
+        ],
+        "focus": [
+          "ออกตัวแรง",
+          "ลำตัวเอนไปข้างหน้า",
+          "พักให้พอก่อน rep ถัดไป"
+        ],
+        "sources": [
+          {
+            "title": "Short-distance sprint performance development in football code athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8124057/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "31-5",
@@ -1299,7 +1596,7 @@
       "duration": 11.06,
       "category": "Core",
       "level": 2,
-      "drillName": "แกนกลางลำตัวต้องนิ่ง พร้อมฝึกระบบประสาทสัมพัทธ์ เพื่อการควบคุมและสั่ง...",
+      "drillName": "ฝึกออกตัวและเร่งสปีดระยะสั้น",
       "drillGoal": "control rotation for shooting and contact",
       "focus": [
         "brace",
@@ -1315,12 +1612,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "ควบคุม หมุน for shooting and contact",
+      "drillGoal_th": "พัฒนา first step และ acceleration ระยะสั้น",
       "focus_th": [
-        "brace",
-        "resist หมุน",
-        "ควบคุมled breathing"
-      ]
+        "ออกตัวแรง",
+        "ลำตัวเอนไปข้างหน้า",
+        "พักให้พอก่อน rep ถัดไป"
+      ],
+      "sourceVideo": "สมัครสมาชิก_123.mp4",
+      "videoIndex": 31,
+      "exerciseIndex": 5,
+      "research": {
+        "name": "ฝึกออกตัวและเร่งสปีดระยะสั้น",
+        "type": "sprint_acceleration",
+        "confidence": "high",
+        "benefits": [
+          "พัฒนา first step และ acceleration ระยะสั้น",
+          "ฝึกการส่งแรงแนวนอน",
+          "เชื่อมตรงกับจังหวะ sprint ในฟุตบอล"
+        ],
+        "cautions": [
+          "พักไม่พอจะกลายเป็น conditioning ไม่ใช่ speed",
+          "อย่ายืนตัวตรงเร็วเกินไป",
+          "คุณภาพ sprint สำคัญกว่าปริมาณ"
+        ],
+        "focus": [
+          "ออกตัวแรง",
+          "ลำตัวเอนไปข้างหน้า",
+          "พักให้พอก่อน rep ถัดไป"
+        ],
+        "sources": [
+          {
+            "title": "Short-distance sprint performance development in football code athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8124057/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "32-1",
@@ -1557,7 +1887,7 @@
       "duration": 13.52,
       "category": "General",
       "level": 2,
-      "drillName": "อยากรับลูกได้เร็วขึ้น",
+      "drillName": "Inverted row ด้วย velocity",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -1571,12 +1901,45 @@
         "#ศูนย์พัฒนานักกีฬา"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ฝึกแรงดึงแนวนอน",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "ลำตัวเป็นเส้นตรง",
+        "ดึงศอกไปหลัง",
+        "คุมจังหวะทั้งขึ้นและลง"
+      ],
+      "sourceVideo": "สมัครสมาชิก_130.mp4",
+      "videoIndex": 39,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "Inverted row ด้วย velocity",
+        "type": "upper_body_pull_strength",
+        "confidence": "high",
+        "benefits": [
+          "ฝึกแรงดึงแนวนอน",
+          "พัฒนา upper-back และ trunk control",
+          "ปรับระดับความยากได้ด้วยมุมลำตัว"
+        ],
+        "cautions": [
+          "สะโพกไม่ควรตก",
+          "อย่ายักไหล่แทนการดึงหลัง",
+          "รักษามุมลำตัวให้คงที่"
+        ],
+        "focus": [
+          "ลำตัวเป็นเส้นตรง",
+          "ดึงศอกไปหลัง",
+          "คุมจังหวะทั้งขึ้นและลง"
+        ],
+        "sources": [
+          {
+            "title": "Trunk muscle activation and spinal loading in rowing exercises",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19197209/"
+          },
+          {
+            "title": "Resistance training effects on strength, power, endurance, and physical performance",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/"
+          }
+        ]
+      }
     },
     {
       "id": "40-1",
@@ -1833,7 +2196,7 @@
       "duration": 24.47,
       "category": "General",
       "level": 2,
-      "drillName": "”พัฒนาได้ ถ้าร่างกายไหว“",
+      "drillName": "Nordic curl",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -1848,12 +2211,41 @@
         "#powerpump45"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "เพิ่ม eccentric hamstring strength",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "คุม lowering",
+        "สะโพกเหยียด",
+        "ช่วยดันกลับขึ้นเมื่อจำเป็น"
+      ],
+      "sourceVideo": "สมัครสมาชิก_142.mp4",
+      "videoIndex": 52,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "Nordic curl",
+        "type": "hamstring_eccentric_strength",
+        "confidence": "high",
+        "benefits": [
+          "เพิ่ม eccentric hamstring strength",
+          "ช่วยลดความเสี่ยง hamstring injury เมื่อจัดโปรแกรมแบบค่อยเป็นค่อยไป",
+          "สนับสนุนความทนทานต่อ sprint"
+        ],
+        "cautions": [
+          "อย่าปล่อยตัวตกโดยไม่คุมช่วงลง",
+          "สะโพกไม่ควรพับมากเกินไป",
+          "เริ่ม volume ต่ำก่อน"
+        ],
+        "focus": [
+          "คุม lowering",
+          "สะโพกเหยียด",
+          "ช่วยดันกลับขึ้นเมื่อจำเป็น"
+        ],
+        "sources": [
+          {
+            "title": "Nordic hamstring exercise programs reduce hamstring injury risk",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30808663/"
+          }
+        ]
+      }
     },
     {
       "id": "53-1",
@@ -1954,7 +2346,7 @@
       "duration": 10.67,
       "category": "General",
       "level": 2,
-      "drillName": "ไม่ใช่แค่กระโดด…แต่ต้อง “ระเบิดจากขาข้างเดียว” พุ่งจากพื้นไวขึ้น เปลี...",
+      "drillName": "Trap-bar jump",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -1972,12 +2364,45 @@
         "#powerpump45"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ฝึก explosive lower-body power",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "กระโดดเร็ว",
+        "ลงนิ่ง",
+        "พักพอให้ rep ต่อไปยังแรง"
+      ],
+      "sourceVideo": "สมัครสมาชิก_145.mp4",
+      "videoIndex": 55,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "Trap-bar jump",
+        "type": "loaded_jump_power",
+        "confidence": "high",
+        "benefits": [
+          "ฝึก explosive lower-body power",
+          "ใช้น้ำหนักแบบถือกลางตัวเพื่อกระโดดได้เป็นธรรมชาติ",
+          "เหมาะกับงาน power เมื่อ volume ต่ำและ intent สูง"
+        ],
+        "cautions": [
+          "อย่าใส่น้ำหนักหนักจนกระโดดช้า",
+          "ต้องลงพื้นได้คุม",
+          "ไม่ควรทำเป็น set ยาวจนล้า"
+        ],
+        "focus": [
+          "กระโดดเร็ว",
+          "ลงนิ่ง",
+          "พักพอให้ rep ต่อไปยังแรง"
+        ],
+        "sources": [
+          {
+            "title": "Power production characteristics of hexagonal barbell jumps",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6724584/"
+          },
+          {
+            "title": "Effects of velocity-based training on strength and power in athletes",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34069249/"
+          }
+        ]
+      }
     },
     {
       "id": "56-1",
@@ -2796,7 +3221,7 @@
       "duration": 18.64,
       "category": "General",
       "level": 2,
-      "drillName": "นักกีฬาทุกคนควรมีพื้นฐานที่ดี การควบคุมข้อต่อให้นิ่งทั้งร่างกายนั้น จ...",
+      "drillName": "Agility ladder footwork",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -2812,12 +3237,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ฝึกจังหวะและตำแหน่งเท้า",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "จังหวะเท้าสม่ำเสมอ",
+        "เท้าวางตรงช่อง",
+        "เร็วแต่ยังคุม pattern ได้"
+      ],
+      "sourceVideo": "สมัครสมาชิก_155.mp4",
+      "videoIndex": 66,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "Agility ladder footwork",
+        "type": "coordination_footwork",
+        "confidence": "high",
+        "benefits": [
+          "ฝึกจังหวะและตำแหน่งเท้า",
+          "เพิ่ม coordination ด้วย load ต่ำ",
+          "ใช้เป็น warm-up ก่อน drill เปลี่ยนทิศทางที่เร็วกว่า"
+        ],
+        "cautions": [
+          "ladder ไม่ใช่ agility เต็มรูปแบบถ้าไม่มีการตัดสินใจ",
+          "อย่าเร่งจนตำแหน่งเท้าเสีย",
+          "ควรต่อยอดไป field movement จริง"
+        ],
+        "focus": [
+          "จังหวะเท้าสม่ำเสมอ",
+          "เท้าวางตรงช่อง",
+          "เร็วแต่ยังคุม pattern ได้"
+        ],
+        "sources": [
+          {
+            "title": "Effects of coordination training with an agility ladder on physical fitness",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386157/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "68-1",
@@ -2825,7 +3283,7 @@
       "duration": 11.55,
       "category": "General",
       "level": 2,
-      "drillName": "ระเบิดพลังต่อเนื่องให้มีคุณภาพ ด้วยการฝึกระบบประสาทสัมพันธ์ โดยแบบฝึก...",
+      "drillName": "Trap-bar jump ด้วย velocity",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -2842,12 +3300,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ฝึก lower-body power พร้อมวัดความเร็วของ rep",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "เร็วทุก rep",
+        "ดู speed drop",
+        "ลงพื้นมั่นคง"
+      ],
+      "sourceVideo": "สมัครสมาชิก_157.mp4",
+      "videoIndex": 68,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "Trap-bar jump ด้วย velocity",
+        "type": "vbt_loaded_jump_power",
+        "confidence": "high",
+        "benefits": [
+          "ฝึก lower-body power พร้อมวัดความเร็วของ rep",
+          "ใช้ velocity เพื่อคุมคุณภาพและหยุดเมื่อ speed drop",
+          "ช่วยให้ power work ไม่กลายเป็นงานล้า"
+        ],
+        "cautions": [
+          "น้ำหนักต้องไม่หนักจน velocity ต่ำ",
+          "หยุดเมื่อความเร็วตกชัดเจน",
+          "landing ต้องมั่นคงทุก rep"
+        ],
+        "focus": [
+          "เร็วทุก rep",
+          "ดู speed drop",
+          "ลงพื้นมั่นคง"
+        ],
+        "sources": [
+          {
+            "title": "Power production characteristics of hexagonal barbell jumps",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6724584/"
+          },
+          {
+            "title": "Effects of velocity-based training on strength and power in athletes",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34069249/"
+          }
+        ]
+      }
     },
     {
       "id": "69-1",
@@ -3179,7 +3670,7 @@
       "duration": 10.73,
       "category": "General",
       "level": 2,
-      "drillName": "การลงสู่พื้น จากที่สูงที่ดีนั้น ควรมี การผ่อนแรง ที่ดีและมั่นคง จะทำใ...",
+      "drillName": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -3194,12 +3685,45 @@
         "#fyp"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ลดความตึงของฝ่าเท้าและน่อง",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "ยืดแบบไม่เจ็บ",
+        "คุมแรงกด",
+        "ตามด้วย strengthening ที่เหมาะสม"
+      ],
+      "sourceVideo": "สมัครสมาชิก_17.mp4",
+      "videoIndex": 74,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
+        "type": "mobility_rehab",
+        "confidence": "high",
+        "benefits": [
+          "ลดความตึงของฝ่าเท้าและน่อง",
+          "ช่วยคืนช่วงการเคลื่อนไหวของข้อเท้าและนิ้วเท้า",
+          "เหมาะเป็นส่วนหนึ่งของการกลับไปวิ่งแบบค่อยเป็นค่อยไป"
+        ],
+        "cautions": [
+          "อย่าฝืนยืดจนเจ็บแปลบ",
+          "การยืดอย่างเดียวไม่พอถ้ายังรับ load ไม่ได้",
+          "เพิ่มแรงและปริมาณฝึกทีละขั้น"
+        ],
+        "focus": [
+          "ยืดแบบไม่เจ็บ",
+          "คุมแรงกด",
+          "ตามด้วย strengthening ที่เหมาะสม"
+        ],
+        "sources": [
+          {
+            "title": "Plantar fasciitis stretching and loading guidance",
+            "url": "https://www.jospt.org/doi/10.2519/jospt.2014.0303"
+          },
+          {
+            "title": "Short-foot exercise and intrinsic foot muscle training for flat feet",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35871320/"
+          }
+        ]
+      }
     },
     {
       "id": "74-2",
@@ -3207,7 +3731,7 @@
       "duration": 10.73,
       "category": "General",
       "level": 2,
-      "drillName": "การลงสู่พื้น จากที่สูงที่ดีนั้น ควรมี การผ่อนแรง ที่ดีและมั่นคง จะทำใ...",
+      "drillName": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -3222,12 +3746,45 @@
         "#fyp"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ลดความตึงของฝ่าเท้าและน่อง",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "ยืดแบบไม่เจ็บ",
+        "คุมแรงกด",
+        "ตามด้วย strengthening ที่เหมาะสม"
+      ],
+      "sourceVideo": "สมัครสมาชิก_17.mp4",
+      "videoIndex": 74,
+      "exerciseIndex": 2,
+      "research": {
+        "name": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
+        "type": "mobility_rehab",
+        "confidence": "high",
+        "benefits": [
+          "ลดความตึงของฝ่าเท้าและน่อง",
+          "ช่วยคืนช่วงการเคลื่อนไหวของข้อเท้าและนิ้วเท้า",
+          "เหมาะเป็นส่วนหนึ่งของการกลับไปวิ่งแบบค่อยเป็นค่อยไป"
+        ],
+        "cautions": [
+          "อย่าฝืนยืดจนเจ็บแปลบ",
+          "การยืดอย่างเดียวไม่พอถ้ายังรับ load ไม่ได้",
+          "เพิ่มแรงและปริมาณฝึกทีละขั้น"
+        ],
+        "focus": [
+          "ยืดแบบไม่เจ็บ",
+          "คุมแรงกด",
+          "ตามด้วย strengthening ที่เหมาะสม"
+        ],
+        "sources": [
+          {
+            "title": "Plantar fasciitis stretching and loading guidance",
+            "url": "https://www.jospt.org/doi/10.2519/jospt.2014.0303"
+          },
+          {
+            "title": "Short-foot exercise and intrinsic foot muscle training for flat feet",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35871320/"
+          }
+        ]
+      }
     },
     {
       "id": "74-3",
@@ -3235,7 +3792,7 @@
       "duration": 10.73,
       "category": "General",
       "level": 2,
-      "drillName": "การลงสู่พื้น จากที่สูงที่ดีนั้น ควรมี การผ่อนแรง ที่ดีและมั่นคง จะทำใ...",
+      "drillName": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -3250,12 +3807,45 @@
         "#fyp"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ลดความตึงของฝ่าเท้าและน่อง",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "ยืดแบบไม่เจ็บ",
+        "คุมแรงกด",
+        "ตามด้วย strengthening ที่เหมาะสม"
+      ],
+      "sourceVideo": "สมัครสมาชิก_17.mp4",
+      "videoIndex": 74,
+      "exerciseIndex": 3,
+      "research": {
+        "name": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
+        "type": "mobility_rehab",
+        "confidence": "high",
+        "benefits": [
+          "ลดความตึงของฝ่าเท้าและน่อง",
+          "ช่วยคืนช่วงการเคลื่อนไหวของข้อเท้าและนิ้วเท้า",
+          "เหมาะเป็นส่วนหนึ่งของการกลับไปวิ่งแบบค่อยเป็นค่อยไป"
+        ],
+        "cautions": [
+          "อย่าฝืนยืดจนเจ็บแปลบ",
+          "การยืดอย่างเดียวไม่พอถ้ายังรับ load ไม่ได้",
+          "เพิ่มแรงและปริมาณฝึกทีละขั้น"
+        ],
+        "focus": [
+          "ยืดแบบไม่เจ็บ",
+          "คุมแรงกด",
+          "ตามด้วย strengthening ที่เหมาะสม"
+        ],
+        "sources": [
+          {
+            "title": "Plantar fasciitis stretching and loading guidance",
+            "url": "https://www.jospt.org/doi/10.2519/jospt.2014.0303"
+          },
+          {
+            "title": "Short-foot exercise and intrinsic foot muscle training for flat feet",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35871320/"
+          }
+        ]
+      }
     },
     {
       "id": "74-4",
@@ -3263,7 +3853,7 @@
       "duration": 10.73,
       "category": "General",
       "level": 2,
-      "drillName": "การลงสู่พื้น จากที่สูงที่ดีนั้น ควรมี การผ่อนแรง ที่ดีและมั่นคง จะทำใ...",
+      "drillName": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -3278,12 +3868,45 @@
         "#fyp"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ลดความตึงของฝ่าเท้าและน่อง",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "ยืดแบบไม่เจ็บ",
+        "คุมแรงกด",
+        "ตามด้วย strengthening ที่เหมาะสม"
+      ],
+      "sourceVideo": "สมัครสมาชิก_17.mp4",
+      "videoIndex": 74,
+      "exerciseIndex": 4,
+      "research": {
+        "name": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
+        "type": "mobility_rehab",
+        "confidence": "high",
+        "benefits": [
+          "ลดความตึงของฝ่าเท้าและน่อง",
+          "ช่วยคืนช่วงการเคลื่อนไหวของข้อเท้าและนิ้วเท้า",
+          "เหมาะเป็นส่วนหนึ่งของการกลับไปวิ่งแบบค่อยเป็นค่อยไป"
+        ],
+        "cautions": [
+          "อย่าฝืนยืดจนเจ็บแปลบ",
+          "การยืดอย่างเดียวไม่พอถ้ายังรับ load ไม่ได้",
+          "เพิ่มแรงและปริมาณฝึกทีละขั้น"
+        ],
+        "focus": [
+          "ยืดแบบไม่เจ็บ",
+          "คุมแรงกด",
+          "ตามด้วย strengthening ที่เหมาะสม"
+        ],
+        "sources": [
+          {
+            "title": "Plantar fasciitis stretching and loading guidance",
+            "url": "https://www.jospt.org/doi/10.2519/jospt.2014.0303"
+          },
+          {
+            "title": "Short-foot exercise and intrinsic foot muscle training for flat feet",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35871320/"
+          }
+        ]
+      }
     },
     {
       "id": "74-5",
@@ -3291,7 +3914,7 @@
       "duration": 10.73,
       "category": "General",
       "level": 2,
-      "drillName": "การลงสู่พื้น จากที่สูงที่ดีนั้น ควรมี การผ่อนแรง ที่ดีและมั่นคง จะทำใ...",
+      "drillName": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -3306,12 +3929,45 @@
         "#fyp"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ลดความตึงของฝ่าเท้าและน่อง",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "ยืดแบบไม่เจ็บ",
+        "คุมแรงกด",
+        "ตามด้วย strengthening ที่เหมาะสม"
+      ],
+      "sourceVideo": "สมัครสมาชิก_17.mp4",
+      "videoIndex": 74,
+      "exerciseIndex": 5,
+      "research": {
+        "name": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
+        "type": "mobility_rehab",
+        "confidence": "high",
+        "benefits": [
+          "ลดความตึงของฝ่าเท้าและน่อง",
+          "ช่วยคืนช่วงการเคลื่อนไหวของข้อเท้าและนิ้วเท้า",
+          "เหมาะเป็นส่วนหนึ่งของการกลับไปวิ่งแบบค่อยเป็นค่อยไป"
+        ],
+        "cautions": [
+          "อย่าฝืนยืดจนเจ็บแปลบ",
+          "การยืดอย่างเดียวไม่พอถ้ายังรับ load ไม่ได้",
+          "เพิ่มแรงและปริมาณฝึกทีละขั้น"
+        ],
+        "focus": [
+          "ยืดแบบไม่เจ็บ",
+          "คุมแรงกด",
+          "ตามด้วย strengthening ที่เหมาะสม"
+        ],
+        "sources": [
+          {
+            "title": "Plantar fasciitis stretching and loading guidance",
+            "url": "https://www.jospt.org/doi/10.2519/jospt.2014.0303"
+          },
+          {
+            "title": "Short-foot exercise and intrinsic foot muscle training for flat feet",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35871320/"
+          }
+        ]
+      }
     },
     {
       "id": "74-6",
@@ -3319,7 +3975,7 @@
       "duration": 10.73,
       "category": "General",
       "level": 2,
-      "drillName": "การลงสู่พื้น จากที่สูงที่ดีนั้น ควรมี การผ่อนแรง ที่ดีและมั่นคง จะทำใ...",
+      "drillName": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -3334,12 +3990,45 @@
         "#fyp"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ลดความตึงของฝ่าเท้าและน่อง",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "ยืดแบบไม่เจ็บ",
+        "คุมแรงกด",
+        "ตามด้วย strengthening ที่เหมาะสม"
+      ],
+      "sourceVideo": "สมัครสมาชิก_17.mp4",
+      "videoIndex": 74,
+      "exerciseIndex": 6,
+      "research": {
+        "name": "ยืดฝ่าเท้าและน่องสำหรับรองช้ำ",
+        "type": "mobility_rehab",
+        "confidence": "high",
+        "benefits": [
+          "ลดความตึงของฝ่าเท้าและน่อง",
+          "ช่วยคืนช่วงการเคลื่อนไหวของข้อเท้าและนิ้วเท้า",
+          "เหมาะเป็นส่วนหนึ่งของการกลับไปวิ่งแบบค่อยเป็นค่อยไป"
+        ],
+        "cautions": [
+          "อย่าฝืนยืดจนเจ็บแปลบ",
+          "การยืดอย่างเดียวไม่พอถ้ายังรับ load ไม่ได้",
+          "เพิ่มแรงและปริมาณฝึกทีละขั้น"
+        ],
+        "focus": [
+          "ยืดแบบไม่เจ็บ",
+          "คุมแรงกด",
+          "ตามด้วย strengthening ที่เหมาะสม"
+        ],
+        "sources": [
+          {
+            "title": "Plantar fasciitis stretching and loading guidance",
+            "url": "https://www.jospt.org/doi/10.2519/jospt.2014.0303"
+          },
+          {
+            "title": "Short-foot exercise and intrinsic foot muscle training for flat feet",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35871320/"
+          }
+        ]
+      }
     },
     {
       "id": "75-1",
@@ -3347,7 +4036,7 @@
       "duration": 20.17,
       "category": "General",
       "level": 2,
-      "drillName": "พื้นฐานการเคลื่อนไหวร่างกายที่ดี เกิดจากการสั่งการของระบบประสาท ที่สั...",
+      "drillName": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -3365,12 +4054,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "landing เงียบและมั่นคง",
+        "เข่าคุมแนวได้",
+        "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+      ],
+      "sourceVideo": "สมัครสมาชิก_18.mp4",
+      "videoIndex": 75,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
+        "type": "acl_return_to_play",
+        "confidence": "high",
+        "benefits": [
+          "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
+          "ฝึกการคุมเข่าและสะโพกในท่าที่ใกล้เคียงกีฬา",
+          "เชื่อม rehab control ไปสู่ movement ในสนาม"
+        ],
+        "cautions": [
+          "อย่าเพิ่มความเร็วหรือความสูงถ้า landing ยังไม่นิ่ง",
+          "ระวังเข่ายุบเข้าด้านในตอนลงหรือ plant",
+          "ต้องไม่มีอาการเจ็บและควบคุมซ้ำได้ก่อนขยับระดับ"
+        ],
+        "focus": [
+          "landing เงียบและมั่นคง",
+          "เข่าคุมแนวได้",
+          "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+        ],
+        "sources": [
+          {
+            "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "76-1",
@@ -3409,7 +4131,7 @@
       "duration": 8.55,
       "category": "General",
       "level": 2,
-      "drillName": "การลงสู่พื้นที่ดี นอกจาก การผ่อนแรง ที่ดีแล้ว ควรจะควบคุมข้อต่อให้ นิ...",
+      "drillName": "ฝึกเบรกและลงเท้าเพื่อชะลอความเร็ว",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -3427,12 +4149,45 @@
         "#powerpump45"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ฝึกการเบรกและลดความเร็วให้มั่นคงก่อนเปลี่ยนทิศทาง",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "ลงเท้าแล้วหยุดได้มั่นคง",
+        "เข่าตรงกับปลายเท้า",
+        "คุมลำตัวก่อนเร่งต่อ"
+      ],
+      "sourceVideo": "สมัครสมาชิก_2.mp4",
+      "videoIndex": 77,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "ฝึกเบรกและลงเท้าเพื่อชะลอความเร็ว",
+        "type": "deceleration",
+        "confidence": "high",
+        "benefits": [
+          "ฝึกการเบรกและลดความเร็วให้มั่นคงก่อนเปลี่ยนทิศทาง",
+          "เพิ่มการควบคุมแรงแบบ eccentric ที่สะโพก เข่า และข้อเท้า",
+          "ช่วยให้การหยุดและ cut ในฟุตบอลปลอดภัยขึ้น"
+        ],
+        "cautions": [
+          "เข่าไม่ควรยุบเข้าด้านในตอนลงเท้า",
+          "ลำตัวต้องไม่พุ่งหลุดจนหยุดไม่อยู่",
+          "อย่าเร่งความเร็วถ้ายังหยุดนิ่งไม่ได้"
+        ],
+        "focus": [
+          "ลงเท้าแล้วหยุดได้มั่นคง",
+          "เข่าตรงกับปลายเท้า",
+          "คุมลำตัวก่อนเร่งต่อ"
+        ],
+        "sources": [
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          },
+          {
+            "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+          }
+        ]
+      }
     },
     {
       "id": "77-2",
@@ -3440,7 +4195,7 @@
       "duration": 8.56,
       "category": "General",
       "level": 2,
-      "drillName": "การลงสู่พื้นที่ดี นอกจาก การผ่อนแรง ที่ดีแล้ว ควรจะควบคุมข้อต่อให้ นิ...",
+      "drillName": "ฝึกเบรกและลงเท้าเพื่อชะลอความเร็ว",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -3458,12 +4213,45 @@
         "#powerpump45"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ฝึกการเบรกและลดความเร็วให้มั่นคงก่อนเปลี่ยนทิศทาง",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "ลงเท้าแล้วหยุดได้มั่นคง",
+        "เข่าตรงกับปลายเท้า",
+        "คุมลำตัวก่อนเร่งต่อ"
+      ],
+      "sourceVideo": "สมัครสมาชิก_2.mp4",
+      "videoIndex": 77,
+      "exerciseIndex": 2,
+      "research": {
+        "name": "ฝึกเบรกและลงเท้าเพื่อชะลอความเร็ว",
+        "type": "deceleration",
+        "confidence": "high",
+        "benefits": [
+          "ฝึกการเบรกและลดความเร็วให้มั่นคงก่อนเปลี่ยนทิศทาง",
+          "เพิ่มการควบคุมแรงแบบ eccentric ที่สะโพก เข่า และข้อเท้า",
+          "ช่วยให้การหยุดและ cut ในฟุตบอลปลอดภัยขึ้น"
+        ],
+        "cautions": [
+          "เข่าไม่ควรยุบเข้าด้านในตอนลงเท้า",
+          "ลำตัวต้องไม่พุ่งหลุดจนหยุดไม่อยู่",
+          "อย่าเร่งความเร็วถ้ายังหยุดนิ่งไม่ได้"
+        ],
+        "focus": [
+          "ลงเท้าแล้วหยุดได้มั่นคง",
+          "เข่าตรงกับปลายเท้า",
+          "คุมลำตัวก่อนเร่งต่อ"
+        ],
+        "sources": [
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          },
+          {
+            "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+          }
+        ]
+      }
     },
     {
       "id": "77-3",
@@ -3471,7 +4259,7 @@
       "duration": 8.56,
       "category": "General",
       "level": 2,
-      "drillName": "การลงสู่พื้นที่ดี นอกจาก การผ่อนแรง ที่ดีแล้ว ควรจะควบคุมข้อต่อให้ นิ...",
+      "drillName": "ฝึกเบรกและลงเท้าเพื่อชะลอความเร็ว",
       "drillGoal": "add a focused drill to the training library",
       "focus": [
         "quality",
@@ -3489,12 +4277,45 @@
         "#powerpump45"
       ],
       "participant": "Solo",
-      "drillGoal_th": "add a focused drill to the training library",
+      "drillGoal_th": "ฝึกการเบรกและลดความเร็วให้มั่นคงก่อนเปลี่ยนทิศทาง",
       "focus_th": [
-        "คุณภาพ",
-        "repeatability",
-        "notes"
-      ]
+        "ลงเท้าแล้วหยุดได้มั่นคง",
+        "เข่าตรงกับปลายเท้า",
+        "คุมลำตัวก่อนเร่งต่อ"
+      ],
+      "sourceVideo": "สมัครสมาชิก_2.mp4",
+      "videoIndex": 77,
+      "exerciseIndex": 3,
+      "research": {
+        "name": "ฝึกเบรกและลงเท้าเพื่อชะลอความเร็ว",
+        "type": "deceleration",
+        "confidence": "high",
+        "benefits": [
+          "ฝึกการเบรกและลดความเร็วให้มั่นคงก่อนเปลี่ยนทิศทาง",
+          "เพิ่มการควบคุมแรงแบบ eccentric ที่สะโพก เข่า และข้อเท้า",
+          "ช่วยให้การหยุดและ cut ในฟุตบอลปลอดภัยขึ้น"
+        ],
+        "cautions": [
+          "เข่าไม่ควรยุบเข้าด้านในตอนลงเท้า",
+          "ลำตัวต้องไม่พุ่งหลุดจนหยุดไม่อยู่",
+          "อย่าเร่งความเร็วถ้ายังหยุดนิ่งไม่ได้"
+        ],
+        "focus": [
+          "ลงเท้าแล้วหยุดได้มั่นคง",
+          "เข่าตรงกับปลายเท้า",
+          "คุมลำตัวก่อนเร่งต่อ"
+        ],
+        "sources": [
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          },
+          {
+            "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+          }
+        ]
+      }
     },
     {
       "id": "78-1",
@@ -5546,7 +6367,7 @@
       "duration": 9.93,
       "category": "Power",
       "level": 5,
-      "drillName": "กระโดดเชือก เป็นการฝึกระบบประสาทสัมพันธ์ ซึ่งสมองนั้นจะสั่งการกล้ามเน...",
+      "drillName": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
         "max speed",
@@ -5564,12 +6385,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "connect strength to fast field movement",
+      "drillGoal_th": "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
       "focus_th": [
-        "max ความเร็ว",
-        "คุณภาพ reps",
-        "full rest"
-      ]
+        "landing เงียบและมั่นคง",
+        "เข่าคุมแนวได้",
+        "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+      ],
+      "sourceVideo": "สมัครสมาชิก_59.mp4",
+      "videoIndex": 120,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
+        "type": "acl_return_to_play",
+        "confidence": "high",
+        "benefits": [
+          "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
+          "ฝึกการคุมเข่าและสะโพกในท่าที่ใกล้เคียงกีฬา",
+          "เชื่อม rehab control ไปสู่ movement ในสนาม"
+        ],
+        "cautions": [
+          "อย่าเพิ่มความเร็วหรือความสูงถ้า landing ยังไม่นิ่ง",
+          "ระวังเข่ายุบเข้าด้านในตอนลงหรือ plant",
+          "ต้องไม่มีอาการเจ็บและควบคุมซ้ำได้ก่อนขยับระดับ"
+        ],
+        "focus": [
+          "landing เงียบและมั่นคง",
+          "เข่าคุมแนวได้",
+          "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+        ],
+        "sources": [
+          {
+            "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+          },
+          {
+            "title": "Plyometric jump training effects on soccer players' physical fitness",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32915430/"
+          }
+        ]
+      }
     },
     {
       "id": "120-2",
@@ -5577,7 +6431,7 @@
       "duration": 9.92,
       "category": "Power",
       "level": 5,
-      "drillName": "กระโดดเชือก เป็นการฝึกระบบประสาทสัมพันธ์ ซึ่งสมองนั้นจะสั่งการกล้ามเน...",
+      "drillName": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
         "max speed",
@@ -5595,12 +6449,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "connect strength to fast field movement",
+      "drillGoal_th": "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
       "focus_th": [
-        "max ความเร็ว",
-        "คุณภาพ reps",
-        "full rest"
-      ]
+        "landing เงียบและมั่นคง",
+        "เข่าคุมแนวได้",
+        "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+      ],
+      "sourceVideo": "สมัครสมาชิก_59.mp4",
+      "videoIndex": 120,
+      "exerciseIndex": 2,
+      "research": {
+        "name": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
+        "type": "acl_return_to_play",
+        "confidence": "high",
+        "benefits": [
+          "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
+          "ฝึกการคุมเข่าและสะโพกในท่าที่ใกล้เคียงกีฬา",
+          "เชื่อม rehab control ไปสู่ movement ในสนาม"
+        ],
+        "cautions": [
+          "อย่าเพิ่มความเร็วหรือความสูงถ้า landing ยังไม่นิ่ง",
+          "ระวังเข่ายุบเข้าด้านในตอนลงหรือ plant",
+          "ต้องไม่มีอาการเจ็บและควบคุมซ้ำได้ก่อนขยับระดับ"
+        ],
+        "focus": [
+          "landing เงียบและมั่นคง",
+          "เข่าคุมแนวได้",
+          "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+        ],
+        "sources": [
+          {
+            "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+          },
+          {
+            "title": "Plyometric jump training effects on soccer players' physical fitness",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32915430/"
+          }
+        ]
+      }
     },
     {
       "id": "120-3",
@@ -5608,7 +6495,7 @@
       "duration": 9.92,
       "category": "Power",
       "level": 5,
-      "drillName": "กระโดดเชือก เป็นการฝึกระบบประสาทสัมพันธ์ ซึ่งสมองนั้นจะสั่งการกล้ามเน...",
+      "drillName": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
         "max speed",
@@ -5626,12 +6513,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "connect strength to fast field movement",
+      "drillGoal_th": "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
       "focus_th": [
-        "max ความเร็ว",
-        "คุณภาพ reps",
-        "full rest"
-      ]
+        "landing เงียบและมั่นคง",
+        "เข่าคุมแนวได้",
+        "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+      ],
+      "sourceVideo": "สมัครสมาชิก_59.mp4",
+      "videoIndex": 120,
+      "exerciseIndex": 3,
+      "research": {
+        "name": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
+        "type": "acl_return_to_play",
+        "confidence": "high",
+        "benefits": [
+          "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
+          "ฝึกการคุมเข่าและสะโพกในท่าที่ใกล้เคียงกีฬา",
+          "เชื่อม rehab control ไปสู่ movement ในสนาม"
+        ],
+        "cautions": [
+          "อย่าเพิ่มความเร็วหรือความสูงถ้า landing ยังไม่นิ่ง",
+          "ระวังเข่ายุบเข้าด้านในตอนลงหรือ plant",
+          "ต้องไม่มีอาการเจ็บและควบคุมซ้ำได้ก่อนขยับระดับ"
+        ],
+        "focus": [
+          "landing เงียบและมั่นคง",
+          "เข่าคุมแนวได้",
+          "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+        ],
+        "sources": [
+          {
+            "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+          },
+          {
+            "title": "Plyometric jump training effects on soccer players' physical fitness",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32915430/"
+          }
+        ]
+      }
     },
     {
       "id": "121-1",
@@ -6073,7 +6993,7 @@
       "duration": 10.59,
       "category": "Power",
       "level": 5,
-      "drillName": "อยากบินสูง แรงระเบิดต้องดี",
+      "drillName": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
         "max speed",
@@ -6091,12 +7011,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "connect strength to fast field movement",
+      "drillGoal_th": "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
       "focus_th": [
-        "max ความเร็ว",
-        "คุณภาพ reps",
-        "full rest"
-      ]
+        "landing เงียบและมั่นคง",
+        "เข่าคุมแนวได้",
+        "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+      ],
+      "sourceVideo": "สมัครสมาชิก_67.mp4",
+      "videoIndex": 129,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
+        "type": "acl_return_to_play",
+        "confidence": "high",
+        "benefits": [
+          "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
+          "ฝึกการคุมเข่าและสะโพกในท่าที่ใกล้เคียงกีฬา",
+          "เชื่อม rehab control ไปสู่ movement ในสนาม"
+        ],
+        "cautions": [
+          "อย่าเพิ่มความเร็วหรือความสูงถ้า landing ยังไม่นิ่ง",
+          "ระวังเข่ายุบเข้าด้านในตอนลงหรือ plant",
+          "ต้องไม่มีอาการเจ็บและควบคุมซ้ำได้ก่อนขยับระดับ"
+        ],
+        "focus": [
+          "landing เงียบและมั่นคง",
+          "เข่าคุมแนวได้",
+          "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+        ],
+        "sources": [
+          {
+            "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "129-2",
@@ -6104,7 +7057,7 @@
       "duration": 10.59,
       "category": "Power",
       "level": 5,
-      "drillName": "อยากบินสูง แรงระเบิดต้องดี",
+      "drillName": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
         "max speed",
@@ -6122,12 +7075,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "connect strength to fast field movement",
+      "drillGoal_th": "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
       "focus_th": [
-        "max ความเร็ว",
-        "คุณภาพ reps",
-        "full rest"
-      ]
+        "landing เงียบและมั่นคง",
+        "เข่าคุมแนวได้",
+        "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+      ],
+      "sourceVideo": "สมัครสมาชิก_67.mp4",
+      "videoIndex": 129,
+      "exerciseIndex": 2,
+      "research": {
+        "name": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
+        "type": "acl_return_to_play",
+        "confidence": "high",
+        "benefits": [
+          "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
+          "ฝึกการคุมเข่าและสะโพกในท่าที่ใกล้เคียงกีฬา",
+          "เชื่อม rehab control ไปสู่ movement ในสนาม"
+        ],
+        "cautions": [
+          "อย่าเพิ่มความเร็วหรือความสูงถ้า landing ยังไม่นิ่ง",
+          "ระวังเข่ายุบเข้าด้านในตอนลงหรือ plant",
+          "ต้องไม่มีอาการเจ็บและควบคุมซ้ำได้ก่อนขยับระดับ"
+        ],
+        "focus": [
+          "landing เงียบและมั่นคง",
+          "เข่าคุมแนวได้",
+          "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+        ],
+        "sources": [
+          {
+            "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "129-3",
@@ -6135,7 +7121,7 @@
       "duration": 10.6,
       "category": "Power",
       "level": 5,
-      "drillName": "อยากบินสูง แรงระเบิดต้องดี",
+      "drillName": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
         "max speed",
@@ -6153,12 +7139,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "connect strength to fast field movement",
+      "drillGoal_th": "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
       "focus_th": [
-        "max ความเร็ว",
-        "คุณภาพ reps",
-        "full rest"
-      ]
+        "landing เงียบและมั่นคง",
+        "เข่าคุมแนวได้",
+        "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+      ],
+      "sourceVideo": "สมัครสมาชิก_67.mp4",
+      "videoIndex": 129,
+      "exerciseIndex": 3,
+      "research": {
+        "name": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
+        "type": "acl_return_to_play",
+        "confidence": "high",
+        "benefits": [
+          "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
+          "ฝึกการคุมเข่าและสะโพกในท่าที่ใกล้เคียงกีฬา",
+          "เชื่อม rehab control ไปสู่ movement ในสนาม"
+        ],
+        "cautions": [
+          "อย่าเพิ่มความเร็วหรือความสูงถ้า landing ยังไม่นิ่ง",
+          "ระวังเข่ายุบเข้าด้านในตอนลงหรือ plant",
+          "ต้องไม่มีอาการเจ็บและควบคุมซ้ำได้ก่อนขยับระดับ"
+        ],
+        "focus": [
+          "landing เงียบและมั่นคง",
+          "เข่าคุมแนวได้",
+          "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+        ],
+        "sources": [
+          {
+            "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "129-4",
@@ -6166,7 +7185,7 @@
       "duration": 10.59,
       "category": "Power",
       "level": 5,
-      "drillName": "อยากบินสูง แรงระเบิดต้องดี",
+      "drillName": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
       "drillGoal": "connect strength to fast field movement",
       "focus": [
         "max speed",
@@ -6184,12 +7203,45 @@
         "#thailand"
       ],
       "participant": "Solo",
-      "drillGoal_th": "connect strength to fast field movement",
+      "drillGoal_th": "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
       "focus_th": [
-        "max ความเร็ว",
-        "คุณภาพ reps",
-        "full rest"
-      ]
+        "landing เงียบและมั่นคง",
+        "เข่าคุมแนวได้",
+        "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+      ],
+      "sourceVideo": "สมัครสมาชิก_67.mp4",
+      "videoIndex": 129,
+      "exerciseIndex": 4,
+      "research": {
+        "name": "ACL return-to-play: คุม landing และเปลี่ยนทิศทาง",
+        "type": "acl_return_to_play",
+        "confidence": "high",
+        "benefits": [
+          "สร้างความมั่นใจในการลงเท้า เบรก และเปลี่ยนทิศทาง",
+          "ฝึกการคุมเข่าและสะโพกในท่าที่ใกล้เคียงกีฬา",
+          "เชื่อม rehab control ไปสู่ movement ในสนาม"
+        ],
+        "cautions": [
+          "อย่าเพิ่มความเร็วหรือความสูงถ้า landing ยังไม่นิ่ง",
+          "ระวังเข่ายุบเข้าด้านในตอนลงหรือ plant",
+          "ต้องไม่มีอาการเจ็บและควบคุมซ้ำได้ก่อนขยับระดับ"
+        ],
+        "focus": [
+          "landing เงียบและมั่นคง",
+          "เข่าคุมแนวได้",
+          "หยุดนิ่งได้ก่อนเปลี่ยนทิศ"
+        ],
+        "sources": [
+          {
+            "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "132-1",
@@ -7453,7 +8505,7 @@
       "duration": 25.51,
       "category": "Deceleration",
       "level": 4,
-      "drillName": "คัดมาแล้ว",
+      "drillName": "Agility ladder footwork",
       "drillGoal": "brake sharply and stay stable",
       "focus": [
         "stable stop",
@@ -7468,12 +8520,45 @@
         "#fyp"
       ],
       "participant": "Solo",
-      "drillGoal_th": "brake ชาญฉลาดly and stay stable",
+      "drillGoal_th": "ฝึกจังหวะและตำแหน่งเท้า",
       "focus_th": [
-        "stable stop",
-        "low position",
-        "ควบคุม before ความเร็ว"
-      ]
+        "จังหวะเท้าสม่ำเสมอ",
+        "เท้าวางตรงช่อง",
+        "เร็วแต่ยังคุม pattern ได้"
+      ],
+      "sourceVideo": "สมัครสมาชิก_83.mp4",
+      "videoIndex": 147,
+      "exerciseIndex": 1,
+      "research": {
+        "name": "Agility ladder footwork",
+        "type": "coordination_footwork",
+        "confidence": "high",
+        "benefits": [
+          "ฝึกจังหวะและตำแหน่งเท้า",
+          "เพิ่ม coordination ด้วย load ต่ำ",
+          "ใช้เป็น warm-up ก่อน drill เปลี่ยนทิศทางที่เร็วกว่า"
+        ],
+        "cautions": [
+          "ladder ไม่ใช่ agility เต็มรูปแบบถ้าไม่มีการตัดสินใจ",
+          "อย่าเร่งจนตำแหน่งเท้าเสีย",
+          "ควรต่อยอดไป field movement จริง"
+        ],
+        "focus": [
+          "จังหวะเท้าสม่ำเสมอ",
+          "เท้าวางตรงช่อง",
+          "เร็วแต่ยังคุม pattern ได้"
+        ],
+        "sources": [
+          {
+            "title": "Effects of coordination training with an agility ladder on physical fitness",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386157/"
+          },
+          {
+            "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+          }
+        ]
+      }
     },
     {
       "id": "149-1",
@@ -7993,5 +9078,7 @@
         "full rest"
       ]
     }
-  ]
+  ],
+  "researchEnriched": 33,
+  "researchCatalogVersion": 1
 }

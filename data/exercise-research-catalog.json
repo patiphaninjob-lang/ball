@@ -1,0 +1,906 @@
+{
+  "schemaVersion": 1,
+  "status": "draft_first_pass",
+  "purpose": "Source-backed exercise identification from local GIFs before changing generated app data.",
+  "method": [
+    "Identify the visible movement from GIF frames first.",
+    "Use caption text only as supporting evidence, not as the source of truth.",
+    "Mark nutrition, mindset, or explainer clips as non_exercise so they do not become training drills.",
+    "Only promote entries into the app when confidence is high or reviewed manually."
+  ],
+  "sourcePriority": [
+    "peer-reviewed sports medicine or strength and conditioning papers",
+    "recognized clinical or sports medicine guidance",
+    "coach-facing terminology only when the visual pattern is unambiguous"
+  ],
+  "references": {
+    "deceleration": {
+      "title": "Deceleration training and change-of-direction mechanics in team sport athletes",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8761154/"
+    },
+    "plyometricsSoccer": {
+      "title": "Plyometric jump training effects on soccer players' physical fitness",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32915430/"
+    },
+    "nordicHamstring": {
+      "title": "Nordic hamstring exercise programs reduce hamstring injury risk",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30808663/"
+    },
+    "plantarFascia": {
+      "title": "Plantar fasciitis stretching and loading guidance",
+      "url": "https://www.jospt.org/doi/10.2519/jospt.2014.0303"
+    },
+    "shortFoot": {
+      "title": "Short-foot exercise and intrinsic foot muscle training for flat feet",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35871320/"
+    },
+    "aclNeuromuscular": {
+      "title": "Neuromuscular training, balance, landing, and ACL injury prevention or return-to-sport control",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236273/"
+    },
+    "coreStability": {
+      "title": "Core stability training for trunk control, injury prevention, and sport performance",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3806175/"
+    },
+    "handEye": {
+      "title": "Visual-motor and hand-eye coordination training in athletes",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12895637/"
+    },
+    "resistanceTraining": {
+      "title": "Resistance training effects on strength, power, endurance, and physical performance",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/"
+    },
+    "deadliftVariants": {
+      "title": "Muscle activation in deadlift exercise and its variants",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7046193/"
+    },
+    "agilityLadder": {
+      "title": "Effects of coordination training with an agility ladder on physical fitness",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386157/"
+    },
+    "proprioception": {
+      "title": "Effects of proprioceptive training on sports performance",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11225257/"
+    },
+    "velocityBasedTraining": {
+      "title": "Effects of velocity-based training on strength and power in athletes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34069249/"
+    },
+    "sprintAcceleration": {
+      "title": "Short-distance sprint performance development in football code athletes",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8124057/"
+    },
+    "trapBarJump": {
+      "title": "Power production characteristics of hexagonal barbell jumps",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6724584/"
+    },
+    "invertedRow": {
+      "title": "Trunk muscle activation and spinal loading in rowing exercises",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19197209/"
+    }
+  },
+  "entries": [
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก.mp4",
+      "observedMovement": "partner-assisted lower-body passive stretching",
+      "thaiName": "ท่ายืดแบบมีผู้ช่วย",
+      "exerciseType": "mobility_recovery",
+      "primaryBenefits": [
+        "increase short-term flexibility and range of motion",
+        "reduce post-training tightness when done gently",
+        "use as recovery or cool-down, not power development"
+      ],
+      "commonMistakes": [
+        "forcing painful range",
+        "holding breath",
+        "using it as a replacement for strength or load tolerance work"
+      ],
+      "references": [
+        "plantarFascia"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_exact_subexercise_split"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_2.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_2.mp4",
+      "videoId": "7562105991307808018",
+      "mappingConfidence": "high",
+      "mappingNotes": "Matched by Deceleration overlay and classified caption/tag for order 6.",
+      "observedMovement": "deceleration drill with controlled plant and braking step",
+      "thaiName": "ฝึกเบรกและลงเท้าเพื่อชะลอความเร็ว",
+      "exerciseType": "deceleration",
+      "primaryBenefits": [
+        "improve braking mechanics before changing direction",
+        "train eccentric control at hip, knee, and ankle",
+        "support safer cutting and stopping in football"
+      ],
+      "commonMistakes": [
+        "knee collapsing inward",
+        "torso falling uncontrolled",
+        "rushing reps without a stable stop"
+      ],
+      "references": [
+        "deceleration",
+        "aclNeuromuscular"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_3.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_3.mp4",
+      "observedMovement": "front plank progression with full plank and kneeling plank positions",
+      "thaiName": "แพลงก์ควบคุมแกนกลาง",
+      "exerciseType": "core_stability",
+      "primaryBenefits": [
+        "train anti-extension trunk control",
+        "improve torso stiffness for force transfer",
+        "build low-risk core endurance before dynamic drills"
+      ],
+      "commonMistakes": [
+        "sagging lower back",
+        "shrugging shoulders",
+        "holding position after technique breaks"
+      ],
+      "references": [
+        "coreStability"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_variant_name"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_4.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_4.mp4",
+      "observedMovement": "hand-eye coordination drill performed around an agility ladder",
+      "thaiName": "ฝึกประสานตา-มือร่วมกับ footwork",
+      "exerciseType": "coordination",
+      "primaryBenefits": [
+        "train visual tracking and motor response",
+        "combine upper-body reaction with lower-body footwork",
+        "use as low-load neural warm-up or goalkeeper-style coordination work"
+      ],
+      "commonMistakes": [
+        "moving too fast to track the target",
+        "letting footwork quality collapse",
+        "treating it as conditioning instead of coordination"
+      ],
+      "references": [
+        "handEye"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_equipment_confirmation"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_5.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_5.mp4",
+      "videoId": "7554740067823160583",
+      "mappingConfidence": "high",
+      "mappingNotes": "Matched by app videoId/title 'จากสมองตื้อ' plus education-style visual; exclude only because no physical drill is shown.",
+      "observedMovement": "animated explainer, no visible exercise drill",
+      "thaiName": "คลิปให้ความรู้ ไม่ใช่ท่าฝึก",
+      "exerciseType": "non_exercise",
+      "primaryBenefits": [
+        "should be shown as education content only if retained"
+      ],
+      "commonMistakes": [
+        "classifying it as a physical drill"
+      ],
+      "references": [],
+      "confidence": "high",
+      "reviewStatus": "exclude_from_drill_library"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_6.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_6.mp4",
+      "observedMovement": "split-stance landmine press or landmine drive",
+      "thaiName": "แลนด์ไมน์ท่ายืนแยกขา",
+      "exerciseType": "strength_power_transfer",
+      "primaryBenefits": [
+        "train full-body force transfer through trunk and shoulder",
+        "build pressing strength with more natural bar path than strict overhead pressing",
+        "challenge hip and trunk stability in split stance"
+      ],
+      "commonMistakes": [
+        "overarching lower back",
+        "letting front knee collapse",
+        "pressing with arms only instead of driving from legs and trunk"
+      ],
+      "references": [
+        "coreStability"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_exact_landmine_variant"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_8.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_8.mp4",
+      "videoId": "7553970859724115207",
+      "mappingConfidence": "high",
+      "mappingNotes": "Matched by visible protein/pancake nutrition content and classified protein caption.",
+      "observedMovement": "nutrition explainer, no visible exercise drill",
+      "thaiName": "คลิปโภชนาการ ไม่ใช่ท่าฝึก",
+      "exerciseType": "non_exercise",
+      "primaryBenefits": [
+        "should be separated from exercise training data"
+      ],
+      "commonMistakes": [
+        "placing it in Power or Strength categories"
+      ],
+      "references": [],
+      "confidence": "high",
+      "reviewStatus": "exclude_from_drill_library"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_11.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_11.mp4",
+      "observedMovement": "dynamic plank stabilization drill",
+      "thaiName": "แพลงก์ไดนามิกเพื่อความมั่นคง",
+      "exerciseType": "core_stability",
+      "primaryBenefits": [
+        "build anti-extension and anti-rotation control",
+        "teach trunk stiffness while limbs move",
+        "prepare for faster running, cutting, and contact tasks"
+      ],
+      "commonMistakes": [
+        "hips rotating excessively",
+        "neck collapsing",
+        "moving limbs before trunk is stable"
+      ],
+      "references": [
+        "coreStability"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_exact_variant_name"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_14.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_14.mp4",
+      "observedMovement": "lateral change-of-direction or deceleration drill using line or hurdle markers",
+      "thaiName": "ฝึกเปลี่ยนทิศทางและเบรก",
+      "exerciseType": "deceleration_agility",
+      "primaryBenefits": [
+        "train quick plant mechanics",
+        "improve body control during lateral movement",
+        "connect acceleration, braking, and re-acceleration"
+      ],
+      "commonMistakes": [
+        "turning before stopping under control",
+        "upright torso with poor hip loading",
+        "low-quality reps after fatigue"
+      ],
+      "references": [
+        "deceleration",
+        "aclNeuromuscular"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_full_clip_review"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_16.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_16.mp4",
+      "observedMovement": "flat-foot foot intrinsic exercise sequence",
+      "thaiName": "ฝึกกล้ามเนื้อเท้าสำหรับเท้าแบน",
+      "exerciseType": "foot_rehab",
+      "primaryBenefits": [
+        "train intrinsic foot muscles",
+        "support arch control",
+        "improve foot posture awareness before running or jumping drills"
+      ],
+      "commonMistakes": [
+        "curling toes instead of doming the arch",
+        "loading too quickly",
+        "ignoring pain or irritation"
+      ],
+      "references": [
+        "shortFoot"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_subexercise_split"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_17.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_17.mp4",
+      "videoId": "7546908518390025479",
+      "mappingConfidence": "high",
+      "mappingNotes": "Matched by plantar fasciitis/รองช้ำ caption and visible stretching sequence.",
+      "observedMovement": "plantar fascia and calf mobility sequence",
+      "thaiName": "ยืดรองช้ำและน่อง",
+      "exerciseType": "mobility_rehab",
+      "primaryBenefits": [
+        "reduce plantar fascia and calf stiffness",
+        "restore ankle and toe extension range",
+        "support gradual return to running loads"
+      ],
+      "commonMistakes": [
+        "forcing painful toe extension",
+        "skipping progressive strengthening",
+        "expecting stretching alone to solve load intolerance"
+      ],
+      "references": [
+        "plantarFascia",
+        "shortFoot"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_18.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_18.mp4",
+      "videoId": "7546125327622212865",
+      "mappingConfidence": "high",
+      "mappingNotes": "Matched by ACL return-to-play caption and visible ball/cone change-of-direction drill.",
+      "observedMovement": "ACL return-to-play ball and cone change-of-direction drill",
+      "thaiName": "ACL return-to-play ควบคุมลงเท้าและเปลี่ยนทิศ",
+      "exerciseType": "acl_return_to_play",
+      "primaryBenefits": [
+        "rebuild confidence in cutting and stopping",
+        "train single-leg control with sport context",
+        "bridge rehab control to football movement"
+      ],
+      "commonMistakes": [
+        "progressing before pain-free landing control",
+        "knee valgus during plant",
+        "using game speed before movement quality is reliable"
+      ],
+      "references": [
+        "aclNeuromuscular",
+        "deceleration"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_19.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_19.mp4",
+      "observedMovement": "Nordic hamstring or Nordic-related jump progression visible in overlay",
+      "thaiName": "นอร์ดิกแฮมสตริงหรือ progression ที่เกี่ยวข้อง",
+      "exerciseType": "hamstring_eccentric_strength",
+      "primaryBenefits": [
+        "eccentric hamstring strength",
+        "hamstring injury risk reduction when programmed progressively",
+        "posterior-chain control for sprinting"
+      ],
+      "commonMistakes": [
+        "dropping uncontrolled",
+        "insufficient hip and trunk alignment",
+        "using too much volume before tolerance is built"
+      ],
+      "references": [
+        "nordicHamstring"
+      ],
+      "confidence": "low",
+      "reviewStatus": "needs_full_clip_review"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_24.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_24.mp4",
+      "observedMovement": "box or depth jump landing drill",
+      "thaiName": "กระโดดลงกล่องและควบคุมการลงพื้น",
+      "exerciseType": "plyometric_landing",
+      "primaryBenefits": [
+        "train landing stiffness and force absorption",
+        "develop lower-body power when progressed safely",
+        "prepare for repeated jumping and cutting demands"
+      ],
+      "commonMistakes": [
+        "landing loud and stiff without control",
+        "knees collapsing inward",
+        "too much height before landing quality is stable"
+      ],
+      "references": [
+        "plyometricsSoccer",
+        "aclNeuromuscular"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_exact_variant_name"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_28.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_28.mp4",
+      "observedMovement": "jump-rope stability or rhythm drill",
+      "thaiName": "กระโดดเชือกเพื่อจังหวะและความมั่นคง",
+      "exerciseType": "coordination_plyometric_low_load",
+      "primaryBenefits": [
+        "train rhythm, ankle stiffness, and repeated low-level contacts",
+        "improve coordination for running and footwork",
+        "use as warm-up or low-level plyometric exposure"
+      ],
+      "commonMistakes": [
+        "turning it into fatigue work too early",
+        "collapsing arches or knees",
+        "jumping too high"
+      ],
+      "references": [
+        "plyometricsSoccer"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_full_clip_review"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_30.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_30.mp4",
+      "observedMovement": "anaerobic shuttle or repeated sprint drill",
+      "thaiName": "วิ่ง shuttle / repeated sprint แบบ anaerobic",
+      "exerciseType": "conditioning",
+      "primaryBenefits": [
+        "train repeated high-intensity running capacity",
+        "support football-specific acceleration and recovery between efforts",
+        "separate from strength or mobility categories"
+      ],
+      "commonMistakes": [
+        "using conditioning when the goal is speed quality",
+        "insufficient rest for true sprint work",
+        "poor deceleration at the turn line"
+      ],
+      "references": [
+        "deceleration"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_work_rest_details"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_42.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_42.mp4",
+      "observedMovement": "single-leg balance drill on unstable surface with ball skill component",
+      "thaiName": "ทรงตัวขาเดียวบนอุปกรณ์ไม่มั่นคง",
+      "exerciseType": "balance_proprioception",
+      "primaryBenefits": [
+        "train ankle, knee, and hip position sense",
+        "improve single-leg stability for football skill execution",
+        "use as control or rehab-to-skill progression, not conditioning"
+      ],
+      "commonMistakes": [
+        "letting the knee collapse inward",
+        "rushing the ball action before balance is stable",
+        "choosing an unstable surface too early"
+      ],
+      "references": [
+        "proprioception",
+        "aclNeuromuscular"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_equipment_confirmation"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_50.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_50.mp4",
+      "observedMovement": "box jump or step-off plyometric power drill",
+      "thaiName": "กระโดดกล่อง / ลงกล่องเพื่อพลังขา",
+      "exerciseType": "plyometric_power",
+      "primaryBenefits": [
+        "develop lower-body power",
+        "train rapid force production and landing control",
+        "support acceleration and jumping qualities when programmed with full rest"
+      ],
+      "commonMistakes": [
+        "using a box that is too high",
+        "landing with knees caving inward",
+        "turning power work into fatigue work"
+      ],
+      "references": [
+        "plyometricsSoccer",
+        "aclNeuromuscular"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_exact_variant_name"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_59.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_59.mp4",
+      "videoId": "7492269789017148673",
+      "mappingConfidence": "high",
+      "mappingNotes": "Matched by ACL injury overlay and classified eccentric-power landing caption.",
+      "observedMovement": "ACL return-to-play jump or hop landing progression",
+      "thaiName": "ACL landing progression",
+      "exerciseType": "acl_return_to_play",
+      "primaryBenefits": [
+        "restore controlled landing mechanics",
+        "train confidence and knee control before sport-speed cutting",
+        "prepare the athlete for progressive plyometric and football tasks"
+      ],
+      "commonMistakes": [
+        "progressing height or speed before landing quality",
+        "stiff noisy landing",
+        "knee valgus during contact"
+      ],
+      "references": [
+        "aclNeuromuscular",
+        "plyometricsSoccer"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_67.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_67.mp4",
+      "observedMovement": "ACL box landing or plyometric return-to-play progression",
+      "thaiName": "ACL box landing progression",
+      "exerciseType": "acl_return_to_play",
+      "primaryBenefits": [
+        "train force absorption after a drop or jump",
+        "rebuild lower-limb alignment control",
+        "bridge rehab strength to field-based landing demands"
+      ],
+      "commonMistakes": [
+        "box height too aggressive",
+        "landing without a stable pause",
+        "asymmetrical weight shift"
+      ],
+      "references": [
+        "aclNeuromuscular",
+        "deceleration"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_76.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_76.mp4",
+      "observedMovement": "push-up or high-plank strength drill",
+      "thaiName": "วิดพื้น / high plank strength",
+      "exerciseType": "upper_body_core_strength",
+      "primaryBenefits": [
+        "build pushing strength and trunk stiffness",
+        "teach shoulder and torso control in a closed-chain position",
+        "serve as a foundation for harder plank or contact-prep variations"
+      ],
+      "commonMistakes": [
+        "hips sagging",
+        "elbows flaring excessively",
+        "reps continuing after trunk position fails"
+      ],
+      "references": [
+        "coreStability",
+        "resistanceTraining"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_exact_variant_name"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_83.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_83.mp4",
+      "observedMovement": "agility ladder footwork drill",
+      "thaiName": "ฟุตเวิร์กบันได agility ladder",
+      "exerciseType": "coordination_footwork",
+      "primaryBenefits": [
+        "train rhythm and foot placement",
+        "improve coordination at low external load",
+        "use as preparation for faster change-of-direction drills"
+      ],
+      "commonMistakes": [
+        "confusing ladder work with true agility",
+        "prioritizing speed over clean foot contacts",
+        "using it as the only change-of-direction training"
+      ],
+      "references": [
+        "agilityLadder",
+        "deceleration"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_94.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_94.mp4",
+      "observedMovement": "barbell deadlift or Romanian deadlift hip-hinge drill",
+      "thaiName": "เดดลิฟต์ / RDL ฝึก hip hinge",
+      "exerciseType": "posterior_chain_strength",
+      "primaryBenefits": [
+        "train hip-hinge strength",
+        "strengthen glutes, hamstrings, and trunk bracing",
+        "support sprinting and jumping force production when programmed correctly"
+      ],
+      "commonMistakes": [
+        "rounding the back",
+        "letting the bar drift away from the body",
+        "turning a hinge into a squat"
+      ],
+      "references": [
+        "deadliftVariants",
+        "resistanceTraining"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_deadlift_variant_confirmation"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_99.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_99.mp4",
+      "observedMovement": "single-leg Romanian deadlift or single-leg hinge on unstable surface",
+      "thaiName": "Single-leg RDL / single-leg hinge",
+      "exerciseType": "posterior_chain_balance_strength",
+      "primaryBenefits": [
+        "train hamstring and glute strength with balance demand",
+        "improve single-leg hip control",
+        "support sprint mechanics and deceleration control"
+      ],
+      "commonMistakes": [
+        "rotating the pelvis open",
+        "bending through the spine instead of hinging at the hip",
+        "using unstable surface before mastering stable-ground control"
+      ],
+      "references": [
+        "deadliftVariants",
+        "proprioception"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_surface_and_load_confirmation"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_108.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_108.mp4",
+      "videoId": "7434057103624441105",
+      "mappingConfidence": "high",
+      "mappingNotes": "Matched by Movement-Power overlay and classified Movement-Power caption.",
+      "observedMovement": "multi-directional ring hop or movement-power drill",
+      "thaiName": "กระโดดเปลี่ยนทิศในห่วง",
+      "exerciseType": "plyometric_agility",
+      "primaryBenefits": [
+        "train repeated low-to-moderate plyometric contacts",
+        "build coordination for multi-direction movement",
+        "prepare for faster cutting and acceleration drills"
+      ],
+      "commonMistakes": [
+        "landing without control",
+        "chasing speed before rhythm is stable",
+        "too many contacts after fatigue"
+      ],
+      "references": [
+        "plyometricsSoccer",
+        "agilityLadder"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_119.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_119.mp4",
+      "observedMovement": "barbell deadlift measured with velocity-based training app",
+      "thaiName": "เดดลิฟต์แบบวัด velocity",
+      "exerciseType": "vbt_strength",
+      "primaryBenefits": [
+        "build maximal strength and posterior-chain force production",
+        "use bar speed to manage intensity and fatigue",
+        "support power development when loads and velocity zones are programmed correctly"
+      ],
+      "commonMistakes": [
+        "chasing load after velocity drops",
+        "rounding the back",
+        "treating VBT numbers as useful without consistent setup"
+      ],
+      "references": [
+        "velocityBasedTraining",
+        "deadliftVariants"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_120.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_120.mp4",
+      "observedMovement": "back squat measured with velocity-based training app",
+      "thaiName": "Back squat แบบวัด velocity",
+      "exerciseType": "vbt_strength",
+      "primaryBenefits": [
+        "build lower-body strength",
+        "monitor intent and fatigue through bar velocity",
+        "support strength-to-power progression for field athletes"
+      ],
+      "commonMistakes": [
+        "letting depth or posture change between velocity readings",
+        "using velocity targets without matching the training goal",
+        "continuing sets after major velocity loss"
+      ],
+      "references": [
+        "velocityBasedTraining",
+        "resistanceTraining"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_123.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_123.mp4",
+      "observedMovement": "short sprint acceleration drill on turf",
+      "thaiName": "ออกตัวเร่งความเร็วระยะสั้น",
+      "exerciseType": "sprint_acceleration",
+      "primaryBenefits": [
+        "develop first-step and short-distance acceleration",
+        "train horizontal force application",
+        "directly supports football sprint actions"
+      ],
+      "commonMistakes": [
+        "insufficient rest between sprints",
+        "turning maximal speed work into conditioning",
+        "upright posture too early"
+      ],
+      "references": [
+        "sprintAcceleration",
+        "deceleration"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_130.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_130.mp4",
+      "observedMovement": "inverted row measured with velocity-based training app",
+      "thaiName": "Inverted row แบบวัด velocity",
+      "exerciseType": "upper_body_pull_strength",
+      "primaryBenefits": [
+        "train horizontal pulling strength",
+        "develop upper-back and trunk control",
+        "provide scalable bodyweight pulling for athletes"
+      ],
+      "commonMistakes": [
+        "hips sagging",
+        "shrugging shoulders",
+        "pulling with poor range or inconsistent body angle"
+      ],
+      "references": [
+        "invertedRow",
+        "resistanceTraining"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_142.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_142.mp4",
+      "videoId": "7390636256922799367",
+      "mappingConfidence": "high",
+      "mappingNotes": "Matched by Nordic Curl overlay and classified Nordic Curl caption.",
+      "observedMovement": "Nordic curl eccentric hamstring drill",
+      "thaiName": "Nordic curl",
+      "exerciseType": "hamstring_eccentric_strength",
+      "primaryBenefits": [
+        "build eccentric hamstring strength",
+        "reduce hamstring injury risk when included progressively",
+        "support sprinting resilience"
+      ],
+      "commonMistakes": [
+        "collapsing instead of controlling the lowering phase",
+        "bending at the hips",
+        "too much volume too soon"
+      ],
+      "references": [
+        "nordicHamstring"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_145.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_145.mp4",
+      "observedMovement": "loaded trap-bar jump",
+      "thaiName": "Trap-bar jump",
+      "exerciseType": "loaded_jump_power",
+      "primaryBenefits": [
+        "train lower-body explosive power",
+        "allow loaded jumping with a centered implement",
+        "support jump and acceleration qualities when volume is low and intent is high"
+      ],
+      "commonMistakes": [
+        "loading too heavy for fast movement",
+        "poor landing control",
+        "using fatigue-based sets instead of high-quality reps"
+      ],
+      "references": [
+        "trapBarJump",
+        "velocityBasedTraining"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_146.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_146.mp4",
+      "observedMovement": "manual therapy or assisted soft-tissue recovery clip",
+      "thaiName": "ฟื้นฟู/นวด ไม่ใช่ท่าฝึกหลัก",
+      "exerciseType": "recovery_non_drill",
+      "primaryBenefits": [
+        "may belong in recovery education, not in exercise drill programming"
+      ],
+      "commonMistakes": [
+        "classifying passive treatment as an active training drill"
+      ],
+      "references": [],
+      "confidence": "high",
+      "reviewStatus": "exclude_from_drill_library"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_149.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_149.mp4",
+      "observedMovement": "trap-bar deadlift or trap-bar pull measured with velocity",
+      "thaiName": "Trap-bar deadlift แบบวัด velocity",
+      "exerciseType": "vbt_strength_power",
+      "primaryBenefits": [
+        "develop lower-body strength and force output",
+        "use velocity to track intent and load suitability",
+        "bridge strength work toward power training"
+      ],
+      "commonMistakes": [
+        "rounding the back",
+        "letting velocity targets override technique",
+        "overloading before hinge and bracing are consistent"
+      ],
+      "references": [
+        "velocityBasedTraining",
+        "trapBarJump",
+        "resistanceTraining"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_trap_bar_variant_confirmation"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_155.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_155.mp4",
+      "observedMovement": "agility ladder footwork sequence",
+      "thaiName": "Agility ladder footwork",
+      "exerciseType": "coordination_footwork",
+      "primaryBenefits": [
+        "train rhythm and repeatable foot placement",
+        "serve as a low-load coordination warm-up",
+        "prepare athletes for higher-speed cutting drills"
+      ],
+      "commonMistakes": [
+        "calling it agility without decision-making",
+        "moving faster than foot placement quality allows",
+        "overusing it instead of progressing to field movement"
+      ],
+      "references": [
+        "agilityLadder",
+        "deceleration"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_157.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_157.mp4",
+      "observedMovement": "trap-bar jump or loaded jump measured with velocity",
+      "thaiName": "Trap-bar jump แบบวัด velocity",
+      "exerciseType": "vbt_loaded_jump_power",
+      "primaryBenefits": [
+        "train explosive lower-body power",
+        "measure jump intent with velocity output",
+        "keep power work high quality by stopping when speed drops"
+      ],
+      "commonMistakes": [
+        "too much load",
+        "landing without control",
+        "continuing after velocity loss"
+      ],
+      "references": [
+        "trapBarJump",
+        "velocityBasedTraining"
+      ],
+      "confidence": "high",
+      "reviewStatus": "usable"
+    },
+    {
+      "gif": "ออกกำลังกาย/ball/data/gifs/สมัครสมาชิก_160.gif",
+      "sourceVideo": "ออกกำลังกาย/ball/videos/สมัครสมาชิก_160.mp4",
+      "observedMovement": "split squat or rear-foot elevated split squat measured with velocity",
+      "thaiName": "Split squat แบบวัด velocity",
+      "exerciseType": "single_leg_vbt_strength",
+      "primaryBenefits": [
+        "train unilateral lower-body strength",
+        "address side-to-side control and force production",
+        "use velocity feedback to manage effort and fatigue"
+      ],
+      "commonMistakes": [
+        "front knee collapsing inward",
+        "pushing mostly from the rear leg",
+        "inconsistent depth between reps"
+      ],
+      "references": [
+        "velocityBasedTraining",
+        "resistanceTraining"
+      ],
+      "confidence": "medium",
+      "reviewStatus": "needs_split_squat_variant_confirmation"
+    }
+  ]
+}
