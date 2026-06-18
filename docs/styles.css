@@ -705,6 +705,7 @@ main {
 #favoritesCategoryFilter,
 #favoritesLevelFilter,
 #favoriteListSelect,
+#favoriteListNameInput,
 .journal-form input,
 .journal-form select,
 .journal-form textarea {
@@ -729,35 +730,56 @@ main {
   color: var(--text);
 }
 
-.favorite-list-toolbar {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 12px;
-  margin: -2px 0 16px;
-  padding: 12px;
-  border: 1px solid rgba(60, 60, 67, 0.1);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.78);
-  box-shadow: var(--soft-shadow);
-  backdrop-filter: saturate(160%) blur(18px);
-  -webkit-backdrop-filter: saturate(160%) blur(18px);
+#favoriteListNameInput {
+  width: 100%;
+  min-height: 46px;
+  padding: 0 14px;
+  font-size: 16px;
 }
 
-.favorite-list-select-label {
+.favorite-list-toolbar {
   display: grid;
-  flex: 1 1 220px;
-  gap: 6px;
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 700;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 16px;
 }
 
 .favorite-list-actions {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
   gap: 8px;
+}
+
+.favorite-list-icon-button {
+  display: inline-grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(60, 60, 67, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--accent);
+  box-shadow: 0 8px 20px rgba(28, 28, 30, 0.08);
+  transition: transform 160ms ease, background 160ms ease, opacity 160ms ease;
+}
+
+.favorite-list-icon-button svg {
+  width: 18px;
+  height: 18px;
+}
+
+.favorite-list-icon-button.danger {
+  color: var(--red);
+}
+
+.favorite-list-icon-button:active {
+  transform: scale(0.96);
+}
+
+.favorite-list-icon-button:disabled {
+  color: var(--muted);
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 
 .journal-form {
@@ -1054,17 +1076,11 @@ main {
   }
 
   .favorite-list-toolbar {
-    align-items: stretch;
-    flex-direction: column;
-  }
-
-  .favorite-list-select-label {
-    flex: none;
+    grid-template-columns: minmax(0, 1fr) auto;
   }
 
   .favorite-list-actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
   }
 
   .plan-meter {
@@ -1444,11 +1460,11 @@ main {
 }
 
 .primary-button:hover {
-  background: #0d6a63;
+  background: #006fe6;
 }
 
 .primary-button:active {
-  background: #0a5550;
+  background: #005ec2;
 }
 
 @media (max-width: 600px) {
@@ -1461,6 +1477,7 @@ main {
   .exercise-modal .modal-body {
     padding: 16px;
   }
+
 }
 
 /* Fullscreen Exercise Viewer */
@@ -1634,6 +1651,86 @@ main {
 .favorite-list-option small {
   color: var(--muted);
   font-size: 11px;
+}
+
+.favorite-list-dialog {
+  width: min(390px, calc(100vw - 28px));
+  max-width: 390px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+}
+
+.favorite-list-dialog::backdrop {
+  background: rgba(20, 20, 24, 0.28);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.favorite-list-dialog-panel {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid rgba(60, 60, 67, 0.12);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 24px 70px rgba(28, 28, 30, 0.24);
+  backdrop-filter: saturate(180%) blur(22px);
+  -webkit-backdrop-filter: saturate(180%) blur(22px);
+}
+
+.favorite-list-dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.favorite-list-dialog-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.favorite-list-dialog p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.favorite-list-dialog-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.favorite-list-dialog .primary-button,
+.favorite-list-dialog .secondary-button {
+  justify-content: center;
+  width: 100%;
+}
+
+.favorite-list-dialog .danger-action {
+  background: var(--red);
+  box-shadow: 0 10px 20px rgba(255, 59, 48, 0.22);
+}
+
+@media (max-width: 600px) {
+  .favorite-list-dialog[open] {
+    inset: auto 0 0;
+    width: 100vw;
+    max-width: none;
+    margin: 0;
+  }
+
+  .favorite-list-dialog[open] .favorite-list-dialog-panel {
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-radius: 22px 22px 0 0;
+    padding: 18px 16px calc(18px + env(safe-area-inset-bottom));
+  }
 }
 
 .research-note {

@@ -99,13 +99,10 @@
           </div>
         </div>
         <div class="favorite-list-toolbar" aria-label="favorite lists">
-          <label class="favorite-list-select-label" for="favoriteListSelect">
-            <span>รายการโปรด</span>
-            <select id="favoriteListSelect" aria-label="เลือกรายการโปรด"></select>
-          </label>
+          <select id="favoriteListSelect" aria-label="เลือกรายการโปรด"></select>
           <div class="favorite-list-actions">
-            <button id="createFavoriteList" class="secondary-button" type="button"><i data-lucide="plus"></i><span>สร้างรายการ</span></button>
-            <button id="deleteFavoriteList" class="danger-button" type="button"><i data-lucide="trash-2"></i><span>ลบรายการ</span></button>
+            <button id="createFavoriteList" class="favorite-list-icon-button" type="button" aria-label="สร้างรายการโปรด" title="สร้างรายการโปรด"><i data-lucide="plus"></i></button>
+            <button id="deleteFavoriteList" class="favorite-list-icon-button danger" type="button" aria-label="ลบรายการโปรด" title="ลบรายการโปรด"><i data-lucide="trash-2"></i></button>
           </div>
         </div>
         <div id="favoritesGrid" class="exercise-grid"></div>
@@ -216,6 +213,21 @@
 
             <button id="modalDone" class="primary-button" type="button">ทำเสร็จแล้ว</button>
           </div>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog id="favoriteListDialog" class="favorite-list-dialog">
+      <div class="favorite-list-dialog-panel">
+        <div class="favorite-list-dialog-header">
+          <h2 id="favoriteListDialogTitle">สร้างรายการโปรด</h2>
+          <button id="favoriteListDialogClose" class="fs-close" type="button" aria-label="Close"><i data-lucide="x"></i></button>
+        </div>
+        <p id="favoriteListDialogDescription"></p>
+        <input id="favoriteListNameInput" type="text" autocomplete="off" maxlength="32" aria-label="ชื่อรายการโปรด">
+        <div class="favorite-list-dialog-actions">
+          <button id="favoriteListDialogCancel" class="secondary-button" type="button">ยกเลิก</button>
+          <button id="favoriteListDialogConfirm" class="primary-button" type="button">บันทึก</button>
         </div>
       </div>
     </dialog>

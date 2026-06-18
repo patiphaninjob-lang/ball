@@ -34,6 +34,7 @@ const checklistItems = [
 const dayIndexMap = [6, 0, 1, 2, 3, 4, 5];
 let installPromptEvent = null;
 let lazyGifObserver = null;
+let favoriteListDialogMode = 'create';
 
 // Call main() when DOM is ready (use both event and fallback)
 if (document.readyState === 'loading') {
@@ -636,13 +637,14 @@ function hydrateFavoriteListControls() {
   }
 
   if (createButton) {
-    createButton.addEventListener('click', createFavoriteListFromPrompt);
+    createButton.addEventListener('click', () => openFavoriteListDialog('create'));
   }
 
   if (deleteButton) {
-    deleteButton.addEventListener('click', deleteSelectedFavoriteList);
+    deleteButton.addEventListener('click', () => openFavoriteListDialog('delete'));
   }
 
+  hydrateFavoriteListDialog();
   renderFavoriteListControls();
 }
 
@@ -665,16 +667,84 @@ function renderFavoriteListControls() {
 
   if (deleteButton) {
     deleteButton.disabled = state.favoriteLists.length <= 1;
+    deleteButton.setAttribute('aria-disabled', String(deleteButton.disabled));
   }
 }
 
-function createFavoriteListFromPrompt() {
-  const defaultName = `โปรด ${state.favoriteLists.length + 1}`;
-  const name = window.prompt('ตั้งชื่อรายการโปรดใหม่', defaultName);
-  const trimmedName = name?.trim();
+function hydrateFavoriteListDialog() {
+  const dialog = document.getElementById('favoriteListDialog');
+  if (!dialog) return;
+
+  document.getElementById('favoriteListDialogClose')?.addEventListener('click', closeFavoriteListDialog);
+  document.getElementById('favoriteListDialogCancel')?.addEventListener('click', closeFavoriteListDialog);
+  document.getElementById('favoriteListDialogConfirm')?.addEventListener('click', confirmFavoriteListDialog);
+
+  dialog.addEventListener('click', (event) => {
+    if (event.target === dialog) closeFavoriteListDialog();
+  });
+}
+
+function openFavoriteListDialog(mode) {
+  if (mode === 'delete' && state.favoriteLists.length <= 1) return;
+
+  const dialog = document.getElementById('favoriteListDialog');
+  const title = document.getElementById('favoriteListDialogTitle');
+  const description = document.getElementById('favoriteListDialogDescription');
+  const input = document.getElementById('favoriteListNameInput');
+  const confirmButton = document.getElementById('favoriteListDialogConfirm');
+  if (!dialog || !title || !description || !input || !confirmButton) return;
+
+  favoriteListDialogMode = mode;
+
+  if (mode === 'delete') {
+    const list = selectedFavoriteList();
+    title.textContent = 'ลบรายการโปรด';
+    description.textContent = `ลบ "${list.name}" ออกจากรายการโปรด ท่าฝึกยังอยู่ในคลังทั้งหมด`;
+    input.hidden = true;
+    input.value = '';
+    confirmButton.textContent = 'ลบรายการ';
+    confirmButton.classList.add('danger-action');
+  } else {
+    title.textContent = 'สร้างรายการโปรด';
+    description.textContent = 'ตั้งชื่อรายการเพื่อจัดกลุ่มท่าฝึกในแบบของคุณ';
+    input.hidden = false;
+    input.value = `โปรด ${state.favoriteLists.length + 1}`;
+    confirmButton.textContent = 'บันทึก';
+    confirmButton.classList.remove('danger-action');
+  }
+
+  dialog.showModal();
+  if (!input.hidden) {
+    window.setTimeout(() => {
+      input.focus();
+      input.select();
+    }, 60);
+  }
+  lucideReady();
+}
+
+function closeFavoriteListDialog() {
+  const dialog = document.getElementById('favoriteListDialog');
+  if (dialog?.open) dialog.close();
+}
+
+function confirmFavoriteListDialog() {
+  if (favoriteListDialogMode === 'delete') {
+    deleteSelectedFavoriteListConfirmed();
+    closeFavoriteListDialog();
+    return;
+  }
+
+  const input = document.getElementById('favoriteListNameInput');
+  const trimmedName = input?.value.trim();
   if (!trimmedName) return;
 
-  const list = createFavoriteList(createFavoriteListId(), trimmedName);
+  createFavoriteListFromName(trimmedName);
+  closeFavoriteListDialog();
+}
+
+function createFavoriteListFromName(name) {
+  const list = createFavoriteList(createFavoriteListId(), name);
   state.favoriteLists.push(list);
   state.selectedFavoriteListId = list.id;
   saveFavoriteLists();
@@ -684,13 +754,10 @@ function createFavoriteListFromPrompt() {
   if (currentExerciseForFullscreen) renderFavoriteListPicker(currentExerciseForFullscreen);
 }
 
-function deleteSelectedFavoriteList() {
+function deleteSelectedFavoriteListConfirmed() {
   if (state.favoriteLists.length <= 1) return;
 
   const list = selectedFavoriteList();
-  const confirmed = window.confirm(`ลบรายการ "${list.name}" หรือไม่? ท่าฝึกจะยังอยู่ในคลังทั้งหมด`);
-  if (!confirmed) return;
-
   state.favoriteLists = state.favoriteLists.filter((item) => item.id !== list.id);
   state.selectedFavoriteListId = state.favoriteLists[0].id;
   saveFavoriteLists();
