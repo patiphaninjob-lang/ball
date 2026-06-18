@@ -1,4 +1,6 @@
 const DEFAULT_FAVORITE_LIST_ID = 'default';
+const DEFAULT_PLAN_NAME = 'แผนวันนี้';
+const PLAN_NAME_PREFIX = 'แผน';
 const FAVORITE_LISTS_STORAGE_KEY = 'p45.favoriteLists';
 const SELECTED_FAVORITE_LIST_STORAGE_KEY = 'p45.selectedFavoriteList';
 
@@ -549,10 +551,10 @@ function loadFavoriteLists() {
 
   if (Array.isArray(stored) && stored.length > 0) {
     const lists = stored.map((list, index) => normalizeFavoriteList(list, index)).filter(Boolean);
-    return lists.length ? lists : [createFavoriteList(DEFAULT_FAVORITE_LIST_ID, 'โปรด 1', legacyExerciseIds)];
+    return lists.length ? lists : [createFavoriteList(DEFAULT_FAVORITE_LIST_ID, DEFAULT_PLAN_NAME, legacyExerciseIds)];
   }
 
-  return [createFavoriteList(DEFAULT_FAVORITE_LIST_ID, 'โปรด 1', legacyExerciseIds)];
+  return [createFavoriteList(DEFAULT_FAVORITE_LIST_ID, DEFAULT_PLAN_NAME, legacyExerciseIds)];
 }
 
 function normalizeFavoriteList(list, index) {
@@ -564,9 +566,24 @@ function normalizeFavoriteList(list, index) {
 
   return createFavoriteList(
     String(list.id || `favorite-${index + 1}`),
-    String(list.name || `โปรด ${index + 1}`),
+    normalizePlanListName(list.name, index),
     exerciseIds,
   );
+}
+
+function defaultPlanListName(index = 0) {
+  return index === 0 ? DEFAULT_PLAN_NAME : `${PLAN_NAME_PREFIX} ${index + 1}`;
+}
+
+function normalizePlanListName(name, index = 0) {
+  const trimmedName = String(name || '').trim();
+  if (!trimmedName) return defaultPlanListName(index);
+  if (trimmedName === 'โปรด 1') return DEFAULT_PLAN_NAME;
+
+  const oldPlanMatch = trimmedName.match(/^โปรด\s+(\d+)$/);
+  if (oldPlanMatch) return `${PLAN_NAME_PREFIX} ${oldPlanMatch[1]}`;
+
+  return trimmedName;
 }
 
 function createFavoriteList(id, name, exerciseIds = []) {
@@ -583,7 +600,7 @@ function createFavoriteListId() {
 
 function ensureSelectedFavoriteList() {
   if (!state.favoriteLists.length) {
-    state.favoriteLists = [createFavoriteList(DEFAULT_FAVORITE_LIST_ID, 'โปรด 1')];
+    state.favoriteLists = [createFavoriteList(DEFAULT_FAVORITE_LIST_ID, DEFAULT_PLAN_NAME)];
   }
 
   if (!state.favoriteLists.some((list) => list.id === state.selectedFavoriteListId)) {
@@ -727,17 +744,17 @@ function openFavoriteListDialog(mode) {
 
   if (mode === 'delete') {
     const list = selectedFavoriteList();
-    title.textContent = 'ลบรายการโปรด';
-    description.textContent = `ลบ "${list.name}" ออกจากรายการโปรด ท่าฝึกยังอยู่ในคลังทั้งหมด`;
+    title.textContent = 'ลบแผนฝึก';
+    description.textContent = `ลบ "${list.name}" ออกจากแผนฝึก ท่าฝึกยังอยู่ในคลังทั้งหมด`;
     input.hidden = true;
     input.value = '';
-    confirmButton.textContent = 'ลบรายการ';
+    confirmButton.textContent = 'ลบแผน';
     confirmButton.classList.add('danger-action');
   } else {
-    title.textContent = 'สร้างรายการโปรด';
-    description.textContent = 'ตั้งชื่อรายการเพื่อจัดกลุ่มท่าฝึกในแบบของคุณ';
+    title.textContent = 'สร้างแผนฝึก';
+    description.textContent = 'ตั้งชื่อแผนเพื่อจัดกลุ่มท่าฝึกที่อยากทำในแต่ละวัน';
     input.hidden = false;
-    input.value = `โปรด ${state.favoriteLists.length + 1}`;
+    input.value = defaultPlanListName(state.favoriteLists.length);
     confirmButton.textContent = 'บันทึก';
     confirmButton.classList.remove('danger-action');
   }
@@ -834,8 +851,7 @@ function updateFavoriteBadge(button, exerciseId) {
 
   button.classList.toggle('active', isSaved);
   button.classList.toggle('saved-elsewhere', isSaved && !isInSelectedList);
-  button.title = `${isInSelectedList ? 'ลบออกจาก' : 'เพิ่มลง'} ${currentList.name}`;
-  button.title = 'เลือกรายการโปรด';
+  button.title = 'เลือกแผนฝึก';
   button.setAttribute('aria-label', button.title);
 
   if (listCount > 1) {
@@ -896,9 +912,8 @@ function updateFullscreenFavoriteButton(exercise) {
 
   const list = selectedFavoriteList();
   favBtn.classList.toggle('active', isExerciseInFavoriteList(exercise.id, list.id));
-  favBtn.title = `เพิ่ม/ลบจาก ${list.name}`;
-  favBtn.title = 'เลือกรายการโปรด';
-  favBtn.setAttribute('aria-label', 'เลือกรายการโปรด');
+  favBtn.title = 'เลือกแผนฝึก';
+  favBtn.setAttribute('aria-label', 'เลือกแผนฝึก');
   favBtn.onclick = () => {
     openExerciseFavoriteDialog(exercise);
   };

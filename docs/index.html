@@ -34,7 +34,7 @@
       <section class="control-band" aria-label="planner controls">
         <div class="tabs" role="tablist" aria-label="views">
           <button class="tab active" type="button" data-view="exercises"><i data-lucide="grid"></i><span>ท่าฝึกทั้งหมด</span></button>
-          <button class="tab" type="button" data-view="favorites"><i data-lucide="heart"></i><span>♥️ ท่าโปรด</span></button>
+          <button class="tab" type="button" data-view="favorites"><i data-lucide="heart"></i><span>แผนฝึก</span></button>
         </div>
       </section>
 
@@ -70,11 +70,11 @@
         <div id="exercisesGrid" class="exercise-grid"></div>
       </section>
 
-      <section id="favoritesView" class="view" aria-label="favorite exercises">
+      <section id="favoritesView" class="view" aria-label="training plans">
         <div class="section-head">
           <div>
-            <h2>♥️ ท่าฝึกโปรด</h2>
-            <p>ท่าฝึกที่คุณได้เลือกไว้ <span id="favoriteCount">0</span> ท่า</p>
+            <h2>แผนฝึกของฉัน</h2>
+            <p>แผนนี้มีท่าฝึก <span id="favoriteCount">0</span> ท่า</p>
           </div>
           <div class="filter-row">
             <select id="favoritesCategoryFilter" aria-label="exercise category filter">
@@ -98,17 +98,17 @@
             </select>
           </div>
         </div>
-        <div class="favorite-list-toolbar" aria-label="favorite lists">
-          <select id="favoriteListSelect" aria-label="เลือกรายการโปรด"></select>
+        <div class="favorite-list-toolbar" aria-label="training plans">
+          <select id="favoriteListSelect" aria-label="เลือกแผนฝึก"></select>
           <div class="favorite-list-actions">
-            <button id="createFavoriteList" class="favorite-list-icon-button" type="button" aria-label="สร้างรายการโปรด" title="สร้างรายการโปรด"><i data-lucide="plus"></i></button>
-            <button id="deleteFavoriteList" class="favorite-list-icon-button danger" type="button" aria-label="ลบรายการโปรด" title="ลบรายการโปรด"><i data-lucide="trash-2"></i></button>
+            <button id="createFavoriteList" class="favorite-list-icon-button" type="button" aria-label="สร้างแผนฝึก" title="สร้างแผนฝึก"><i data-lucide="plus"></i></button>
+            <button id="deleteFavoriteList" class="favorite-list-icon-button danger" type="button" aria-label="ลบแผนฝึก" title="ลบแผนฝึก"><i data-lucide="trash-2"></i></button>
           </div>
         </div>
         <div id="favoritesGrid" class="exercise-grid"></div>
         <div id="emptyFavorites" class="empty-state" style="display: none;">
-          <p>ยังไม่มีท่าฝึกที่บันทึก</p>
-          <p style="font-size: 12px; color: var(--muted);">คลิก ♥️ บนท่าฝึกเพื่อเพิ่มลงรายการโปรด</p>
+          <p>ยังไม่มีท่าในแผนนี้</p>
+          <p style="font-size: 12px; color: var(--muted);">กดหัวใจบนท่าฝึกเพื่อเลือกว่าจะเอาเข้าแผนไหน</p>
         </div>
       </section>
 
@@ -144,7 +144,7 @@
         <div class="fullscreen-header">
           <h2 id="fsTitle"></h2>
           <div class="fs-header-buttons">
-            <button id="fsFavorite" class="fs-favorite" type="button" aria-label="Add to favorites" title="เพิ่มลงรายการโปรด">♥️</button>
+            <button id="fsFavorite" class="fs-favorite" type="button" aria-label="เลือกแผนฝึก" title="เลือกแผนฝึก">♥️</button>
             <button id="fsClose" class="fs-close" type="button" aria-label="Close"><i data-lucide="x"></i></button>
           </div>
         </div>
@@ -162,7 +162,7 @@
               <ul id="fsFocus" class="focus-list"></ul>
             </div>
             <div class="fs-section">
-              <h3>รายการโปรด</h3>
+              <h3>อยู่ในแผนฝึก</h3>
               <div id="fsFavoriteLists" class="favorite-list-picker"></div>
             </div>
             <div id="fsResearch" class="research-note" hidden></div>
@@ -220,11 +220,11 @@
     <dialog id="favoriteListDialog" class="favorite-list-dialog">
       <div class="favorite-list-dialog-panel">
         <div class="favorite-list-dialog-header">
-          <h2 id="favoriteListDialogTitle">สร้างรายการโปรด</h2>
+          <h2 id="favoriteListDialogTitle">สร้างแผนฝึก</h2>
           <button id="favoriteListDialogClose" class="fs-close" type="button" aria-label="Close"><i data-lucide="x"></i></button>
         </div>
         <p id="favoriteListDialogDescription"></p>
-        <input id="favoriteListNameInput" type="text" autocomplete="off" maxlength="32" aria-label="ชื่อรายการโปรด">
+        <input id="favoriteListNameInput" type="text" autocomplete="off" maxlength="32" aria-label="ชื่อแผนฝึก">
         <div class="favorite-list-dialog-actions">
           <button id="favoriteListDialogCancel" class="secondary-button" type="button">ยกเลิก</button>
           <button id="favoriteListDialogConfirm" class="primary-button" type="button">บันทึก</button>
@@ -236,7 +236,7 @@
       <div class="favorite-list-dialog-panel">
         <div class="favorite-list-dialog-header">
           <div>
-            <h2>เลือกรายการโปรด</h2>
+            <h2>เลือกแผนฝึก</h2>
             <p id="exerciseFavoriteDialogName"></p>
           </div>
           <button id="exerciseFavoriteDialogClose" class="fs-close" type="button" aria-label="Close"><i data-lucide="x"></i></button>
