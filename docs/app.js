@@ -21,6 +21,7 @@ const state = {
   journal: loadJson('p45.journal', []),
   favorites: loadJson('p45.favorites', {}),
   favoriteLists: loadFavoriteLists(),
+  scrollPositions: {},
 };
 
 const checklistItems = [
@@ -71,8 +72,12 @@ async function main() {
 function hydrateControls() {
   document.querySelectorAll('.tab').forEach((button) => {
     button.addEventListener('click', () => {
-      state.view = button.dataset.view;
-      render();
+      const nextView = button.dataset.view;
+      if (nextView === state.view) return;
+
+      saveCurrentScrollPosition();
+      state.view = nextView;
+      render({ restoreScroll: true });
     });
   });
 
@@ -122,10 +127,11 @@ function hydrateControls() {
 
   hydrateInstallButton();
   registerServiceWorker();
+  hydrateScrollMemory();
   lucideReady();
 }
 
-function render() {
+function render({ restoreScroll = false } = {}) {
   renderFavoriteListControls();
 
   document.querySelectorAll('.tab').forEach((button) => {
@@ -142,6 +148,27 @@ function render() {
   }
 
   lucideReady();
+  if (restoreScroll) restoreViewScrollPosition();
+}
+
+function hydrateScrollMemory() {
+  window.addEventListener('scroll', saveCurrentScrollPosition, { passive: true });
+  window.addEventListener('pagehide', saveCurrentScrollPosition);
+}
+
+function saveCurrentScrollPosition() {
+  state.scrollPositions[state.view] = window.scrollY;
+}
+
+function restoreViewScrollPosition(view = state.view) {
+  const savedPosition = state.scrollPositions[view] || 0;
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      const maxScroll = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+      window.scrollTo({ top: Math.min(savedPosition, maxScroll), behavior: 'auto' });
+    });
+  });
 }
 
 function renderSummary() {

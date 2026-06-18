@@ -1,4 +1,4 @@
-const CACHE_NAME = 'p45-planner-v9';
+const CACHE_NAME = 'p45-planner-v10';
 const APP_SHELL = [
   './',
   './index.html',
