@@ -1,4 +1,4 @@
-const CACHE_NAME = 'p45-planner-v3';
+const CACHE_NAME = 'p45-planner-v4';
 const APP_SHELL = [
   './',
   './index.html',
@@ -22,8 +22,18 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))))
-      .then(() => self.clients.claim()),
+      .then(async (keys) => {
+        const oldKeys = keys.filter((key) => key !== CACHE_NAME);
+        await Promise.all(oldKeys.map((key) => caches.delete(key)));
+        await self.clients.claim();
+
+        if (oldKeys.length === 0) return;
+
+        const clients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+        clients.forEach((client) => {
+          client.navigate(client.url).catch(() => {});
+        });
+      }),
   );
 });
 
@@ -38,15 +48,29 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  if (isFreshAppAsset(url)) {
+    event.respondWith(networkFirst(request));
+    return;
+  }
+
   event.respondWith(staleWhileRevalidate(request));
 });
+
+function isFreshAppAsset(url) {
+  return (
+    url.pathname.endsWith('/app.js') ||
+    url.pathname.endsWith('/styles.css') ||
+    url.pathname.endsWith('/manifest.webmanifest') ||
+    (url.pathname.includes('/data/') && url.pathname.endsWith('.json'))
+  );
+}
 
 async function networkFirst(request, fallbackUrl) {
   const cache = await caches.open(CACHE_NAME);
 
   try {
     const response = await fetch(request);
-    cache.put(request, response.clone());
+    if (response.ok) cache.put(request, response.clone());
     return response;
   } catch {
     return (await cache.match(request)) || cache.match(fallbackUrl);
