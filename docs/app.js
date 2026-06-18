@@ -35,6 +35,7 @@ const dayIndexMap = [6, 0, 1, 2, 3, 4, 5];
 let installPromptEvent = null;
 let lazyGifObserver = null;
 let favoriteListDialogMode = 'create';
+let currentExerciseForFavoriteDialog = null;
 
 // Call main() when DOM is ready (use both event and fallback)
 if (document.readyState === 'loading') {
@@ -645,6 +646,7 @@ function hydrateFavoriteListControls() {
   }
 
   hydrateFavoriteListDialog();
+  hydrateExerciseFavoriteDialog();
   renderFavoriteListControls();
 }
 
@@ -767,14 +769,46 @@ function deleteSelectedFavoriteListConfirmed() {
   if (currentExerciseForFullscreen) renderFavoriteListPicker(currentExerciseForFullscreen);
 }
 
+function hydrateExerciseFavoriteDialog() {
+  const dialog = document.getElementById('exerciseFavoriteDialog');
+  if (!dialog) return;
+
+  document.getElementById('exerciseFavoriteDialogClose')?.addEventListener('click', closeExerciseFavoriteDialog);
+  document.getElementById('exerciseFavoriteDialogDone')?.addEventListener('click', closeExerciseFavoriteDialog);
+
+  dialog.addEventListener('click', (event) => {
+    if (event.target === dialog) closeExerciseFavoriteDialog();
+  });
+}
+
+function openExerciseFavoriteDialog(exercise) {
+  const dialog = document.getElementById('exerciseFavoriteDialog');
+  const name = document.getElementById('exerciseFavoriteDialogName');
+  if (!dialog || !name || !exercise) return;
+
+  currentExerciseForFavoriteDialog = exercise;
+  name.textContent = exercise.drillName;
+  renderFavoriteListPicker(exercise, 'exerciseFavoriteLists');
+  dialog.showModal();
+  lucideReady();
+}
+
+function closeExerciseFavoriteDialog() {
+  const dialog = document.getElementById('exerciseFavoriteDialog');
+  if (dialog?.open) dialog.close();
+  currentExerciseForFavoriteDialog = null;
+}
+
 function updateFavoriteBadge(button, exerciseId) {
   const currentList = selectedFavoriteList();
   const isInSelectedList = isExerciseInFavoriteList(exerciseId, currentList.id);
   const listCount = favoriteListCountForExercise(exerciseId);
+  const isSaved = listCount > 0;
 
-  button.classList.toggle('active', isInSelectedList);
-  button.classList.toggle('saved-elsewhere', listCount > 0 && !isInSelectedList);
+  button.classList.toggle('active', isSaved);
+  button.classList.toggle('saved-elsewhere', isSaved && !isInSelectedList);
   button.title = `${isInSelectedList ? 'ลบออกจาก' : 'เพิ่มลง'} ${currentList.name}`;
+  button.title = 'เลือกรายการโปรด';
   button.setAttribute('aria-label', button.title);
 
   if (listCount > 1) {
@@ -790,8 +824,8 @@ function refreshFavoriteBadges() {
   });
 }
 
-function renderFavoriteListPicker(exercise) {
-  const root = document.getElementById('fsFavoriteLists');
+function renderFavoriteListPicker(exercise, rootId = 'fsFavoriteLists') {
+  const root = document.getElementById(rootId);
   if (!root || !exercise) return;
 
   root.innerHTML = '';
@@ -805,7 +839,14 @@ function renderFavoriteListPicker(exercise) {
     input.checked = isExerciseInFavoriteList(exercise.id, list.id);
     input.addEventListener('change', () => {
       setExerciseFavoriteListMembership(exercise.id, list.id, input.checked);
-      renderFavoriteListPicker(exercise);
+      renderFavoriteListControls();
+      renderFavoriteListPicker(exercise, rootId);
+      if (rootId !== 'fsFavoriteLists' && currentExerciseForFullscreen?.id === exercise.id) {
+        renderFavoriteListPicker(exercise);
+      }
+      if (rootId !== 'exerciseFavoriteLists' && currentExerciseForFavoriteDialog?.id === exercise.id) {
+        renderFavoriteListPicker(exercise, 'exerciseFavoriteLists');
+      }
       updateFullscreenFavoriteButton(exercise);
       refreshFavoriteBadges();
       if (state.view === 'favorites') renderFavorites();
@@ -829,12 +870,10 @@ function updateFullscreenFavoriteButton(exercise) {
   const list = selectedFavoriteList();
   favBtn.classList.toggle('active', isExerciseInFavoriteList(exercise.id, list.id));
   favBtn.title = `เพิ่ม/ลบจาก ${list.name}`;
+  favBtn.title = 'เลือกรายการโปรด';
+  favBtn.setAttribute('aria-label', 'เลือกรายการโปรด');
   favBtn.onclick = () => {
-    toggleFavorite(exercise.id, list.id);
-    updateFullscreenFavoriteButton(exercise);
-    renderFavoriteListPicker(exercise);
-    refreshFavoriteBadges();
-    if (state.view === 'favorites') renderFavorites();
+    openExerciseFavoriteDialog(exercise);
   };
 }
 
@@ -966,9 +1005,7 @@ function renderExercises() {
     updateFavoriteBadge(favoriteBadge, exercise.id);
     favoriteBadge.addEventListener('click', (e) => {
       e.stopPropagation();
-      toggleFavorite(exercise.id);
-      updateFavoriteBadge(favoriteBadge, exercise.id);
-      if (state.view === 'favorites') renderFavorites();
+      openExerciseFavoriteDialog(exercise);
     });
     thumbnail.appendChild(favoriteBadge);
 
@@ -1067,8 +1104,7 @@ function renderFavorites() {
     updateFavoriteBadge(favoriteBadge, exercise.id);
     favoriteBadge.addEventListener('click', (e) => {
       e.stopPropagation();
-      toggleFavorite(exercise.id);
-      renderFavorites();
+      openExerciseFavoriteDialog(exercise);
     });
     thumbnail.appendChild(favoriteBadge);
 

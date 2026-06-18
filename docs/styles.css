@@ -1687,6 +1687,11 @@ main {
   gap: 12px;
 }
 
+.favorite-list-dialog .fs-close:focus-visible {
+  outline: 2px solid rgba(0, 122, 255, 0.38);
+  outline-offset: 2px;
+}
+
 .favorite-list-dialog-header h2 {
   margin: 0;
   font-size: 18px;
